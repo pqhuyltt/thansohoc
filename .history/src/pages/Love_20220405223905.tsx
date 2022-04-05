@@ -46,7 +46,7 @@ const Love = () => {
                     className="text-[#fd6a78] text-3xl font-bold flex flex-col items-center"
                 >
                     <p>{info.fullname2}</p>
-                    <p className="mt-1">{`${info.day2}/${info.month2}/${info.year2}`}</p>
+                    <p className="mt1">{`${info.day2}/${info.month2}/${info.year2}`}</p>
                 </div>
             </div>
             <div className="rp-box mt-10">

@@ -36,7 +36,7 @@ const Love = () => {
                     className=" text-[#6ab2ff] text-3xl font-bold flex flex-col items-center"
                 >
                     <p>{info.fullname}</p>
-                    <p className="mt-1">{`${info.day}/${info.month}/${info.year}`}</p>
+                    <p className="">{`${info.day}/${info.month}/${info.year}`}</p>
                 </div>
                 <div className="mx-6 text-[#fd6a78] animate-scale">
                     <FaHeart className="text-3xl" />
@@ -46,7 +46,7 @@ const Love = () => {
                     className="text-[#fd6a78] text-3xl font-bold flex flex-col items-center"
                 >
                     <p>{info.fullname2}</p>
-                    <p className="mt-1">{`${info.day2}/${info.month2}/${info.year2}`}</p>
+                    <p className="">{`${info.day2}/${info.month2}/${info.year2}`}</p>
                 </div>
             </div>
             <div className="rp-box mt-10">
