@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(-45deg, #6a5af9, #d66efd);
+    border-radius: 50px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #fafafa;
+}
+
+.chart {
+    width: 500px !important;
+    height: 200px !important;
+    margin: 0 auto;
+    display: block;
+}
+
+@layer base {
+    body {
+        background-image: url('./assets/images/bg.jpg');
+    }
+
+    *.txt-gradient {
+        -webkit-background-clip: text;
+    }
+
+    *.txt-gradient:hover {
+        background-image: linear-gradient(
+            45deg,
+            #f62682 -4.45%,
+            #6f5cf1 104.12%
+        );
+        color: transparent;
+    }
+
+    * {
+        outline: none;
+    }
+}
+
+@layer components {
+    .layout {
+        @apply mx-auto max-w-[1200px];
+    }
+
+    .animate-scale {
+        animation: scale 4s linear infinite;
+    }
+
+    .animate-spin2 {
+        animation: spin 15s linear infinite;
+    }
+
+    @keyframes spin {
+        from {
+            transform: rotate(0);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    @keyframes scale {
+        0 {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.25);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+
+    .form-label {
+        @apply font-bold text-white text-sm;
+    }
+
+    .form-input {
+        @apply h-[38px] rounded-md bg-white px-3 text-[15px] text-[#333];
+    }
+
+    .text-shadow-pink {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff,
+            0 0 40px #ff1177, 0 0 70px #ff1177, 0 0 80px #ff1177,
+            0 0 100px #ff1177, 0 0 150px #ff1177;
+    }
+
+    .rp-box {
+        @apply mt-5 rounded-lg bg-[rgba(0,0,0,.4)] p-4 text-white;
+    }
+
+    .rp-heading {
+        @apply font-semibold uppercase text-lg;
+    }
+
+    .rp-text {
+        @apply text-sm whitespace-pre-wrap;
+    }
+}

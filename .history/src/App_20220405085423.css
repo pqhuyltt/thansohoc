@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    display: flex;
+    background-image: url('./assets/images/bg.jpg');
+}
+
+@layer base {
+    body {
+        display: flex;
+        background-image: url('./assets/images/bg.jpg');
+    }
+}

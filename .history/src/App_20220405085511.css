@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: red;
+    height: 100vh;
+}
+
+@layer base {
+    body {
+        display: flex;
+        background-image: url('./assets/images/bg.jpg');
+    }
+}
