@@ -16,6 +16,4 @@ export interface ISearchInput {
     year2?: string
     fullname2?: string
     withLove?: boolean
-    number1?: number
-    number2?: number
 }

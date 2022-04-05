@@ -6,7 +6,7 @@ import bg from '../assets/images/mandala-object-1.png'
 import border from '../assets/images/mandala-bg.png'
 import Chart from '../components/Chart'
 
-export const genitive = [
+const genitive = [
     {
         strong: '',
         weak: '',

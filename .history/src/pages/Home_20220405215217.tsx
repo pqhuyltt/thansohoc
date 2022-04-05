@@ -92,7 +92,6 @@ const Home = () => {
             number1: rs,
             number2: num2,
         })
-        if (input.withLove) return navigate('/tinh-duyen')
         navigate('/ket-qua')
     }
 

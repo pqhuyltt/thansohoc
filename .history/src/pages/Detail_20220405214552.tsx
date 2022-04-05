@@ -490,12 +490,12 @@ const Detail = () => {
     const { info } = useContext(SearchContext)
     const navigate = useNavigate()
     const chiSoDuongDoi = useMemo(
-        () => CHI_SO_DUONG_DOI[info.number1 as number],
+        () => CHI_SO_DUONG_DOI[info.number as number],
         [],
     )
 
     useEffect(() => {
-        if (!info.number1) navigate('/')
+        if (!info.number) navigate('/')
     }, [])
 
     return (

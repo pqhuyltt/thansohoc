@@ -4,7 +4,6 @@ import './App.css'
 import { SearchContextProvider } from './contexts/SearchContext'
 import Detail from './pages/Detail'
 import Home from './pages/Home'
-import Love from './pages/Love'
 import Result from './pages/Result'
 
 function App() {
@@ -15,7 +14,7 @@ function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/ket-qua" element={<Result />} />
                     <Route path="/bao-cao" element={<Detail />} />
-                    <Route path="/tinh-duyen" element={<Love />} />
+                    <Route path="/tinh-duyen" element={<Detail />} />
                 </Routes>
             </BrowserRouter>
         </SearchContextProvider>
