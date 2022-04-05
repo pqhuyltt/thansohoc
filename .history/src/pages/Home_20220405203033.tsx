@@ -61,9 +61,8 @@ const Home = () => {
             Number(year[1]) +
             Number(year[2]) +
             Number(year[3])
-
         const rs = calc(
-            dayNum + monthNum + (yearNum < 21 ? calc(yearNum) : yearNum),
+            dayNum + monthNum + yearNum >= 20 ? calc(yearNum) : yearNum,
         )
 
         setInfo({
