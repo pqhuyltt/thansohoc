@@ -39,7 +39,7 @@ const Love = () => {
                     style={{ textShadow: '0px 0px 20px #ff008e' }}
                     className=" text-[#6ab2ff] md:text-3xl text-2xl font-bold flex flex-col items-center"
                 >
-                    <p className="text-center">{info.fullname}</p>
+                    <p>{info.fullname}</p>
                     <p className="mt-1">{`${info.day}/${info.month}/${info.year}`}</p>
                 </div>
                 <div className="mx-6 text-[#fd6a78] animate-scale">
@@ -49,7 +49,7 @@ const Love = () => {
                     style={{ textShadow: '0px 0px 20px #ff008e' }}
                     className="text-[#fd6a78] md:text-3xl text-2xl font-bold flex flex-col items-center"
                 >
-                    <p className="text-center">{info.fullname2}</p>
+                    <p>{info.fullname2}</p>
                     <p className="mt-1">{`${info.day2}/${info.month2}/${info.year2}`}</p>
                 </div>
             </div>
