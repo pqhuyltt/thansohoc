@@ -17,7 +17,7 @@ body::-webkit-scrollbar-track {
 
 .chart {
     max-width: 500px !important;
-    height: 200px !important;
+    height: 400px !important;
 }
 
 @layer base {

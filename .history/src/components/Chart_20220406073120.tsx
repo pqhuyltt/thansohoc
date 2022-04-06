@@ -80,7 +80,6 @@ const Chart: React.FC<IChartProps> = ({ day, month }) => {
                         label: 'Số năm cá nhân',
                         borderColor: '#73FF6B',
                         borderWidth: 4,
-
                         data,
                     },
                 ],

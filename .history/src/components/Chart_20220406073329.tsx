@@ -67,6 +67,9 @@ const Chart: React.FC<IChartProps> = ({ day, month }) => {
                             size: 8,
                         },
                     },
+                    tooltip: {
+                        titleAlign: 'center',
+                    },
                 },
                 font: {
                     size: 8,
@@ -80,7 +83,6 @@ const Chart: React.FC<IChartProps> = ({ day, month }) => {
                         label: 'Số năm cá nhân',
                         borderColor: '#73FF6B',
                         borderWidth: 4,
-
                         data,
                     },
                 ],

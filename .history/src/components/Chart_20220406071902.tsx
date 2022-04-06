@@ -64,13 +64,11 @@ const Chart: React.FC<IChartProps> = ({ day, month }) => {
                         text: 'Chu kỳ vận só của bạn',
                         color: '#fff',
                         font: {
-                            size: 8,
+                            size: 12,
                         },
                     },
                 },
-                font: {
-                    size: 8,
-                },
+
                 borderColor: '#D9DBE0',
             }}
             data={{
@@ -80,7 +78,6 @@ const Chart: React.FC<IChartProps> = ({ day, month }) => {
                         label: 'Số năm cá nhân',
                         borderColor: '#73FF6B',
                         borderWidth: 4,
-
                         data,
                     },
                 ],

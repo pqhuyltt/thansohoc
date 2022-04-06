@@ -500,7 +500,7 @@ const Detail = () => {
 
     return (
         <Layout>
-            <div className="mt-10 flex flex-col items-center md:text-3xl text-2xl font-bold select-none cursor-default text-white">
+            <div className="mt-10 flex flex-col items-center md:text-3xl text-xl font-bold select-none cursor-default text-white">
                 <p className="text-center">BÁO CÁO THẦN SỐ HỌC</p>
                 <h2 className="mt-3">
                     Họ và tên:{' '}

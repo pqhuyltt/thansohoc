@@ -79,7 +79,7 @@ const Result = () => {
                 <h3 className="mt-8 uppercase text-2xl">Số chủ đạo</h3>
             </div>
             <div className="flex justify-center mt-4 relative">
-                <div className="lg:w-[350px] lg:h-[350px] md:w-[300px] md:h-[300px] w-[200px] h-[200px]">
+                <div className="lg:w-[350px] lg:h-[350px] w-[300px] h-[300px]">
                     <div
                         style={{
                             backgroundImage: `url(${border})`,

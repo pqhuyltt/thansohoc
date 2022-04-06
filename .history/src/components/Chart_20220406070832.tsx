@@ -49,8 +49,6 @@ const Chart: React.FC<IChartProps> = ({ day, month }) => {
     return (
         <Line
             className="chart"
-            width="500px"
-            height="200px"
             options={{
                 color: '#fff',
                 responsive: true,
@@ -63,14 +61,9 @@ const Chart: React.FC<IChartProps> = ({ day, month }) => {
                         position: 'bottom',
                         text: 'Chu kỳ vận só của bạn',
                         color: '#fff',
-                        font: {
-                            size: 8,
-                        },
                     },
                 },
-                font: {
-                    size: 8,
-                },
+
                 borderColor: '#D9DBE0',
             }}
             data={{
@@ -80,7 +73,6 @@ const Chart: React.FC<IChartProps> = ({ day, month }) => {
                         label: 'Số năm cá nhân',
                         borderColor: '#73FF6B',
                         borderWidth: 4,
-
                         data,
                     },
                 ],

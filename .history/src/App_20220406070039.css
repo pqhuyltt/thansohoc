@@ -16,8 +16,10 @@ body::-webkit-scrollbar-track {
 }
 
 .chart {
-    max-width: 500px !important;
+    width: 500px !important;
     height: 200px !important;
+    margin: 0 auto;
+    display: block;
 }
 
 @layer base {

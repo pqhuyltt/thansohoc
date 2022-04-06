@@ -50,7 +50,8 @@ const Chart: React.FC<IChartProps> = ({ day, month }) => {
         <Line
             className="chart"
             width="500px"
-            height="200px"
+            height="400px"
+            id="pychart"
             options={{
                 color: '#fff',
                 responsive: true,
@@ -80,7 +81,6 @@ const Chart: React.FC<IChartProps> = ({ day, month }) => {
                         label: 'Số năm cá nhân',
                         borderColor: '#73FF6B',
                         borderWidth: 4,
-
                         data,
                     },
                 ],
