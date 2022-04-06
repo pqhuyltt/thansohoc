@@ -18,8 +18,6 @@ body::-webkit-scrollbar-track {
 .chart {
     max-width: 500px !important;
     height: 200px !important;
-    width: 100% !important;
-    margin: 0 auto;
 }
 
 @layer base {
@@ -76,7 +74,7 @@ body::-webkit-scrollbar-track {
             transform: scale(1);
         }
         50% {
-            transform: scale(1.2);
+            transform: scale(1.25);
         }
         100% {
             transform: scale(1);

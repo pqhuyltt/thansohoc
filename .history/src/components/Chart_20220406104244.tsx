@@ -53,7 +53,7 @@ const Chart: React.FC<IChartProps> = ({ day, month }) => {
             height="200px"
             options={{
                 color: '#fff',
-                responsive: false,
+                responsive: true,
                 plugins: {
                     legend: {
                         display: false,
@@ -63,9 +63,6 @@ const Chart: React.FC<IChartProps> = ({ day, month }) => {
                         position: 'bottom',
                         text: 'Chu kỳ vận só của bạn',
                         color: '#fff',
-                        font: {
-                            size: 15,
-                        },
                     },
                 },
 

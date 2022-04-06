@@ -5,7 +5,7 @@ import { SearchContext } from '../contexts/SearchContext'
 import { CHI_SO_DUONG_DOI } from './Detail'
 import { FaHeart, FaRegHeart } from 'react-icons/fa'
 import { genitive } from '../pages/Result'
-import angle from '../assets/images/angle-1-min.png'
+import angle from '../assets/images/angle-2-min.png'
 
 const Love = () => {
     const { info } = useContext(SearchContext)
@@ -56,21 +56,9 @@ const Love = () => {
             </p>
             <div className="w-[280px] h-[280px] m-auto flex justify-center items-center mt-8 text-white">
                 <div className="relative">
-                    <div className="absolute top-0 left-0 right-0 bottom-0 animate-spin2">
-                        <div
-                            className="w-[50px] h-[50px] absolute top-[-35px] left-[-35px]"
-                            style={{
-                                backgroundImage: `url(${angle})`,
-                                backgroundSize: 'cover',
-                            }}
-                        />
-                        <div
-                            className="w-[50px] h-[50px] absolute bottom-[-35px] right-[-35px]"
-                            style={{
-                                backgroundImage: `url(${angle})`,
-                                backgroundSize: 'cover',
-                            }}
-                        />
+                    <div className="absolute top-0 left-0 right-0 bottom-0 flex justify-between animate-spin2">
+                        <img src={angle} alt="angle" />
+                        <img src={angle} alt="angle" />
                     </div>
                     <div className="absolute flex flex-col items-center text-white text-2xl font-bold left-[calc(50%+4px)] top-[43%] -translate-x-1/2 -translate-y-1/2">
                         <div className="flex items-baseline">
@@ -88,9 +76,7 @@ const Love = () => {
                                 {name2}
                             </span>
                         </div>
-                        <span className="text-shadow-pink mt-1 text-white font-bold">
-                            {percent}%
-                        </span>
+                        <span>{percent}%</span>
                     </div>
                     <FaRegHeart className="text-[180px] text-[#FD6A78] animate-scale-heart " />
                 </div>

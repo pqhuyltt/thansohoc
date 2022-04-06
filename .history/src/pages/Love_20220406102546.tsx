@@ -56,20 +56,16 @@ const Love = () => {
             </p>
             <div className="w-[280px] h-[280px] m-auto flex justify-center items-center mt-8 text-white">
                 <div className="relative">
-                    <div className="absolute top-0 left-0 right-0 bottom-0 animate-spin2">
-                        <div
-                            className="w-[50px] h-[50px] absolute top-[-35px] left-[-35px]"
-                            style={{
-                                backgroundImage: `url(${angle})`,
-                                backgroundSize: 'cover',
-                            }}
+                    <div className="absolute top-0 left-0 right-0 bottom-0 flex justify-between animate-spin2">
+                        <img
+                            className="w-[50px] h-50px"
+                            src={angle}
+                            alt="angle"
                         />
-                        <div
-                            className="w-[50px] h-[50px] absolute bottom-[-35px] right-[-35px]"
-                            style={{
-                                backgroundImage: `url(${angle})`,
-                                backgroundSize: 'cover',
-                            }}
+                        <img
+                            className="w-[50px] h-50px"
+                            src={angle}
+                            alt="angle"
                         />
                     </div>
                     <div className="absolute flex flex-col items-center text-white text-2xl font-bold left-[calc(50%+4px)] top-[43%] -translate-x-1/2 -translate-y-1/2">
@@ -88,9 +84,7 @@ const Love = () => {
                                 {name2}
                             </span>
                         </div>
-                        <span className="text-shadow-pink mt-1 text-white font-bold">
-                            {percent}%
-                        </span>
+                        <span>{percent}%</span>
                     </div>
                     <FaRegHeart className="text-[180px] text-[#FD6A78] animate-scale-heart " />
                 </div>

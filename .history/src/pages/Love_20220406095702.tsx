@@ -5,7 +5,6 @@ import { SearchContext } from '../contexts/SearchContext'
 import { CHI_SO_DUONG_DOI } from './Detail'
 import { FaHeart, FaRegHeart } from 'react-icons/fa'
 import { genitive } from '../pages/Result'
-import angle from '../assets/images/angle-1-min.png'
 
 const Love = () => {
     const { info } = useContext(SearchContext)
@@ -15,7 +14,6 @@ const Love = () => {
     const timeoutRef = useRef<ReturnType<typeof setTimeout>>()
     const name1 = info.fullname?.split(' ')[1]
     const name2 = info.fullname2?.split(' ')[1]
-    const percent = Math.ceil(Math.random() * 30) + 70
 
     const handleCoppy = () => {
         if (timeoutRef.current) clearTimeout(timeoutRef.current)
@@ -55,44 +53,8 @@ const Love = () => {
                 Tỉ lệ hợp của 2 bạn
             </p>
             <div className="w-[280px] h-[280px] m-auto flex justify-center items-center mt-8 text-white">
-                <div className="relative">
-                    <div className="absolute top-0 left-0 right-0 bottom-0 animate-spin2">
-                        <div
-                            className="w-[50px] h-[50px] absolute top-[-35px] left-[-35px]"
-                            style={{
-                                backgroundImage: `url(${angle})`,
-                                backgroundSize: 'cover',
-                            }}
-                        />
-                        <div
-                            className="w-[50px] h-[50px] absolute bottom-[-35px] right-[-35px]"
-                            style={{
-                                backgroundImage: `url(${angle})`,
-                                backgroundSize: 'cover',
-                            }}
-                        />
-                    </div>
-                    <div className="absolute flex flex-col items-center text-white text-2xl font-bold left-[calc(50%+4px)] top-[43%] -translate-x-1/2 -translate-y-1/2">
-                        <div className="flex items-baseline">
-                            <span
-                                style={{ textShadow: '0px 0px 20px #ff008e' }}
-                                className="text-[#6ab2ff]"
-                            >
-                                {name1}
-                            </span>
-                            <span className="mx-7 text-xl">&</span>
-                            <span
-                                style={{ textShadow: '0px 0px 20px #ff008e' }}
-                                className="text-[#fd6a78]"
-                            >
-                                {name2}
-                            </span>
-                        </div>
-                        <span className="text-shadow-pink mt-1 text-white font-bold">
-                            {percent}%
-                        </span>
-                    </div>
-                    <FaRegHeart className="text-[180px] text-[#FD6A78] animate-scale-heart " />
+                <div className="">
+                    <FaRegHeart className="text-[180px] text-[#dc3545] text-shadow-pink" />
                 </div>
             </div>
             <div className="rp-box mt-10">

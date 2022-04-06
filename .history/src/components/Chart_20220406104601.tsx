@@ -48,12 +48,9 @@ const Chart: React.FC<IChartProps> = ({ day, month }) => {
 
     return (
         <Line
-            className="chart"
-            width="500px"
-            height="200px"
             options={{
                 color: '#fff',
-                responsive: false,
+
                 plugins: {
                     legend: {
                         display: false,

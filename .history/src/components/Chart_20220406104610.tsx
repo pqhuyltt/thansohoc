@@ -53,7 +53,7 @@ const Chart: React.FC<IChartProps> = ({ day, month }) => {
             height="200px"
             options={{
                 color: '#fff',
-                responsive: false,
+
                 plugins: {
                     legend: {
                         display: false,

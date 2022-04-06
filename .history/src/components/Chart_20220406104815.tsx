@@ -50,10 +50,10 @@ const Chart: React.FC<IChartProps> = ({ day, month }) => {
         <Line
             className="chart"
             width="500px"
-            height="200px"
+            height="400px"
             options={{
                 color: '#fff',
-                responsive: false,
+
                 plugins: {
                     legend: {
                         display: false,

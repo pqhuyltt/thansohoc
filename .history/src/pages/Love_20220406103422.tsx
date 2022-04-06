@@ -88,7 +88,7 @@ const Love = () => {
                                 {name2}
                             </span>
                         </div>
-                        <span className="text-shadow-pink mt-1 text-white font-bold">
+                        <span className="text-shadow-pink text-[#fd6a78]">
                             {percent}%
                         </span>
                     </div>

@@ -58,14 +58,14 @@ const Love = () => {
                 <div className="relative">
                     <div className="absolute top-0 left-0 right-0 bottom-0 animate-spin2">
                         <div
-                            className="w-[50px] h-[50px] absolute top-[-35px] left-[-35px]"
+                            className="w-[50px] h-[50px] absolute top-0 left-0"
                             style={{
                                 backgroundImage: `url(${angle})`,
                                 backgroundSize: 'cover',
                             }}
                         />
                         <div
-                            className="w-[50px] h-[50px] absolute bottom-[-35px] right-[-35px]"
+                            className="w-[50px] h-[50px] absolute bottom-0 right-0"
                             style={{
                                 backgroundImage: `url(${angle})`,
                                 backgroundSize: 'cover',
@@ -88,9 +88,7 @@ const Love = () => {
                                 {name2}
                             </span>
                         </div>
-                        <span className="text-shadow-pink mt-1 text-white font-bold">
-                            {percent}%
-                        </span>
+                        <span>{percent}%</span>
                     </div>
                     <FaRegHeart className="text-[180px] text-[#FD6A78] animate-scale-heart " />
                 </div>
