@@ -16,7 +16,6 @@ import { useNavigate } from 'react-router-dom'
 import { xoaNguyenAm } from '../utils/xoaNguyenAm'
 import { xoaPhuAm } from '../utils/xoaPhuAm'
 import { tinhSoTuChu } from '../utils/tinhSoTuChu'
-import { toPlainText } from '../utils/toPlainText'
 
 const so = [
     [],
@@ -100,11 +99,8 @@ const Home = () => {
             dayNum + monthNum + (yearNum < 21 ? calc(yearNum) : yearNum),
         )
 
-        const khongnguyenam = xoaNguyenAm(toPlainText(input.fullname as string))
-        const khongphuam = xoaPhuAm(
-            toPlainText(input.fullname as string),
-            khongnguyenam,
-        )
+        const khongnguyenam = xoaNguyenAm(input.fullname as string)
+        const khongphuam = xoaPhuAm(input.fullname as string, khongnguyenam)
         const solinhhon = calc(tinhSoTuChu(khongphuam))
         const sobieudat = calc(tinhSoTuChu(khongnguyenam))
         setInfo({
@@ -116,10 +112,7 @@ const Home = () => {
             number1: rs,
             number2: num2,
             songaysinh: dayNum,
-            namcanhan: calc(
-                calc(new Date().getFullYear()) + dayNum + monthNum,
-                true,
-            ),
+            namcanhan: calc(calc(new Date().getFullYear()) + dayNum + monthNum),
             solinhhon,
             sobieudat,
             sotenrieng: calc(solinhhon + sobieudat),

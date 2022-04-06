@@ -101,10 +101,7 @@ const Home = () => {
         )
 
         const khongnguyenam = xoaNguyenAm(toPlainText(input.fullname as string))
-        const khongphuam = xoaPhuAm(
-            toPlainText(input.fullname as string),
-            khongnguyenam,
-        )
+        const khongphuam = xoaPhuAm(toPlainText(input.fullname as string))
         const solinhhon = calc(tinhSoTuChu(khongphuam))
         const sobieudat = calc(tinhSoTuChu(khongnguyenam))
         setInfo({

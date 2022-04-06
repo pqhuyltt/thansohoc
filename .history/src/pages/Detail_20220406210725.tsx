@@ -947,7 +947,7 @@ const Detail = () => {
                     <span className="text-[#F7D51A]">{`${info.day}/${info.month}/${info.year}`}</span>
                 </h2>
             </div>
-            <div className="mt-10 grid lg:grid-cols-6 gap-y-7 grid-cols-2 md:grid-cols-3">
+            <div className="mt-10 flex justify-around flex-wrap">
                 {data.map((item, index) => (
                     <Fragment key={index}>
                         <So

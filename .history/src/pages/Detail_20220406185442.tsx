@@ -1,10 +1,4 @@
-import React, {
-    Fragment,
-    useContext,
-    useEffect,
-    useLayoutEffect,
-    useMemo,
-} from 'react'
+import React, { Fragment, useContext, useEffect, useMemo } from 'react'
 import { useNavigate } from 'react-router-dom'
 import Chart from '../components/Chart'
 import Layout from '../components/Layout'
@@ -778,139 +772,6 @@ const TEXT = [
     },
 ]
 
-const SLH = [
-    'Nội dung chưa cập nhập',
-    `Những người có Con số linh hồn là 1 thường có nhu cầu được tự do biểu đạt bản thân. Phương tiện biểu đạt sẽ do con số chủ đạo của họ quyết định. Nhìn chung, người sở hữu Con số linh hồn này thường có khát khao tự do mãnh liệt, muốn dành nhiều thời gian cho bản thân để thư giãn hoặc để biểu đạt bản thân qua một hình thức nghệ thuật nào đó.`,
-    `Người thuộc nhóm này thường có thôi thúc hướng đến sự cân bằng, nên mọi việc họ làm thường tỏa ra năng lượng của sự hài hòa. Nhìn chung thì đây là những người có trực giác khá tốt, thích những gì tự nhiên hơn nhân tạo. Trong các mối quan hệ hoặc sự tương tác với người khác, họ rất công bằng và mong đợi điều tương tự từ đối phương.`,
-    `Với trọng tâm luôn đặt ở phần trí não, Con số linh hồn 3 kết hợp cảm giác với suy nghĩ và đánh giá. Kết quả là những người thuộc nhóm này có khả năng đánh giá con người và tình huống khá tốt. Điều đó có thể rất có ích trong kinh doanh và các hoạt động có tính chuyên môn cao.`,
-    `Số 4 là con số của thực tế, thế nên khi có con số linh hồn 4, những người này thường có những quan điểm khá truyền thống và bảo thủ trong các chủ đề thuộc về tinh thần, tâm linh và cảm xúc, chẳng hạn như tôn giáo, tình yêu, hôn nhân và cuộc sống nói chung. Họ thường rất tôn trọng các nguyên tắc truyền thống và không để cho cảm xúc của mình bộc phát.`,
-    `Sức mạnh của con số này đến từ vị trí của số 5 trên Trục ngang Tinh thần, cho thấy người sở hữu nó có những cảm xúc rất sâu sắc, cũng như có nhu cầu được tự do và được chấp nhận - tốt nhất là những cảm xúc này được bộc lộ. Họ sẽ có cảm xúc mãnh liệt trong bất kỳ phương diện cuộc sống nào mà họ đang đối mặt và không ngại biểu đạt điều đó, trừ khi Biểu đồ ngày sinh của họ có yếu tố cản trở, như Mũi tên Nhạy cảm chẳng hạn.`,
-    `Nhóm này được thôi thúc hướng về tình yêu thương và sự sáng tạo. Họ sẽ tận dụng mọi cơ hội để thể hiện bản thân mình một cách đầy sáng tạo, cho dù đó là trong công việc, gia đình hay một sở thích nào đó. Tuy nhiên, do đặc tính nhạy cảm của số 6, họ phải giữ vững tinh thần, nếu họ lo lắng quá mức thì sức mạnh này sẽ nhanh chóng chuyển thành cảm giác tuyệt vọng và chán nản.`,
-    `Những người có con số linh hồn này thường cảm nhận một sự thôi thúc muốn hướng dẫn và hỗ trợ người khác.  Tuy nhiên, bản thân họ lại muốn tự trải nghiệm cuộc sống chứ không nhiệt tình đón nhận sự dẫn dắt của người khác. Họ thường phải trả giá khá đắt cho mong muốn này của mình, cho đến khi họ nhận thức được rằng mối quan hệ giữa con người với nhau là mối quan hệ tương hỗ, cùng hỗ trợ lẫn nhau.`,
-    `Con số này tập trung vào tính thích độc lập. Người sở hữu Con số linh hồn 8 thường tự động từ chối làm theo những thói quen mà họ thấy là vô lý. Họ có suy nghĩ và cách hành xử riêng, nhưng cần cẩn thận để tránh trở thành người xa cách cộng đồng. Một bài học quan trọng cuộc sống dạy chúng ta là nhu cầu hòa nhập cùng Cộng đồng mà không bị lệ thuộc vào đó.`,
-]
-
-const SBD = [
-    'Nội dung chưa cập nhập',
-    `Những người Có Con số biểu đạt 1 thường rất thích những môn thể thao cá nhân hoặc làm việc một mình.  Họ rất thích được tự do làm mọi việc theo nhịp độ riêng, để có thể đạt được sự hài lòng cao nhất và xây dựng sự tự tin của họ trong các hoạt động thể chất.`,
-    `Những người thuộc nhóm này thích làm việc theo nhóm trong những môi trường vui vẻ. Họ là người hoạt bát, thích niềm vui và những hoạt động thoải mái. Điều này không có nghĩa họ là người nông cạn, mà đúng hơn, họ có khả năng tận hưởng niềm vui mà những hoạt động có tổ chức mang lại.`,
-    `Trong khi nhóm có con số biểu đạt 2 thích thưởng thức những hoạt động vui vẻ, người có con số biểu đạt 3 lại thích đem đến niềm vui, tiếng cười cho những người xung quanh. Họ rất biết cách tạo niềm vui trong cuộc sống và lan tỏa nó đến mọi người bằng cách trở thành linh hồn của những buổi tiệc, vì họ có vẻ ngoài thông minh, nhanh nhẹn và hoạt bát.`,
-    `Con số mang đậm tinh thần thực tế, và những người sở hữu nó thường rất khéo tay, thích những hoạt động thể chất, vận dụng độ khéo léo của đôi tay và đôi chân. Họ đặc biệt yêu thích thể thao, hoạt động xây dựng, lắp ráp hoặc sửa chữa đồ đạc.`,
-    `Một trong những điều thường thấy ở những người sở hữu con số biểu đạt này là nhu cầu được tự do biểu đạt, thoát khỏi ràng buộc của thế giới vật chất.Nhưng đôi khi họ để cho sự hiểu lầm hoặc vẻ ngại ngùng cản trở mình biểu đạt một cách trọn vẹn nhất. Để tránh điều này, họ nên tìm những Công việc không gò bó và những người bạn mà họ cảm thấy dễ chịu khi tương tác. Nói một cách đơn giản, họ cần những người bạn đồng hành chịu tương tác, thoải mái và linh hoạt.`,
-    `Nhóm này có xu hướng tập trung năng lượng và tâm trí cho mái ấm của mình. Hiển nhiên điều đó rất có lợi cho các thành viên trong gia đình, nhưng nó cũng có thể khiến họ “được nuông chiều quá nên sinh hư”. Do đó, những người có Con số biểu đạt 6 cần tránh thể hiện đặc điểm này quá đà, bằng cách cân bằng giữa sự chiều chuộng và việc quan tâm đến những nhu cầu thật sự của người thân.`,
-    `Đặc điểm của người có Con số biểu đạt 7 là sự thôi thúc được làm việc độc lập, tự trải nghiệm và học hỏi theo kiểu riêng của họ. Họ thích tận hưởng thành tựu cá nhân và cảm giác thỏa mãn khi được tự mình khám phá, hơn là học hỏi từ người khác.`,
-    `Người thuộc nhóm này có một khao khát mãnh liệt được thể hiện sự độc lập của bản thân, thích làm mọi chuyện một mình và không ngại tỏ ra khác biệt nếu cần. Bằng cách này, họ bộc lộ một cá tính mạnh mẽ, vì họ ý thức được con người không bao giờ có thể đạt đến mức độ phát triển bản thân cao hơn nếu cứ chấp nhận “tư duy bầy đàn”.`,
-    `Cuộc sống luôn tồn tại hai khía cạnh: nghiêm túc và hài hước. Người có cuộc sống cân bằng là người mà hai khía cạnh này hòa hợp với nhau một cách tốt đẹp nhất trong đời sống cá nhân họ. Tuy nhiên, người có Con số biểu đạt 9 Có xu hướng quá tập trung vào sự nghiêm túc, và bằng cách này, họ thường thu hút nỗi buồn, và đôi khi là cả sự cô độc, vì họ cho rằng khía cạnh hài hước nhẹ nhàng của cuộc sống là không quan trọng. Họ có khả năng suy ngẫm, tư duy phân tích sắc bén và chuẩn mực sống tốt đẹp - để phục vụ cho lý tưởng cao đẹp của mình. Nhưng nhóm này cũng cần học cách cân bằng cuộc sống bằng những niềm vui nhẹ nhàng để phục hồi năng lượng cho tâm trí và cơ thể mình.`,
-    `Đặc điểm của Con số biểu đạt 10 gần như trái ngược với Con số biểu đạt 9. Những người sở hữu con số này thường quá tập trung vào khía cạnh nhẹ nhàng, vui vẻ của cuộc sống, và có phần xem nhẹ tính nghiêm túc. Họ cần tránh trở nên khiếm nhã và nông cạn, thay vào đó, hãy tập trung vào khả năng thật sự của con số 10, đó là năng lực thích nghi với nhiều hoàn cảnh và tình huống khác nhau. Người mang Con số biểu đạt này quyết tâm mạnh mẽ hơn để hoàn thành vai trò của mình trong cuộc sống, vì chỉ khi cân bằng được tính nghiêm túc và thoải mái thì họ mới gặt hải được thành công.`,
-    `Nhu cầu nổi bật của người có Con số biểu đạt 11 là sự hài hòa. Cảm xúc và tinh thần cân bằng là đặc điểm của con số này. Mục đích đặc biệt của nhóm này là lan tỏa mong muốn về sự hài hòa với môi trường xung quanh, kiểm soát cảm xúc, cũng như phát triển và chia sẻ những hiểu biết sâu sắc về cuộc sống. Chỉ khi đi theo con đường này thì họ mới có thể đến được bến bờ hạnh phúc.`,
-]
-
-const NAM = [
-    {
-        heading: '',
-        content: '',
-    },
-    {
-        heading: 'NĂM THỨ NHẤT (PYN 1) - NĂM CỦA SỰ ĐIỀU CHỈNH QUYẾT LIỆT',
-        content: `
-        Đây là một năm của những hành động phát triển cá nhân mạnh mẽ, sau khi chúng ta đã điều chỉnh để thích ứng với những thay đổi trong Năm thứ chín của chu kỳ trước.
-        Sức mạnh của năm này thúc đẩy chúng ta dám trở nên khác biệt và phát triển lòng tự tin. Đây cũng là một năm đặc biệt phù hợp để chúng ta phá bỏ những thói quen cũ.
-        Bên cạnh đó, việc hình thành lối sống mới chắc chắn đòi hỏi chúng ta có sự kiên trì cao độ. Năm này sẽ đặc biệt tác động đến những người có Con số chủ đạo 10. 
-        Mọi việc diễn ra quá thuận lợi với họ đến mức họ có thể dễ dàng rơi vào tình trạng chủ quan hoặc thiếu cảnh giác, đặc biệt là trong vấn đề tài chính. Những người này cần lưu ý tránh ngủ quên trên chiến thắng mà sinh lòng kiêu ngạo.
-        Với ý thức tự chủ hợp lý, những người mang Con số chủ đạo 10 sẽ thấy Năm thứ nhất là một năm có sự phát triển vượt bậc về đời sống vật chất và nhận được sự ủng hộ từ những người xung quanh.
-        `,
-    },
-    {
-        heading:
-            'NĂM THỨ HAI (PYN 2) - NĂM CỦA SỰ PHÁT TRIỂN TÂM LINH - TINH THẦN VÀ CHIA SẺ',
-        content: `
-        Mặc dù không có sức mạnh của một năm thay đổi định điểm, đây vẫn là một năm có bản chất mạnh mẽ đủ để khiến một tâm hồn rối rắm trở về được với sự bình yên tĩnh tại. Sự phát triển tâm linh là yếu tố rõ nét nhất của năm này, khi người ta cảm thụ cuộc sống ở mức độ tinh tế hơn. 
-        Đây không phải là một năm của thay đổi to lớn, mà là một năm phát triển khả năng kiểm soát cảm xúc, nâng cao nhận thức về tâm linh và củng cố trực giác. 
-        Trọng tâm phát triển dưới sóng rung của năm này là nhu cầu chủ động phát triển sức mạnh của việc thiền định.
-        Điều này có nghĩa là cơ thể sẽ tự điều chỉnh ở mức độ tế bào để đạt được sức mạnh nội tại mà tất cả chúng ta đều muốn sử dụng để làm nguồn năng lượng dự trữ vô hạn và là sức thu hút mạnh mẽ của mỗi người. 
-        Để đạt được điều này, chúng ta học cách kiểm soát tốt cảm xúc của mình, để chủ động hành động thay vì chỉ biết phản ứng với hoàn cảnh, để thay sự hoang mang và nghi ngờ bằng sự tự tin và vững vàng, và đủ khôn ngoan để phân biệt những gì quan trọng và ít quan trọng hơn để ưu tiên thực hiện hay theo đuổi.
-        Sau hai năm phát triển trước đó, một số người có khuynh hướng ngủ quên trên chiến thắng, hoặc sa vào cảm giác tự thỏa mãn và không muốn tiếp tục nỗ lực hơn nữa. 
-        Đây cũng chính là lúc luật âm - dương (trong âm có dương, trong dương có âm) vận hành: phần tiêu cực chớp lấy cơ hội để làm dấy lên những cảm xúc thụ động như nỗi sợ, sự lo lắng, thói tranh cãi và sự bất an.
-        Những điều này có thể thể hiện theo những cách thức bất ngờ, khiến một người đáng mến trở nên khá khó ưa hoặc hống hách đến mức không chịu nổi. 
-        Hãy nhận thức rằng đây là một năm của sự hợp tác, cùng làm việc với nhau tại nhiều môi trường khác nhau (tại nhà, tại nơi làm việc, trong các trận đấu thể thao, ... ).
-        Để đạt được điều này, chúng ta cần sống yêu thương và biết chấp nhận nhiều hơn, từ đó đẩy mạnh khía cạnh phát triển của Năm thứ hai. Năm thứ hai này càng đặc biệt có ảnh hưởng mạnh đối với những người có Con số chủ đạo là 2 và 11. Không có gì ngạc nhiên nếu nhận thức tâm linh của họ tăng lên đáng kể, đến mức gần như phòng chiếu nhận thức của họ vào một chiều không gian - thời gian khác. Họ nên tạo điều kiện cho sự phát triển này diễn ra thuận lợi bằng cách dành thời gian để thiền định và tìm hiểu các vấn đề tâm linh. Khi làm vậy, họ không chỉ gia tăng sức mạnh của bản thân, mà còn giúp ích cho vai trò của họ trong việc dẫn dắt người khác. 
-        `,
-    },
-    {
-        heading: 'NĂM THỨ BA (PYN 3) - NĂM CỦA SỰ MỞ MANG TÂM TRÍ',
-        content: `
-        Giữa năm đỉnh điểm của sự thay đổi (Năm thứ chín của chu kỳ cũ) và năm cực thoái đầu tiên (Năm thứ tư) là Năm thứ ba - năm tập trung một cách đáng ngạc nhiên vào sức mạnh trí não, góp phần mang lại sự phát triển trọn vẹn cho giai đoạn này trong chu kỳ 9 năm của con người. Dưới tác động của sóng rung này, khả năng tư duy và quan sát của chúng ta được mài giũa để trở nên nhạy bén. 
-        Đây cũng là năm của sự khao khát kiến thức và sự thể hiện.
-        Một số người sẽ chọn theo đuổi một môn học thuật nào đó. Những người khác có thể khám phá cuộc sống và những triết lý sống, một số người khác nữa thì đi tìm sự khai sáng trong tiến trình phát triển cá nhân của mình. Có hai cách phổ biến để lĩnh hội sự mở mang trí tuệ trong Năm thứ ba này: hoặc thông qua một khóa học, hoặc thông qua việc du ngoạn đó đây . Cho dù bạn chọn hình thức nào, điều quan trọng là hãy nhận thức được rằng đây là năm mà sự phát triển trí nhớ trở thành thiết yếu, vì sóng rung của số 3 là cánh cổng dẫn vào tâm trí thông qua trí nhớ. Chúng ta cần nhận thức được rằng trí nhớ là nền tảng của lòng tự tôn và sự tự tin, đồng thời là chiếc cầu nối giữa Ý thức và vô thức. 
-        Quá trình không ngừng mở rộng khả năng và sự nhạy bén của trí nhớ sẽ tạo ra sự khác biệt rõ y ràng giữa những người đang lão hóa và những người “ trẻ mãi không già ".
-        Ở khía cạnh nhẹ nhàng hơn của Năm thứ ba, chúng ta nên nhận ra nhu cầu cân bằng cuộc sống bằng cách dành thời gian cho niềm vui, những buổi tụ tập bạn bè và những câu chuyện dí dỏm. Những người Có Con số chủ đạo 3 sẽ đặc biệt “ ăn rơ ” với sóng rung của Năm thứ ba này, nhưng họ cần học cách kiểm soát lý trí cao độ của mình để đảm bảo nó không lấn át cảm xúc. Quá trình nâng cao mức độ nhạy bén của tư duy mà những người này sẽ trải nghiệm trong Năm thứ ba cần được hướng vào những nhận thức mang tính xây dựng, để có thể mang lại sự thỏa mãn cho bản thân họ và sự bình yên cho những người xung quanh họ - nhưng những người này sẽ trở nên mệt mỏi với tính lý trí thái quá và trở thành nạn nhân của thói chỉ trích của họ.
-        `,
-    },
-    {
-        heading: 'NĂM THỨ TƯ (PYN 4) - NĂM CỦA SỰ CỦNG CỐ NỘI LỰC',
-        content: `
-        Các yếu tố về thể chất và vật chất sẽ chiếm thế thượng phong trong năm “ chạm đáy ” này. Sự nghỉ ngơi và ổn định là điều kiện thiết yếu để tái tạo năng lượng và củng cố nội lực sau 5 năm phát triển trước đó. Đây là một năm “ vuông vức ” khi mọi thứ đều được đem ra cân đong đo đếm và những khía cạnh không được mong muốn sẽ bị loại bỏ, như dây leo được cắt tỉa trong mùa đông để có chỗ đâm chồi nảy lộc vào mùa xuân kế tiếp. Đây là một năm lý tưởng để hòa hợp Thể Cơ bản (bao gồm cơ thể và cảm xúc) , Thể Ý thức (bao gồm tư duy và ý tưởng) với Thể Siêu thức (phần linh hồn vĩnh cửu).
-        Những người không lắng nghe nhu cầu nghỉ ngơi và điều chỉnh sẽ thấy bản thân rơi vào trạng thái không hài hòa - ví dụ như cảm thấy mọi thứ đều bế tắc, không có sự hòa hợp trong nội tâm - từ đó dẫn đến sự uất giận, rối rắm và sợ hãi. Trong năm này, những nỗ lực thay đổi nào lớn trong Công việc hoặc lối sống đều hiếm khi thành công, mà thường gây ra những tổn thất về tài chính, sức khỏe, hoặc cả hai. Đối với những người vốn đã nhạy cảm và dễ bị căng thẳng thần kinh, trong Năm thứ tư họ cần đặc biệt cần trọng để tránh bất hòa với những người xung quanh. Một kỳ nghỉ thư giãn sẽ có ích nhất cho những người này. Người có con số chủ đạo 4 thường chịu tác động mạnh nhất trong Năm thứ tư, do đó họ sẽ tỏ ra khó chịu trước ảnh hưởng của sóng rung này. Họ thường không thể nhận ra đây là một năm củng cố nội lực, mà thay vào đó thường ra sức thúc đẩy những tiến triển mà họ đã có được trong bốn năm trước. Hậu quả là hệ thần kinh của họ rơi vào tình trạng cực kỳ căng thẳng.
-        Những người này cần nghỉ ngơi và giảm thiểu những tác động làm nhiều cảm xúc, chẳng hạn như tránh xem ti - vi quá nhiều, tránh xem các bộ phim trinh thám kịch tính, tránh tranh cãi tại nơi làm việc và tại nhà, đồng thời kết hợp với một chế độ dinh dưỡng phù hợp.
-        `,
-    },
-    {
-        heading: 'NĂM THỨ NĂM (PYN 5) - NĂM CỦA TỰ DO',
-        content: `
-        Đây là một năm mà các yếu tố cảm xúc, tinh thần và tâm linh thể hiện rất rõ.
-        Sóng rung của năm này sẽ kết nối cực trùng của năm trước đó với đỉnh sáng tạo của năm sau, kích hoạt năng lượng của sự tự do, thứ được tạo thành bởi nhận thức tâm linh và khả năng biểu đạt cá nhân được nâng tầm. Điều này dẫn đến sự phát triển năng lực của chúng ta, để thoát khỏi sự ràng buộc về vật chất và sự gò bó của xã hội, thay vào đó là sự tập trung vào biểu đạt nghệ thuật, một cách chuyên nghiệp hoặc như một sở thích. Một số người sẽ bắt đầu xây dựng nền tảng cho con đường sự nghiệp mới dưới tác động của sóng rung này.
-        Một số người khác thì khám phá sự tự do trong việc chuyển nhà, dọn về quê và thoát khỏi sự bó buộc của đời sống đô thị. Những người có Con số chủ đạo 5 thường trở nên ám ảnh với khát khao tự do trong Năm thứ năm này. Tuy nhiên, họ cần nhận ra rằng họ không phải lúc nào cũng cần sự tự do về mặt thể chất - dù đôi khi hoàn cảnh khiến họ rất dễ tin như vậy, từ đó sử dụng lý trí để bao biện và che giấu sự trống rỗng trong phương diện thấu hiểu bản thân. Điều mà họ cần nhất là sự tự do biểu đạt, thứ có thể đạt được qua nhiều hình thức nghệ thuật khác nhau, như âm nhạc, hội họa, thủ công mỹ nghệ... hoặc bất kỳ hình thức nào tương tự để nuôi dưỡng sự cân bằng trong tâm hồn, từ đó giúp họ đạt được sự an tĩnh, bình yên.
-        `,
-    },
-    {
-        heading: 'NĂM THỨ SÁU (PYN 6) NĂM CỦA SỰ SÁNG TẠO',
-        content: `
-        Đây có thể được gọi là một năm đỉnh cao “ mini ” , tập trung vào những năng lượng được tích lũy thông qua các hoạt động sáng tạo. 
-        Những dự án sáng tạo mới được thực hiện trong năm này sẽ có nhiều khả năng thành công nhất, đặc biệt là nếu chúng hướng đến mục đích nâng cao chất lượng cuộc sống con người. 
-        Đây là một năm mà sự hình thành của bất kỳ một doanh nghiệp nào Có đầu tư nghiêm túc đều sẽ có lợi. Đây cũng là một năm của gia đình và các mối quan hệ cá nhân.
-        Các hoạt động sáng tạo có liên quan đến gia đình sẽ được thúc đẩy bởi sóng rung của Năm thứ sáu. 
-        Trong các mối quan hệ, nhiều người sẽ cảm thấy an tâm, hoặc sẽ giải tỏa những hiểu lầm và vướng mắc.
-        Nếu người ta cứ ngoan cố bám víu các năng lượng tiêu cực thì Năm thứ sáu sẽ là năm khó khăn nhất, gây ra sự lo lắng tột độ, các cuộc tranh cãi và sự oán giận. Rất rõ ràng, bài học của năm này là đối mặt với bản chất của sự việc như nó vốn có. Bên cạnh đó, hãy hiểu rằng để có một cuộc sống dễ chịu thì sự chân thành phẩm giá và thái độ tích cực là rất quan trọng. Nếu chúng ta làm được như vậy thì đây sẽ là một năm đáng thỏa mãn, tràn đầy hạnh phúc, những thành quả sáng tạo và thành công tài chính.
-        Người có Con số chủ đạo 6 sẽ chịu nhiều thử thách trong Năm thứ sáu, vì dưới sự tác động của sóng rung số 6, tính sáng tạo và chính trực của họ sẽ được nhấn mạnh và kết hợp với nhau, tạo ra một giai đoạn tràn đầy sức mạnh nhưng cũng có tính thanh lọc. Những người quyết tâm theo đuổi tính tích cực của số 6 sẽ thấy tính sáng tạo của mình được kích hoạt mạnh mẽ, và chắc chắn họ sẽ chạm đến hạnh phúc ở một tầm cao mới. Tuy nhiên, nhiều người có Con số chủ đạo 6 vẫn chưa nhìn thấy ánh sáng, vẫn lựa chọn vùi mình trong hố sâu tiêu cực, để cho sự lo lắng và bất an thường xuyên xâm chiếm cuộc sống của họ. Họ đang bệnh và sẽ chỉ càng bệnh nặng hơn, vì cơ thể họ ngày càng bị rút hết năng lượng và thái độ sống của họ càng khiến họ Cô độc hơn. Cách chữa trị duy nhất là họ phải đón nhận thái độ tích cực và sáng tạo trong cuộc sống. 
-        `,
-    },
-    {
-        heading: 'NĂM THỨ BẢY (PYN 7) - NĂM CỦA SỰ TẬP TRUNG VƯỢT CHƯỚNG NGẠI',
-        content: `
-        Tương tự như Năm thứ tư, đây là một năm trũng để tập trung củng cố nội lực và không nên có những bước thay đổi nào quá lớn. 
-        Tuy nhiên, Năm thứ bảy vô cùng có ý nghĩa, vì đây là giai đoạn mà chúng ta học cách tập trung cao độ vào việc xem xét sự phát triển của những năm trước để hiểu cuộc đời của mình hơn. 
-        Theo cách đó, đây là năm thiết yếu để học hỏi từ các trải nghiệm cá nhân.
-        Đối với nhiều người, điều này đồng nghĩa với sự mất mát vì một thất bại nào đó, để qua đó họ nhận ra và áp dụng Sự hướng dẫn đến từ những nguồn năng lượng cao hơn, được truyền tải qua sự dẫn dắt của các bậc cha mẹ, các bậc thấy... và từ sự thông thái vốn có của họ. Khi chỉ biết phản ứng một cách thiếu suy nghĩ trong cuộc sống, chúng ta tự khiến bản thân phải đón nhận những phương pháp chỉnh đốn nghiêm khắc - thứ mà chúng ta hay gọi là “ báo ứng nhãn tiền ” , để từ đó điều chỉnh lại lối sống của mình. Và sự chỉnh đốn này thường sẽ gây ra tổn thất về tiền bạc, sức khỏe hoặc tình cảm. 
-        Những tổn thương này đều có lý do của chúng chứ không phải xuất hiện ngẫu nhiên, vì chúng được tạo ra để đánh thức và đưa chúng ta quay về Con đường tiến hóa của mình.
-        Những người khôn ngoan sẽ tránh mọi sự thay đổi lớn về tài chính hoặc công việc trong Năm thứ bảy, vì đây là giai đoạn của sự ổn định chứ không phải mở rộng, của quá trình cắt bỏ những cành cây khô để lấy chỗ cho sự phát triển mới trong những năm kế tiếp. Đây cũng là một năm rất phù hợp để chia sẻ hoặc hướng dẫn người khác, vì nhiều cơ hội sẽ xuất hiện để chúng ta có dịp dẫn dắt người khác hướng đến mức độ hiểu biết cao hơn. Người có Con số chủ đạo 7 thường chịu những thử thách hay tổn thất khắc nghiệt nhất dưới tác động của sóng rung Năm thứ bảy, nhưng những trải nghiệm của họ còn có vẻ tồi tệ hơn nữa dưới con mắt của người ngoài.
-        Họ không lạ gì việc gặp phải những mất mát, hy sinh, vì đó là cách họ học được những bài học cuộc sống. Và mọi chuyện sẽ tiếp tục như vậy cho đến khi họ có được sự khôn ngoan và một mức độ nhận thức cá nhân nào đó. 
-        Một khi đạt được kết quả này, họ có thể trở thành những người thầy, những triết gia thực tế và những người hỗ trợ nhân loại, từ đó hoàn thành mục tiêu mà Con số chủ đạo của họ đề ra. 
-        `,
-    },
-    {
-        heading: 'NĂM THỨ TÁM (PYN 8) - NĂM CỦA SỰ ĐỘC LẬP VÀ TRÍ TUỆ',
-        content: `
-        Đây là một năm của những thay đổi nhanh chóng, khi chúng ta trỗi dậy sau một năm âm thầm củng cố nội lực và chuẩn bị bước lên con dốc để đến với đỉnh cao kế tiếp, cũng như đến với sự khởi đầu một chu kỳ phát triển mới và thịnh vượng hơn. 
-        Rất nhiều cơ hội được tạo ra dưới tác động của sóng rung này, khi chúng ta khẳng định sự độc lập của mình với sự khôn ngoan ngày càng được nâng cao.
-        Đối với một số người, đó sẽ là sự cải thiện đáng kể trong các vấn đề tài chính. Đa số mọi người sẽ có sự trưởng thành và độc lập về mặt tinh thần, khi mà họ nhận ra mình đã tiến bộ đến mức nào trong việc thấu hiểu và kiểm soát cảm xúc, cũng như biết rằng giờ đây họ đã tập trung nhiều hơn vào việc “ sống ” (chủ động hành động) thay vì chỉ “ tồn tại ” (thụ động phản ứng).
-        Những người có Con số chủ đạo 8 đã có được sự độc lập và sự khôn ngoan ở một mức độ thích hợp nào đó, đủ để cuộc sống của họ trở nên tích cực. Nếu không, họ Sẽ xây lên bức tường cách ly xung quanh mình, hiểu lầm Sự tách biệt thành độc lập và gặp khó khăn trong việc giao tiếp với những người thân thiết xung quanh mình, những người mà họ vẫn thường đón nhận như lẽ đương nhiên chứ không hề trân trọng. 
-        `,
-    },
-    {
-        heading: 'NĂM THỨ CHÍN ( PYN 9 ) - NĂM ĐỈNH ĐIỂM THAY ĐỔI',
-        content: `
-        Vì nó là thời điểm khép lại chu kỳ cũ và mở ra chu kỳ mới, trước đỉnh cao của chu kỳ 9 năm của mỗi cá nhân chính là một năm khởi động mọi sự thay đổi. Tuy nhiên, nhiều sự thay đổi diễn ra âm thầm đến mức chúng ta sẽ không nhận ra mãi cho đến cuối năm hoặc trong năm kế tiếp .
-        Những thay đổi này rất đa dạng và khác nhau trong suốt cuộc đời của mỗi người, và chúng trở nên đặc biệt rõ nét trong quảng thời gian 27 năm phát triển và trưởng thành theo mô hình Kim tự tháp (tức Bốn đỉnh cao của đời người).
-        Các khía cạnh chủ yếu của Năm thứ chín bao gồm việc di chuyển đó đây, đổi nhà, đổi công việc xây dựng mối quan hệ bạn bè mới, thường đi kèm với sự kết thúc một vài mối quan hệ hay tình bạn cũ, không còn phù hợp với hành trình mới.
-        Đây cũng là năm tuyệt vời để tất toán những món nợ cũ, cũng như xoa dịu những mối quan hệ đang bất hòa. 
-        Ở năm này, người ta thường cảm nhận mạnh mẽ về trách nhiệm con người, cũng như sự bao dung và thấu hiểu . Năm thứ chín thường đặc biệt quan trọng đối với những người có Con số chủ đạo là số 9 , vì họ sẽ cảm nhận được năng lượng mạnh mẽ của nó trong mỗi hành động. Đây dự kiến sẽ là năm của sự thành công đáng kể đối với những người này.
-        Năm thứ chín là đỉnh cao trong chu kỳ phát triển 9 năm, do đó, trách nhiệm và lý tưởng của người có Con số chủ đạo 9 sẽ càng được nâng cao trong bất kỳ lĩnh vực nhân văn nào mà họ tham gia. 
-        Tuy nhiên, nếu họ vốn đã nhiều tham vọng, năm thứ chín sẽ càng củng cố lòng tham của họ đối với những thành công mang tính tư lợi, khiến họ kích động đến mức trở nên bất cẩn, và điều này có thể dẫn họ đến với những bài học cực kỳ đau thương.
-        Bên cạnh đó, sự cuồng nhiệt quá độ, tính kiêu ngạo và tính nghiêm túc quá mức là ba thứ có thể tước mất cơ hội tận hưởng một năm đầy thú vị của những thay đổi ngoạn mục trong cuộc đời họ. 
-        `,
-    },
-]
-
 const Detail = () => {
     const { info } = useContext(SearchContext)
     const navigate = useNavigate()
@@ -929,8 +790,8 @@ const Detail = () => {
         ],
         [info],
     )
-    console.log(info.number1)
-    useLayoutEffect(() => {
+
+    useEffect(() => {
         if (!info.number1) navigate('/')
     }, [])
 
@@ -947,7 +808,7 @@ const Detail = () => {
                     <span className="text-[#F7D51A]">{`${info.day}/${info.month}/${info.year}`}</span>
                 </h2>
             </div>
-            <div className="mt-10 grid lg:grid-cols-6 gap-y-7 grid-cols-2 md:grid-cols-3">
+            <div className="mt-10 flex justify-around">
                 {data.map((item, index) => (
                     <Fragment key={index}>
                         <So
@@ -989,31 +850,9 @@ const Detail = () => {
                     Số linh hồn của bạn là:{' '}
                     <span className="text-shadow-pink">{info.solinhhon}</span>
                 </h2>
-                <p className="rp-text mt-4">{SLH[info.solinhhon as number]}</p>
-                <h2 className="text-xl text-center font-bold mt-5">
-                    Số biểu đạt của bạn là:{' '}
-                    <span className="text-shadow-pink">{info.sobieudat}</span>
-                </h2>
-                <p className="rp-text mt-4">
-                    {SBD[info.sobieudat as number] || 'Nội dung chưa cập nhật'}
-                </p>
-                <h2 className="text-xl text-center font-bold mt-5">
-                    Năm cá nhân của bạn là:{' '}
-                    <span className="text-shadow-pink">{info.namcanhan}</span>
-                </h2>
-                <div className="mt-4">
-                    <Chart day={Number(info.day)} month={Number(info.month)} />
-                    <h3 className="mt-4 text-[#FFAC13] font-bold text-base text-center">
-                        {NAM[info.namcanhan as number]?.heading ||
-                            'Nội dung chưa cập nhật'}
-                    </h3>
-                    <p className="rp-text">
-                        {NAM[info.namcanhan as number]?.content ||
-                            'Nội dung chưa cập nhật'}
-                    </p>
-                </div>
+                <p className="rp-text mt-4">- Nội dung chưa cập nhật</p>
             </div>
-            {/* <div className="rp-box">
+            <div className="rp-box">
                 <h3 className="rp-heading">1. CHU KỲ VẬN SỐ CỦA BẠN</h3>
                 <p className="rp-text">
                     Biểu đồ này cho biết bạn đang ở đâu trong chu kỳ vận số của
@@ -1027,10 +866,10 @@ const Detail = () => {
                 <div className="mt-10">
                     <Chart day={Number(info.day)} month={Number(info.month)} />
                 </div>
-            </div> */}
+            </div>
             <div className="rp-box mt-5">
                 <h3 className="rp-heading">
-                    CHỈ SỐ ĐƯỜNG ĐỜI (SỐ CHỦ ĐẠO) CỦA BẠN LÀ:{' '}
+                    2. CHỈ SỐ ĐƯỜNG ĐỜI (SỐ CHỦ ĐẠO) CỦA BẠN LÀ:{' '}
                     <span className="text-[#F7D51A]">
                         {chiSoDuongDoi?.type}
                     </span>
@@ -1042,13 +881,9 @@ const Detail = () => {
                     cung cấp nhiều thông tin về con người bạn và cuộc đời mà bạn
                     sẽ sống.
                 </p>
-                <p className="rp-text">
-                    {chiSoDuongDoi.content || 'Nội dung chưa cập nhật'}
-                </p>
+                <p className="rp-text">{chiSoDuongDoi.content}</p>
                 <p className="font-bold mb-2">Mối quan hệ tương thích</p>
-                <p className="rp-text">
-                    {chiSoDuongDoi.relationship || 'Nội dung chưa cập nhật'}
-                </p>
+                <p className="rp-text">{chiSoDuongDoi.relationship}</p>
             </div>
         </Layout>
     )

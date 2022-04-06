@@ -1,10 +1,4 @@
-import React, {
-    Fragment,
-    useContext,
-    useEffect,
-    useLayoutEffect,
-    useMemo,
-} from 'react'
+import React, { Fragment, useContext, useEffect, useMemo } from 'react'
 import { useNavigate } from 'react-router-dom'
 import Chart from '../components/Chart'
 import Layout from '../components/Layout'
@@ -614,301 +608,6 @@ const TEXT = [
     nhưng hay có khuynh hướng bị lo lắng và bất an thái quá.
     `,
     },
-    {
-        content: `
-    Dưới ảnh hưởng của Số 7 trong vai trò Con số chủ đạo, người mang số này sẽ triệt để trải nghiệm các bài học mà cuộc đời mang lại, thông qua quá trình khổ học và hoạt động giảng dạy hoặc chia sẻ với người khác. 
-    Cả hai phương diện này đều thể hiện ở khía cạnh trải nghiệm thể chất, vì số 7 nằm ở điểm giao nhau giữa Mũi tên Thực tế và Mũi tên Hoạt động. Những người có ngày sinh cộng lại thành số tổng 16, 25, 34, 43 sẽ Có Con số chủ đạo là số 7.
-    MỤC ĐÍCH SỐNG
-    Có vẻ những ai sinh ra dưới con số chủ đạo 7 chắc chắn sẽ được “ rèn giũa ” qua vòng đời này để có được một bước tiến dài về phía trước. 
-    Đặc điểm nổi bật của Số 7 là khả năng học hỏi gần như vô hạn từ những trải nghiệm thực tế của bản thân, qua đó lĩnh hội được những giá trị tốt đẹp để sau đó có thể đem ra chỉ dạy hoặc chia sẻ cho nhiều người khác. Những trải nghiệm thực tế này còn mang đến cho họ những triết lý sâu sắc về cuộc đời.
-    ĐIỀU KIỆN PHÁT TRIỂN TỐI ƯU
-    Một trong những đặc điểm độc đáo ở những người Số 7 là họ thường học hỏi " theo cách riêng của mình ". 
-    Không dùng lại ở việc tiếp nhận các chỉ dẫn tối thiểu từ người khác, người Số 7 khát khao được học bằng cách tự trải nghiệm. 
-    Chính vì điều này, người Số 7 thường phải hy sinh ít nhất một trong ba khía cạnh của cuộc sống: sức khỏe, tình yêu, tiền tài.
-    Thông qua những bài học này, họ trở thành những người có vốn sống và trải nghiệm sâu sắc để truyền tải lại cho người khác và giúp ích cho đời. 
-    ĐẶC ĐIỂM NỔI BẬT
-    Người Số 7 thuộc nhóm những người năng động nhất trong cuộc sống.
-    Tuy không phải lúc nào họ cũng ý thức được điều này, nhưng người Số 7 thường có khát khao tự trải nghiệm, và những trải nghiệm này sẽ trở thành những kinh nghiệm nhớ đời khi (thật không may) chúng đòi hỏi họ phải hy sinh điều gì đó trong cuộc sống của mình. Đường đời của không ít người Số 7 thoạt nhìn có vẻ khá buồn, đặc biệt là khi họ chưa nhận ra những khó khăn thử thách hoặc tổn thất mà mình gặp phải là những bài học, 
-    và những bài học này sẽ lặp đi lặp lại với mức độ mất mát ngày càng trầm trọng hơn cho đến khi họ nhận ra.
-    Tuy vậy, thông qua sự tổn thất về sức khỏe, tình yêu hay tiền tài này, người Số 7 sẽ học được một triết lý sống sâu xa, và chính sự thấu hiểu quý giá ấy sẽ giúp họ tránh được những bài học nặng nề hơn khi ý thức của họ ngày càng phát triển. 
-    Người Số 7 Có một loại nghị lực đặc biệt giúp họ bẩm sinh đã tự tin vào bản thân, mà chính sự tự tin này sẽ giúp họ ứng phó với các trải nghiệm sống của mình mà không hề than vãn, 
-    Họ hiểu rằng " mọi chuyện xảy ra đều có lý do của nó ".
-    KHUYNH HƯỚNG CẦN KHẮC PHỤC
-    Sự Cố chấp của họ trong việc tự trải nghiệm, đến mức có thể từ chối nhận những lời chỉ dạy hay khuyên nhủ từ người khác, khiến người Số 7 thường có khuynh hướng nổi loạn. Khi từ chối nhận lời khuyên, họ dễ có thái độ thích dạy người khác chứ không thích được người khác chỉ dạy. 
-    Điều này khiến họ phải trả giá nhiều trong cuộc sống. 
-    Vì họ không học được những bài học kinh nghiệm mà người khác từng trải qua và khuyên họ nên tránh. Thế nhưng họ lại thích người khác nghe theo lời khuyên của mình, và khá bực mình khi nhận được lời khuyên y như vậy từ người khác.  ***  khi họ trưởng thành và hành động khôn ngoan hơn, cuộc sống cá nhân và sự nghiệp của họ mới trở nên tốt đẹp hơn ***
-    HƯỚNG PHÁT TRIỂN
-    Người Số 7 thường không giỏi nhìn người và cũng không am hiểu kinh doanh, nên họ cần cực kỳ thận trọng trong hoạt động kinh doanh và đầu tư. 
-    Nhưng những nhược điểm này có thể được khắc phục nếu họ có tinh thần kỷ luật hơn - nếu họ có thể kỷ luật bản thân tốt như những gì họ đòi hỏi nơi người khác. 
-    Việc chịu khó nghe lời khuyên và sống có kỷ luật cũng sẽ giúp họ phát triển trực giác và giúp cải thiện chất lượng cuộc sống của bản thân họ, cũng như của những người mà họ thương yêu. 
-    Thông thường, người Số 7 học khá chậm, vì họ có nhu cầu tự trải nghiệm mọi thứ. Với những gia đình có con mang Số 7, các cha mẹ cần lưu ý đặc biệt đến đặc điểm này và cho phép trẻ học theo tốc độ tiếp thu tự nhiên của chúng. Vì không ít bậc phụ huynh coi thành tích học tập của con ở trường là “ thể diện của gia đình ”, chứ không nhận ra giá trị lớn nhất của việc học là mang lại lợi ích cho bản thân con. Nghiên cứu trên nhiều trẻ em Số 7 cho thấy các em có thể tiếp thu việc học một cách nhanh chóng cho đến khoảng năm lên bảy tuổi. Giai đoạn bảy năm sau đó, tốc độ học tập của các em chậm hơn đáng kể, nhưng vào khoảng mười bốn tuổi trở đi, tốc độ tiếp thu của các em lại được tăng lên nếu các em có ý thức tự kỷ luật bản thân. Trẻ em Số 7 hiếm khi trở thành những học giả xuất sắc.
-    NGHỀ NGHIỆP PHÙ HỢP
-    Với tính đáng tin cậy, và mong mỏi có được sự tin tưởng từ người khác, người Số 7 rất thích hợp với các hoạt động có liên quan đến ngành luật. 
-    Người Số 7 cũng thường tìm thấy trong đội ngũ những người làm công tác giảng dạy và trong các lĩnh vực nhân văn, như giáo viên, thành viên các đoàn thể, nhà khoa học, nhà triết học... Bên cạnh đó, họ cũng là những người có khả năng thiên phú trong việc sử dụng các công cụ sắc bén, từ đó thôi thúc họ lựa chọn các ngành nghề như bác sĩ phẫu thuật, thợ mộc, thợ tiện ...
-    TÓM LẠI
-    Người Số 7 có nhu cầu học hỏi thông qua các trải nghiệm của bản thân, nhưng không thích tuân thủ các nguyên tắc bên ngoài. 
-    Họ rất tự tin, nhân văn và sâu sắc. Cuộc đời của họ thường trải qua nhiều tổn thất và hy sinh mà qua đó, họ sẽ học được nhiều bài học để đời.
-    `,
-    },
-    {
-        content: `
-        Những người mang con số chủ đạo 8 là những người coi sự độc lập là một trong những yếu tố quan trọng hàng đầu trong cuộc sống. 
-        Họ có thể là những người khá phức tạp, sở hữu cá tính mạnh, sức mạnh và trí tuệ hơn người. Sức mạnh của họ đến từ vị trí số 8, Con số của trí tuệ ở Trục ngang Tinh thần, đồng thời là con số nằm trung tâm Mũi tên Hoạt động. Con số chủ đạo 8 thuộc về những người có số tổng ngày sinh là 17, 26, 35, 44.
-        MỤC ĐÍCH SỐNG
-        Một trong những khía cạnh rất quan trọng của tình yêu thương là khả năng bày tỏ. 
-        Một trong những thành tố thiết yếu để xây dựng mối quan hệ tốt đẹp giữa người và người chính là khả năng biểu đạt lòng biết ơn và sự trân trọng đến nhau. Nhưng đây chính là hai phương diện mà những người Số 8 cảm thấy khó thể hiện nhất. 
-        Do đó, mục đích Sống quan trọng mà họ cần đạt được trong đời chính là vượt qua những giới hạn này. Khi phát triển theo hướng đó, họ sẽ nhận ra việc cải thiện chất lượng các mối quan hệ sẽ giúp họ củng cố sự tin tưởng mà người khác dành cho họ, chứ không hề cản trở tính độc lập của họ. Điều này lại tiếp tục tạo nên cảm giác an toàn cho cá nhân họ, nâng cao chất lượng cuộc sống cùng với sự phát triển về trí tuệ, một phần cực kỳ cần thiết đối với những người Số 8 .
-        ĐIỀU KIỆN PHÁT TRIỂN TỐI ƯU
-        Tuy có vẻ không khớp với bản tính tự nhiên của mình, nhưng người Số 8 thường có lòng trắc ẩn và sự cảm thông vô hạn đối với những người kém may mắn trong cuộc sống. Nhưng thái độ này không phải lúc nào cũng được duy trì lâu, vì họ thường mất kiên nhẫn với những ai trở nên phụ thuộc vào họ - họ cảm thấy điều này làm ảnh hưởng tới sự độc lập của mình. 
-        Họ có khả năng thành công rực rỡ trong kinh doanh, đặc biệt là khi họ không để cảm xúc làm lạc hướng các quyết định làm ăn của mình. 
-        Người Số 8 là những người rất chú trọng chuyện ăn mặc và tự hào về ngoại hình - không chỉ của bản thân mình mà cả những người họ yêu thương. 
-        Họ là con người của cảm xúc, nhưng thường che giấu sự nhạy cảm của mình cho đến khi họ đủ trưởng thành để bày tỏ.
-        ĐẶC ĐIỂM NỔI BẬT
-        Người Số 8 thường toát ra vẻ độc lập, tự tin và là chỗ dựa đáng tin cậy cho người khác.
-        Những tố chất này kết hợp hài hòa với nhau, trang bị cho người Số 8 khả năng gánh vác các vị trí quản lý cấp cao và những trọng trách mà đa số họ có thể hoàn thành xuất sắc. Nhưng ưu điểm độc lập quá mạnh mẽ của họ có thể được biểu đạt thành một thái độ tương đối lạnh nhạt, đôi khi trở thành thờ ơ, khi họ ở nhà. Họ không cố tình như vậy, mà điều này bắt nguồn từ đặc điểm “khó mở lời, khó bày tỏ” của họ, một đặc điểm thường sẽ biến mất khi họ trưởng thành. 
-        Lòng trắc ẩn của họ dành cho những tạo vật yếu ớt - như người già, người bệnh, trẻ em và động vật... chính là một biểu hiện của việc tìm kiếm cách bày tỏ tình cảm, cảm xúc của mình, và nó sẽ sớm chuyển vẻ lạnh nhạt của họ thành biểu hiện ấm áp của tình yêu thương. 
-        Người Số 8 cũng sở hữu sự khôn ngoan bẩm sinh mà từ đó họ sẽ học cách hoàn thiện bản thân khi họ trưởng thành.
-        KHUYNH HƯỚNG CẦN KHẮC PHỤC
-        Tính độc lập mạnh mẽ của họ quá rõ nét đến mức người Số 8 thường cảm thấy khó chịu khi có ai đó (mà họ cho là) muốn can thiệp vào các kế hoạch của họ. 
-        Vì thế, để hướng dẫn những người này, cần phải có sự tinh tế và khéo léo vô cùng. Trên thực tế, người Số 8 cần rất nhiều sự hướng dẫn, đặc biệt là trong vấn đề nuôi dạy con trẻ - vì họ dễ rơi vào một trong hai thái cực: hoặc quá nuông chìu, hoặc quá nghiêm khắc với con cái. Họ thường gặp trở ngại trong các mối quan hệ tình cảm, có xu hướng tự dựng lên các rào cản và thu cảm xúc mình lại đằng sau bức tường rào đó. 
-        khi trưởng thành hơn, họ sẽ nhận ra họ có thể hạnh phúc hơn nhiều nếu có thể bày tỏ tình cảm của mình cho đối phương biết.
-        HƯỚNG PHÁT TRIỂN
-        Người Số 8 cần nỗ lực khắc phục điểm yếu trong vấn đề bày tỏ tình cảm với những người mà họ quan tâm. 
-        Quan trọng nhất chính là họ cần nhận ra điểm yếu này, vì đa số những người Số 8 không thấy rằng mình không biết cách biểu lộ tình cảm. Khi họ học được cách bày tỏ cảm xúc, mức độ hạnh phúc và cảm giác an toàn của họ cũng được cải thiện nhiều. 
-        Bày tỏ lòng biết ơn cũng là một cách để họ tập biểu đạt các tầng cảm xúc sâu hơn.
-        Sự phát triển này kéo theo sự phát triển của trí tuệ, điều mà từ trước đến nay họ chỉ có khuynh hướng biểu đạt trong Công việc hoặc khi cần cho người khác lời khuyên mà thôi. 
-        Sự khôn ngoan và mức độ trưởng thành của họ sẽ được nâng lên thông qua việc du lịch đó đây, một hoạt động mà họ rất thích .
-        Người Số 8 thường được tìm thấy ở các vị trí lãnh đạo của các doanh nghiệp lớn, với khả năng điều hành xuất sắc. 
-        Họ có khả năng am hiểu các vấn đề về tài chính và thường có hứng thú với ngành ngân hàng, chứng khoán... Họ cũng có thể trở thành chuyên gia lữ hành, thuyền trưởng hoặc phi công giáo viên và y tá phục vụ người lớn tuổi hoặc trẻ em, làm việc với các loài động vật hoặc trong các tổ chức nhân đạo. Bên cạnh đó, nhờ khả năng che giấu cảm xúc tự nhiên của mình, họ có thể rất thành công trong nghề diễn xuất chuyên nghiệp.
-        TÓM LẠI
-        Người Số 8 thường rất độc lập, cực kỳ đáng tin cậy, tự tin, ít chịu bày tỏ tình cảm, hợp với các hoạt động thương mại, kinh doanh và rất quan tâm đến người bệnh và người kém may mắn.
-        `,
-    },
-    {
-        content: `
-        So với những nhóm khác, người mang con số chủ đạo 9 sẽ nhân gấp ba lần ba yếu tố: hoài bão, trách nhiệm và lý tưởng. 
-        Họ luôn đặt yếu tố con người lên hàng đầu. Người Số 9 có số tổng của ngày sinh là 18, 27, 36 hoặc 45 
-        MỤC ĐÍCH SỐNG
-        Người Số 9 luôn tự cảm thấy mình đầy trách nhiệm. 
-        Họ phù hợp với nghệ thuật và các lĩnh vực nhân văn hơn là với khoa học hay thương mại. Rất nhiều người đi đầu trong lĩnh vực văn hóa hoặc xuất sắc trong ngành diễn xuất có Con số chủ đạo là Số 9 - họ đều có lý tưởng cống hiến cháy bỏng cho sự nghiệp và cho cuộc sống, mặc dù các ý tưởng của họ không phải lúc nào cũng ứng dụng được. 
-        Vì thế, một điều quan trọng trong mục đích sống của họ chính là học cách biến lý tưởng thành thực tế.
-        ĐIỀU KIỆN PHÁT TRIỂN TỐI ƯU
-        Người Số 9 có mong muốn được phục vụ và nâng cao đời sống con người. 
-        Họ đầy hoài bão nhưng thường có khuynh hướng quan tâm tổng thể hơn là tập trung vào chi tiết. Do đó, họ phù hợp với những lĩnh vực không liên đến thương mại, vì họ thường kém về tính toán hay quản lý tài chính, đặc biệt là quản lý tài chính cá nhân. Họ rất có máu nghệ sĩ, và nếu có theo nghề diễn xuất thì họ thường chọn hướng nghiêm túc của chính kịch chứ ít khi đi theo hướng hài kịch hay các trường phái biểu diễn thoải mái khác.
-        ĐẶC ĐIỂM NỔI BẬT
-        Có hoài bão, có trách nhiệm, có lý tưởng là ba giá trị nổi bật trong con đường tiến hóa của người Số 9. 
-        Nhưng trên hết, trách nhiệm với bản thân mới là điểm nhấn đặc biệt của họ. Trung thực là phẩm chất tự nhiên của họ, đến mức họ mặc định rằng ai cũng sở hữu đức tính này như mình. Điều đó thường gây ra sự thất vọng nặng nề cho một số người Số 9, thậm chí có một số trường hợp trở nên hoài nghi con người và nghi ngờ cả giá trị của bản chất trung thực mà mình sở hữu. 
-        Người Số 9 có xu hướng hỗ trợ tiền bạc cho những người đang gặp khó khăn hơn là dành dụm cho chính mình, và điều này thường khiến người thân (đặc biệt là người bạn đời) của họ nổi giận. Họ có những suy nghĩ tuyệt đối tốt đẹp cuộc sống, về lý tưởng, về con người và động lực sống. Mặc dù những ý tưởng này không phải lúc nào cũng thực tế, nhưng những người Số 9 sẽ luôn nỗ lực thực hiện chúng - đây là một phần bản chất của họ.
-        KHUYNH HƯỚNG CẦN KHẮC PHỤC
-        Khi người Số 9 không áp được những lý tưởng mà họ đặt ra cho người khác lên chính bản thân mình, họ trở nên tiêu cực. 
-        Họ cần đặc biệt lưu ý để không trở thành nạn nhân của thời đạo đức giả. 
-        Khi hoài bão của họ biến thành tham vọng, chúng có thể đàn áp và hủy hoại những lý tưởng tốt đẹp họ từng nuôi dưỡng từ đó phát triển thái độ tự xem mình là trung tâm. Điều này sẽ sớm tạo thành tính cách thô lỗ và thái độ ưa chỉ trích - thứ mà những người xung quanh họ sẽ cảm thấy khó chấp nhận được cũng là thứ có thể khiến họ suy đồi khi mãi chạy theo vật chất.
-        HƯỚNG PHÁT TRIỂN
-        Tính lý tưởng hóa của người Số 9 khiến họ không giỏi nhìn người. 
-        Nhưng một khi nhận ra mặt hạn chế này, người Số 9 hoàn toàn có thể học và sử dụng các công cụ hỗ trợ để giúp họ hiểu về con người hơn. Điều này sẽ giúp họ tìm hiểu về con người ở nhiều phương diện trước khi kết luận, chứ không chỉ dựa trên phần tích chủ quan của bản thân. Việc tìm hiểu các công cụ đánh giá con người cũng sẽ giúp người Số 9 phát triển trục giác và trí tuệ. 
-        Hai yếu tố quan trọng khác mà người Số 9 cần tập trung phát triển là tính kiên nhẫn và sự kiên định. 
-        Bên cạnh đó, người Số 9 thường hay tỏ ra nghiêm túc quá mức họ cần học cách vui cười và thưởng thức những trò dí dỏm nhiều hơn để mang lại sự cân bằng cho cuộc sống của mình.
-        NGHỀ NGHIỆP PHÙ HỢP
-        Người Số 9 thường vui vẻ nhất khi được làm việc trong các môi trường tôn giáo, tổ chức an sinh xã hội, viện giáo dục (trong vai trò quản lý hành chính hơn là giáo viên) , cơ quan nghiên cứu (bao gồm nghiên cứu công nghệ thông tin) , giải quyết các vấn đề tội phạm, trị liệu và tư vấn ...
-        TÓM LẠI
-        Người Số 9 là những người đặc biệt có trách nhiệm, cực kỳ trung thực, có lý tưởng, đầy hoài bão, luôn hướng về yếu tố nhân văn và rất nghiêm túc trong cuộc sống. Họ không giỏi quản lý tiền bạc, cũng khó tiết kiệm được tiền.
-        `,
-    },
-    {
-        content: `
-        Từ số 2 đến số 9, chúng ta đã làm quen với những cách thể hiện đa dạng của từng con số chủ đạo ở mỗi cá nhân, phụ thuộc vào mức độ nhận thức của mỗi người. 
-        Tuy nhiên, chưa Có Con số chủ đạo nào có biên độ dao động lớn và rộng trong cách biểu đạt như Số 10.
-        Khi sống tích cực, có thể họ là một người rất quảng giao, được yêu thích trong xã hội, nhưng khi sống tiêu cực, họ có thể là những cá nhân lạc lối, bất an và lao đao trên đường đời. 
-        Họ là những người dễ thích nghi nhất. Họ có tiềm năng để thành công rực rỡ hoặc cũng có thể sống mòn trong sự tầm thường. Những người có số tổng ngày sinh là 19, 28, 37, 46 sẽ Có Con số chủ đạo là 10.
-        MỤC ĐÍCH SỐNG
-        Cuộc sống của những người Số 10 có hai đặc điểm nổi trội: khả năng thích nghi và khả năng thay đổi.
-        Tính linh hoạt bẩm sinh của họ có thể hỗ trợ người khác rất nhiều trong việc thích ứng với các thay đổi trong cuộc sống. Khi cuộc sống trở nên phức tạp hơn, khả năng thích nghi càng có vai trò thiết yếu hơn, và chúng ta sẽ thấy người Số 10 có mặt trong rất nhiều ngành nghề hoặc tình huống khác nhau. Họ có sự can đảm bẩm sinh, thứ thường đưa họ đến với các lĩnh vực tiên phong mà nhiều người không bao giờ dám nghĩ đến.
-        ĐIỀU KIỆN PHÁT TRIỂN TỐI ƯU
-        Nếu chúng ta tìm kiếm một người có thể cùng ta tận hưởng những thú vui nhẹ nhàng trong cuộc sống, không ai phù hợp hơn những người Số 10. 
-        Họ phát huy tốt nhất khi được tự do trải nghiệm sự hứng khởi tức thời. Nhưng khi bị áp lực hoặc phải kìm nén cảm xúc, họ thường chán nản mà không rõ nguyên nhân. Điều này khiến họ khó chịu và thường biểu đạt qua thái độ tức giận hoặc dễ nổi nóng. Một bộ phận người Số 10 sẽ rất thẳng thắn và tự tin - tinh thần lạc quan vô hạn giúp họ đạt được những bước tiến đáng kể trong cuộc sống. 
-        Đây là biểu đạt tự nhiên của Số 10, vì họ có sự kết hợp đầy quyền lực của “ cái tôi ” (số 1) và chiều sâu tinh thần vô hạn của số 0.
-        ĐẶC ĐIỂM NỔI BẬT
-        Số 10 là một số mang tính thực tế, mang theo sức mạnh của sự linh hoạt và tính thích ứng rất được yêu thích, 
-        (do đó người Số 10 có được cá tính linh hoạt và thích nghi tốt) . Sự vui vẻ của họ nhìn chung rất dễ lan tỏa, nhưng vì không muốn can dự quá sâu vào các vấn đề của người khác nên họ thường thấy khó hiểu vì sao người khác lại không vui vẻ và thích nghi giống họ. Phần lớn những người Số 10 ít dấn thân vào cuộc sống mà thường hài lòng với những niềm vui nhất thời, đặc biệt là trong thể thao - hoặc là họ chủ động tham gia, hoặc chỉ làm người xem. Ngược lại, một số ít những người Số 10 có nhận thức về các giá trị sâu sắc hơn sẽ thành công và dẫn đầu trong lĩnh vực của mình, vì họ có được sự kiên cường vượt khó. Nhìn chung, người Sổ 10 thường toát ra sự tự tin vào bản thân, thể hiện qua phong thái hòa nhã và lịch thiệp của mình, bất kể họ ăn mặc thế nào. 
-        Họ không mấy thành công trong việc giải quyết các vấn đề về tâm lý của bản thân hay của những người khác, không phải là những nhà tư vấn giỏi hay người bạn sâu sắc. 
-        Nhìn chung, họ có máu nghệ thuật - sự tinh tế tuyệt vời của họ có thể khiến họ trở thành những nghệ sĩ biểu diễn nhạc cụ tài hoa hay các chuyên gia thẩm định chất lượng.
-        KHUYNH HƯỚNG CẦN KHẮC PHỤC
-        Sự tự tin ở những người Số 10 đôi khi có thể khiến họ muốn áp chế người khác, nhưng họ thường làm vậy một cách thiếu khôn ngoan và dẫn đến sự bất hòa nghiêm trọng.
-        Khuynh hướng này có thể tránh được thông qua ý thức kiểm soát “ cái tôi ” , hướng đến chiều sâu tâm hồn và tránh lối sống hời hợt. Việc chủ động tham gia các hoạt động mang tính xây dựng và sáng tạo cũng sẽ giúp người Số 10 tiếp nhận thêm những quan điểm sâu sắc hơn và biết rằng nếu một cánh cửa đóng lại thì họ chỉ cần tìm những cánh cửa mở khác. 
-        Họ cũng cần tránh trở nên biếng nhác và kỳ vọng cuộc sống sẽ dễ dàng, đồng thời họ phải nhận ra tầm quan trọng của việc phát triển tinh thần kỷ luật bản thân để vượt qua sự u sầu và cảm giác bất an.
-        HƯỚNG PHÁT TRIỂN
-        Người Số 10 có xu hướng dễ lạc lối trong sự thoải mái và chấp nhận cuộc sống tầm thường. 
-        Để trở nên vượt trội, họ cần nhìn ra tiềm năng của mình - tính linh hoạt và khả năng thích nghi cực kỳ mạnh mẽ. Trong cuộc sống, người Số 10 cần các hoạt động như hành thiền để giữ cân bằng cho bản thân và kết nối với nguồn sức mạnh bên trong. Họ cũng học cách tiết chế trong cuộc sống (sự cân bằng) và phát triển nhận thức về thế giới xung quanh (sự uyên bác) , thái độ hài hòa, lòng trắc ẩn và tôn trọng cuộc sống. 
-        Bên cạnh đó, họ cần học cách phân biệt cái gì quan trọng và cái gì không quan trọng, nếu không họ có thể lãng phí thời gian để theo đuổi những điều không đáng.
-        NGHỀ NGHIỆP PHÙ HỢP
-        Người Số 10 sẽ hợp với lĩnh vực thể thao hoặc giải trí, thiết kế và trang trí nội thất, ngành dệt may và thực phẩm. 
-        Họ cũng có thể là những chuyên gia bán hàng tài năng (vì thường được yêu mến) , chính trị gia, nhà gây quỹ từ thiện, nhà điều hành doanh nghiệp, giám đốc kinh doanh, chuyên gia quy hoạch đô thị, kiến trúc sư, chuyên gia địa ốc ...
-        TÓM LẠI
-        Người Số 10 rất tự tin, hòa nhã, thông minh và vui vẻ, với sự tinh tế đặc biệt và khả năng bán hàng xuất sắc.
-        `,
-    },
-    {
-        content: `
-        Con số chủ đạo 11 có một trường năng lượng tâm linh đặc biệt mạnh mẽ,  giúp những người mang con số chủ đạo này có tiềm năng phi thường để phát triển nhận thức ở Thể Siêu thức. Đáng tiếc là phần lớn những người Số 11 lại không đủ khả năng phát huy tiềm năng đó, nhưng điều này sẽ sớm được khắc phục cùng với sự phát triển của thời đại mới - thời đại phát triển nhận thức (thế kỷ 21) . Mặc dù Số 11 không phổ biến như các con số chủ đạo khác, nhưng nhiều người Số 11 lại được tìm thấy ở các lĩnh vực có liên quan mật thiết đến sự phát triển tâm linh và nâng cao nhận thức. Trên thực tế, chỉ có ba con số tổng của ngày sinh cho ra Con số chủ đạo 11, đó là 11, 29 và 38, và hy hữu lắm ta mới bắt gặp số tổng 47.
-        Người Số 11 nằm trong số ít ỏi những người được trang bị “ vốn tấm linh ” tiềm tàng tốt đẹp nhất để đưa con người tiến vào thời đại nhận thức. 
-        Nói về mặt tâm linh, việc họ có mặt ở cõi đời này trong kiếp sống này là một lựa chọn đầy trách nhiệm. 
-        Tuy nhiên, thật không may là rất nhiều người trong số họ lại bị quyến rũ bởi những cám dỗ của đời sống vật chất để rời xa rời mục đích cao cả của mình.
-        Nhưng tình thế đang thay đổi, và hy vọng càng ngày càng có thêm nhiều người Số 11 nhận ra giá trị thật của mình để quay về với những lý tưởng mà họ đã nhận lãnh.
-        ĐIỀU KIỆN PHÁT TRIỂN TỐI ƯU
-        Vì yêu thích sự tinh tế, vẻ đẹp và giá trị văn hóa của cuộc sống, người Số 11 hướng đến những môi trường chứa đựng những giá trị đó, vì nó cho họ được tự do thể hiện nét đẹp vốn có của tâm hồn và đời sống tâm linh. Đời sống vật chất, với nhiều người trong số họ, là quá nhiều đòi hỏi và không thú vị. 
-        Nhưng người Số 11 cần học cách cân bằng đời sống vật chất với những lý tưởng mà họ tìm kiếm bên trong để nhận ra rằng những giá trị tinh thần cao quý nhất cũng không có bao nhiêu giá trị nếu chúng không được vận dụng để cải thiện chất lượng cuộc sống. 
-        Chẳng có biểu đạt nào đẹp đẽ hơn việc dốc mình phụng sự cho cuộc sống theo khả năng của mỗi người.
-        Có những sự khác biệt cực kỳ to lớn giữa lối sống của những người Số 11 biết sống tích cực và phát huy sức mạnh tâm linh vượt trội của họ, và những người Số 11 đầy tiêu cực với cuộc sống lao đao và nhạt nhòa.
-        Khi theo đuổi các vấn đề và mục tiêu về tinh thần hay tâm linh, người Số 11 thể hiện họ có nguyên tắc đạo đức vững vàng, trực giác chính xác và động lực rất rõ ràng. Trong cuộc sống hằng ngày, họ thường là những người nhạy cảm, đáng tin cậy, trung thực và công tâm, với tình yêu sâu đậm đối với gia đình và bạn bè, cũng như lòng trắc ẩn đối với cuộc sống.
-        KHUYNH HƯỚNG CẦN KHẮC PHỤC
-        Khi đời sống vật chất ngày càng phát triển và nhiều “ hoa thơm cỏ lạ " xuất hiện dọc đường, khả năng người ta bị cám dỗ và từ bỏ lối sống chính trực là rất dễ xảy ra. Cuộc sống vốn dĩ đơn giản và hài hòa hơn những gì người ta đang cảm thấy. Sự phức tạp mà người ta cảm nhận trong đời sống hằng ngày khiến họ hoang mang và lệch khỏi con đường của mình, để lại cho họ cảm giác cay đắng và hằn học, biểu hiện qua thái độ thờ ơ lạnh nhạt với những người khác và với công việc. Khi chuyện này xảy ra với người Số 11 họ trở nên lạc lối và lãnh đạm, tìm kiếm sự khuây khỏa trong thế giới vật chất mà họ đã sa vào. 
-        Họ phải giữ ý thức và sự tỉnh thức cao độ để quyết tâm đi trên con đường của mình, mà điều này sẽ không quá khó khăn nếu họ chịu lưu tâm đến trực giác nhạy bén của mình.
-        HƯỚNG PHÁT TRIỂN
-        Đối với người Số 11, các lĩnh vực tinh thần không thể bị trộn lẫn với các giá trị thương mại. 
-        Do đó, môi trường thích hợp nhất cho họ chính là những ngành nghề có thể tạo điều kiện cho họ phát triển nhận thức về tâm linh và vận dụng sự nhạy bén của mình. Đồng thời, với bản tính hào phóng và mong muốn có thể đáp ứng nhu cầu của những người xung quanh, người Số 11 thường có nhu cầu tài chính cao hơn những người khác. 
-        Họ không chỉ cần học biểu đạt những giá trị tinh thần hay tâm linh của mình một cách thực tế nhất, mà còn phải học cách lắng nghe trực giác (vốn rất trung thực, sáng suốt) chứ không bị thúc đẩy bởi những thèm muốn đơn thuần (ví dụ như mong muốn được thừa nhận, được tưởng thưởng, được trả ơn... ).  
-        Bên cạnh đó, họ cũng cần nâng cao khả năng phán đoán, cân bằng cuộc sống và nghị lực bản thân. Họ có xu hướng từ chối sự hỗ trợ của người khác, nhưng để phát triển tốt nhất, họ cần học cách đón nhận nhiều hơn và nhận ra những lợi ích mà mình có được từ sự giúp đỡ lẫn nhau.
-        NGHỀ NGHIỆP PHÙ HỢP
-        Những nghề nghiệp mà người Số 11 thường thấy phù hợp bao gồm nhà giáo dục, nhà hoạt động xã hội, các thủ lĩnh tôn giáo và huấn luyện viên phát triển cá nhân. 
-        Hoặc họ cũng có thể tham gia giảng dạy các bộ môn văn hóa và biểu diễn chuyên nghiệp. Trực giác nhạy bén cũng có thể giúp họ trở thành các nhà thiết kế hay nhà phát minh tài ba.
-        TÓM LẠI
-        Người Số 11 là những người nhạy cảm, đầy cảm xúc và quan tâm người khác. 
-        Họ yêu thích sự tinh tế, vẻ đẹp và những gì gắn liền với giá trị văn hóa sâu sắc. Họ cũng vô cùng trung thực và giàu lòng trắc ẩn, thường tránh các hoạt động kinh doanh và bản thân họ không phải là những người quản lý tiền bạc giỏi.
-        `,
-    },
-]
-
-const SLH = [
-    'Nội dung chưa cập nhập',
-    `Những người có Con số linh hồn là 1 thường có nhu cầu được tự do biểu đạt bản thân. Phương tiện biểu đạt sẽ do con số chủ đạo của họ quyết định. Nhìn chung, người sở hữu Con số linh hồn này thường có khát khao tự do mãnh liệt, muốn dành nhiều thời gian cho bản thân để thư giãn hoặc để biểu đạt bản thân qua một hình thức nghệ thuật nào đó.`,
-    `Người thuộc nhóm này thường có thôi thúc hướng đến sự cân bằng, nên mọi việc họ làm thường tỏa ra năng lượng của sự hài hòa. Nhìn chung thì đây là những người có trực giác khá tốt, thích những gì tự nhiên hơn nhân tạo. Trong các mối quan hệ hoặc sự tương tác với người khác, họ rất công bằng và mong đợi điều tương tự từ đối phương.`,
-    `Với trọng tâm luôn đặt ở phần trí não, Con số linh hồn 3 kết hợp cảm giác với suy nghĩ và đánh giá. Kết quả là những người thuộc nhóm này có khả năng đánh giá con người và tình huống khá tốt. Điều đó có thể rất có ích trong kinh doanh và các hoạt động có tính chuyên môn cao.`,
-    `Số 4 là con số của thực tế, thế nên khi có con số linh hồn 4, những người này thường có những quan điểm khá truyền thống và bảo thủ trong các chủ đề thuộc về tinh thần, tâm linh và cảm xúc, chẳng hạn như tôn giáo, tình yêu, hôn nhân và cuộc sống nói chung. Họ thường rất tôn trọng các nguyên tắc truyền thống và không để cho cảm xúc của mình bộc phát.`,
-    `Sức mạnh của con số này đến từ vị trí của số 5 trên Trục ngang Tinh thần, cho thấy người sở hữu nó có những cảm xúc rất sâu sắc, cũng như có nhu cầu được tự do và được chấp nhận - tốt nhất là những cảm xúc này được bộc lộ. Họ sẽ có cảm xúc mãnh liệt trong bất kỳ phương diện cuộc sống nào mà họ đang đối mặt và không ngại biểu đạt điều đó, trừ khi Biểu đồ ngày sinh của họ có yếu tố cản trở, như Mũi tên Nhạy cảm chẳng hạn.`,
-    `Nhóm này được thôi thúc hướng về tình yêu thương và sự sáng tạo. Họ sẽ tận dụng mọi cơ hội để thể hiện bản thân mình một cách đầy sáng tạo, cho dù đó là trong công việc, gia đình hay một sở thích nào đó. Tuy nhiên, do đặc tính nhạy cảm của số 6, họ phải giữ vững tinh thần, nếu họ lo lắng quá mức thì sức mạnh này sẽ nhanh chóng chuyển thành cảm giác tuyệt vọng và chán nản.`,
-    `Những người có con số linh hồn này thường cảm nhận một sự thôi thúc muốn hướng dẫn và hỗ trợ người khác.  Tuy nhiên, bản thân họ lại muốn tự trải nghiệm cuộc sống chứ không nhiệt tình đón nhận sự dẫn dắt của người khác. Họ thường phải trả giá khá đắt cho mong muốn này của mình, cho đến khi họ nhận thức được rằng mối quan hệ giữa con người với nhau là mối quan hệ tương hỗ, cùng hỗ trợ lẫn nhau.`,
-    `Con số này tập trung vào tính thích độc lập. Người sở hữu Con số linh hồn 8 thường tự động từ chối làm theo những thói quen mà họ thấy là vô lý. Họ có suy nghĩ và cách hành xử riêng, nhưng cần cẩn thận để tránh trở thành người xa cách cộng đồng. Một bài học quan trọng cuộc sống dạy chúng ta là nhu cầu hòa nhập cùng Cộng đồng mà không bị lệ thuộc vào đó.`,
-]
-
-const SBD = [
-    'Nội dung chưa cập nhập',
-    `Những người Có Con số biểu đạt 1 thường rất thích những môn thể thao cá nhân hoặc làm việc một mình.  Họ rất thích được tự do làm mọi việc theo nhịp độ riêng, để có thể đạt được sự hài lòng cao nhất và xây dựng sự tự tin của họ trong các hoạt động thể chất.`,
-    `Những người thuộc nhóm này thích làm việc theo nhóm trong những môi trường vui vẻ. Họ là người hoạt bát, thích niềm vui và những hoạt động thoải mái. Điều này không có nghĩa họ là người nông cạn, mà đúng hơn, họ có khả năng tận hưởng niềm vui mà những hoạt động có tổ chức mang lại.`,
-    `Trong khi nhóm có con số biểu đạt 2 thích thưởng thức những hoạt động vui vẻ, người có con số biểu đạt 3 lại thích đem đến niềm vui, tiếng cười cho những người xung quanh. Họ rất biết cách tạo niềm vui trong cuộc sống và lan tỏa nó đến mọi người bằng cách trở thành linh hồn của những buổi tiệc, vì họ có vẻ ngoài thông minh, nhanh nhẹn và hoạt bát.`,
-    `Con số mang đậm tinh thần thực tế, và những người sở hữu nó thường rất khéo tay, thích những hoạt động thể chất, vận dụng độ khéo léo của đôi tay và đôi chân. Họ đặc biệt yêu thích thể thao, hoạt động xây dựng, lắp ráp hoặc sửa chữa đồ đạc.`,
-    `Một trong những điều thường thấy ở những người sở hữu con số biểu đạt này là nhu cầu được tự do biểu đạt, thoát khỏi ràng buộc của thế giới vật chất.Nhưng đôi khi họ để cho sự hiểu lầm hoặc vẻ ngại ngùng cản trở mình biểu đạt một cách trọn vẹn nhất. Để tránh điều này, họ nên tìm những Công việc không gò bó và những người bạn mà họ cảm thấy dễ chịu khi tương tác. Nói một cách đơn giản, họ cần những người bạn đồng hành chịu tương tác, thoải mái và linh hoạt.`,
-    `Nhóm này có xu hướng tập trung năng lượng và tâm trí cho mái ấm của mình. Hiển nhiên điều đó rất có lợi cho các thành viên trong gia đình, nhưng nó cũng có thể khiến họ “được nuông chiều quá nên sinh hư”. Do đó, những người có Con số biểu đạt 6 cần tránh thể hiện đặc điểm này quá đà, bằng cách cân bằng giữa sự chiều chuộng và việc quan tâm đến những nhu cầu thật sự của người thân.`,
-    `Đặc điểm của người có Con số biểu đạt 7 là sự thôi thúc được làm việc độc lập, tự trải nghiệm và học hỏi theo kiểu riêng của họ. Họ thích tận hưởng thành tựu cá nhân và cảm giác thỏa mãn khi được tự mình khám phá, hơn là học hỏi từ người khác.`,
-    `Người thuộc nhóm này có một khao khát mãnh liệt được thể hiện sự độc lập của bản thân, thích làm mọi chuyện một mình và không ngại tỏ ra khác biệt nếu cần. Bằng cách này, họ bộc lộ một cá tính mạnh mẽ, vì họ ý thức được con người không bao giờ có thể đạt đến mức độ phát triển bản thân cao hơn nếu cứ chấp nhận “tư duy bầy đàn”.`,
-    `Cuộc sống luôn tồn tại hai khía cạnh: nghiêm túc và hài hước. Người có cuộc sống cân bằng là người mà hai khía cạnh này hòa hợp với nhau một cách tốt đẹp nhất trong đời sống cá nhân họ. Tuy nhiên, người có Con số biểu đạt 9 Có xu hướng quá tập trung vào sự nghiêm túc, và bằng cách này, họ thường thu hút nỗi buồn, và đôi khi là cả sự cô độc, vì họ cho rằng khía cạnh hài hước nhẹ nhàng của cuộc sống là không quan trọng. Họ có khả năng suy ngẫm, tư duy phân tích sắc bén và chuẩn mực sống tốt đẹp - để phục vụ cho lý tưởng cao đẹp của mình. Nhưng nhóm này cũng cần học cách cân bằng cuộc sống bằng những niềm vui nhẹ nhàng để phục hồi năng lượng cho tâm trí và cơ thể mình.`,
-    `Đặc điểm của Con số biểu đạt 10 gần như trái ngược với Con số biểu đạt 9. Những người sở hữu con số này thường quá tập trung vào khía cạnh nhẹ nhàng, vui vẻ của cuộc sống, và có phần xem nhẹ tính nghiêm túc. Họ cần tránh trở nên khiếm nhã và nông cạn, thay vào đó, hãy tập trung vào khả năng thật sự của con số 10, đó là năng lực thích nghi với nhiều hoàn cảnh và tình huống khác nhau. Người mang Con số biểu đạt này quyết tâm mạnh mẽ hơn để hoàn thành vai trò của mình trong cuộc sống, vì chỉ khi cân bằng được tính nghiêm túc và thoải mái thì họ mới gặt hải được thành công.`,
-    `Nhu cầu nổi bật của người có Con số biểu đạt 11 là sự hài hòa. Cảm xúc và tinh thần cân bằng là đặc điểm của con số này. Mục đích đặc biệt của nhóm này là lan tỏa mong muốn về sự hài hòa với môi trường xung quanh, kiểm soát cảm xúc, cũng như phát triển và chia sẻ những hiểu biết sâu sắc về cuộc sống. Chỉ khi đi theo con đường này thì họ mới có thể đến được bến bờ hạnh phúc.`,
-]
-
-const NAM = [
-    {
-        heading: '',
-        content: '',
-    },
-    {
-        heading: 'NĂM THỨ NHẤT (PYN 1) - NĂM CỦA SỰ ĐIỀU CHỈNH QUYẾT LIỆT',
-        content: `
-        Đây là một năm của những hành động phát triển cá nhân mạnh mẽ, sau khi chúng ta đã điều chỉnh để thích ứng với những thay đổi trong Năm thứ chín của chu kỳ trước.
-        Sức mạnh của năm này thúc đẩy chúng ta dám trở nên khác biệt và phát triển lòng tự tin. Đây cũng là một năm đặc biệt phù hợp để chúng ta phá bỏ những thói quen cũ.
-        Bên cạnh đó, việc hình thành lối sống mới chắc chắn đòi hỏi chúng ta có sự kiên trì cao độ. Năm này sẽ đặc biệt tác động đến những người có Con số chủ đạo 10. 
-        Mọi việc diễn ra quá thuận lợi với họ đến mức họ có thể dễ dàng rơi vào tình trạng chủ quan hoặc thiếu cảnh giác, đặc biệt là trong vấn đề tài chính. Những người này cần lưu ý tránh ngủ quên trên chiến thắng mà sinh lòng kiêu ngạo.
-        Với ý thức tự chủ hợp lý, những người mang Con số chủ đạo 10 sẽ thấy Năm thứ nhất là một năm có sự phát triển vượt bậc về đời sống vật chất và nhận được sự ủng hộ từ những người xung quanh.
-        `,
-    },
-    {
-        heading:
-            'NĂM THỨ HAI (PYN 2) - NĂM CỦA SỰ PHÁT TRIỂN TÂM LINH - TINH THẦN VÀ CHIA SẺ',
-        content: `
-        Mặc dù không có sức mạnh của một năm thay đổi định điểm, đây vẫn là một năm có bản chất mạnh mẽ đủ để khiến một tâm hồn rối rắm trở về được với sự bình yên tĩnh tại. Sự phát triển tâm linh là yếu tố rõ nét nhất của năm này, khi người ta cảm thụ cuộc sống ở mức độ tinh tế hơn. 
-        Đây không phải là một năm của thay đổi to lớn, mà là một năm phát triển khả năng kiểm soát cảm xúc, nâng cao nhận thức về tâm linh và củng cố trực giác. 
-        Trọng tâm phát triển dưới sóng rung của năm này là nhu cầu chủ động phát triển sức mạnh của việc thiền định.
-        Điều này có nghĩa là cơ thể sẽ tự điều chỉnh ở mức độ tế bào để đạt được sức mạnh nội tại mà tất cả chúng ta đều muốn sử dụng để làm nguồn năng lượng dự trữ vô hạn và là sức thu hút mạnh mẽ của mỗi người. 
-        Để đạt được điều này, chúng ta học cách kiểm soát tốt cảm xúc của mình, để chủ động hành động thay vì chỉ biết phản ứng với hoàn cảnh, để thay sự hoang mang và nghi ngờ bằng sự tự tin và vững vàng, và đủ khôn ngoan để phân biệt những gì quan trọng và ít quan trọng hơn để ưu tiên thực hiện hay theo đuổi.
-        Sau hai năm phát triển trước đó, một số người có khuynh hướng ngủ quên trên chiến thắng, hoặc sa vào cảm giác tự thỏa mãn và không muốn tiếp tục nỗ lực hơn nữa. 
-        Đây cũng chính là lúc luật âm - dương (trong âm có dương, trong dương có âm) vận hành: phần tiêu cực chớp lấy cơ hội để làm dấy lên những cảm xúc thụ động như nỗi sợ, sự lo lắng, thói tranh cãi và sự bất an.
-        Những điều này có thể thể hiện theo những cách thức bất ngờ, khiến một người đáng mến trở nên khá khó ưa hoặc hống hách đến mức không chịu nổi. 
-        Hãy nhận thức rằng đây là một năm của sự hợp tác, cùng làm việc với nhau tại nhiều môi trường khác nhau (tại nhà, tại nơi làm việc, trong các trận đấu thể thao, ... ).
-        Để đạt được điều này, chúng ta cần sống yêu thương và biết chấp nhận nhiều hơn, từ đó đẩy mạnh khía cạnh phát triển của Năm thứ hai. Năm thứ hai này càng đặc biệt có ảnh hưởng mạnh đối với những người có Con số chủ đạo là 2 và 11. Không có gì ngạc nhiên nếu nhận thức tâm linh của họ tăng lên đáng kể, đến mức gần như phòng chiếu nhận thức của họ vào một chiều không gian - thời gian khác. Họ nên tạo điều kiện cho sự phát triển này diễn ra thuận lợi bằng cách dành thời gian để thiền định và tìm hiểu các vấn đề tâm linh. Khi làm vậy, họ không chỉ gia tăng sức mạnh của bản thân, mà còn giúp ích cho vai trò của họ trong việc dẫn dắt người khác. 
-        `,
-    },
-    {
-        heading: 'NĂM THỨ BA (PYN 3) - NĂM CỦA SỰ MỞ MANG TÂM TRÍ',
-        content: `
-        Giữa năm đỉnh điểm của sự thay đổi (Năm thứ chín của chu kỳ cũ) và năm cực thoái đầu tiên (Năm thứ tư) là Năm thứ ba - năm tập trung một cách đáng ngạc nhiên vào sức mạnh trí não, góp phần mang lại sự phát triển trọn vẹn cho giai đoạn này trong chu kỳ 9 năm của con người. Dưới tác động của sóng rung này, khả năng tư duy và quan sát của chúng ta được mài giũa để trở nên nhạy bén. 
-        Đây cũng là năm của sự khao khát kiến thức và sự thể hiện.
-        Một số người sẽ chọn theo đuổi một môn học thuật nào đó. Những người khác có thể khám phá cuộc sống và những triết lý sống, một số người khác nữa thì đi tìm sự khai sáng trong tiến trình phát triển cá nhân của mình. Có hai cách phổ biến để lĩnh hội sự mở mang trí tuệ trong Năm thứ ba này: hoặc thông qua một khóa học, hoặc thông qua việc du ngoạn đó đây . Cho dù bạn chọn hình thức nào, điều quan trọng là hãy nhận thức được rằng đây là năm mà sự phát triển trí nhớ trở thành thiết yếu, vì sóng rung của số 3 là cánh cổng dẫn vào tâm trí thông qua trí nhớ. Chúng ta cần nhận thức được rằng trí nhớ là nền tảng của lòng tự tôn và sự tự tin, đồng thời là chiếc cầu nối giữa Ý thức và vô thức. 
-        Quá trình không ngừng mở rộng khả năng và sự nhạy bén của trí nhớ sẽ tạo ra sự khác biệt rõ y ràng giữa những người đang lão hóa và những người “ trẻ mãi không già ".
-        Ở khía cạnh nhẹ nhàng hơn của Năm thứ ba, chúng ta nên nhận ra nhu cầu cân bằng cuộc sống bằng cách dành thời gian cho niềm vui, những buổi tụ tập bạn bè và những câu chuyện dí dỏm. Những người Có Con số chủ đạo 3 sẽ đặc biệt “ ăn rơ ” với sóng rung của Năm thứ ba này, nhưng họ cần học cách kiểm soát lý trí cao độ của mình để đảm bảo nó không lấn át cảm xúc. Quá trình nâng cao mức độ nhạy bén của tư duy mà những người này sẽ trải nghiệm trong Năm thứ ba cần được hướng vào những nhận thức mang tính xây dựng, để có thể mang lại sự thỏa mãn cho bản thân họ và sự bình yên cho những người xung quanh họ - nhưng những người này sẽ trở nên mệt mỏi với tính lý trí thái quá và trở thành nạn nhân của thói chỉ trích của họ.
-        `,
-    },
-    {
-        heading: 'NĂM THỨ TƯ (PYN 4) - NĂM CỦA SỰ CỦNG CỐ NỘI LỰC',
-        content: `
-        Các yếu tố về thể chất và vật chất sẽ chiếm thế thượng phong trong năm “ chạm đáy ” này. Sự nghỉ ngơi và ổn định là điều kiện thiết yếu để tái tạo năng lượng và củng cố nội lực sau 5 năm phát triển trước đó. Đây là một năm “ vuông vức ” khi mọi thứ đều được đem ra cân đong đo đếm và những khía cạnh không được mong muốn sẽ bị loại bỏ, như dây leo được cắt tỉa trong mùa đông để có chỗ đâm chồi nảy lộc vào mùa xuân kế tiếp. Đây là một năm lý tưởng để hòa hợp Thể Cơ bản (bao gồm cơ thể và cảm xúc) , Thể Ý thức (bao gồm tư duy và ý tưởng) với Thể Siêu thức (phần linh hồn vĩnh cửu).
-        Những người không lắng nghe nhu cầu nghỉ ngơi và điều chỉnh sẽ thấy bản thân rơi vào trạng thái không hài hòa - ví dụ như cảm thấy mọi thứ đều bế tắc, không có sự hòa hợp trong nội tâm - từ đó dẫn đến sự uất giận, rối rắm và sợ hãi. Trong năm này, những nỗ lực thay đổi nào lớn trong Công việc hoặc lối sống đều hiếm khi thành công, mà thường gây ra những tổn thất về tài chính, sức khỏe, hoặc cả hai. Đối với những người vốn đã nhạy cảm và dễ bị căng thẳng thần kinh, trong Năm thứ tư họ cần đặc biệt cần trọng để tránh bất hòa với những người xung quanh. Một kỳ nghỉ thư giãn sẽ có ích nhất cho những người này. Người có con số chủ đạo 4 thường chịu tác động mạnh nhất trong Năm thứ tư, do đó họ sẽ tỏ ra khó chịu trước ảnh hưởng của sóng rung này. Họ thường không thể nhận ra đây là một năm củng cố nội lực, mà thay vào đó thường ra sức thúc đẩy những tiến triển mà họ đã có được trong bốn năm trước. Hậu quả là hệ thần kinh của họ rơi vào tình trạng cực kỳ căng thẳng.
-        Những người này cần nghỉ ngơi và giảm thiểu những tác động làm nhiều cảm xúc, chẳng hạn như tránh xem ti - vi quá nhiều, tránh xem các bộ phim trinh thám kịch tính, tránh tranh cãi tại nơi làm việc và tại nhà, đồng thời kết hợp với một chế độ dinh dưỡng phù hợp.
-        `,
-    },
-    {
-        heading: 'NĂM THỨ NĂM (PYN 5) - NĂM CỦA TỰ DO',
-        content: `
-        Đây là một năm mà các yếu tố cảm xúc, tinh thần và tâm linh thể hiện rất rõ.
-        Sóng rung của năm này sẽ kết nối cực trùng của năm trước đó với đỉnh sáng tạo của năm sau, kích hoạt năng lượng của sự tự do, thứ được tạo thành bởi nhận thức tâm linh và khả năng biểu đạt cá nhân được nâng tầm. Điều này dẫn đến sự phát triển năng lực của chúng ta, để thoát khỏi sự ràng buộc về vật chất và sự gò bó của xã hội, thay vào đó là sự tập trung vào biểu đạt nghệ thuật, một cách chuyên nghiệp hoặc như một sở thích. Một số người sẽ bắt đầu xây dựng nền tảng cho con đường sự nghiệp mới dưới tác động của sóng rung này.
-        Một số người khác thì khám phá sự tự do trong việc chuyển nhà, dọn về quê và thoát khỏi sự bó buộc của đời sống đô thị. Những người có Con số chủ đạo 5 thường trở nên ám ảnh với khát khao tự do trong Năm thứ năm này. Tuy nhiên, họ cần nhận ra rằng họ không phải lúc nào cũng cần sự tự do về mặt thể chất - dù đôi khi hoàn cảnh khiến họ rất dễ tin như vậy, từ đó sử dụng lý trí để bao biện và che giấu sự trống rỗng trong phương diện thấu hiểu bản thân. Điều mà họ cần nhất là sự tự do biểu đạt, thứ có thể đạt được qua nhiều hình thức nghệ thuật khác nhau, như âm nhạc, hội họa, thủ công mỹ nghệ... hoặc bất kỳ hình thức nào tương tự để nuôi dưỡng sự cân bằng trong tâm hồn, từ đó giúp họ đạt được sự an tĩnh, bình yên.
-        `,
-    },
-    {
-        heading: 'NĂM THỨ SÁU (PYN 6) NĂM CỦA SỰ SÁNG TẠO',
-        content: `
-        Đây có thể được gọi là một năm đỉnh cao “ mini ” , tập trung vào những năng lượng được tích lũy thông qua các hoạt động sáng tạo. 
-        Những dự án sáng tạo mới được thực hiện trong năm này sẽ có nhiều khả năng thành công nhất, đặc biệt là nếu chúng hướng đến mục đích nâng cao chất lượng cuộc sống con người. 
-        Đây là một năm mà sự hình thành của bất kỳ một doanh nghiệp nào Có đầu tư nghiêm túc đều sẽ có lợi. Đây cũng là một năm của gia đình và các mối quan hệ cá nhân.
-        Các hoạt động sáng tạo có liên quan đến gia đình sẽ được thúc đẩy bởi sóng rung của Năm thứ sáu. 
-        Trong các mối quan hệ, nhiều người sẽ cảm thấy an tâm, hoặc sẽ giải tỏa những hiểu lầm và vướng mắc.
-        Nếu người ta cứ ngoan cố bám víu các năng lượng tiêu cực thì Năm thứ sáu sẽ là năm khó khăn nhất, gây ra sự lo lắng tột độ, các cuộc tranh cãi và sự oán giận. Rất rõ ràng, bài học của năm này là đối mặt với bản chất của sự việc như nó vốn có. Bên cạnh đó, hãy hiểu rằng để có một cuộc sống dễ chịu thì sự chân thành phẩm giá và thái độ tích cực là rất quan trọng. Nếu chúng ta làm được như vậy thì đây sẽ là một năm đáng thỏa mãn, tràn đầy hạnh phúc, những thành quả sáng tạo và thành công tài chính.
-        Người có Con số chủ đạo 6 sẽ chịu nhiều thử thách trong Năm thứ sáu, vì dưới sự tác động của sóng rung số 6, tính sáng tạo và chính trực của họ sẽ được nhấn mạnh và kết hợp với nhau, tạo ra một giai đoạn tràn đầy sức mạnh nhưng cũng có tính thanh lọc. Những người quyết tâm theo đuổi tính tích cực của số 6 sẽ thấy tính sáng tạo của mình được kích hoạt mạnh mẽ, và chắc chắn họ sẽ chạm đến hạnh phúc ở một tầm cao mới. Tuy nhiên, nhiều người có Con số chủ đạo 6 vẫn chưa nhìn thấy ánh sáng, vẫn lựa chọn vùi mình trong hố sâu tiêu cực, để cho sự lo lắng và bất an thường xuyên xâm chiếm cuộc sống của họ. Họ đang bệnh và sẽ chỉ càng bệnh nặng hơn, vì cơ thể họ ngày càng bị rút hết năng lượng và thái độ sống của họ càng khiến họ Cô độc hơn. Cách chữa trị duy nhất là họ phải đón nhận thái độ tích cực và sáng tạo trong cuộc sống. 
-        `,
-    },
-    {
-        heading: 'NĂM THỨ BẢY (PYN 7) - NĂM CỦA SỰ TẬP TRUNG VƯỢT CHƯỚNG NGẠI',
-        content: `
-        Tương tự như Năm thứ tư, đây là một năm trũng để tập trung củng cố nội lực và không nên có những bước thay đổi nào quá lớn. 
-        Tuy nhiên, Năm thứ bảy vô cùng có ý nghĩa, vì đây là giai đoạn mà chúng ta học cách tập trung cao độ vào việc xem xét sự phát triển của những năm trước để hiểu cuộc đời của mình hơn. 
-        Theo cách đó, đây là năm thiết yếu để học hỏi từ các trải nghiệm cá nhân.
-        Đối với nhiều người, điều này đồng nghĩa với sự mất mát vì một thất bại nào đó, để qua đó họ nhận ra và áp dụng Sự hướng dẫn đến từ những nguồn năng lượng cao hơn, được truyền tải qua sự dẫn dắt của các bậc cha mẹ, các bậc thấy... và từ sự thông thái vốn có của họ. Khi chỉ biết phản ứng một cách thiếu suy nghĩ trong cuộc sống, chúng ta tự khiến bản thân phải đón nhận những phương pháp chỉnh đốn nghiêm khắc - thứ mà chúng ta hay gọi là “ báo ứng nhãn tiền ” , để từ đó điều chỉnh lại lối sống của mình. Và sự chỉnh đốn này thường sẽ gây ra tổn thất về tiền bạc, sức khỏe hoặc tình cảm. 
-        Những tổn thương này đều có lý do của chúng chứ không phải xuất hiện ngẫu nhiên, vì chúng được tạo ra để đánh thức và đưa chúng ta quay về Con đường tiến hóa của mình.
-        Những người khôn ngoan sẽ tránh mọi sự thay đổi lớn về tài chính hoặc công việc trong Năm thứ bảy, vì đây là giai đoạn của sự ổn định chứ không phải mở rộng, của quá trình cắt bỏ những cành cây khô để lấy chỗ cho sự phát triển mới trong những năm kế tiếp. Đây cũng là một năm rất phù hợp để chia sẻ hoặc hướng dẫn người khác, vì nhiều cơ hội sẽ xuất hiện để chúng ta có dịp dẫn dắt người khác hướng đến mức độ hiểu biết cao hơn. Người có Con số chủ đạo 7 thường chịu những thử thách hay tổn thất khắc nghiệt nhất dưới tác động của sóng rung Năm thứ bảy, nhưng những trải nghiệm của họ còn có vẻ tồi tệ hơn nữa dưới con mắt của người ngoài.
-        Họ không lạ gì việc gặp phải những mất mát, hy sinh, vì đó là cách họ học được những bài học cuộc sống. Và mọi chuyện sẽ tiếp tục như vậy cho đến khi họ có được sự khôn ngoan và một mức độ nhận thức cá nhân nào đó. 
-        Một khi đạt được kết quả này, họ có thể trở thành những người thầy, những triết gia thực tế và những người hỗ trợ nhân loại, từ đó hoàn thành mục tiêu mà Con số chủ đạo của họ đề ra. 
-        `,
-    },
-    {
-        heading: 'NĂM THỨ TÁM (PYN 8) - NĂM CỦA SỰ ĐỘC LẬP VÀ TRÍ TUỆ',
-        content: `
-        Đây là một năm của những thay đổi nhanh chóng, khi chúng ta trỗi dậy sau một năm âm thầm củng cố nội lực và chuẩn bị bước lên con dốc để đến với đỉnh cao kế tiếp, cũng như đến với sự khởi đầu một chu kỳ phát triển mới và thịnh vượng hơn. 
-        Rất nhiều cơ hội được tạo ra dưới tác động của sóng rung này, khi chúng ta khẳng định sự độc lập của mình với sự khôn ngoan ngày càng được nâng cao.
-        Đối với một số người, đó sẽ là sự cải thiện đáng kể trong các vấn đề tài chính. Đa số mọi người sẽ có sự trưởng thành và độc lập về mặt tinh thần, khi mà họ nhận ra mình đã tiến bộ đến mức nào trong việc thấu hiểu và kiểm soát cảm xúc, cũng như biết rằng giờ đây họ đã tập trung nhiều hơn vào việc “ sống ” (chủ động hành động) thay vì chỉ “ tồn tại ” (thụ động phản ứng).
-        Những người có Con số chủ đạo 8 đã có được sự độc lập và sự khôn ngoan ở một mức độ thích hợp nào đó, đủ để cuộc sống của họ trở nên tích cực. Nếu không, họ Sẽ xây lên bức tường cách ly xung quanh mình, hiểu lầm Sự tách biệt thành độc lập và gặp khó khăn trong việc giao tiếp với những người thân thiết xung quanh mình, những người mà họ vẫn thường đón nhận như lẽ đương nhiên chứ không hề trân trọng. 
-        `,
-    },
-    {
-        heading: 'NĂM THỨ CHÍN ( PYN 9 ) - NĂM ĐỈNH ĐIỂM THAY ĐỔI',
-        content: `
-        Vì nó là thời điểm khép lại chu kỳ cũ và mở ra chu kỳ mới, trước đỉnh cao của chu kỳ 9 năm của mỗi cá nhân chính là một năm khởi động mọi sự thay đổi. Tuy nhiên, nhiều sự thay đổi diễn ra âm thầm đến mức chúng ta sẽ không nhận ra mãi cho đến cuối năm hoặc trong năm kế tiếp .
-        Những thay đổi này rất đa dạng và khác nhau trong suốt cuộc đời của mỗi người, và chúng trở nên đặc biệt rõ nét trong quảng thời gian 27 năm phát triển và trưởng thành theo mô hình Kim tự tháp (tức Bốn đỉnh cao của đời người).
-        Các khía cạnh chủ yếu của Năm thứ chín bao gồm việc di chuyển đó đây, đổi nhà, đổi công việc xây dựng mối quan hệ bạn bè mới, thường đi kèm với sự kết thúc một vài mối quan hệ hay tình bạn cũ, không còn phù hợp với hành trình mới.
-        Đây cũng là năm tuyệt vời để tất toán những món nợ cũ, cũng như xoa dịu những mối quan hệ đang bất hòa. 
-        Ở năm này, người ta thường cảm nhận mạnh mẽ về trách nhiệm con người, cũng như sự bao dung và thấu hiểu . Năm thứ chín thường đặc biệt quan trọng đối với những người có Con số chủ đạo là số 9 , vì họ sẽ cảm nhận được năng lượng mạnh mẽ của nó trong mỗi hành động. Đây dự kiến sẽ là năm của sự thành công đáng kể đối với những người này.
-        Năm thứ chín là đỉnh cao trong chu kỳ phát triển 9 năm, do đó, trách nhiệm và lý tưởng của người có Con số chủ đạo 9 sẽ càng được nâng cao trong bất kỳ lĩnh vực nhân văn nào mà họ tham gia. 
-        Tuy nhiên, nếu họ vốn đã nhiều tham vọng, năm thứ chín sẽ càng củng cố lòng tham của họ đối với những thành công mang tính tư lợi, khiến họ kích động đến mức trở nên bất cẩn, và điều này có thể dẫn họ đến với những bài học cực kỳ đau thương.
-        Bên cạnh đó, sự cuồng nhiệt quá độ, tính kiêu ngạo và tính nghiêm túc quá mức là ba thứ có thể tước mất cơ hội tận hưởng một năm đầy thú vị của những thay đổi ngoạn mục trong cuộc đời họ. 
-        `,
-    },
 ]
 
 const Detail = () => {
@@ -929,8 +628,8 @@ const Detail = () => {
         ],
         [info],
     )
-    console.log(info.number1)
-    useLayoutEffect(() => {
+
+    useEffect(() => {
         if (!info.number1) navigate('/')
     }, [])
 
@@ -947,7 +646,7 @@ const Detail = () => {
                     <span className="text-[#F7D51A]">{`${info.day}/${info.month}/${info.year}`}</span>
                 </h2>
             </div>
-            <div className="mt-10 grid lg:grid-cols-6 gap-y-7 grid-cols-2 md:grid-cols-3">
+            <div className="mt-10 flex justify-around">
                 {data.map((item, index) => (
                     <Fragment key={index}>
                         <So
@@ -966,54 +665,8 @@ const Detail = () => {
                 <p className="rp-text">
                     {TEXT[info.number1 as number].content}
                 </p>
-                <h2 className="text-xl text-center font-bold mt-5">
-                    Số tên riêng của bạn là:{' '}
-                    <span className="text-shadow-pink">{info.sotenrieng}</span>
-                </h2>
-                <p className="rp-text mt-4">
-                    - Số tên riêng của bạn khác với số chủ đạo.
-                </p>
-                <p className="rp-text">
-                    {' '}
-                    - Nếu con số tên riêng và con số chủ đạo cùng nằm trên một
-                    trục ngang (Trục thể chất 4-7-10, trục tinh thần 2-5-8, trục
-                    trí não 3-6-9): nó sẽ làm cân bằng sức mạnh đặc trưng của
-                    trục ngang đó.
-                </p>
-                <p className="rp-text">
-                    - Nếu con số tên riêng và con số chủ đạo không cùng nằm trên
-                    một trục ngang: người sở hữu sẽ ảnh hưởng sóng rung đa dạng,
-                    từ đó mở rộng phạm vi của các đặc điểm tính cách.
-                </p>
-                <h2 className="text-xl text-center font-bold mt-5">
-                    Số linh hồn của bạn là:{' '}
-                    <span className="text-shadow-pink">{info.solinhhon}</span>
-                </h2>
-                <p className="rp-text mt-4">{SLH[info.solinhhon as number]}</p>
-                <h2 className="text-xl text-center font-bold mt-5">
-                    Số biểu đạt của bạn là:{' '}
-                    <span className="text-shadow-pink">{info.sobieudat}</span>
-                </h2>
-                <p className="rp-text mt-4">
-                    {SBD[info.sobieudat as number] || 'Nội dung chưa cập nhật'}
-                </p>
-                <h2 className="text-xl text-center font-bold mt-5">
-                    Năm cá nhân của bạn là:{' '}
-                    <span className="text-shadow-pink">{info.namcanhan}</span>
-                </h2>
-                <div className="mt-4">
-                    <Chart day={Number(info.day)} month={Number(info.month)} />
-                    <h3 className="mt-4 text-[#FFAC13] font-bold text-base text-center">
-                        {NAM[info.namcanhan as number]?.heading ||
-                            'Nội dung chưa cập nhật'}
-                    </h3>
-                    <p className="rp-text">
-                        {NAM[info.namcanhan as number]?.content ||
-                            'Nội dung chưa cập nhật'}
-                    </p>
-                </div>
             </div>
-            {/* <div className="rp-box">
+            <div className="rp-box">
                 <h3 className="rp-heading">1. CHU KỲ VẬN SỐ CỦA BẠN</h3>
                 <p className="rp-text">
                     Biểu đồ này cho biết bạn đang ở đâu trong chu kỳ vận số của
@@ -1027,10 +680,10 @@ const Detail = () => {
                 <div className="mt-10">
                     <Chart day={Number(info.day)} month={Number(info.month)} />
                 </div>
-            </div> */}
+            </div>
             <div className="rp-box mt-5">
                 <h3 className="rp-heading">
-                    CHỈ SỐ ĐƯỜNG ĐỜI (SỐ CHỦ ĐẠO) CỦA BẠN LÀ:{' '}
+                    2. CHỈ SỐ ĐƯỜNG ĐỜI (SỐ CHỦ ĐẠO) CỦA BẠN LÀ:{' '}
                     <span className="text-[#F7D51A]">
                         {chiSoDuongDoi?.type}
                     </span>
@@ -1042,13 +695,9 @@ const Detail = () => {
                     cung cấp nhiều thông tin về con người bạn và cuộc đời mà bạn
                     sẽ sống.
                 </p>
-                <p className="rp-text">
-                    {chiSoDuongDoi.content || 'Nội dung chưa cập nhật'}
-                </p>
+                <p className="rp-text">{chiSoDuongDoi.content}</p>
                 <p className="font-bold mb-2">Mối quan hệ tương thích</p>
-                <p className="rp-text">
-                    {chiSoDuongDoi.relationship || 'Nội dung chưa cập nhật'}
-                </p>
+                <p className="rp-text">{chiSoDuongDoi.relationship}</p>
             </div>
         </Layout>
     )

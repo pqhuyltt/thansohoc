@@ -947,7 +947,7 @@ const Detail = () => {
                     <span className="text-[#F7D51A]">{`${info.day}/${info.month}/${info.year}`}</span>
                 </h2>
             </div>
-            <div className="mt-10 grid lg:grid-cols-6 gap-y-7 grid-cols-2 md:grid-cols-3">
+            <div className="mt-10 flex justify-around">
                 {data.map((item, index) => (
                     <Fragment key={index}>
                         <So
@@ -1013,7 +1013,7 @@ const Detail = () => {
                     </p>
                 </div>
             </div>
-            {/* <div className="rp-box">
+            <div className="rp-box">
                 <h3 className="rp-heading">1. CHU KỲ VẬN SỐ CỦA BẠN</h3>
                 <p className="rp-text">
                     Biểu đồ này cho biết bạn đang ở đâu trong chu kỳ vận số của
@@ -1027,10 +1027,10 @@ const Detail = () => {
                 <div className="mt-10">
                     <Chart day={Number(info.day)} month={Number(info.month)} />
                 </div>
-            </div> */}
+            </div>
             <div className="rp-box mt-5">
                 <h3 className="rp-heading">
-                    CHỈ SỐ ĐƯỜNG ĐỜI (SỐ CHỦ ĐẠO) CỦA BẠN LÀ:{' '}
+                    2. CHỈ SỐ ĐƯỜNG ĐỜI (SỐ CHỦ ĐẠO) CỦA BẠN LÀ:{' '}
                     <span className="text-[#F7D51A]">
                         {chiSoDuongDoi?.type}
                     </span>

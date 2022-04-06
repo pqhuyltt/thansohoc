@@ -101,7 +101,9 @@ const Result = () => {
                     </div>
                 </div>
             </div>
-
+            <div className="mt-10 flex justify-around">
+                <So label="Số chủ đạo" color="#F3A51D" so={10} />
+            </div>
             <div className="mt-10 rounded-lg bg-[rgba(0,0,0,.4)] p-4">
                 <Chart day={Number(info.day)} month={Number(info.month)} />
                 <div className="mt-5 text-sm  text-white">
