@@ -1004,7 +1004,7 @@ const Detail = () => {
                                     if (code === secret) {
                                         setIsVerify(true)
                                     } else {
-                                        setErr('Mã không đúng!')
+                                        setErr('Mã không đúng')
                                     }
                                 }}
                                 className="h-6 ml-2 px-1 rounded-md bg-[#007BFF] text-xs block"
@@ -1012,11 +1012,7 @@ const Detail = () => {
                                 Xác nhận
                             </button>
                         </div>
-                        {err && (
-                            <span className="text-sm mt-2 text-red-400">
-                                {err}
-                            </span>
-                        )}
+                        {err && <span className="text-sm mt-2">{err}</span>}
                     </div>
                 )}
                 {isVerify && (

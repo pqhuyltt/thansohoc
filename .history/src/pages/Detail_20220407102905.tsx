@@ -923,7 +923,6 @@ const Detail = () => {
         [],
     )
     const [code, setCode] = useState<string>('')
-    const [err, setErr] = useState<string>('')
     const data = useMemo(
         () => [
             { label: 'Số chủ đạo', color: '#F3A51D', so: info.number1 },
@@ -1000,23 +999,12 @@ const Detail = () => {
                                 }
                             />
                             <button
-                                onClick={() => {
-                                    if (code === secret) {
-                                        setIsVerify(true)
-                                    } else {
-                                        setErr('Mã không đúng!')
-                                    }
-                                }}
+                                onClick={() => setIsVerify(code === secret)}
                                 className="h-6 ml-2 px-1 rounded-md bg-[#007BFF] text-xs block"
                             >
                                 Xác nhận
                             </button>
                         </div>
-                        {err && (
-                            <span className="text-sm mt-2 text-red-400">
-                                {err}
-                            </span>
-                        )}
                     </div>
                 )}
                 {isVerify && (

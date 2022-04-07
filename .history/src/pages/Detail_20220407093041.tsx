@@ -11,7 +11,6 @@ import Chart from '../components/Chart'
 import Layout from '../components/Layout'
 import So from '../components/So'
 import { SearchContext } from '../contexts/SearchContext'
-import { InputChange } from '../utils/interfaces'
 
 export const CHI_SO_DUONG_DOI = [
     {
@@ -913,8 +912,6 @@ const NAM = [
     },
 ]
 
-const secret = 'thansohoc'
-
 const Detail = () => {
     const { info } = useContext(SearchContext)
     const navigate = useNavigate()
@@ -922,8 +919,6 @@ const Detail = () => {
         () => CHI_SO_DUONG_DOI[info.number1 as number],
         [],
     )
-    const [code, setCode] = useState<string>('')
-    const [err, setErr] = useState<string>('')
     const data = useMemo(
         () => [
             { label: 'Số chủ đạo', color: '#F3A51D', so: info.number1 },
@@ -972,53 +967,6 @@ const Detail = () => {
                 <p className="rp-text">
                     {TEXT[info.number1 as number].content}
                 </p>
-                {!isVerify && (
-                    <div>
-                        <h1 className="mt-5 text-2xl font-bold text-[#F7D51A] text-center">
-                            Để đọc tiếp vui lòng làm theo hướng dẫn
-                        </h1>
-                        <p className="rp-text mt-3">
-                            - <strong>Bước 1</strong>: Truy cập vào Google và gõ
-                            "Tra cứu thần số học".
-                        </p>
-                        <p className="rp-text">
-                            - <strong>Bước 2</strong>: Cuộn đến cuối trang để
-                            lấy mã.
-                        </p>
-                        <p className="rp-text">
-                            - <strong>Bước 3</strong>: Nhập mã vào ô input bên
-                            dưới.
-                        </p>
-                        <div className="flex items-center mt-3">
-                            <input
-                                className="w-[240px] h-6 rounded-md bg-white text-[#333] text-[15px] border-none outline-none px-2"
-                                type="password"
-                                placeholder="Nhập mã..."
-                                value={code}
-                                onChange={(e: InputChange) =>
-                                    setCode(e.target.value)
-                                }
-                            />
-                            <button
-                                onClick={() => {
-                                    if (code === secret) {
-                                        setIsVerify(true)
-                                    } else {
-                                        setErr('Mã không đúng!')
-                                    }
-                                }}
-                                className="h-6 ml-2 px-1 rounded-md bg-[#007BFF] text-xs block"
-                            >
-                                Xác nhận
-                            </button>
-                        </div>
-                        {err && (
-                            <span className="text-sm mt-2 text-red-400">
-                                {err}
-                            </span>
-                        )}
-                    </div>
-                )}
                 {isVerify && (
                     <div>
                         <h2 className="text-xl text-center font-bold mt-5">
