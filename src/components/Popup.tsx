@@ -13,7 +13,7 @@ const Popup: React.FC<IPopupProps> = ({ setShow }) => {
 
     const handleCoppy = () => {
         if (timeoutRef.current) clearTimeout(timeoutRef.current)
-        navigator.clipboard.writeText(`thansohoc`)
+        navigator.clipboard.writeText(`Đăng ký binance`)
         btnRef.current && (btnRef.current.textContent = 'Coppied')
         timeoutRef.current = setTimeout(() => {
             btnRef.current && (btnRef.current.textContent = 'Coppy')
