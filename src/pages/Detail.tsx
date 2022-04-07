@@ -13,7 +13,7 @@ import So from '../components/So'
 import { SearchContext } from '../contexts/SearchContext'
 import { InputChange } from '../utils/interfaces'
 import parse from 'html-react-parser'
-import dinh from '../assets/images/dinh.png'
+import dinh from '../assets/images/Bieu-do-dinh.png'
 import Popup from '../components/Popup'
 
 export const CHI_SO_DUONG_DOI = [
