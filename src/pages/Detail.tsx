@@ -14,6 +14,7 @@ import { SearchContext } from '../contexts/SearchContext'
 import { InputChange } from '../utils/interfaces'
 import parse from 'html-react-parser'
 import dinh from '../assets/images/dinh.png'
+import Popup from '../components/Popup'
 
 export const CHI_SO_DUONG_DOI = [
     {
@@ -1180,6 +1181,7 @@ const Detail = () => {
     )
     const [code, setCode] = useState<string>('')
     const [err, setErr] = useState<string>('')
+    const [show, setShow] = useState<boolean>(false)
     const data = useMemo(
         () => [
             { label: 'Số chủ đạo', color: '#F3A51D', so: info.number1 },
@@ -1202,6 +1204,7 @@ const Detail = () => {
 
     return (
         <Layout>
+            {show && <Popup setShow={setShow} />}
             <div className="mt-10 flex flex-col items-center md:text-3xl text-2xl font-bold select-none cursor-default text-white">
                 <p className="text-center">BÁO CÁO THẦN SỐ HỌC</p>
                 <h2 className="mt-3">
@@ -1237,21 +1240,9 @@ const Detail = () => {
                         <h1 className="mt-5 text-2xl font-bold text-[#F7D51A] text-center">
                             Để đọc tiếp vui lòng làm theo hướng dẫn
                         </h1>
-                        <p className="rp-text mt-3">
-                            - <strong>Bước 1</strong>: Truy cập vào Google và gõ
-                            "Tra cứu thần số học".
-                        </p>
-                        <p className="rp-text">
-                            - <strong>Bước 2</strong>: Cuộn đến cuối trang để
-                            lấy mã.
-                        </p>
-                        <p className="rp-text">
-                            - <strong>Bước 3</strong>: Nhập mã vào ô input bên
-                            dưới.
-                        </p>
-                        <div className="flex max-w-[240px] items-center mt-3">
+                        <div className="flex max-w-[280px] mx-auto w-full items-center mt-4">
                             <input
-                                className="flex-1 h-6 rounded-md bg-white text-[#333] text-[15px] border-none outline-none px-2"
+                                className="flex-1 h-8 rounded-md bg-white text-[#333] text-[15px] border-none outline-none px-2"
                                 type="password"
                                 placeholder="Nhập mã..."
                                 value={code}
@@ -1267,10 +1258,22 @@ const Detail = () => {
                                         setErr('Mã không đúng!')
                                     }
                                 }}
-                                className="h-6 min-w-[60px] flex-shrink-0 ml-2 px-1 whitespace-nowrap rounded-md bg-[#007BFF] text-xs block"
+                                className="h-8 min-w-[60px] flex-shrink-0 ml-2 px-1 whitespace-nowrap rounded-md bg-[#007BFF] text-xs block"
                             >
                                 Xác nhận
                             </button>
+                        </div>
+                        <div className="flex">
+                            <div
+                                onClick={setShow.bind(this, true)}
+                                className="mt-5 cursor-pointer py-2 px-4 rounded-lg uppercase inline-block mx-auto font-bold text-white"
+                                style={{
+                                    backgroundImage:
+                                        'linear-gradient(-45deg, #6a5af9, #d66efd)',
+                                }}
+                            >
+                                Lấy mã xác nhận ngay
+                            </div>
                         </div>
                         {err && (
                             <span className="text-sm mt-2 text-red-400">
