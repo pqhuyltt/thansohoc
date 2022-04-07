@@ -1,4 +1,4 @@
-import React, { MouseEvent } from 'react'
+import React, { MouseEvent, useRef } from 'react'
 import { IoMdClose } from 'react-icons/io'
 import gg from '../assets/images/gg.png'
 import lp from '../assets/images/lp.png'
@@ -8,6 +8,18 @@ interface IPopupProps {
 }
 
 const Popup: React.FC<IPopupProps> = ({ setShow }) => {
+    const btnRef = useRef<HTMLButtonElement>(null)
+    const timeoutRef = useRef<ReturnType<typeof setTimeout>>()
+
+    const handleCoppy = () => {
+        if (timeoutRef.current) clearTimeout(timeoutRef.current)
+        navigator.clipboard.writeText(`${window.location.href}`)
+        btnRef.current && (btnRef.current.textContent = 'Coppied')
+        timeoutRef.current = setTimeout(() => {
+            btnRef.current && (btnRef.current.textContent = 'Coppy')
+        }, 2000)
+    }
+
     return (
         <div
             onClick={setShow.bind(this, false)}
@@ -28,16 +40,18 @@ const Popup: React.FC<IPopupProps> = ({ setShow }) => {
                     <h2 className="text-xl font-bold text-center mt-[40px] mb-6">
                         Các bạn vui lòng làm theo hướng dẫn
                     </h2>
-                    <div className="flex flex-wrap gap-y-2">
+                    <div className="">
                         <strong className="mr-2">Bước 1:</strong> Copy nhanh{' '}
-                        <div
-                            onClick={() => {
-                                navigator.clipboard.writeText(`Đăng ký binance`)
-                            }}
-                            className="ml-2 bg-red-600 inline-block cursor-pointer font-medium text-white px-1"
-                        >
+                        <div className="ml-2 bg-red-600 inline-block font-medium text-white px-1">
                             Đăng ký binance
                         </div>
+                        <button
+                            onClick={handleCoppy}
+                            ref={btnRef}
+                            className="h-6 ml-2 text-white px-1 whitespace-nowrap rounded-md bg-[#007BFF] text-xs inline-block"
+                        >
+                            Coppy
+                        </button>
                     </div>
                     <div className="mt-6">
                         <strong className="mr-2">Bước 2:</strong> Click{' '}
