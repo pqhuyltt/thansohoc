@@ -23,4 +23,13 @@ export interface ISearchInput {
     sobieudat?: number
     number2?: number
     number1?: number
+    dinh?: {
+        dinh1: number
+        dinh2: number
+        dinh3: number
+        dinh4: number
+    }
+    dayNum?: number
+    monthNum?: number
+    yearNum?: number
 }

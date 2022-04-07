@@ -124,4 +124,8 @@ body::-webkit-scrollbar-track {
     .rp-text {
         @apply whitespace-pre-wrap text-base leading-[1.8];
     }
+
+    .rp-text strong {
+        color: #ffac13;
+    }
 }

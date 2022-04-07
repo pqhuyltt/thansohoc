@@ -107,6 +107,10 @@ const Home = () => {
         )
         const solinhhon = calc(tinhSoTuChu(khongphuam))
         const sobieudat = calc(tinhSoTuChu(khongnguyenam))
+        const dinh1 = calc(dayNum + monthNum, true)
+        const dinh2 = calc(dayNum + calc(yearNum), true)
+        const dinh3 = calc(dinh1 + dinh2, true)
+        const dinh4 = calc(monthNum + calc(yearNum))
         setInfo({
             ...input,
             day: input.day,
@@ -123,6 +127,15 @@ const Home = () => {
             solinhhon,
             sobieudat,
             sotenrieng: calc(solinhhon + sobieudat),
+            dinh: {
+                dinh1,
+                dinh2,
+                dinh3,
+                dinh4,
+            },
+            dayNum,
+            monthNum,
+            yearNum: calc(yearNum),
         })
 
         if (input.withLove) return navigate('/tinh-duyen')
