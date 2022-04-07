@@ -1240,28 +1240,37 @@ const Detail = () => {
                         <h1 className="mt-5 text-2xl font-bold text-[#F7D51A] text-center">
                             Để đọc tiếp vui lòng làm theo hướng dẫn
                         </h1>
-                        <div className="flex max-w-[280px] mx-auto w-full items-center mt-4">
-                            <input
-                                className="flex-1 h-8 rounded-md bg-white text-[#333] text-[15px] border-none outline-none px-2"
-                                type="password"
-                                placeholder="Nhập mã..."
-                                value={code}
-                                onChange={(e: InputChange) =>
-                                    setCode(e.target.value)
-                                }
-                            />
-                            <button
-                                onClick={() => {
-                                    if (code === secret) {
-                                        setIsVerify(true)
-                                    } else {
-                                        setErr('Mã không đúng!')
-                                    }
-                                }}
-                                className="h-8 min-w-[60px] flex-shrink-0 ml-2 px-1 whitespace-nowrap rounded-md bg-[#007BFF] text-xs block"
-                            >
-                                Xác nhận
-                            </button>
+                        <div className="flex flex-col items-center">
+                            <div>
+                                <div className="flex max-w-[280px] w-full items-center mt-4">
+                                    <input
+                                        className="flex-1 h-8 rounded-md bg-white text-[#333] text-[15px] border-none outline-none px-2"
+                                        type="password"
+                                        placeholder="Nhập mã..."
+                                        value={code}
+                                        onChange={(e: InputChange) =>
+                                            setCode(e.target.value)
+                                        }
+                                    />
+                                    <button
+                                        onClick={() => {
+                                            if (code === secret) {
+                                                setIsVerify(true)
+                                            } else {
+                                                setErr('Mã không đúng!')
+                                            }
+                                        }}
+                                        className="h-8 min-w-[60px] flex-shrink-0 ml-2 px-1 whitespace-nowrap rounded-md bg-[#007BFF] text-xs block"
+                                    >
+                                        Xác nhận
+                                    </button>
+                                </div>
+                                {err && (
+                                    <p className="text-sm mt-2 text-red-400">
+                                        {err}
+                                    </p>
+                                )}
+                            </div>
                         </div>
                         <div className="flex">
                             <div
@@ -1275,11 +1284,6 @@ const Detail = () => {
                                 Lấy mã xác nhận ngay
                             </div>
                         </div>
-                        {err && (
-                            <span className="text-sm mt-2 text-red-400">
-                                {err}
-                            </span>
-                        )}
                     </div>
                 )}
                 {isVerify && (
