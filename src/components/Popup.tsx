@@ -13,7 +13,7 @@ const Popup: React.FC<IPopupProps> = ({ setShow }) => {
 
     const handleCoppy = () => {
         if (timeoutRef.current) clearTimeout(timeoutRef.current)
-        navigator.clipboard.writeText(`Đăng ký binance`)
+        navigator.clipboard.writeText(`đăng ký binance`)
         btnRef.current && (btnRef.current.textContent = 'Coppied')
         timeoutRef.current = setTimeout(() => {
             btnRef.current && (btnRef.current.textContent = 'Coppy')
@@ -43,7 +43,7 @@ const Popup: React.FC<IPopupProps> = ({ setShow }) => {
                     <div className="">
                         <strong className="mr-2">Bước 1:</strong> Copy nhanh{' '}
                         <div className="ml-2 bg-red-600 inline-block font-medium text-white px-1">
-                            Đăng ký binance
+                            đăng ký binance
                         </div>
                         <button
                             onClick={handleCoppy}
