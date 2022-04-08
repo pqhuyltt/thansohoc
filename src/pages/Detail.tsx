@@ -15,6 +15,13 @@ import { InputChange } from '../utils/interfaces'
 import parse from 'html-react-parser'
 import dinh from '../assets/images/Bieu-do-dinh.png'
 import Popup from '../components/Popup'
+import { getArrNum } from '../utils/getArrNum'
+import arr1 from '../assets/images/arr1.png'
+import arr2 from '../assets/images/arr2.png'
+import arr3 from '../assets/images/arr3.png'
+import arr4 from '../assets/images/arr4.png'
+import { arrows } from '../utils/arrows'
+import { solanlap } from '../utils/solanlap'
 
 export const CHI_SO_DUONG_DOI = [
     {
@@ -1170,6 +1177,455 @@ Trong suốt năm thứ nhất của giai đoạn đỉnh cao mang ảnh hưởn
     `,
 ]
 
+const SO1 = [
+    {
+        heading: '',
+        content: '',
+    },
+    {
+        heading: 'MỘT SỐ 1 TRONG BIỂU ĐỒ (2)',
+        content: `Những người có Biểu đồ ngày sinh có một số 1 thường gặp một chút khó khăn trong việc thể hiện bản thân qua ngôn ngữ. Điều này không có nghĩa là họ không thể nói chuyện một cách suôn sẻ, mà là họ khó diễn đạt được cảm xúc nội tâm của mình.
+Họ có thể nói rất lưu loát và đầy thuyết phục về các đề tài không liên quan đến diễn đạt cảm xúc cá nhân, nhưng thường không biết cách biểu đạt bản thân hoặc diễn tả những gì mình đang cảm thấy. Chỉ khi nào họ học được cách làm chủ bản thân - kết quả của quá trình trưởng thành và thấu hiểu - thì điều này mới được cải thiện. Đôi khi họ sẽ cố ý nói ra những lời hoàn toàn trái ngược với suy nghĩ thật sự của mình như một kiểu phản ứng tự vệ - tức là họ Cố ý làm tổn thương hoặc xúc phạm người khác để tự bảo vệ bản thân mình. Điều này khiến vấn đề ban đầu trở nên nghiêm trọng hơn và gây ra những cuộc tranh cãi gay gắt. Họ cần tập suy nghĩ cẩn trọng trước khi phát biểu, và họ có thể làm được điều ấy bằng cách học kiểm soát phản ứng của bản thân trước các ý kiến, lời phê bình, vì những lời nói đã nói ra thì không thể thu hồi và cảm giác tổn thương rất khó được chữa lành. Để cải thiện hạn chế này, hãy lấy một quyển số trắng và ghi ngày tháng hiện tại. Sau đó, vào buổi tối, trước khi đi ngủ, hãy dành vài phút viết ra những suy nghĩ và cảm nhận của bạn về ngày hôm nay. Nhớ ghi rõ cả những việc bạn vốn dĩ muốn làm, những lời bạn vốn dĩ muốn nói, nhưng rốt cuộc đã không thực hiện được và những điều bạn đã nói hay lỡ làm mà bạn ước gì bạn đã không làm hay nói. Buổi sáng hôm sau, bạn hãy đọc to toàn bộ nội dung đó trước một tấm gương lớn và quan sát ngôn ngữ cơ thể bạn.
+Hãy làm điều này thường xuyên và bạn sẽ nhìn thấy sự tự tin trong việc diễn đạt bản thân được cải thiện thấy rõ, về cuộc sống, những người có một số 1 thường cảm thấy thiếu một điều gì đó trong cuộc sống, mặc dù thoạt nhìn họ rất đủ đầy ở một số mặt.
+`,
+    },
+    {
+        heading: 'HAI SỐ 1 TRONG BIỂU ĐỒ (11)',
+        content: `
+Người có hai số 1 (11) trong Biểu đồ ngày sinh là người may mắn nhất trong cả nhóm, bởi sự cân bằng trời cho trong việc diễn đạt nội tâm. Đây là một đặc điểm nên được sử dụng một cách khôn ngoan - không bao giờ lạm dụng nó cho mục đích thao túng người khác. (Đồng thời hãy nhớ đừng mất kiên nhẫn với những người không may mắn không có hai số 1 giống bạn, đặc biệt nếu đó là người yêu hoặc người bạn đời của bạn.) Người có hai số 1 thường có khả năng nhìn nhận các vấn đề hay các cuộc tranh luận theo cả hai mặt, và vì vậy họ hoàn toàn có khả năng chuyển sang hướng đối lập trong một cuộc thảo luận nếu quan điểm của bên đó có vẻ có giá trị hơn. Điều này giúp họ không bị sa vào tư duy bảo thủ, thứ khiến tầm hiểu biết bị giới hạn một chiều, và vì thế bản thân họ cũng thường ít khi bắt bẻ những “ lỗi sai ” của người khác. Có thể nói người có hai số 1 trong biểu đồ thường dễ có cuộc sống cân bằng, an vui, bất kể cuộc sống có diễn ra thế nào. Về nhận định này, tôi có hai điều muốn chia sẻ kỹ hơn : Một Biểu đồ ngày sinh sẽ bao gồm rất nhiều yếu tố chi tiết bên trong, yếu tố này hòa quyện với yếu tố kia, hay yếu tố này mâu thuẫn với yếu tố kia, làm giảm giá trị của yếu tố kia.
+Ví dụ, nếu một người có được hai số 1 nhưng lại trống hoàn toàn cột giữa (4-5-6 - mang ý nghĩa Mũi tên uất giận, vì họ mãi không đạt được điều mình khát khao muốn có) , và đặc biệt nếu có thêm số 7 (hay 77, hay 777) thì người đó rất dễ gặp phải một trong những điều bất ý lớn trong các khía cạnh: sức khỏe, tiền tài, tình yêu, sự nghiệp ... Nhưng nhờ sức mạnh của hai số 1, người đó vẫn hay dùng lòng tin để tiếp thu cái mới, từ đó khiến bản thân gặp nhiều thiệt thòi. Tuy nhiên, nhờ trong Biểu đồ ngày sinh của tôi có hai số 1 (11) nên tôi có được một đặc điểm (như đã đề cập ở trên) : dễ dàng nhìn được hai mặt của một vấn đề, chịu thay đổi quan điểm một khi thấy các quan điểm khác cũng đúng hoặc có giá trị. Điều này đặc biệt ý nghĩa với các vấn đề mang tính trực giác, đòi hỏi sự hiểu biết sâu xa hơn những gì mắt thường nhìn thấy. Cho nên hiện giờ tôi đã thôi không còn dùng khái niệm “ thấy mới tin ” nữa, mà bắt đầu lắng tâm mình hơn, mỗi ngày một phát huy trực giác (còn gọi là “ con mắt ” bên trong) để cảm mọi việc, nhờ vậy tôi có thể tiếp thu nhiều cái mới mẻ hơn, rộng lớn hơn. Như vậy, hai số 1 (11) đã giúp tôi hóa giải bớt tính “ cứng đầu ” của Mũi tên 1-4-7 đó.
+Trở lại với những đặc điểm nổi bật của hai số 1 (11) :
+Chính nhờ những yếu tố tích cực, dung hòa và cân bằng này mà người có hai số 1 trong biểu đồ dễ trở thành các chính trị gia thành công hoặc người của công chúng, người nổi tiếng. Yếu tố hai số 1 làm nổi bật nhận thức về con người, cũng như cách biểu đạt bản thân và khả năng nhìn nhận vấn đề một cách đa chiều, không phiến diện, giúp giảm thiểu khả năng bị hiểu lầm.
+        `,
+    },
+    {
+        heading: 'BA SỐ 1 TRONG BIỂU ĐÔ (111)',
+        content: `
+Với những người có ba số 1 trong Biểu đồ ngày sinh, có hai khả năng khá đối lập xảy ra trong thực tế. Khả năng thường gặp nhất là những người này thuộc dạng nói rất nhiều, thường có mặt trong rất nhiều cuộc trò chuyện sôi nổi mà trong đó họ trở nên nổi bật và thú vị. Nhìn chung họ thấy cuộc sống dễ chịu và thường cố gắng chia sẻ điều đó với những người xung quanh, Nhóm thứ hai là những người cũng có ba số 1 nhưng lại không có số nào ở Trục ngang Tinh thần (tức là không có các số 2-5-8) . Những người này khá im lặng, hướng nội, bẽn lẽn, đặc biệt là với người lạ. Tuy nhiên, họ có thể hoạt bát và nói nhiều khi trò chuyện với bạn bè thân thiết hoặc người thân trong nhà - đó là những lúc họ cảm thấy thoải mái. Những người này thường dễ diễn đạt cảm xúc hay nội tâm của mình bằng cách viết, vì khi đó dòng suy nghĩ của họ liền mạch hơn, không bị cản trở bởi sự nhạy cảm quá mức của họ. Nếu bạn thuộc nhóm này mà chưa biết sức mạnh khả năng viết lách của mình, hãy thử xem sao. Hãy xem viết lách là một cách để tập diễn đạt bản thân cho trôi chảy, khơi thông những cảm xúc rối rắm tắc nghẽn trong lòng, cũng như là một cách để tự chữa lành. Ngoài ra, còn một khả năng nữa ở những người có ba số 1 mà bản thân tôi quan sát thấy, đó là tâm trạng lúc vui lúc buồn. Tùy theo những yếu tố khác trong Biểu đồ ngày sinh mà tỷ lệ vui buồn sẽ gia giảm khác nhau, tốt nhất thì được 5/5, còn không thì 4/6, không nữa thì 3/7, lúc vui họ có xu hướng nói rất nhiều, lúc buồn thì ngồi im, không quan tâm tới ai.
+        `,
+    },
+    {
+        heading: `BỐN SỐ 1 TRONG BIỂU ĐỒ (1111)`,
+        content: `
+Người có bốn số 1 trong ngày sinh thường gặp trục trặc với vấn đề diễn đạt bằng lời, và vì vậy, rất dễ bị người khác hiểu lầm. Nhưng cuộc sống nhanh chóng dạy họ giấu đi những cảm xúc rối rắm bằng một nụ cười, cho dù họ có khuynh hướng dẫn tiếp tục chịu đựng bên trong cho đến khi tự có ý thức giải tỏa những cảm xúc đó và sống lẹ làng hơn. Nói một cách dễ hiểu, những người có bốn số 1 thường tự làm mình khổ tâm. Số 1 mang đặc tính về “ cái tôi ” của mỗi người, vậy nên hãy tưởng tượng một người có đến bốn lần “ cái tôi ” như vậy sẽ như thế nào. Họ có “ cái tôi rất mạnh, nhưng rất khó diễn đạt những cảm giác sâu đậm như vậy về bản thân mình. Vì vậy, Thầy David khuyên: vì hạnh phúc của chính mình và của những người thân, những người có bốn số 1 phải học cách kiểm soát cảm xúc của mình. Khi họ thả lỏng hơn, bớt căng thẳng, bớt thiếu tự tin (đôi khi họ không nhận ra điều này, mà trái lại, họ có thể cảm thấy mình quá tự tin là đằng khác), họ sẽ cảm thấy ít bị cản trở hơn và diễn đạt cảm xúc của mình một cách thoải mái hơn, thay vì cứ đè nén những sầu muộn, rối rắm trong nội tâm của mình.
+        `,
+    },
+    {
+        heading: `NĂM SỐ 1 TRONG BIỂU ĐỒ (11111) HOẶC NHIỀU HƠN`,
+        content: `
+Với năm hay sáu số 1 trên Biểu đồ ngày sinh, “ cái tôi ” thường bị đè nén để giảm bớt các khó khăn trong việc diễn đạt cảm xúc cá nhân. Những người trẻ tuổi thuộc nhóm này thường cảm thấy buồn vì bị mọi người xung quanh hiểu lầm. Điều này dẫn đến sự tách rời, từ đó gây gia sự cô độc. Họ có thể phát triển theo hướng bị ám ảnh với ngoại hình và hành động của mình, cũng như thường gắn rất nhiều gương trong nhà nhưng lại có xu hướng giấu chúng đi để tránh người khác nghĩ họ quá tự tôn. Nhưng họ vẫn bí mật ngắm mình trong gương mỗi khi có dịp. Tính vị kỷ và “ tự lừa mình ” này có thể gây ra sự mất cân bằng về tâm thần, chúng ta có thể giúp trẻ thuộc nhóm có quá nhiều số 1 gia tăng nhận thức bằng cách cho chúng tham gia nhiều hoạt động nghệ thuật khác nhau, như viết lách, làm thơ, vẽ, làm đồ gốm,... Điều này có thể áp dụng được cho trẻ mọi lứa tuổi.
+        `,
+    },
+]
+
+const SO2 = [
+    {
+        heading: '',
+        content: '',
+    },
+    {
+        heading: `MỘT SỐ 2 TRONG BIỂU ĐỒ (2)`,
+        content: `
+Biểu đồ có một số 2 cho thấy mức độ trực giác Cơ bản, nhưng không phải lúc nào cũng đủ trong thế giới đầy tính cạnh tranh này, đặc biệt là đối với đàn ông. Với các giá trị “ nhân tạo ” trong muôn mặt của xã hội, mỗi cá nhân cần phải tự điều chỉnh, tự khớp mình vào guồng quay chung để có thể cạnh tranh thành công. Và điều này không thể đạt được nếu không có sự nhạy cảm ở mức cân bằng cao độ. Nếu thiếu sự cân bằng này, những người mang bản tính nhạy cảm sẽ dễ bị tổn thương, dẫn đến những phản ứng thiếu khôn ngoan. Nam giới thường bị tình trạng này nhiều hơn nữ giới. Một số 2 trong ngày sinh có thể cung cấp nền tảng giá trị cho việc phát triển tính nhạy cảm cân bằng nhưng lý tưởng nhất vẫn là cặp đôi “ cân bằng ” 22 (Có hai số 2 trong biểu đồ). Phái nữ có một số 2 thì vẫn ổn, bởi trời sinh họ đã... đủ nhạy cảm rồi. Nhìn chung, người có một số 2 trong Biểu đồ ngày sinh thường cảm thấy cần nhiều thời gian để thư giãn, ở ngoài thiên nhiên và tránh xa môi trường cạnh tranh căng thẳng. Con số chủ đạo sẽ là chỉ dẫn đáng tin cậy để giúp bạn đạt được điều này.
+        `,
+    },
+    {
+        heading: `HAI SỐ 2 TRONG BIỂU ĐỒ (22)`,
+        content: `
+Cặp số 22 trong Biểu đồ ngày sinh là một lợi thế to lớn để một người phát triển trực giác và độ nhạy cảm. Nhưng người sở hữu cặp số 22 cần có ý thức sử dụng lợi thế này, nếu không nó sẽ bị mai một. Trực giác và độ nhạy cảm lý tưởng này giúp người có cặp số 22 đạt được trí thông minh trên mức trung bình, dựa trên khả năng thấu hiểu trời cho đối với con người và sự việc. Khi nói đến việc đánh giá người khác qua ấn tượng đầu tiên, trực giác của những người này cực đáng tin cậy, với độ chính xác và nhanh chóng đáng kinh ngạc. Họ gần như lập tức nhận ra người khác đối với họ có chân thành hay không, miễn là họ không để “ cái tôi ” hay trí tưởng tượng của mình nhảy vào và làm biến màu trực giác nguyên thủy mà họ có. Nếu được biểu đạt theo cách tích cực, trực giác nhạy bén và cân bằng này sẽ thu hút họ vào nhiều khía cạnh của đời sống con người. Thông thường họ sẽ xử lý những việc này rất suôn sẻ và thành công, nhưng họ cũng cần chú ý để tránh bị lôi kéo vào quá nhiều vụ việc. Điều đó có thể làm tổn hại hạnh phúc gia đình của họ. Cần nhớ rằng cân bằng mới là chìa khóa mở cửa thành công.
+        `,
+    },
+    {
+        heading: `BA SỐ 2 TRONG BIỂU ĐỒ (222)`,
+        content: `
+Một khi “ vượt ngưỡng cân bằng ”, chúng ta sẽ bị quá đà. Người có ba số 2 trong Biểu đồ ngày sinh thường có sự nhạy cảm quá mức, đến mức có thể phát triển thành một dạng gánh nặng tâm lý khó. Những người này rất dễ bị tác động bởi cảm xúc của người khác, từ đó rất dễ bị lún sâu vào vấn đề của người khác.
+Để bảo vệ sự nhạy cảm của bản thân, những người này thường dành phần lớn thời gian chìm đắm trong thế giới riêng, do đó có thái độ cách biệt với xã hội và có thể phát triển thành sự cô độc. Nhiều người trong nhóm ba số 2 làm việc trong ngành giải trí sẽ có được thành công vượt trội vì họ có khả năng khắc họa một cách tinh tế tính cách của nhiều nhân vật khác nhau. Tuy nhiên, đôi khi quá nhập tâm nên họ khó thoát ra khỏi vai diễn và khiến bản thân tổn thương. Họ cũng gặp khó khăn trong việc biểu đạt những cảm xúc sâu sắc mà chỉ những người vô cùng nhạy cảm như họ mới có, và dễ tổn thương vì điều này. Do đó, họ thường có phản ứng tự vệ thái quá hoặc cố tình nói những lời làm tổn thương người khác như một cách để bảo vệ bản thân. Trẻ có ba số 2 trong ngày sinh thường rất giỏi bắt chước, và chúng luôn có bản năng muốn chia sẻ những cảm giác của người khác. Tuy nhiên, việc cảm xúc trồi sụt theo những vui buồn của người khác khiến chúng mệt mỏi và mất cân bằng, nên các bậc cha mẹ cần quan sát và hướng dẫn những đứa trẻ này cẩn thận. Nhiệm vụ quan trọng của các bậc cha mẹ là giúp con có được nền tảng vững chắc về sự tự tin, cùng với định hướng đường đời theo Con số chủ đạo của con.
+        `,
+    },
+    {
+        heading: `BỐN SỐ 2 TRONG BIỂU ĐỒ (2222)`,
+        content: `
+Sự nhạy cảm cao độ đến nhường này cần được theo dõi và kiểm soát cẩn thận, nếu không nó rất dễ biến thành những suy diễn sai lầm, đi kèm theo tính nóng giận, thói hay mỉa mai và sân si. Những người này thường vô cùng thiếu kiên nhẫn. Trực giác của họ trở nên kém tin cậy vì họ suy diễn quá nhiều, và họ có khuynh hướng đặt lòng tin nhầm người. 
+Theo nghiên cứu và quan sát trong hơn bốn mươi năm của mình, Thầy David cho rằng mặc dù người có bốn số 2 chiếm tỷ lệ rất nhỏ trong tổng dân số, nhưng họ lại thường xuyên góp mặt trong nhóm những người có hôn nhân tan vỡ, phá sản hoặc phải lưu trú trong các viện tâm thần tại Mỹ. Họ hiếm khi leo lên được vị trí cao nơi công sở, nhưng khi đạt được vị thế đó thì họ thường cảm thấy rất khó khăn trong việc khiến người khác tin tưởng. Do đó, khi lên chậm bao nhiêu thì họ lại tụt xuống đáy nhanh bấy nhiêu, trừ khi họ có “ gia đình quyền lực ” với những mối quan hệ đặc dụng. Cuộc sống của những người có bốn số 2 thường rất cô đơn, và nhiều người mượn rượu chè, chất kích thích hoặc các thói gây nghiện khác để khỏa lấp sự trống trải trong tâm hồn. Họ có thể tránh được sự xa cách về mặt cảm xúc này nếu chịu mở lòng đón nhận những lời khuyên phù hợp và khôn ngoan. Họ cần phải học cách tự kiểm soát bản thân thật chặt chẽ khi có điều gì liên quan đến bày tỏ cảm xúc, học cách thư giãn và thiền mỗi khi có thể, cũng như xuôi theo dòng chảy của cuộc sống thay vì cứ đi ngược lại nó.
+        `,
+    },
+    {
+        heading: `NĂM SỐ 2 TRONG BIỂU ĐỒ (22222) HOẶC NHIỀU HƠN`,
+        content: `
+Đây là trường hợp cực kỳ hiếm. Những người có ngày sinh mang năm số 2 rất dễ phản ứng với sự nhạy cảm đặc biệt của mình. Họ rất cần sự quan tâm và hướng dẫn cực kỳ tập trung, tận tâm từ cha mẹ, thầy cô, đặc biệt khi họ còn rất nhỏ, và họ thường thử thách lòng kiên nhẫn của những người khác tới tận cùng.
+Lưu ý: Trong những thập niên tới đây, chúng ta sẽ có dịp nhìn thấy những biểu đồ ngày sinh có sáu số 2, như trong ngày sinh của người sinh ra vào 22/2/2022; hoặc thậm chí là bảy số 2, như trong ngày sinh 22/2/2222 và 22/12/2222. Các bậc phụ huynh có con sinh vào những ngày này cần đặc biệt lưu ý để dìu dắt và kiên nhẫn với con ngay từ khi rất nhỏ, để hỗ trợ Con trong việc bày tỏ cảm xúc. Nhiều số 2 được lặp lại đồng nghĩa với việc Biểu đồ ngày sinh bị trống nhiều con số ở những vị trí khác. Điều này tạo thành những Mũi tên trống, cho thấy một số đặc điểm tương đối bất lợi cho người mang nhiều số 2. Tuy nhiên, hãy nhớ rằng những gì được thể hiện trên Biểu đồ ngày sinh chỉ mới là “ số vốn ban đầu ” của mỗi người khi vào đời. Khi nhận thức rõ điều này, chúng ta sẽ có cơ hội và khả năng điều chỉnh bản thân, từ đó tác động đến cuộc đời mình, bằng cách phát triển một số kỹ năng, tham gia các hoạt động mang tính chất của những con số không có mặt trên biểu đồ, đặc biệt là con số nằm ở vị trí trung tâm như số 5, hay các số nằm giữa các trục ngang, trục dọc khác.
+        `,
+    },
+]
+
+const SO3 = [
+    {
+        heading: '',
+        content: '',
+    },
+    {
+        heading: 'MỘT SỐ 3 TRONG BIỂU ĐỒ (3)',
+        content: `
+Được ví như mỏ neo của trí nhớ, số 3 duy nhất trên Biểu đồ ngày sinh cho thấy người sở hữu nó có trí nhớ rất tốt và lâu dài, miễn là nó được sử dụng thường xuyên (bất kỳ khả năng nào không được mài giũa thường xuyên sẽ dần dần mất đi độ sắc bén). Người có một số 3 trong ngày sinh thường giữ được sự nhanh nhạy trong hoạt động trí não. Những bạn trẻ có một số 3 sẽ rất có lợi thế trong việc học tập, cả trong trường học lẫn trường đời. Họ sẽ chủ động quan tâm tới cuộc sống và môi trường xung quanh. Người có một số 3 cũng rất linh hoạt và thường sống khá tích cực. Họ mang năng lượng tích cực này vào hầu hết những công việc mà họ làm. Họ cũng có sự tự tin trên mức trung bình, thứ góp phần không nhỏ vào thành công của họ trong cuộc sống.
+        `,
+    },
+    {
+        heading: 'HAI SỐ 3 TRONG BIỂU ĐỒ (33)',
+        content: `
+Nhân đôi độ nhạy về phần trí não, người có hai số 3 trong Biểu đồ ngày sinh thường giàu trí tưởng tượng và có khả năng văn chương. Tuy nhiên, những thế mạnh này cần được theo dõi chặt chẽ để có thể phát triển theo hướng tích cực và cân bằng nhất, tránh khả năng đi theo hướng tiêu cực vì sẽ dễ phát sinh những hành vi phản xã hội (có hành vì phản kháng xã hội hoặc từ chối giao lưu / giao tiếp) . Để hỗ trợ rèn luyện tinh thần kỷ luật bản thân, người có hai số 3 nên thực hành thiền tĩnh tâm mỗi khi có thể cùng với những bài tập luyện trí nhớ và phát triển trực giác. Những hoạt động này có thể giúp “kéo” họ về với thực tế, với những ý tưởng mang tính xây dựng và tích cực hơn. Nếu không, trí tưởng tượng quá phong phú của họ sẽ làm hỏng cái nhìn khách quan hay sự hiểu biết toàn diện. Khi nuông chiều trí tưởng tượng và suy diễn của mình, họ có thể từ từ mất luôn tính thực tế. Người có hai hay ba số 3 trong Biểu đồ ngày sinh thường có khả năng viết lách đáng nể. Nếu được khích lệ, họ có khả năng viết rất mạch lạc, khai thác được nhiều nguồn cảm hứng dồi dào và hoàn toàn có khả năng biến kỹ năng này thành một công việc có thu nhập đáng kể.
+        `,
+    },
+    {
+        heading: 'BA SỐ 3 TRONG BIỂU ĐỒ (333)',
+        content: `
+Ba số 3 đưa mức độ nhạy của tâm trí chạy quá xa về phía tưởng tượng, khiến những người sở hữu chúng thường mất liên kết với thực tế, từ đó gây ra sự cách biệt, thứ có nguy cơ kéo theo sự cô đơn. Họ tự tạo ra một “ thực tế ” của riêng mình, nhưng thật đáng tiếc là không ai khác có thể nhìn thực tế theo cách họ nhìn, vì vậy đơn độc lại càng thêm đơn độc. Trí tưởng tượng phong phú của họ thường tập trung vào những sự kiện chưa xảy ra và tạo ra những cảnh tượng lạ lùng đến mức họ thường khó tập trung vào hiện tại và kết nối với những người xung quanh. Với sự mất cân bằng như vậy, những người này thường cảm thấy khó tin tưởng người khác, hiếm khi được thư giãn và có thể nghiện một số loại thuốc chống căng thẳng.
+Họ khó có bạn thân và hầu như không cảm thấy hạnh phúc. Đôi khi họ quá đắm chìm trong những cuộc viễn du trong tâm tưởng đến nỗi quên mất hiện tại, xao lãng luôn người đang nói chuyện với mình. Sự tập trung mất cân bằng như vậy không giúp ích gì cho họ trong việc nhìn nhận sự việc một cách chân thực. Càng như vậy, họ càng thu mình vào trong vỏ ốc nội tâm, và điều này lại khiến họ càng thêm mất lòng tin nơi người khác, gây ra nhiều sự mâu thuẫn và tranh cãi. Nếu Có người thân thuộc nhóm này, bạn cần hết sức kiên nhẫn, thấu hiểu và quan tâm, yêu thương, định hướng thận trọng. Cách tốt nhất để hỗ trợ họ là hãy khuyến khích họ chú ý vào thực tại. Họ cần được dạy tính thực tế thông qua những hoạt động sử dụng sự khéo léo của đôi tay và nhận diện cảm xúc từ trái tim, thường là qua các hoạt động hay hình thức mang tính nghệ thuật. Sự kiên nhẫn và cảm thông từ người hướng dẫn là cực kỳ quan trọng.
+        `,
+    },
+    {
+        heading: 'BỐN SỐ 3 TRONG BIỂU ĐỒ (3333) hoặc nhiều hơn',
+        content: `
+Trường hợp hiếm này chỉ có thể xảy ra vào một tháng duy nhất ở mỗi thế kỷ. Ở thế kỷ 20, trường hợp cuối cùng là vào ngày 31/3/1933, nghĩa là người này nếu còn sống thì cũng khá lớn tuổi rồi. Còn ở thế kỷ 21, mãi tới ngày 3/3/2033 mới có Biểu đồ ngày sinh gồm bốn số 3. Vậy nên tôi sẽ không bàn nhiều về trường hợp này. Chúng ta chỉ cần hiểu rằng càng nhiều số 3 trong biểu đồ thì mức độ tưởng tượng càng đậm, vì vậy, khó khăn càng dày.
+        `,
+    },
+]
+
+const SO4 = [
+    {
+        heading: '',
+        content: '',
+    },
+    {
+        heading: 'MỘT SỐ 4 TRONG BIỂU ĐỒ (4)',
+        content: `
+Người có một số 4 trong Biểu đồ ngày sinh là những người rất chủ động, làm việc gì cũng hăng hái và thực tế, bao gồm các hoạt động liên quan đến lĩnh vực tổ chức, kỹ thuật, tài chính hoặc hoạt động thể chất như làm vườn, các hình thức nghệ thuật tạo hình từ đôi tay, xây dựng,... Hoạt động mà họ lựa chọn theo đuổi và có khả năng thành thạo nhất thường được thể hiện qua con số chủ đạo. Ví dụ, tôi có Con số chủ đạo là 9, trong đó có định hướng ngành nghề phù hợp là “ không giỏi tính toán, đừng làm ăn kinh doanh vì không giỏi tài chính ”. Đồng thời tôi cũng có một số 4 trong Biểu đồ ngày sinh, trong đó có yếu tố khá tài chính.  So sánh sức ảnh hưởng của hai bên thì con số chủ đạo có ảnh hưởng lớn hơn, nên yếu tố “ không giỏi tài chính ” vẫn trội hơn, nhưng nhờ có được một số 4 nên vẫn có thể lên ý tưởng, làm nội dung, định hướng cho kinh doanh, miễn là đừng tham gia vào các hoạt động sổ sách, kế toán là được.
+Những người có một số 4 sẽ thích bắt tay vào việc thực tế hơn là ngồi nghiền ngẫm lý thuyết suông, và đặc biệt, họ thường hoài nghi, không tin vào những điều có vẻ quá mơ hồ, trừu tượng. Họ thích thực tế hơn lý thuyết và dễ mất kiên nhẫn với những ai hẹn lần hẹn lữa hay cứ dời hạn đã hẹn. Họ thích xúc tiến công việc ngay lập tức, và điều này gần như trở thành quy tắc “ bất di bất dịch ” đối với họ, đặc biệt là khi họ có thêm một số 7 nữa trong ngày sinh. Nếu quan tâm quá nhiều đến khía cạnh vật chất, những người có một số 4 thường có xu hướng thực dụng. Điều này có thể là một khía cạnh tiêu cực của số 4 nói chung, mục đích là để dạy cho những người sở hữu Con số này biết vận dụng lòng kiên nhẫn vốn có của mình để tránh chạy theo chủ nghĩa vật chất. Cách tốt nhất để làm được điều đó là học cách nhẫn nại và quan tâm đến những người xung quanh nhiều hơn. Nói cách khác, càng quan tâm và thương yêu người khác nhiều thì từ từ bạn sẽ càng không còn màng đến những giá trị vật chất quanh mình nữa. Và bằng cách này, bạn sẽ đạt được tình bạn và hạnh phúc lâu dài.
+        `,
+    },
+    {
+        heading: 'HAI SỐ 4 TRONG BIỂU ĐỒ (44)',
+        content: `
+Nhân đôi số 4 có thể dẫn tới cái nhìn không cân bằng về cuộc sống, mà trong đó mọi thứ đều được quy về giá trị thực tế và vật chất. Vậy điều mà người có hai số 4 cần học là cách cân bằng giữa ba khía cạnh: thể chất / vật chất, tinh thần và trí não. Như vậy họ sẽ sống thoải mái, hài hòa hơn với cảm xúc và tư duy của chính mình.
+Nếu những người này có con số chủ đạo thuộc Trục ngang Tinh thần (số 2 , 5 , 8) hoặc Trục ngang Trí não (số 3 , 6 , 9) , thì họ có khả năng bẩm sinh trong lĩnh vực tinh thần hay trí não cao hơn những người cũng thuộc nhóm này nhưng có con số chủ đạo thuộc Trục ngang Thể chất (các số 4,7). Nói chung, càng có nhiều số 4 trong Biểu đồ ngày sinh thì chúng ta càng cần phải học cách cân đối ba lĩnh vực nói trên, và khi chọn bạn bè, cần phải lưu ý tránh xa những người có khả năng tác động tiêu cực đến mình. Ngược lại, nếu chọn được những người bạn biết trân trọng giá trị thẩm mỹ, văn hóa, đạo đức, thì cuộc đời chúng ta cũng sẽ cân bằng theo hướng tốt đẹp.
+        `,
+    },
+    {
+        heading: 'BA SỐ 4 TRONG BIỂU ĐỒ (444) hoặc nhiều hơn',
+        content: `
+Tất cả những đặc điểm của hai số 4 đều được thể hiện trong Biểu đồ ba số 4, nhưng với cấp độ mãnh liệt hơn, vì những người sở hữu biểu đồ này bị cột chặt vào những giá trị vật chất, đến mức mỗi khi họ có ý thức muốn thoát ra để hướng tới những giá trị cao hơn thì họ lại dễ bị các giá trị vật chất lôi kéo trở lại. Những người nhận thức được sức hút này của chủ nghĩa vật chất phải có ý chí mạnh mẽ và thái độ sẵn sàng tiếp nhận sự chỉ dẫn tận tình thì mới có thể phát triển thêm về mặt trí não, tinh thần hoặc tâm linh. Nhiều người có ba số 4 thường lao vào kiếm tiền đến mức kiệt quệ mà không nhận ra bài học của họ là kiểm soát công việc để hiểu những giá trị mà công việc đó mang đến, chứ không phải vùi đầu làm tôi tớ cho nó. Khi nhận ra điều này và có ý thức thoát khỏi nó, họ sẽ có khả năng cân bằng hơn ở ba khía cạnh thể chất - tinh thần - trí não. Bên cạnh đó, Thầy David, còn thấy rằng những người có ba số 4 có khuynh hướng bị yếu hai chân, do họ thường đặt quá nhiều trọng tâm lên phần chi dưới. Họ cần quan tâm đặc biệt đến đầu gối, cổ chân và bàn chân.
+        `,
+    },
+]
+
+const SO5 = [
+    {
+        heading: '',
+        content: '',
+    },
+    {
+        heading: 'MỘT SỐ 5 TRONG BIỂU ĐỒ (5)',
+        content: `
+Người có một số 5 trong Biểu đồ ngày sinh sẽ có cơ hội tốt nhất để đạt được tính cách cân bằng. Đây cũng là con số duy nhất đảm bảo tất cả các con số nằm ở bốn góc biểu đồ (1,3,7,9) không bị rơi vào thế “ Con số bị cô lập ”. Đặc biệt, một số 5 sẽ hỗ trợ rất tốt cho việc kiểm soát cảm xúc, vì nó đảm bảo sự nhạy cảm với cuộc sống được phát triển thành một chỉ dẫn trực giác đáng tin cậy. Điều này giúp những người sở hữu một số 5 xuất sắc trong việc chọn lựa những hành động phù hợp với tình huống chứ không phản ứng một cách thiếu suy nghĩ. Có vai trò như một hàng rào bảo vệ đầy giá trị cho sự nhạy cảm của con người, một số 5 trong biểu đồ sẽ củng có tính can trường và lòng trắc ẩn, qua đó tạo nên một người đầy nghị lực. Nó cũng mang lại sức mạnh của lòng trắc ẩn và sự tự do để thúc đẩy các giá trị của tất cả những hình thức biểu đạt khác. Số 5 duy nhất trong biểu đồ cũng hỗ trợ người sở hữu nó thấu hiểu những cảm xúc của bản thân, và từ đó giúp họ có khả năng tôn trọng cảm nhận của người khác.
+        `,
+    },
+    {
+        heading: 'HAI SỐ 5 TRONG BIỂU ĐỒ (55)',
+        content: `
+Người có hai số 5 trong Biểu đồ ngày sinh thường có lòng quyết tâm mãnh liệt, được thể hiện qua ánh mắt mạnh mẽ và đôi lông mày hay nhíu lại. Quyết tâm sắt đá này mang đến cho họ dáng vẻ rất tự tin và kiên định, mà đôi khi chỉ là bề ngoài hơn là thực tế. Khi họ trưởng thành, sự tự tin này thường chỉ còn là thứ mà chúng ta hay gọi là “ làm oai ”, chứ không phải là sự tự tin thật sự. Đồng thời họ cũng gặp phải nhiều khó khăn trong việc xử lý những vấn đề quá nặng về tình cảm, cảm xúc trong gia đình hoặc nơi công sở. Họ cần chú ý để không nghiêm trọng hóa các vấn đề này và giữ cho mọi việc nhẹ nhàng như nó vốn dĩ như vậy.
+Đôi khi sự mãnh liệt và nhiệt tình ở những người có hai số 5 trở nên thái quá đến mức không thể chịu đựng được và gây ra những sự hiểu lầm khiến những người thân cận với họ cảm thấy phiền hà và điên tiết. Sự nghiêm trọng quá mức trong thái độ hay lời nói của họ có thể lên đến mức tạo ra những hỗn loạn về cảm xúc trong môi trường họ sống, từ đó gây ra các vấn đề sức khỏe có liên quan đến vùng bụng và dạ dày, như chứng khó tiêu hoặc loét dạ dày. Những người có hai số 5 cần chú ý kiểm soát cảm xúc, nếu không họ dễ sa đà vào các chất hay thói quen gây nghiện để giải tỏa năng lượng cảm xúc bị dồn nén của mình.
+        `,
+    },
+    {
+        heading: 'BA SỐ 5 TRONG BIỂU ĐỒ (555)',
+        content: `
+Những đặc điểm của hai số 5 sẽ thể hiện mạnh mẽ hơn khi một người có đến ba số 5 trong Biểu đồ ngày sinh. Những cảm xúc mãnh liệt đến mức gây căng thẳng như vậy rất khó để dung hòa. May mà rất hiếm người có ngày sinh rơi vào trường hợp này. Các bậc cha mẹ cần dạy con từ rất sớm để trang bị cho con khả năng tự kỷ luật. Đây là trách nhiệm rất quan trọng của những bậc phụ huynh này, những người hiếm khi được chuẩn bị tinh thần cho trọng trách này và thường cảm thấy không thể hiểu nổi đứa con “ phức tạp ” của mình. Các bậc cha mẹ cũng đừng tuyệt vọng, vì tình yêu thương và sự thấu hiểu của họ sẽ đem lại giá trị lớn lao và giúp các con phát triển đúng mực.
+Với trường hợp này, cả cha mẹ và con cái đều phải cẩn trọng suy nghĩ trước khi nói hoặc hành động, để tạo điều kiện cho sức mạnh trí tuệ được phát huy và giảm thiểu nguy cơ vô tình làm tổn thương sự nhạy cảm của một người “ mãnh liệt ” như vậy. Nếu làm được điều này thì các con của họ sẽ không cần dựng lên một “ hàng rào ” bảo vệ sự nhạy cảm của chính mình. Điều này sẽ giúp bảo đảm đời sống xã hội và hạnh phúc của con trẻ.
+        `,
+    },
+    {
+        heading: 'BỐN SỐ 5 TRONG BIỂU ĐỒ (5555) hoặc nhiều hơn',
+        content: `
+Con số này rất hiếm gặp. Người sở hữu cụm số này thường bị căng thẳng dữ dội, khiến cho họ dễ gặp các vấn đề về sức khỏe có liên quan đến vùng bụng và dạ dày. Những người này cũng dễ gặp tai nạn và thường ở trong trạng thái căng thẳng cao độ. Cuộc sống thường tạo ra các “ tai nạn ” để khiến chúng ta chậm bước lại hoặc quay đầu, nếu chúng ta có lỡ lạc khỏi con đường tiến hóa của mình. Nhưng nếu không biết tự xem xét tình huống của mình, chúng ta sẽ có nguy cơ gặp thêm nhiều “ tai nạn ” khác trên hành trình của mình. Đây là điều rất dễ xảy ra với người có bốn số 5 trong Biểu đồ. Những người này cũng thường cảm thấy cuộc sống rất khó hiểu, nếu họ không chịu tiếp nhận những sự hướng dẫn khôn ngoan để giúp định hướng cho bản thân mình.
+        `,
+    },
+]
+
+const SO6 = [
+    {
+        heading: '',
+        content: '',
+    },
+    {
+        heading: 'MỘT SỐ 6 TRONG BIỂU ĐỒ (6)',
+        content: `
+Số 6 chỉ óc sáng tạo, và biểu hiện phổ biến nhất của những người mang đặc tính này của số 6 chính là tình yêu sâu đậm với mái ấm của mình. Tuy nhiên, khi thể hiện ở mức độ cá nhân, họ thường chọn những lĩnh vực nghệ thuật, như sáng tác, biểu diễn, vẽ tranh, làm gốm... Người có một số 6 rất tập trung vào trách nhiệm với gia đình. Nhưng khi trưởng thành hơn, những người này cảm thấy chỉ trách nhiệm với gia đình thôi là chưa đủ để thể hiện tính sáng tạo của mình, do đó họ sẽ tham gia vào nhiều lĩnh vực khác để thỏa mãn bản thân - hoặc họ sẽ tiếp tục thắc mắc tại sao mình vẫn chưa có được cảm giác mãn nguyện trong những việc mình làm. Khi họ “ phát hiện ” ra các thể loại nghệ thuật phù hợp, đặc biệt là sức mạnh sáng tạo của âm nhạc, cuộc sống của họ sẽ thăng hoa một cách đáng kinh ngạc.
+        `,
+    },
+    {
+        heading: 'HAI SỐ 6 TRONG BIỂU ĐỒ (66)',
+        content: `
+Có hai số 6 trong Biểu đồ ngày sinh có thể trở thành một thử thách vĩ đại hoặc một gánh nặng vô cùng to lớn. Mỗi cá nhân sẽ có cách ứng phó khác nhau với tình trạng này, tùy vào con số chủ đạo và nhiều yếu tố khác như môi trường sống, đặc biệt là ảnh hưởng của cha mẹ trong giai đoạn đầu đời. Mặt tiêu cực của hai số 6 thể hiện khá rõ nét và kéo dài đối với những người có nhận thức kém hơn. Điều này gây ra sự lo lắng, bồn chồn, căng thẳng và dễ nóng giận, đặc biệt là ở nhà và nơi công sở. Những người thân cận với họ sẽ cảm nhận sự tiêu cực này rõ nhất; và đối với tất cả những người có liên quan, sự tiêu cực này có thể gây ra tình trạng rối loạn vì căng thẳng, thậm chí có thể dẫn đến bệnh tật.
+Cách hóa giải tốt nhất là mở rộng mối quan tâm của họ ra ngoài phạm vi gia đình để vươn tới những lĩnh vực sáng tạo đa dạng hơn. Nghề nghiệp của những người có hai số 6 trong ngày sinh nên hướng về những ngành chú trọng tính sáng tạo, được truyền cảm hứng bởi sự tự tin và thấu hiểu sâu sắc về một vấn đề nào đó. Họ cần được hướng dẫn nhẹ nhàng - đừng bao giờ hối thúc hay đe dọa họ. Đối với những người này, tình yêu và sự tôn trọng là vô cùng quan trọng, có chức năng như “ dầu cù là giúp xoa dịu hệ thống thần kinh nhạy cảm của họ. Những người này cần thư giãn nhiều hơn những nhóm khác, bởi họ tiêu hao rất nhiều năng lượng trí não vào những hoạt động sáng tạo hoặc hoạt động thường ngày. Họ cần tập tĩnh tâm, hoặc thiền càng tốt, trước khi đi ngủ để đảm bảo sự thư giãn hoàn toàn. Họ cũng cần những giấc ngủ trưa mỗi khi có thể.
+        `,
+    },
+    {
+        heading: 'BA SỐ 6 TRONG BIỂU ĐỒ (666)',
+        content: `
+Người có ba số 6 trong Biểu đồ ngày sinh càng nhân thêm sự căng thẳng thần kinh trong mọi việc, đặc biệt là trong chuyện gia đình. Phụ nữ chịu tác động bởi điều này nhiều hơn, vì mối quan tâm hàng đầu của những người phụ nữ có ba số 6 thường là vấn đề gia đình. Một trong những hậu quả của điều này chính là họ thường bảo vệ các con quá mức, có thái độ sở hữu đối với những người mà họ yêu thương.
+Vấn đề thường gặp đối với những người thuộc nhóm này chính là họ hiếm khi nhận ra tiềm năng sáng tạo rất tích cực trong cuộc sống gia đình. Thay vào đó, họ thường tự làm khổ mình bởi các mối bận tâm, và điều này trở thành những cơn lốc cảm xúc lệch lạc. Bảo vệ con cái quá mức chính là biểu hiện của tình trạng này. Họ thường cảm thấy sợ hãi viễn cảnh con cái lớn khôn và rời khỏi vòng tay mình, do đó họ bắt đầu có những hành động sở hữu kém lành mạnh mà cuối cùng sẽ khiến các con của họ cảm thấy bị trói buộc, để rồi chúng sẽ muốn rời xa họ sớm hơn.
+Những người này cần chú trọng quan tâm bản thân để có được sự cân bằng trong cuộc sống. Nghỉ ngơi, thư giãn đúng mực, tìm sự giải khuây và thú vui trong các hoạt động sáng tạo ở bất kỳ hình thức nào cũng là những giải pháp tốt để đạt được điều này.
+        `,
+    },
+    {
+        heading: 'BỐN SỐ 6 TRONG BIỂU ĐỒ (6666)',
+        content: `
+Người có bốn số 6 cực kỳ hiếm, xuất hiện chỉ ba lần trong một thế kỷ. Trong thế kỷ 20, ngày sinh cuối cùng có bốn số 6 là ngày 26/6/1966, và may mắn ngày sinh này có các số 1 , 2 và 9 giúp giảm bớt sự căng thẳng của nhiều số 6 lặp lại. Bốn số 6 thể hiện tiềm năng sáng tạo vượt trội. Mặt khác, các khía cạnh tiêu cực, vốn bị chi phối nặng nề bởi cảm xúc, cũng luôn chực chờ để thao túng những người có bốn số 6 trong biểu đồ. Chính vì vậy, những người này dễ bị lo âu sầu khổ, làm tổn hại đến sức khỏe của họ và các mối quan hệ bạn bè và những lời phàn nàn không ngớt. Nếu cha mẹ nhìn ra đặc điểm này của đứa trẻ có bốn số 6 ngay từ nhỏ và kiên nhẫn hướng dẫn trẻ phát huy tiềm năng sáng tạo, thì trẻ sẽ không bị chi phối bởi những đặc điểm tiêu cực của bốn số 6. Khi được đối xử bằng tình yêu thương vô điều kiện, những người sở hữu bốn số 6 sẽ dễ dàng tìm được cách tích cực để thể hiện tài năng của mình ở các hoạt động sáng tạo.
+Tóm lại, những người có số 6 trong ngày sinh sẽ luôn có thiên hướng sáng tạo. Chúng ta càng sớm ý thức được điều này và tập trung mài giũa nó thì càng dễ tránh được những khía cạnh tiêu cực như đã đề cập ở trên. Khi đó, năng lượng của bốn số 6 được giải phóng một cách tích cực và sẽ thăng hoa, giúp người sở hữu nó gặt hái được nhiều thành quả tốt đẹp.
+        `,
+    },
+]
+
+const SO7 = [
+    {
+        heading: '',
+        content: '',
+    },
+    {
+        heading: 'MỘT SỐ 7 TRONG BIỂU ĐỒ (7)',
+        content: `
+Sự hy sinh của bạn sẽ thuộc một trong ba lĩnh vực sau đây : sức khỏe, tiền tài hoặc tình yêu. Sự hy sinh này đã hoặc sẽ xuất hiện trong cuộc đời bạn như một phần thiết yếu trong tiến trình học hỏi ở vòng đời này. Những đau thương, hy sinh này là một phần để tâm hồn bạn chịu “ hé mở ” . Nhưng thông thường, những người chịu tổn thất, hy sinh này lại than vãn mà không nhận ra bản chất của bài học này chính là “ buông bỏ để đạt được ”.
+Khi không đánh đồng bản thân với giá trị của những của cải vật chất mà mình sở hữu, chúng ta học được sự khác biệt giữa “ sở thích ” và “ nỗi ám ảnh sở hữu ”. Về mặt sức khỏe và tình yêu, bất kỳ sự mất mát nào về mặt này đều giúp chúng ta trui rèn và thanh lọc thái độ cũng như các thói quen trong cuộc sống. Nếu muốn hoàn thành mục đích sống của mình khi đến với Trái đất này, chúng ta phải đảm bảo chăm sóc tốt sức khỏe của mình. Trong tình yêu, ta thường hay nhầm lẫn sự thèm muốn (có được tình yêu) với tình yêu vô điều kiện. Hãy nhớ rằng, nếu thực hành yêu thương vô điều kiện, chúng ta không bao giờ mất mát gì cả, bởi vốn dĩ ta không có mong cầu gì. Tuy nhiên, thực tế là nhiều người trong chúng ta hiếm khi duy trì được tình yêu dài lâu vì cứ gắn kèm “ tình yêu ” với biết bao đòi hỏi và kỳ vọng về cảm xúc.
+        `,
+    },
+    {
+        heading: 'HAI SỐ 7 TRONG BIỂU ĐỒ (77)',
+        content: `
+Hai số 7 trong Biểu đồ ngày sinh nhấn mạnh gấp đôi mức độ của “ bài học ” trong cuộc đời. Những người có hai số 7 sẽ thấy những bài học thương đau trong cuộc đời họ xuất hiện ở hai trong số ba khía cạnh cơ bản của đời sống: sức khỏe, tình cảm, hoặc tiền tài. Trải nghiệm này có mục đích nhắc nhở họ thấu hiểu ý nghĩa mang tính triết lý của cuộc đời ở mức độ sâu sắc hơn. Điều này thường kích thích sự quan tâm của họ đối với các vấn đề thuộc phạm trù siêu hình học, từ đó khơi dậy năng lực chữa lành, khả năng hướng dẫn và lòng trắc ẩn trong họ.
+Nếu không nhận ra những giá trị sâu xa này, người có hai số 7 sẽ dễ rơi vào trạng thái sống tiêu cực và không ngừng than vãn về những mất mát đau thương mà họ gặp phải, trách móc mọi người về các vấn đề của họ và lên án cuộc đời bất công. Họ sẽ trở thành những người cọc cằn, xấu tính mà hầu như ai cũng muốn tránh tiếp xúc.
+        `,
+    },
+    {
+        heading: 'BA SỐ 7 TRONG BIỂU ĐỒ (777)',
+        content: `
+Người có ba số 7 trong Biểu đồ ngày sinh có vẻ là những người có số phận đáng buồn vì gặp phải những mất mát nặng nề trong cả ba khía cạnh của đời sống: sức khỏe, tình cảm hoặc tiền tài. Nhưng đó lại thường là cảm nhận của những người thân thiết với họ, chứ không phải là cảm nhận của bản thân họ - người gánh chịu những tổn thất này - vì sau khi trải qua quá nhiều bài học thương đau, họ đã có sự thấu hiểu sâu sắc và nhận ra mục đích mà “ đời ” đang kiên trì “ dạy họ. Những mất mát này chính là bài kiểm tra tính can trường và lòng trắc ẩn, mà những ai vượt qua được sẽ trở nên vô cùng mạnh mẽ. Những người này có giá trị và quan điểm về cuộc sống phát triển vượt qua giới hạn trí tuệ thông thường. Họ là vốn quý của gia đình và xã hội, là chỗ dựa đáng tin cậy để mọi người có thể tìm đến nương tựa hoặc xin chỉ dẫn. Nhưng đó là với những ai vượt qua được những thử thách ngặt nghèo của cuộc sống. Còn đối với những người có ba số 7 không thể lội qua vùng lầy này, họ sẽ cảm thấy mất tất cả, héo hon trong vũng bùn cuộc đời và dựa vào lòng thương cảm của người khác để níu kéo sự tồn tại của mình. Họ rất dễ trầm cảm và có những hành vi phản xã hội khiến bạn bè rời xa, gia đình né tránh.
+        `,
+    },
+    {
+        heading: 'BỐN SỐ 7 TRONG BIỂU ĐỒ (7777)',
+        content: `
+Với cả bản thân đứa trẻ lẫn cha mẹ của những đứa trẻ có bốn số 7, sự hỗ trợ tận tình trong đời sống thực tế và tinh thần là thiết yếu, vì nếu không, cả cha mẹ lẫn đứa trẻ đều sẽ gục ngã dưới gánh nặng mà những tổ hợp những mất mát mang lại. Nhưng một lần nữa , cần phải nhấn mạnh rằng những tổn thất này có thể là những trải nghiệm đáng giá mà qua đó chúng ta sẽ học được những bài học để đời. Lộ trình đầy cam go này là không thể tránh được, do đó, tốt nhất là gia đình và bản thân người mang bốn số 7 cần thay đổi quan điểm về cuộc sống, từ “ ly nước đã vơi một nửa ” sang “ ly nước còn đầy một nửa ” , để có thể vượt qua chặng đường gập ghềnh này.
+        `,
+    },
+]
+
+const SO8 = [
+    {
+        heading: '',
+        content: '',
+    },
+    {
+        heading: 'MỘT SỐ 8 TRONG BIỂU ĐỒ (8)',
+        content: `
+Khi sống tích cực, người có một số 8 trong Biểu đồ sinh vô cùng tỉ mỉ và làm việc có hệ thống. Còn nếu sống tiêu cực, họ sẽ lãnh đạm và không ổn định. Sự ngăn nắp, tỉ mỉ, có sự chú ý hợp lý đến các chi tiết và quan tâm đến hiệu quả công việc là bản chất tự nhiên của những người này. Đây là những đặc điểm đến từ “ kho trí thức ” thực tế của họ, vốn là nền tảng cho sự phát triển tính độc lập ở nhóm người này.
+Tuy nhiên, nếu chọn hướng tiêu cực, họ sẽ không ổn định về mặt cảm xúc, dễ bực bội và bồn chồn, mà hậu quả là họ thường thay đổi công việc, nhà ở và cả những mối quan hệ.
+        `,
+    },
+    {
+        heading: 'HAI SỐ 8 TRONG BIỂU ĐỒ (88)',
+        content: `
+Khả năng đánh giá của hai số 8 trên Biểu đồ ngày sinh có thể cực kỳ có lợi cho người sở hữu nó, hoặc sẽ khiến họ trở nên vô cùng không ổn định, tùy thuộc vào mức độ tích cực của họ. Nếu nói về sự quan tâm đến chi tiết, những người này xuất sắc đến mức khó ai bì kịp. Nhưng họ cần ý thức để khả năng quan sát này không khiến họ tự tin thái quá đến mức trở nên độc tài. Vì điều này sẽ gây ra sự mâu thuẫn về cảm xúc trong chính bản thân họ, dẫn tới hậu quả là sự bất an cao độ và tính bất ổn định về cảm xúc.
+Nhu cầu đi tìm chân lý và sự thông thái cũng có thể khiến họ đứng ngồi không yên, nhưng theo hướng tích cực. Nó tạo cảm hứng cho họ du lịch đó đây, mà qua đó họ sẽ lượm lặt được nhiều kinh nghiệm, kiến thức và tri thức. Nếu lúc trẻ họ không du lịch nhiều, sự thất vọng trong lòng họ có thể phát triển và ngày càng khiến họ khó chịu hơn. Điều này có thể gây ra cảm giác bị trói buộc, và chỉ khi nào có cơ hội đi đó đây thì họ mới có thể tìm lại được cảm giác bình yên trong tâm trí.
+        `,
+    },
+    {
+        heading: 'BA SỐ 8 TRONG BIỂU ĐỒ (888)',
+        content: `
+Ở người có ba số 8 trong Biểu đồ ngày sinh, cảm giác bồn chồn khó chịu thường đến từ khía cạnh tiêu cực hơn là từ khía cạnh tích cực. Họ cảm thấy cuộc sống vô nghĩa và thật đáng chán, và do đó, họ trở thành nạn nhân của sự bi quan cùng cực. Những người này cần rất nhiều tình yêu thương và sự hướng dẫn để khuyến khích họ có cái nhìn rộng mở và lạc quan hơn về cuộc đời. Suy cho cùng, họ cần hiểu rằng cuộc sống này vẫn tiếp diễn, cho dù họ có tích cực tận hưởng nó hay không.
+Tất cả những gì họ cần làm là thay đổi thái độ và nhảy xuống nước để tham gia cuộc bơi đua, thay vì đứng trên bờ than thở về nhiệt độ của dòng nước mà họ thậm chí còn chưa nhúng chân xuống thử. Đối với người có ba số 8 biết hướng về sự tích cực, cuộc sống của họ là chuỗi ngày tỏa sáng của trí tuệ và cảm giác độc lập đáng tự hào.
+Ngay cả khi họ luôn thích xê dịch, sự bình yên trong tâm hồn và năng lượng của niềm vui sống luôn giúp họ có rất nhiều bạn bè. Thật không may là chỉ có một số rất ít người có ba số 8 có thể sống theo hướng này, nhưng hy vọng sẽ có những người đọc được những lời này và chuyển tiêu cực thành tích cực, từ đó thay đổi cuộc đời mình theo chiều hướng tốt hơn.
+        `,
+    },
+    {
+        heading: 'BỐN SỐ 8 TRONG BIỂU ĐỒ (8888)',
+        content: `
+Những người có bốn số 8 trong ngày sinh thường cực kỳ năng động, đôi khi trở thành “ tăng động ” . Những đứa trẻ có bốn số 8 không bao giờ chịu ngồi yên, vì đối với chúng thì đây là hành động “ bất thường ”, khiến cảm xúc của chúng bị dồn nén và cuối cùng sẽ “ bùng nổ ” thành cảnh gà bay chó sủa. Người thuộc nhóm này cần được dạy để phát triển khả năng định hướng chính xác từ khi còn nhỏ, và nên được đưa đi đó đi đây thường xuyên cho đến khi họ đủ trưởng thành để có thể tự đi một mình.
+        `,
+    },
+]
+
+const SO9 = [
+    {
+        heading: '',
+        content: '',
+    },
+    {
+        heading: 'MỘT SỐ 9 TRONG BIỂU ĐỒ (9)',
+        content: `
+Số 9 mang ba giá trị lớn là tham vọng / hoài bão, trách nhiệm và lý tưởng. Đây là sức mạnh nền tảng cho sự phát triển của xã hội thế kỷ trước, thúc đẩy chúng ta tìm hiểu cuộc sống nhiều hơn và kiểm soát nó tốt hơn. Thầy David nhắc nhớ rằng đừng nghĩ có được ba giá trị lớn này thì chúng ta đã thành công. Mặc dù so với đầu thế kỷ 20, giờ đây chúng ta hiểu biết hơn về môi trường sống và giá trị của con người, nhưng chúng ta cũng khiến môi trường xuống cấp hơn, bệnh tật xuất hiện nhiều hơn, sự đói nghèo cũng gia tăng hơn bất kỳ giai đoạn nào trong hai thế kỷ vừa qua. Chúng ta đã sai ở đâu? Có phải chúng ta đã tập trung vào tham vọng và không đủ chú trọng yếu tố trách nhiệm và lý tưởng?
+Để phát huy sức mạnh của một số 9 một cách hiệu quả nhất, chúng ta cần học cách cân bằng ba giá trị này, tạo thành thế hài hòa, vững chãi như kiềng ba chân. Bất kỳ sự bù đắp quá mức nào cũng chỉ làm sự mất cân bằng thêm trầm trọng và dẫn đến những điều tệ hại khác mà thôi . Hãy nhớ rằng sự cân bằng mới là quan trọng nhất.
+        `,
+    },
+    {
+        heading: 'HAI SỐ 9 TRONG BIỂU ĐỒ (99)',
+        content: `
+Tính lý tưởng và sự nhiệt tình được tăng cao, kèm theo những suy nghĩ cực kỳ nghiêm túc chính là đặc điểm của những người có hai số 9 trong Biểu đồ ngày sinh. Họ thường thể hiện tính lý tưởng một cách thái quá đến mức những lý tưởng đó gần như phi thực tế. Do đó, họ cần nỗ lực duy trì sự cân bằng giữa tính thực tế và lý tưởng. Nếu muốn có cuộc sống hạnh phúc, những người này cần kiềm chế khuynh hướng phê bình những người mà họ cho là có mức độ lý tưởng thấp hơn mình.
+Mặt khác, nhóm người có hai số 9 thường có tư duy sâu sắc, và đằng sau tất cả những gì họ làm chính là mong muốn được trở thành người hữu ích. Họ chỉ cần tập thể hiện mong muốn này cho rõ ràng và tránh để nó bị lợi dụng.
+        `,
+    },
+    {
+        heading: 'BA SỐ 9 TRONG BIỂU ĐỒ (999)',
+        content: `
+Với ba số 9 trong Biểu đồ ngày sinh, sức mạnh của tính lý tưởng và tham vọng trở nên vượt trội đến mức khó kiểm soát. Sức mạnh này đôi khi còn gây ra mất cân bằng về mặt tâm trí đối với những ai không nhận ra nó. Vấn đề này có thể được khắc phục bằng cách sớm xác định những đứa trẻ có ba số 9 trong biểu đồ và dạy trẻ cách biểu đạt đồng đều trên cả ba phương diện chứ không chỉ tập trung vào phương diện trí não.
+Thêm vào đó, khi sống tiêu cực thì những người thuộc nhóm này còn hay có xu hướng phóng đại mọi thứ. Điều này thường gây ra những cơn giận bộc phát, mất kiểm soát cảm xúc, thậm chí còn có nguy cơ làm tổn hại đến sự cân bằng về mặt tâm trí. Bài học thiết yếu cho những người có ba số 9 là nhìn nhận mọi sự một cách khách quan và đúng với giá trị thực của chúng. 
+Điều này sẽ giúp họ bớt phán xét và có thể chấp nhận những sự “ lệch pha ” nho nhỏ so với hệ thống lý tưởng cứng nhắc của mình.
+        `,
+    },
+    {
+        heading: 'BỐN SỐ 9 TRONG BIỂU ĐỒ (9999)',
+        content: `
+Thi thoảng chúng ta gặp một số người có bốn số 9 trong Biểu đồ ngày sinh. Mặc dù chỉ chiếm tỷ lệ rất nhỏ trong dân số, họ thật sự cần được hỗ trợ. Thầy David chia những người này thành hai nhóm riêng biệt: Phổ biến nhất là nhóm những người sống mơ màng trong một thế giới kém thực tế. Họ thường rơi ra khỏi guồng quay của xã hội vì không thể nắm bắt được những yếu tố thực tế trong cuộc sống, thứ không thể đẹp và hoàn hảo như trong lý tưởng của họ. Một số khác thì không đến mức như thế. Họ có vẻ “ bình thường và ngoan ngoãn cho đến khi chịu hết nổi - khi đó họ sẽ tự tách mình ra khỏi xã hội hoặc tự khóa mình trong nhà suốt nhiều ngày hoặc nhiều tháng trời.
+Đây là những người không gây hại gì, nhưng cũng không cho rằng mình có bất cứ điều gì bất thường và không chịu đón nhận sự hỗ trợ hoặc dẫn dắt. Nhóm thứ hai là những người có thái độ quá khích, thù hằn và có vẻ tìm sự thỏa mãn qua việc miệt thị những người mà theo quan điểm của họ là quá kém so với lý tưởng của họ. Đây là những người có thể trở nên nguy hiểm và cần được dẫn dắt cẩn thận, nếu không họ vô cùng cô đơn hoặc làm hại bản thân và người khác trong cơn nóng giận khó có thể kiềm chế của mình.
+        `,
+    },
+    {
+        heading: 'NĂM SỐ 9 TRONG BIỂU ĐỒ (99999) hoặc nhiều hơn',
+        content: `
+Một số ít đứa trẻ được sinh ra trong tháng 9 năm 1999 Có năm số 9 trong ngày sinh của mình. Nếu không có sự trợ giúp của bộ môn Nhân số học, chúng ta gần như không thể hiểu được những người này, và thậm chí khi đã hiểu được thì việc hỗ trợ họ lại là một thử thách lớn hơn nữa. Những đặc điểm của bốn số 9 đều có thể được lặp lại ở đây, với mức độ cao hơn.
+Hy vọng cha mẹ của những đứa trẻ này được trang bị đầy đủ kiến thức về Nhân số học để có thể vượt qua thử thách và dạy các con về tính thực tế và lòng trắc ẩn.
+        `,
+    },
+]
+
+const MUITEN = {
+    thucte: `
+Với cá nhân tôi thì đây là mũi tên thật sự rất ý vị, vì nó mang đến cả lợi ích và trở ngại đến cho cuộc đời tôi. Cho nên tôi thấm từng ý Thầy David mô tả trong cuốn sách của thầy. Theo đó, những người Có Mũi tên 1-4-7 là những người hay nắm phần việc, nghĩa là giỏi giang, tháo vát. Với cả ba số của Trục ngang Thể chất xuất hiện trên Biểu đồ ngày sinh, những người này chỉ cảm thấy vui và vừa ý với cuộc sống khi họ được thả mình vào những khía cạnh thực tế của công việc. Họ thường khá khéo tay, nhưng cần định hướng để sử dụng sự khéo léo này một cách khôn ngoan vì họ thường có kiểu “thích thì làm” chứ không suy nghĩ tới lui cho thấu đáo.
+- Tuy vậy, vai trò của những người này cũng khá quan trọng trong cuộc sống, bởi họ thích trải nghiệm. Họ là kiểu người phải trực tiếp trải nghiệm, "có thấy mới tin". Đối với những người có Mũi tên 1-4-7 mà còn có Con Số chủ đạo là một trong những con số 4, 7, hay 10, tính bị thu hút bởi vật chất sẽ được lộ rõ. Nếu Con số chủ đạo của họ nằm ở Trục ngang Tinh thần, tức là số 2 , 5 , 8 hoặc 1 (và trong vài trường hợp, có luôn cả số 22/4 nữa), họ sẽ vươn xa khỏi những trói buộc của vật chất và có dễ dàng khả năng trở thành những nghệ sĩ hay nhạc công tài năng.
+- Mặc dù nhìn chung họ thường có động lực là sự tử tế và mong muốn giúp đỡ người khác, nhưng việc có mũi tên nằm ở Trục ngang Thể chất khiến khả năng đánh giá Con người của họ không mấy chính xác. Động lực thúc đẩy những người có Mũi tên 1-4-7 thường đến từ những khát khao và hoài bão mang tính vật chất, trừ khi họ tích cực và chủ động tham gia các hoạt động sáng tạo, nghệ thuật.
+- Vì vậy, những người này cần lưu ý tránh lệ thuộc quá mức vào chủ nghĩa vật chất, thay vào đó, họ nên thể hiện sức mạnh một cách tích cực và hiệu quả, chẳng hạn như trở thành một nhà kinh doanh giỏi giang hoặc một nhà tổ chức có tư duy thực tế. Nếu lún quá sâu vào phương diện vật chất, họ có thể trở nên hà khắc và không bao giờ tin tưởng giao cho ai làm việc gì, bởi họ nghĩ chỉ có họ mới làm việc đó tốt nhất. Người Có Mũi tên 1-4-7 rất cần được rèn luyện để có cái nhìn cân bằng về mọi việc từ rất sớm. Khi nhận thức được sự nhạy cảm của bản thân, cũng như hiểu được nhu cầu của người khác, họ sẽ có cơ hội sống vui vẻ, hạnh phúc và trọn vẹn hơn. Trẻ em có Mũi tên 1-4-7 thường thể hiện nhu cầu vật chất ngay từ nhỏ.
+- Tuy nhiên, trẻ sẽ vui vẻ hơn nhiều nếu được đắm mình trong thiên nhiên và được học cách trân trọng biết ơn những giá trị cao hơn trong cuộc sống. Chúng cũng Có khuynh hướng coi mọi thứ là đương nhiên. Vì thế, ngay từ khi trẻ bắt đầu biết nói, cha mẹ và thầy cô cần dạy chúng biết giá trị của lòng biết ơn và sự chia sẻ .
+- Những đứa trẻ này biết bày tỏ chính kiến từ bé, chuyện gì “thích” hay “không thích” đều tuyên bố rõ ràng, vì vậy Cha mẹ không nên ép con làm những việc mà chúng cực lực phản đối. Tình yêu thương và sự tử tế luôn khiến những đứa trẻ này ngoan ngoãn, nhưng đừng bao giờ mong “thu phục được chúng bằng tiền hay những món quà".
+- Đây cũng là những đứa trẻ rất thích các hoạt động thể chất, vì thế chúng ít khi từ chối các nhiệm vụ có liên quan đến phương diện thể chất, miễn là chúng được khen ngợi khi làm các việc này. Nếu ép trẻ làm những việc mà chúng cực lực phản đối, chúng sẽ tức giận và trở nên ương bướng. Điều này sẽ dẫn đến những trận phá phách, nổi loạn mà nếu không được nhìn nhận và điều chỉnh thì sẽ ngày càng leo thang, gây ra nhiều mệt mỏi cho mọi người xung quanh lúc chúng trưởng thành. Để tránh điều này, tốt nhất là không cho trẻ có Mũi tên 1-4-7 tiếp xúc gần hay chơi với những đối tượng có tính phá phách, nghịch ngợm. Cha mẹ nên tìm cho con những người bạn trầm tĩnh, nhạy cảm hơn, để giúp trẻ cân bằng hơn. Trẻ em thuộc nhóm Mũi tên 1-4-7 cũng rất thích chia sẻ, vì vậy sẽ có ích nếu phụ huynh cho chúng những món mà chúng có thể chia sẻ với bạn cùng lớp hay hàng xóm Xung quanh. Điều này rất hữu ích cho trẻ trong việc phát triển tính nhạy cảm, biết lắng nghe, quan tâm tới nhu cầu của người khác. Hãy cùng xem xét hại biểu đồ của hai người Có Mũi tên Thực tế. Cả hai đều là người quen của tôi.
+    `,
+    kehoach: `
+Mũi tên của trục dọc 1-2-3 là một trong những mũi tên thường gặp nhất đối với thế hệ 19xx và 2xXx. Thế hệ này rất dễ có cả ba con số trên hội tụ trong Biểu đồ ngày sinh, nên không khó đoán rằng giai đoạn này có nhiều người giỏi hoạch định. Và bạn có thấy cách chúng được xếp cùng nhau không? Số 1 - đại diện cho sự biểu đạt cái tôi cá nhân - được liên kết với trực giác của số 2, tiếp tới là trí nhớ và các khả năng phân tích dữ liệu của số 3. Cả ba yếu tố này hội tụ sẽ cho ra rất nhiều kế hoạch tuyệt vời .
+- Người có Mũi tên Kế hoạch rất thích trật tự đâu ra đó, có phương pháp thực hiện, có thấu hiểu vấn đề. Nhưng họ thường đặt mình vào vị trí “ người tổ chức ” hơn là “ người thực hiện ” các chi tiết, trừ khi họ có thêm Mũi tên Thực tế ( 1-4-7 ), hoặc có Con số chủ đạo thuộc nhóm Thể chất ( 4 , 7 , 10 hay 22/4 ). Với khả năng hoạch định xuất sắc như vậy, người có mũi tên này cần lưu ý tránh “ nổi máu lười ”. Nghe có vẻ phi lý nhưng thực tế là vậy, đặc biệt là khi họ liên tục giao kế hoạch cho người khác thực hiện mà không chú ý theo dõi, giám sát tiến độ thực hiện.
+- Trẻ con có Mũi tên Kế hoạch sẽ vui nhất khi được tự tay thiết kế, tổ chức những kế hoạch nho nhỏ cho bạn bè hay gia đình. Nhưng nếu các kế hoạch này gặp trở ngại hoặc xung đột với kế hoạch khác từ cha mẹ, trẻ có thể rất thất vọng. Chỉ khi nào cha mẹ thật kiên nhẫn và bày tỏ tình yêu thương thật nhẹ nhàng thì chúng mới “ bỏ qua ” nỗi thất vọng này.
+- Những đứa trẻ thuộc nhóm này thường tỏ ra khá tách biệt, coi nhiều điều đang diễn ra là lẽ đương nhiên và thường chìm đắm trong những suy nghĩ hoặc kế hoạch riêng của chúng. Sự tách biệt này thể hiện ra ngoài thành vẻ xa cách, từ từ có thể trở thành thói quen phớt lờ, không lưu tâm đến nhu cầu của người khác. Các bậc phụ huynh và thầy cô cần áp dụng kỷ luật yêu thương nhưng nghiêm khắc, cứng rắn để yêu cầu trẻ phải hợp tác. Những đứa trẻ này cũng cần tránh bị bắt nạt hoặc hù dọa, mà thay vào đó, chúng cần được dạy dỗ nhẹ nhàng để biết tôn trọng các ý kiến, thói quen hay các đồ vật thuộc sở hữu của người khác. Trẻ có Mũi tên 1-2-3 thường nhẹ nhàng, đáng tin cậy và chậm nhận ra sự bất công. Sự ngây thơ này có thể rất dễ thương, mặc dù đôi khi chính sự cả tin này khiến trẻ bị tổn thương khi chứng nhận ra những người xung quanh không dễ tin và dễ bị lừa như mình.
+Trong những năm đầu đời, trẻ có Mũi tên 1-2-3 thỉnh thoảng gặp phải cảm giác bồn chồn, lo lắng, vì dành quả nhiều thời gian trong tâm trí mà không biết cách thể hiện năng lượng trí não này ra thực tế. Lúc này, cha mẹ hoặc người lớn xung quanh có thể giúp trẻ bằng cách khuyến khích trẻ năng động hơn, thường xuyên vận động ngoài trời, hòa mình vào thiên nhiên. Cho trẻ đọc sách du ký có tranh minh họa cũng rất hữu ích cho đến khi chúng đủ lớn để có điều kiện tự trải nghiệm du lịch, giúp chúng thỏa mãn sự ham học hỏi và khám phá những điều chưa biết.
+    `,
+    thieutrattu: `
+Khi ngày tháng năm sinh của bạn hoàn toàn không có các số 1, 4 và 7, bạn đã nằm trong nhóm những người có mũi tên trống khá đặc biệt, đó là Mũi tên Thiếu trật tự. Thật ra, chỉ cần nhìn và mũi tên trong này, bạn sẽ thấy tất cả những người sinh từ năm 1999 trở về trước đều không thể vướng vào mũi tên này. Chỉ có các bạn trẻ sinh ra từ năm 2000 trở đi mới có thể có mũi tên này trong Biểu đồ ngày sinh .
+- Tuy nhiên, bạn cũng đừng lo lắng cho các con và cháu của mình. Vì khi tôi tìm trong mấy trăm trường hợp, mà mình đã nghiên cứu qua để đưa vào làm ví dụ, rất khó tìm được người có mũi tên trống này. Vì trên nguyên tắc, chỉ cần bạn có một trong ba số này 1, 4 hoặc 7 trong ngày sinh thì bạn hoàn toàn không cần ngại mũi tên này nữa rồi. Theo Thầy David, mục đích của linh hồn khi quay trở lại kiếp người trên Trái đất này là để có cơ hội phát triển, hướng về sự hoàn thiện.
+- Vì thế, khi được sinh ra mà lại không có Con số nào trong Trục ngang Thể chất, người này sẽ phải chấp nhận một khuyết điểm đáng kể, thứ cần được vượt qua và hoàn thiện ngay trong đời này, nếu họ muốn đạt được hạnh phúc trong cuộc sống. Khi một người chỉ có thế mạnh nằm trên Trục ngang Tình thần ( trục 2-5-8 ), hoặc chỉ có Trục ngang Tinh thần và Trục ngang Trí não ( gồm 3-6-9 ), họ dễ có khuynh hướng Sa vào một cuộc đời nặng về lý thuyết.
+- Khi đó, mọi suy nghĩ, ý tưởng cảm xúc ... chỉ có thể là lý thuyết, cho đến khi nó được đưa vào đời sống thực tế thông qua Trục ngang chất. Nếu không có những hoạt động thực tế, cuộc sống trở nên rối loạn và không đáng thỏa mãn, tước mất của con người niềm vui khi được nhìn thấy những ý tưởng của mình trở thành hiện thực. Những người có Mũi tên trống 1-4-7 cần có trải nghiệm thực tế và tính kiên nhẫn thì mới phát triển được sự cân bằng ở cả ba trục Thể chất - Trí não - Tinh thần, nếu không, họ sẽ sống trong sự hỗn loạn, thiếu trật tự ở nhiều mặt.
+- Khi vận dụng được sự nhạy cảm của mình trong thực tế, họ sẽ cảm nhận được niềm vui khi nhìn thấy thành quả lao động của mình như được "cởi trói” để có cơ hội phát triển. Nếu không làm được điều này, họ có khả năng trở thành người trì trệ, không thiết tha làm việc để nuôi sống bản thân. Nhiều trường hợp không được can thiệp để uốn nắn từ nhỏ thì đến lớn sẽ khó mà sửa được và có thể phải sống nhờ vào sự giúp đỡ của người khác.
+- Trẻ Con Có Mũi tên trống 1-4-7 cần được dạy để trở nên thực tế và ngăn nắp càng sớm càng tốt, ngay từ khi trẻ vừa biết đi chập chững. Trẻ nên được khuyến khích tập trung làm cho xong mỗi lần một việc rồi mới tiếp tục làm qua việc khác, không thì sẽ chẳng có việc nào được hoàn thành cả. Trẻ sẽ cần sự chú ý đáng kể từ cha mẹ hay người lớn xung quanh, những người phải chịu khó bày ra các trò chơi mang tính thực tiễn với chúng ( những trò có liên quan đến cầm, nắm, đếm, tính toán hay trải nghiệm thực tế, có dọn dẹp sau khi chơi xong ). Trẻ cũng cần được giao cho các công việc nho nhỏ trong nhà, như dọn dẹp góc phòng, sân nhà, ... mỗi khi có thể. Mỗi lần trẻ hoàn thành những nhiệm vụ này, ngoài lời động viên và khen ngợi, cha mẹ nên chuẩn bị những phần thưởng be bé cho trẻ.
+- Đối với nhóm trẻ này, bên cạnh giá trị động viên thông thường, những phần quà còn được xem là “ bằng chứng thực tế ” giúp trẻ hiểu sự cân bằng giữa giá trị vật chất và giá trị tinh thần. Ngay khi đủ tuổi đến trường, trẻ cũng nên được khuyến khích tham gia các hoạt động thể thao không mang tính thi đua, tranh đấu hoặc đối kháng. Nhìn chung, tôi hiếm khi gặp mũi tên trống này, trừ trường hợp quen thuộc của người Có ngày sinh 22/2/2002 mà tôi đã đề cập nhiều lần. Nhưng trường hợp của em này lại đặc biệt vì em không vướng những đặc điểm của mũi tên trống. Từ đó chúng ta suy ra hai khả năng:
+    `,
+    canbangcamxuc: `
+Mũi tên này chỉ sự cân bằng về mặt cảm xúc. Tuy nhiên, khi tìm hiểu sâu những nội dung mà Thầy David mô tả thông qua các ca nghiên cứu của Thầy, tôi cho rằng những người có mũi tên này cũng phải để ý, vì lợi cũng có phần lợi, nhất là ở phần thiên hướng nghề nghiệp, nhưng cảm xúc chưa chắc thật sự cân bằng mọi lúc mọi nơi. Theo quyển The Complete Book of Numerology, Mũi tên Cân bằng cảm xúc được tạo thành từ sự có mặt của cả ba con số 2, 5 và 8 trên Trục ngang Tinh thần ở giữa Biểu đồ ngày sinh. Trong ba Trục ngang quan trọng của con người, Trục ngang Tinh thần cho chúng ta thấy nhiều cách biểu đạt bản thân đa dạng phong phú nhất ở con người. Và nó cũng là trục chỉ cảm xúc, nên người Có Mũi tên 2-5-8 này sẽ có nhiều phong thái khác nhau cho từng hoàn cảnh khác nhau.
+- Nói về mặt bẩm sinh, những người có Mũi tên 2-5-8 sở hữu khả năng cân bằng tự nhiên trong đời sống cảm xúc và một nhận thức khá sâu sắc về các giá trị tinh thần, thậm chí là tâm linh. Điều này đặc biệt giúp ích cho họ khi thế giới bắt đầu đi vào Kỷ nguyên mới của Nhận thức, từ thiên niên kỷ 2000 trở đi. Đối với những người này, cuộc sống là sự hòa hợp giữa đời sống vật chất và tâm linh, mà trong đó, phần vật chất là tạm thời, còn tâm linh mới là vĩnh cửu. Nhận thức này tác động khá rõ lên thái độ của họ với cuộc sống, cũng như xu hướng nghiêm túc mọi lúc mọi nơi của họ. Họ nên tìm kiếm những người bạn đồng hành vui vẻ, lạc quan, và thỉnh thoảng tìm đến những phương tiện giải trí nhẹ nhàng để tránh trở nên quá mức nghiêm túc và sống quá nội tâm.
+- Họ hiểu được thế nào là cân bằng ở khía cạnh cảm xúc và tinh thần, nhưng lại hay bỏ qua ý nghĩa sâu rộng hơn của nó ở những khía cạnh khác trong cuộc sống, như mặt thể chất và trí não chẳng hạn. Nhiều người trong số này thường tìm đến các lĩnh vực nghệ thuật hay giải trí để giải tỏa nhu cầu diễn đạt cảm xúc bản thân một cách cân bằng, nhưng hãy nhớ rằng nghệ thuật và giải trí chỉ là nghệ thuật giải trí, đừng để bản thân đắm chìm vào những hình ảnh hay hình tượng được thể hiện trong đó, để duy trì được sự cân bằng cảm xúc dài lâu, họ cần ý thức mình chính là người chịu trách nhiệm về những cảm xúc của mình, và không để cho cảm xúc khống chế bản thân, nếu không, họ sẽ bị lạc lối và mất phương hướng, với khả năng kiểm soát cảm xúc mạnh mẽ như vậy, những người có Mũi tên 2-5-8 có thể trở thành những diễn viên xuất sắc. Sự nhạy cảm bẩm sinh cho phép họ nhập tâm hoàn toàn vào những vai diễn mà không phải hy sinh các đặc điểm tính cách riêng. Nhưng cho dù có làm diễn viên hay không thì những người này sẽ đóng nhiều vai trò cảm xúc khác nhau trong các hoạt động thường ngày, tại chỗ làm, trong các mối quan hệ xã hội và ở nhà. Sự nhạy cảm được cân bằng của những người có mũi tên này giúp họ ý thức được nhu cầu và thái độ của người khác một cách rõ ràng, tự nhiên.
+- Khả năng này có thể được phát huy và giúp họ tỏa sáng trong lĩnh vực tư vấn hay chăm sóc sức khỏe, bởi họ đã có sẵn thiện khiếu ở những lĩnh vực này. Tuy nhiên, để đạt được thành công, họ nên được đào tạo một cách bài bản về kỹ năng chăm sóc sức khỏe, để tránh rơi vào chủ nghĩa giáo điều vì trong lĩnh vực này, không có phương pháp của ai là phương pháp đúng duy nhất. Không chỉ riêng những người có mũi tên này, mà tất cả những ai bước vào lĩnh vực y học và chăm sóc sức khỏe đều nên chủ động cởi mở và tiếp thu những phương pháp điều trị khác nhau.
+- Và trên hết, người có Mũi tên 2-5-8 cần nhận thức được rằng họ có bản chất nhạy cảm, giàu cảm xúc và một trực giác rất phát triển. Trẻ em Có Mũi tên 2-5-8 trong Biểu đồ ngày sinh thường vô cùng nhạy cảm, có thể có năng lực tâm linh mạnh mẽ, nên trẻ có thể bị chìm đắm trong thế giới của mình và được xem như những kẻ "mơ mộng”. Chúng dễ bị cuốn vào những mâu thuẫn cảm xúc, nhưng có khuynh hướng thu mình lại chứ không chủ động tham gia. Mong muốn tránh né những mối bất hòa có thể khiến trẻ bị tụt lại phía sau trong các hoạt động ở trường và làm tổn hại sức khỏe của trẻ, nếu chúng để cho sự nhạy cảm thường xuyên đẩy mình vào thế bị động, từ đó có những phản ứng tiêu cực trong nhiều tình huống.
+- Các bậc phụ huynh nên ý thức dạy Con cách giữ cân bằng về cảm xúc, điều mà chính cha mẹ cũng cần học để dạy con hiệu quả. Những đứa trẻ thuộc nhóm này cũng cần tránh những chương trình truyền hình hay phim ảnh quá ồn ào hoặc có nhiều yếu tố kích thích cảm xúc. Theo Thầy David, trẻ con nên được ưu tiên ăn thực phẩm nguyên hạt và tự nhiên, hơn là thức ăn đóng gói và chế biến sẵn có nhiều hóa chất.
+    `,
+    nhaycam: `
+Vì nằm ở Trục ngang Tinh thần nên mũi tên trống này cũng cho thấy một sự thiếu hụt mang tính chất tinh thần. Theo nghiên cứu của Thầy David, việc thiếu hụt những con số trong trục này không có nghĩa là người này không có đời sống nội tâm, mà thực chất, nó diễn tả sự bảo vệ phần tâm hồn của người này không đủ mạnh. Do đó, sự nhạy cảm của họ lộ ra, tiếp xúc với thế giới bên ngoài - vốn hiền có dữ có và có xu hướng lợi dụng sự yếu ớt của những tâm hồn quá nhạy cảm.
+- Vì vậy, Mũi tên trống 2-5-8 thể hiện sự nhạy cảm, dễ tổn thương, đặc biệt là trong giai đoạn đầu đời, khi người ta bộc lộ toàn bộ sự nhạy cảm này mà chưa biết dựng lên lớp tường rào bảo vệ cảm xúc của mình. Họ dễ cảm thấy bị xúc phạm, dễ xuống tinh thần, do đó thường rụt vào bên trong và trở nên bẽn lẽn, nhút nhát.
+- Nhiều người thuộc nhóm này rất dễ rơi vào cảm giác tự ti từ rất sớm, khiến họ gặp một số khó khăn khi giao tiếp xã hội và dễ mất lòng tin nơi người khác. Khi đến tuổi trưởng thành, một vài người trong số họ vượt qua được những cảm xúc phức tạp này bằng cách kiểm soát tốt cảm xúc. Những người này thậm chí còn thành danh trong một số lĩnh vực mà họ dốc sức vào, hoặc nắm thế chủ động trong các tình huống hay các cuộc trao đổi để bảo vệ bản chất nhạy cảm tự nhiên của mình.
+- Một số người khác học được cách chủ động tấn công người khác và coi đây như một cách tự vệ. Đặc điểm này dễ xảy ra ở những người thiếu chuỗi số 2-5-8 nhưng lại có Mũi tên Trí tuệ ( 3-6-9 ), hoặc có Con số chủ đạo nằm ở Trục ngang Trí não ( số 3,6 hoặc 9 ). Sự nhạy cảm tự nhiên đã cho họ bản tính giàu tình yêu thương và dịu dàng, nhưng họ thường có phản ứng thụ động vì những tổn thương về cảm xúc, khiến họ tự xây dựng cho mình một vẻ ngoài cứng rắn, thứ mâu thuẫn với biểu cảm nhẹ nhàng, tự nhiên ở họ. Họ học cách bày tỏ cảm xúc tùy vào đối tượng mà mình tương tác - một kiểu phân biệt đối xử .
+- Điều này khiến nhiều người sở hữu mũi tên trống này gặp trắc trở trong đời sống tình cảm, vì họ vô tình thể hiện không đúng bản chất con người mình, từ đó khiến người thương hiểu lầm. Đôi khi những người Có Mũi tên trống 2-5-8 có vẻ rất bướng bỉnh, thậm chí là “ nghênh ngang ”, nhưng đây chỉ là những lớp vỏ họ dựng lên để che đậy sự bẽn lẽn nhút nhát cố hữu của mình mà thôi. Họ luôn dễ bị tổn thương về mặt cảm xúc, một điều mà rất hiếm người có mũi tên này hoàn toàn hiểu được hay vượt qua được.
+- Một trong những bài học quan trọng nhất mà những người này cần lĩnh hội chính là học cách kiểm soát cảm xúc, càng sớm càng tốt. Như ở trên đã đề cập, đối với một tác nhân kích động chúng ta có hai khuynh hướng phản ứng: phản ứng thụ động và phản ứng chủ động. Những người có Mũi tên Nhạy cảm cần phân biệt được hai cách phản ứng này để không còn xem mình là nạn nhân của hoàn cảnh hoặc thụ động phản ứng với ý kiến của người khác. Họ cần học cách làm những người tiên phong, người truyền cảm hứng và thực hiện những mục tiêu đáng giá. Thông qua các nỗ lực đó, họ sẽ nhận ra sức mạnh của riêng mình, xóa đi sự mặc cảm tự ti, và chính sức mạnh này sẽ giúp họ cân bằng lại các đặc điểm của mình, đạt được một số thành quả trong cuộc sống.
+- Điều này rất quan trọng, vì từ nền tảng đó, họ sẽ từ từ đi lên, đạt được thêm nhiều thành tựu mới, nhiều quả ngọt mới. Kết quả, sự hiểu biết của họ cũng sẽ gia tăng, lòng tin vào cuộc sống, vào con người của họ cũng được phục hồi. Trẻ em Có Mũi tên trống 2-5-8 thường đặc biệt nhút nhát, nhạy cảm. Một số em khi đi ra ngoài đường, giữa đám đông, thường cúi gằm đầu xuống để che giấu sự tự ti của mình.
+- Tuy nhiên, bằng sự kiên nhẫn, tình yêu thương và sự tử tế, cha mẹ, thầy cô và những người lớn xung quanh có thể dễ dàng giúp trẻ vượt qua điểm hạn chế này. Các bậc phụ huynh nên dành nhiều thời gian trò chuyện, lắng nghe và chia sẻ với con, vì những nỗi sợ hãi, lo lắng, bồn chồn thường rất thật trong đầu óc còn non nớt của trẻ. Cha mẹ cũng cần khuyến khích con diễn đạt thành lời những vấn để Con đang cảm thấy, vì điều này sẽ giúp trẻ cân bằng cảm xúc và cả cảm giác an toàn khi dám biểu lộ sự nhạy cảm của bản thân.
+- Trẻ có Mũi tên trống 2-5-8 khao khát tình yêu thương nhiều hơn những đứa trẻ bình thường khác. Chúng tìm kiếm mọi cơ hội để được gần gũi những người mà chúng yêu thương và cũng yêu thương chúng. Vì thế, cha mẹ nên tạo điều kiện cho con tham gia các hoạt động thú vị, bổ ích. Đồng thời, đừng quên khen ngợi hay cổ vũ con khi con làm tốt, vì đó chính là thứ mà chúng rất cần.
+- Ngược lại, nếu trẻ lỡ có làm việc gì đó không đạt hay tỏ ra có phần nghịch ngợm, đừng rầy la hay chỉ trích con trước mặt người khác, đặc biệt là trước mặt các bạn đồng trang lứa. Vì hành động đó chẳng khác nào “đóng mộc” sự mặc cảm tự ti cho con, đồng thời cũng làm mất đi lòng tin hay kính trọng của con.
+- Thay vào đó, cha mẹ và Thầy Cô nên trao đổi riêng với trẻ, giúp trẻ tìm ra cách thức tốt đẹp nhất để giải quyết vấn đề.
+    `,
+    tritue: `
+- Đây là một mũi tên đặc sắc , cá nhân tôi rất ngưỡng mộ những ai có mũi tên “vàng” này. Tương tự như những mũi tên chỉ thế mạnh khác, số lượng người Có Mũi tên Trí tuệ rất hiếm. Nếu bạn có đủ ba con số 3, 6, 9 này trong ngày sinh, xin chúc mừng bạn ! Bạn thuộc nhóm số ít những người có Mũi tên Trí tuệ - mũi tên cho thấy người sở hữu nó có nhiều lợi thế về các hoạt động tư duy, mà một trong số đó chính là trí nhớ vượt trội. Trí nhớ vượt trội lại mang đến rất nhiều ưu điểm khác, chẳng hạn như học lực khá giỏi  khả năng ghi nhớ dài hạn và chi tiết.
+*** Hai người Có Mũi tên Trí tuệ mà tôi biết là cậu bạn thân từ thời phổ thông và chị kế toán Công ty. Cậu bạn của tôi nổi tiếng vì trí nhớ siêu đẳng, có thể kể vanh vách tên từng thấy cô bộ môn qua từng năm, bạn từng lớp, ai từng làm gì, chuyện gì từng xảy ra ... Chị kế toán công ty tôi thì luôn điềm tĩnh xử lý những số liệu chuyên ngành, bất kể chúng có rối ren đến thế nào đi nữa. Trên thực tế, sự có mặt của cả ba con số 3 , 6 , 9 trên Trục ngang Trí não đã chỉ ra tầm quan trọng của trí thông minh và cách người có mũi tên này chọn thể hiện bản thân mình.
+- Nó cho thấy một bộ não cực kỳ năng động , thứ tạo điều kiện thuận lợi cho sự vượt trội của trí nhớ. Tuy nhiên, Thầy David lưu ý rằng một số người sở hữu mũi tên này nhưng vẫn có trí nhớ kém dưới mức trung bình. Điều này cho thấy họ đang lãng phí tài năng và trở nên lười tư duy. Nếu điều này không được phát hiện và điều chỉnh kịp thời, ưu thế bẩm sinh của họ sẽ bị mai một vì không được sử dụng thường xuyên, và cuối cùng, người này sẽ chịu cảnh cô độc bởi khó ai chịu nổi tỉnh gắt gỏng của họ - mặt trái của một trí tuệ không được mài giũa .
+- Nhìn chung, người có mũi tên này thường sáng dạ, sống khá tích cực và nhanh nhạy, thích những gì mang tính học thuật hơn tính thẩm mỹ. Họ thường chìm đắm trong suy nghĩ hơn là lặn ngụp giữa các cảm giác, mặc dù đôi khi họ cũng khá đa sầu đa cảm mà không nhận ra. Những người có mũi tên vàng này cần có ý thức tránh thái độ trịch thượng, chỉ tìm những ai mà họ cho rằng có trí tuệ ngang họ trở lên để chơi. Hãy phát triển lòng bao dung và tình yêu thương để hạn chế xu hướng tỏ thái độ khó chịu với những người kém may mắn hơn mình về mặt trí tuệ. Chúng ta có thể khắc phục mọi điểm yếu của mình, miễn là chúng ta biết phát huy năng lực bẩm sinh.
+- Những người này thường phải gánh vác không ít trách nhiệm, họ cũng gặp không ít nghịch cảnh hay chướng ngại, nhưng họ thường giải quyết hoặc vượt qua các vấn đề này một cách tốt đẹp. Họ cũng là những người quảng giao, có thể dễ dàng tìm ra các lời lý giải hợp tình hợp lý cho hầu hết mọi tình huống nhưng hãy cẩn thận, bộ não tốt cỡ nào cũng cần được nghỉ ngơi. Nếu bộ não của họ không được nghỉ ngơi đủ, những người này thường cáu bẳn mà không có lý do rõ ràng. Triệu chứng này chính là lời cảnh báo họ phải nghiêm túc học cách cân bằng đời sống của mình giữa các khía cạnh tư duy, thể chất và nghệ thuật để đạt được thành công cao nhất. Những người có Mũi tên Trí tuệ thường không có trực giác tốt nếu trong ngày tháng năm sinh của họ không có số 2 - Con số chỉ trực giác, nằm ở Trục ngang Tinh thần. Lý do rất đơn giản, trực giác thuộc Tinh thần, không phải Trí não. Do đó, đôi khi những người rất thông minh, sáng trí này cũng bị ... tắc nghẽn, không nắm bắt được một khái niệm đơn giản nào đó, chỉ vì họ không biết sử dụng trực giác của mình .
+- Hãy nhớ “ bật Công tắc ” trực giác lên, cho dù bạn có Mũi tên Trí tuệ. Sau đây là vài trường hợp có Mũi tên Trí tuệ.
+    `,
+    trinhonganhan: `
+Thông qua tìm hiểu về Nhân số học, chúng ta biết rằng những con số hoàn toàn có thể “nói” lên nhiều điều quan trọng và ý nghĩa về cuộc đời mỗi người, miễn là chúng ta biết cách lắng nghe chúng. Những thông tin này đủ để chúng ta không phải mù mờ về việc mình nên đi đâu, làm gì, giúp chúng ta hoạch định con đường mình đi sao cho tốt đẹp nhất, dù cho xuất phát điểm có thế nào.
+- Tôi rào trước đón sau kỹ như vậy là vì Mũi tên trống 3-6-9 này không được “sáng” lắm, nhưng lại được gặp khả thường xuyên, nhất là ở các bạn trẻ được sinh trong khoảng các năm 2000 trở lại đây. Hãy cùng xem xét các ví dụ dưới đây để hiểu thêm về mũi tên này. Như bạn nhìn thấy trên Biểu đồ ngày sinh 12/10/2005, sự thiếu vắng hoàn toàn ba con số 3 , 6 , 9 trong ngày tháng năm sinh tạo thành một Trục ngang Trí não toàn ô trống. Sự vắng mặt các con số ở trục ngang này cho thấy một trí nhớ kém, nhưng điều này không có nghĩa là người này mất trí hay không thể suy nghĩ. Chính xác hơn, người có Mũi tên Trí nhớ ngắn hạn này là những người phải cố gắng nhiều để bảo đảm trí nhớ của họ luôn trong trạng thái năng động và nhanh nhạy, và họ cần ý thức giữ nỗ lực này suốt đời. Chỉ cần họ ỷ lại hay trở nên lười suy nghĩ dù chỉ trong một quãng thời gian ngắn, trí nhớ của họ, cùng với sức sáng tạo và các lý tưởng sống, sẽ nhanh chóng bị mai một.
+- Điều đáng lo là trong nửa quãng thời gian đầu tiên của cuộc đời, những người này vẫn rất bình thường, thậm chí học rất giỏi ; tuy nhiên, từ nửa quãng đời sau, chứng suy giảm trí nhớ bắt đầu có nhiều ảnh hưởng tương đối nặng nề đến cuộc sống của họ. Điều này diễn ra từ từ, phát triển thành các triệu chứng của “ tính khí con nít ”, tức là những biểu hiện y như con nít ở người già; sau đó, triệu chứng nhanh chóng trở nên trầm trọng hơn, thành chứng mất trí nhớ Alzheimer ở người lớn tuổi. Tất cả những ai sinh ra trong những năm 19xx của thế kỷ 20 đều không có mũi tên trống này. Nhưng theo Thầy David, ở các thế kỷ trước đó, vẫn có những người dù không có số 9 trong ngày sinh, họ vẫn nỗ lực khắc phục điểm yếu và học hỏi được những điều cần thiết cho cuộc sống. Để làm được điều đó, họ phải cực kỳ bền chỉ trong cuộc chiến đấu chống lại sự chậm hiểu của chính mình và luôn nỗ lực giữ cho trí não nhanh nhạy, tỉnh táo để duy trì bản thân ở trạng thái tốt nhất.
+- Những người này thường tươi sáng và khôn ngoan  bản thân cuộc đời họ cũng là tấm gương sáng cho nhiều người noi theo. Ở Việt Nam, trong số hơn 500 trường hợp tôi từng nghiên cứu qua, có một số lượng khá lớn các bạn trẻ sinh ra vào những năm 2000 bị vướng mũi tên trống này. Các bạn vẫn còn quá trẻ nên chưa thể kết luận nửa đời sau các bạn sẽ thế nào. Tuy nhiên, khi nhìn vào hiện tượng bên ngoài, điều thú vị là không ít các bạn hoàn toàn trống trục 3-6-9 mà vẫn học khá, giỏi trong lớp. Một số khác, theo tôi quan sát , thì học không đến nỗi nào, chỉ là không quá hứng thú với việc học. Dù sao đi nữa , các bậc cha mẹ vẫn cần phải để ý để phòng tránh chứng suy giảm trí nhớ ở các con vào nửa quãng đời sau.
+- Trẻ em Có Mũi tên trống 3-6-9 cần nhận được sự đào tạo tương đối đặc biệt và cần nhiều sự kiên nhẫn trong những năm tháng đầu đời. Các em sẽ có vẻ hơi chậm về mặt suy nghĩ, cần được dạy cách tăng cường khả năng tập trung, thứ quan trọng để phát triển trí nhớ. Tiếp theo, các em có thể được khuyến khích khả năng sáng tạo và tăng cường ý thức về thế giới tự nhiên xung quanh các em - những điều này mang ý nghĩa của số 6 và sẽ giúp các em rất nhiều. Trẻ em thuộc nhóm này được Thầy David khuyên không nên đi học quá sớm - ít nhất từ năm tuổi hãy học trường mẫu giáo, hoặc bảy tuổi hãy bắt đầu đến trường cũng được. Và khi các em đi học, phụ huynh và thầy cô đừng đặt nặng chuyện kiến thức hay thành tích, mà hãy tập trung phát triển cho trẻ ý thức kỷ luật, kế đó là các hình thức sáng tạo hay nghệ thuật đa dạng.
+- Đến bảy tuổi, trẻ có thể bắt đầu học kiến thức phổ thông. Nếu bị đưa vào hệ thống giáo dục như bình thường, rất có thể trẻ sẽ bị các chứng nhức đầu, trường hợp nặng có thể dẫn đến chứng đau nửa đầu. Những đứa trẻ có mũi tên trống này thường thích thiên nhiên hơn khoa học, nên cha mẹ và thầy cô cần nhẹ nhàng dạy các con một cách cẩn trọng và kiên nhẫn, từ từ trẻ sẽ có thể tiến bộ lên rất nhiều.
+    `,
+    hoatdong: `
+Mũi tên này nằm ở trục dọc ngoài cùng bên phải, kết nối số 7 - Con số của trải nghiệm, với số 8 - Con số của trí tuệ và khả năng cảm thụ, và số 9 - Con số của hoài bão và trách nhiệm. Sức mạnh của sự kết hợp này đôi khi bị quá đà, trở thành “ quá mức năng động ”, do con người là những sinh vật giàu biểu cảm nhất, vượt xa bất kỳ giống loài nào khác. Những biểu cảm này còn đặc biệt đa dạng và dễ nhìn thấy ở những người có Mũi tên 7-8-9.
+- Tuy nhiên, xã hội hiện đại với rất nhiều quy tắc đã ít nhiều cản trở sự tự do biểu đạt của họ, đến mức khiến họ dễ kích động bởi năng lượng bức bối ngày càng leo thang. Qua các nghiên cứu của mình, Thầy David nhận thấy hậu quả của điều này là họ dễ bị chứng hồi hộp thái quá, dẫn đến nhiều bệnh lý như hen suyễn, chứng ăn khó tiêu, nhức đầu hay đau nửa đầu, hoặc các vấn đề về tim mạch hay hệ thống tuần hoàn máu. Người có Mũi tên Hoạt động rất cần sự bình an và hòa hợp với môi trường xung quanh. Các cuộc cãi vã, những chương trình truyền hình hoặc phát thanh quá ồn ào sẽ khiến họ cực kỳ căng thẳng, thậm chí gây ra các chứng bệnh có liên quan đến áp lực căng thẳng.
+- Họ cần dành càng nhiều thời gian với thiên nhiên càng tốt, vì họ không phải là người phù hợp với không khí của các thành phố lớn. Những hoạt động lý tưởng đối với họ là đi dạo trong Công viên, làm vườn, trồng trọt hoặc tham gia các hoạt động thể thao ngoài trời. Nếu không được tận hưởng những không gian tự do như vậy, họ sẽ dễ gặp vấn đề về hệ tiêu hóa. Thêm nữa, chế độ ăn uống lành mạnh, cuộc sống hòa mình với thiên nhiên, cùng với cái nhìn tích cực về cuộc sống và những người bạn vui vẻ sẽ có hiệu quả trong việc giúp những người Có Mũi tên 7-8-9 khỏe mạnh hơn bất kỳ loại thuốc nào.
+- Tôi có rất nhiều bạn bè, người thân, người quen ... Có Mũi tên 7-8-9 này - họ chiếm rất nhiều trong hơn 500 người mà tôi từng nghiên cứu. Điều này cũng dễ hiểu vì chỉ cần là người được sinh ra trong những năm 19xx của thế kỷ 20 và có thêm ngày sinh, tháng sinh nào đó có liên quan đến số 7 ( như thập niên 70, 197x ) đều có mũi tên này - đặc biệt là toàn bộ những người sinh năm 1978, 1987. Những người được sinh ra vào thập niên 1970, hoặc các năm 1978 và 1987, nếu lại có yếu tố làm gia tăng số 9 , 8 hay 7 trong biểu đồ thì sẽ khá mệt mỏi, vì bất kỳ sự lặp lại nào của con số 7 , 8 , 9 đều có thể dẫn đến sự quá mức - như tôi có đề cập trong phần ý nghĩa của số lượng các con số trong Biểu đồ ngày sinh.
+    `,
+    thudong: `
+Khi bước vào kỷ nguyên mới 2000, các chuyên gia đã dự báo là có rất nhiều thay đổi to lớn diễn ra ở mọi khía cạnh của cuộc sống, mọi mặt của xã hội. Và giờ đây, chúng ta bắt đầu nhìn thấy hệ quả của điều này, khi thế hệ những người sinh ra từ năm 2000 trở đi bắt đầu trưởng thành, chính thức tham gia đời sống xã hội. Những người được sinh ra trong những năm 19xx của thế kỷ 20 không có mũi tên này, và cả hai thế kỷ trước đó nữa cũng không. Cho nên, đó là ba trăm năm của sự năng động, một bước tiến dài về phía trước.
+- Thành quả của giai đoạn đó cũng nhiều, chẳng hạn như những cuộc cách mạng về khoa học kỹ thuật, công nghệ và trí thông minh nhân tạo ; nhưng bên cạnh đó, lợi bất cập hại cũng nhiều khi loài người đặc biệt là trong thế kỷ 20, trở nên quá tham vọng trong việc làm chủ vũ trụ, chạy theo cái lợi và lý tưởng về cuộc sống vật chất mà bỏ qua sự cân bằng về môi trường, hệ sinh thái, bỏ qua rất nhiều quy luật hiển nhiên về sự cân bằng ( trong đó có luật phát triển của biểu đồ hình sin : vật cực tất phản ). Để rồi những ngày này của năm 2020, chúng ta đang cảm nhận đầy đủ hậu quả của sự tham vọng quá độ đó.
+- Như một lẽ cân bằng của tự nhiên, qua thiên niên kỷ 2000 và còn sẽ kéo dài trong hàng trăm năm nữa, nhiều thế hệ sinh ra sẽ mang mũi tên trống đặc thù này - Mũi tên Thụ động. Thoạt nhìn, chúng ta sẽ thấy người sở hữu mũi tên này không có sự trải nghiệm để trưởng thành của số 7, không có trí tuệ và khả năng cảm thụ của số 8, và cũng không có hoài bão và trách nhiệm của số 9 - hẳn là người này sẽ rất thụ động, không tự tạo động lực để tiến lên phía trước được.
+- Nhưng hãy nhớ rằng tất cả những người này đều được trang bị một sức mạnh bẩm sinh mà không phải ai trong thiên niên kỷ trước cũng có, đó chính là số 2, Con số của trực giác, của sự kết nối với vũ trụ bao la. Và khi họ có rất nhiều số 0 trong Biểu đồ ngày sinh, đặc biệt là khi trống cả dãy 7-8-9, họ sẽ có cơ hội để trở thành Vô cùng. Vì vậy, theo dự đoán của Thầy David ( ông chỉ có thể dự đoán, vì thời điểm quyển sách của ông được xuất bản là năm 1992 ), những người có Mũi tên trống 7-8-9 sẽ có nhiều khả năng trở thành những người tư duy, lên kế hoạch và dẫn dắt sau - hậu trường cho cả kỷ nguyên mới, khi rất nhiều người có mũi tên trống này lại có Mũi tên Kế hoạch ( 1-2-3 ). Tuy vậy, những người này sẽ không thể chạm đích thành công nếu không được rèn luyện về sự kiên trì và tinh thần kỷ luật thông qua những "chương trình đào tạo” ở cả trường học lẫn trường đời.
+- Với những đặc điểm như vậy, không khó nhận thấy trong thời gian sắp tới, khi những người sinh năm 2xxx này bắt đầu trưởng thành và tham gia vào guồng máy xã hội, thế giới sẽ bớt chiến tranh và các thảm họa về con người. Chúng ta thật sự đang “dọn dẹp những tàn dư” do thế hệ những con người quá tham vọng của thế kỷ 20 bày ra. Hãy tin rằng thế hệ 2XXX sẽ thông qua các cuộc “dọn dẹp” này để tôi luyện tính can trường, tư duy chủ động và chính thức “thức tỉnh". Sự thụ động này không đối nghịch với sự năng động theo kiểu mô tả phổ biến, mà đúng hơn, nó là khát vọng sâu xa và tự nhiên về một cuộc sống cân bằng, an hòa, nơi mọi người, mọi loài “ sống chan hòa bên nhau - không ganh ghét oán thù - không chiến tranh giết chóc ”.
+- Đây chính là bức tranh đẹp đẽ mà nhân loại ở thế kỷ 21 nên vươn đến. Một viễn cảnh quá đẹp đẽ, đặc biệt khi chúng ta đang phải trải qua và buộc phải bước qua một thời kỳ “ thanh lọc ” quá sức khắc nghiệt. Nhưng đó chỉ là “ bức tranh viễn cảnh ”, thứ chỉ có thể trở thành hiện thực khi thế hệ có Mũi tên trống 7-8-9 này chịu phá vỡ lớp vỏ “ Thụ động ” bên ngoài và thật sự thức tỉnh, lan tỏa sự bình an của họ ra ngoài, làm thành một tầng năng lượng an hòa rộng khắp và to lớn, bao trùm cả hành tinh này !
+- Tuy nhiên, điểm hạn chế lớn nhất của những người có mũi tên này là họ thường không tự thức dậy được, mà cần sự tác động từ bên ngoài - chẳng hạn như một bài học, một Con người, một trường năng lượng nào đó đánh thức Trực giác và Tiềm thức đang say ngủ của họ. Và quan trọng nhất, họ luôn cần có sự quan tâm, khuyến khích, thúc đẩy sự thức tỉnh này, vì họ thường có vẻ lừ đừ, lười vận động. Họ sẽ không tự nhận ra mục đích của họ khi đến với cuộc sống này, và do đó luôn cần được hướng dẫn, bảo ban và rèn luyện để trở nên năng động hơn trong cuộc sống thường ngày. Nếu được nhắc nhở về sự thức tỉnh và lan tỏa này ngay từ thuở nhỏ, họ sẽ có nhiều khả năng đạt được thành tựu.
+    `,
+    ychi: `
+Nếu Mũi tên Quyết tâm 1-5-9 có thể bắt gặp ở Biểu đồ ngày sinh của rất nhiều người được sinh ra trong thế kỷ 20, thì Mũi tên Ý chí - mũi tên kết nối cả ba Con số 4-5-6 của trục dọc ở giữa là mũi tên rất ít người có. Khi số 6 - đại diện cho sự sáng tạo - được gắn liền với sự tự do thể hiện của số 5, rồi kết nối với số 4 của óc tổ chức thực tiễn, chúng ta có sự cân bằng đầy sức mạnh của cả ba Con số trung tâm của cả ba trục : Thể chất - Trí não - Tình thần. Đây chính là Mũi tên Ý chí. Nó đại diện cho cột sống của con người và nguồn lực sự sống tuôn chảy trong đó.
+- Trong giai đoạn từ 1889 đến 1999, bất kỳ ai có Mũi tên Ý chí đều được “ tặng ” thêm Mũi tên Quyết tâm, làm cho họ trở thành những người hết sức năng động. Tuy nhiên, theo Thầy David, không có nhiều người nổi tiếng có “ tổ hợp vàng ” này, có lẽ là do họ có xu hướng áp chế cảm xúc và mong muốn của người khác để khẳng định và thể hiện sức mạnh của bản thân. Động lực của họ mạnh mẽ đến mức họ thường bỏ qua lời khuyên của người khác và hiếm khi lắng nghe trực giác của mình.
+- Sức mạnh đặc biệt của Mũi tên Ý chí nằm ở sự kết hợp và cân bằng của ba ưu điểm ở mỗi Trục ( Thể chất - Trí não - Tình thần ). Khi người ta nhận ra sức mạnh của sự cân bằng đó và biết áp dụng vào công việc hằng ngày, cuộc sống của họ sẽ thay đổi, và họ sẽ đạt được thành công cao nhất. Họ đủ kiên cường và can đảm để phá bỏ mọi trở ngại khi hành động với sự khôn ngoan và thông thái. Hai nhân vật đại diện cho những người thành công đặc biệt với mũi tên này là đại văn hào người Anh William Shakespeare, và họa sĩ tài danh Leonardo da Vinci.
+    `,
+    uatgian: `
+Nếu như Mũi tên Ý chí 4-5-6 khá hiếm, thì ngược lại, số người có Mũi tên trong 4-5-6 trong Biểu đồ ngày sinh lại khá nhiều, tạo thành một xã hội mà trong đó người hài lòng thì ít, kẻ uất giận lại nhiều. Với sự vắng mặt của cả ba con số 4 , 5 và 6, mũi tên này tạo thành một Biểu đồ ngày sinh bị chia cắt thành hai nửa và một ý chí khá yếu ớt cho những ai sở hữu nó. Thầy David ghi nhận một chi tiết rất đáng suy ngẫm : suốt những thập niên 1940, 1950, 1960, mũi tên này không hề xuất hiện lần nào. Điều này góp phần tạo ra những thế hệ can trường, có ý chí mạnh mẽ.
+- Tuy nhiên, khi bước qua thập niên 70, chúng ta bắt đầu thấy nhiều người Có Mũi tên uất giận. Vì là nhà nghiên cứu và chữa trị cho nhiều khách hàng khác nhau, Thầy David từng gặp nhiều trường hợp có mũi tên này, và họ thường phải gánh chịu khá nhiều vấn đề lớn trong cuộc sống, chẳng hạn như gia đình tan vỡ, các mối quan hệ tình cảm không vui vẻ, hay bị trầm cảm. Sự “uất giận” này đến từ những kỳ vọng không được thỏa mãn. Cũng theo Thầy David, người có mũi tên này thường kỳ vọng ở người khác nhiều hơn những gì bản thân họ sẵn sàng cho đi. Nhưng nếu họ có thể học cách chấp nhận và trân trọng người khác vì sự độc đáo của riêng mỗi người, thì họ sẽ không cần đặt kỳ vọng sai chỗ nữa. Và cũng từ đó, thói quen “ kỳ vọng, mong cầu ” sẽ phai nhạt bớt, họ sẽ sống an nhiên và hạnh phúc hơn. Như vậy, bài học dành cho những người Có Mũi tên trống 4-5-6 là hiểu “ kỳ vọng ” theo hướng “ Có thì tốt , không có cũng không sao ”,  nghĩa là “ Tận nhân lực, tri thiên mệnh ”. Khi đó họ vẫn nỗ lực nhưng sẽ không đến nỗi héo hon trong sự thất vọng vì kết quả không như mong đợi. Những người có mũi tên này cần biết rằng không ai là hoàn hảo, bởi nếu đã hoàn hảo thì chúng ta đâu cần trở lại kiếp sống này để có cơ hội học hỏi và hoàn thiện mình, mỗi người đều đang ở những giai đoạn tiến hóa riêng - Có người là những “ linh hồn già ” hơn thì mức độ hiểu biết, chín chắn và lòng trắc ẩn của họ sẽ dày và sâu hơn những “ linh hồn non trẻ ", nên hãy để cho mỗi linh hồn được phát triển tùy duyên, không nên gượng ép. Đối với con người, lòng biết ơn chính là " chất kích thích tăng trưởng ” hữu hiệu nhất, nhưng lòng biết ơn phải chân thành thì mới có thể phát huy tác dụng này lâu dài. Và bạn thấy đó, trong cuộc sống, có biết bao nhiêu cách thức khác nhau để con người lĩnh hội các bài học của cuộc đời.
+- Những người có Mũi tên trống 4-5-6 nên ý thức rằng những thất vọng, tổn thất, chia rẽ và cả sự Vỡ mộng trong cuộc đời chính là những bước đi cần thiết và rất ý nghĩa trong hành trình dài hướng về sự hoàn thiện của linh hồn chúng ta. Nếu họ nhận ra điều này, những buồn thương sẽ dần biến mất. Ngược lại, họ sẽ chìm trong nỗi buồn, sự cô độc hay cảm giác bị từ chối, bị lạc lõng. Tập cảm thông với người khác, xây dựng lòng trắc ẩn sẽ giúp các vấn đề của họ giảm đi. Trẻ Con có mũi tên trống này rất cần sự quan tâm và yêu thương đặc biệt. Chúng có thể bị đẩy vào các hoàn cảnh mà trong đó, chúng trở thành nạn nhân của những trò bất công hay ác ý của bạn bè, và thậm chí là của những người quen biết đã khiến chúng thất vọng. Quá trình này lặp đi lặp lại sẽ khiến trẻ có tâm trạng thất thường, từ đó càng thêm bối rối và buồn vui bất chợt.
+- Cha mẹ của những đứa trẻ thuộc nhóm này cần dạy trẻ tôn trọng người khác, để mỗi người được thể hiện đúng bản tính của mình và biết rằng không phải lúc nào người khác cũng làm theo ý của trẻ. Bằng cách này, chúng sẽ học được khái niệm “ Con thích ” thay cho “ Con muốn ”, để tâm trạng của chúng không bị cột chặt vào một kết quả nhất định nào nữa. Một điều đặc biệt quan trọng nữa là cha mẹ cần tạo ra một mối quan hệ thân thiết với con. Đây không đơn giản chỉ là chuyện tôn trọng hay ngoan ngoãn nghe lời, đó còn là sự tin yêu đối với cha mẹ. Một “ tình bạn ” đặc biệt như vậy sẽ làm dịu tâm trạng thất thường ở trẻ, nhất là khi trẻ có thể chia sẻ mọi điều với cha mẹ mà không bị đánh giá hay phải giải thích cho hành động của mình.
+    `,
+    tamlinh: `
+Nếu trong ngày sinh dương lịch của bạn có đủ ba con số 3, 5, 7, chúng sẽ tạo thành một mũi tên khá tốt đẹp, đó là Mũi tên chỉ sự nhạy bén về mặt tâm linh, gọi ngắn gọn là Mũi tên Tâm linh. Ngược lại, nếu trong ngày sinh của bạn thiếu cả ba con số này, nó tạo ra một mũi tên trống chỉ sự hoài nghi về cuộc sống. Nói về mức độ phổ biến, Mũi tên Tâm linh khá ít xuất hiện so với mũi tên trống tương ứng ( Mũi tên Hoài nghi ). Trong hơn nửa năm qua , khi xem xét hơn 500 trường hợp ngẫu nhiên, tôi thấy được hơn 100 trường hợp có Mũi tên trống 3-5-7, trong khi số người Có Mũi tên 3-5-7 chỉ khoảng vài chục. Và theo tôi, quả thật những người có mũi tên này khá “ nhạy ” về các vấn đề tâm linh, trội hơn hẳn một người bình thường.
+- Tuy nhiên, mức độ hiệu quả của mũi tên này khi áp dụng vào cuộc sống cá nhân còn phụ thuộc vào những con số khác hoặc những mũi tên khác cùng có mặt trong biểu đồ, và cả Con số chủ đạo của họ nữa. Mũi tên Tâm linh được tạo thành từ số 3 ở góc trên cùng bên trái, kéo xuống số 7 nằm ở góc dưới cùng bên phải . Điểm dễ thấy của những người có mũi tên này là họ sẽ không có mũi tên trống nào, vì ba con số 3 , 5 , 7 rải đều lên cả ba trục ngang và ba trục dọc. Thêm nữa, tất cả những người Có Mũi tên 3-5-7 được sinh ra trong những năm 19xx của thế kỷ 20 đều mặc định có Mũi tên Quyết tâm ( 1-5-9 ) , vì họ luôn có sẵn số 1 và 9 trong năm sinh . Hãy xem qua các trường hợp được đề cập. Vậy xét ra, những người thuộc nhóm mặc định có Mũi tên Tâm linh có được “ số vốn ” khá mạnh, mặc dù so với nhóm khi có đến hai số 7 trong ngày sinh có thể chịu nhiều thử thách hơn  - vốn là các “ tín hiệu ” của những bài học lớn được học qua sự mất mát và hy sinh.
+- Xét về mặt ý nghĩa, Mũi tên 3-5-7 còn lợi hại ở chỗ nó kết nối ba con số mạnh nhất của từng trục : Số 3 của Trục ngang Trí não, số 5 của Trục ngang Tinh thần và số 7 của Trục ngang Thể chất. Đây còn là những con số chủ đạo trong nhiều trường phái tâm linh, thần học hay triết học khác nhau từ Đông sang Tây. Do đó, không có gì ngạc nhiên khi liên kết với nhau, chúng tạo ra tiềm năng phi thường để phát triển nhận thức tâm linh sâu sắc.
+- Khả năng nhận thức tâm linh này thường được rút tỉa từ trải nghiệm cá nhân, nên những người mang mũi tên này ít khi chịu nghe lời khuyên của người khác. Trong nhiều tình huống, họ thích dấn thân, tự trải nghiệm, cảm nhận và tự rút ra bài học cho mình.
+- Hệ quả của khuynh hướng này là họ phải vượt quá nhiều bài học buồn đau trong chặng đầu của cuộc đời. Nhưng chính những bài học ấy lại là động lực giúp họ rèn ý chỉ kiên cường để lĩnh hội các triết lý sâu sắc của cuộc đời, từ đó trưởng thành. Một khi vượt qua được những trải nghiệm cam go đó, có ý thức sống tích cực và nhận ra sức mạnh của tình yêu thương, những người này sẽ hình thành một nguồn sức mạnh nội tại khó ai bì được. Để rồi từ đó, họ đạt được sự tĩnh lặng và bình thản, thứ lan tỏa từ tâm hồn của họ ra đến bên ngoài, bộc lộ vẻ đẹp tinh thần của họ .
+- Trong số những người ít ỏi có Mũi tên 3-5-7 mà tôi được gặp, có hai trường hợp tôi có thể nghiên cứu kỹ do được tiếp xúc khá gần. Trường hợp thứ nhất là một nữ cư sĩ. Tuy đang thực hành tu tại gia , nhưng sự ảnh hưởng của Cô cũng có thể được xem là khá mạnh cho một đạo tràng từng đi cùng chuyến Tự Động Tâm tới Đất Phật với nhà MayQ Go ngày trước. Khi xem Biểu đồ ngày sinh của cô, chúng ta thấy ngoài Mũi tên Tâm linh , cô còn có thêm đến ba mũi tên chỉ sức mạnh nữa, bao gồm Mũi tên Quyết tâm 1-5-9, Mũi tên Trí tuệ 3-6-9, và Mũi tên Kế hoạch 1-2-3. Đi kèm với lợi thế của bốn mũi tên này, tất cả con số trong Biểu đồ ngày sinh của cô đều không bị lặp lại nhiều lần dẫn đến sự thái quá, nên mọi thứ rất vừa phải. Thế nên đường tu của cô có vẻ rất thuận lợi và đạt được nhiều thành quả.
+- Một trường hợp khác là một người bạn nhỏ tuổi hơn tô. Em từng gắn bó một khoảng thời gian với tôi trong một số công tác, và cũng thỉnh thoảng phát biểu theo kiểu “ Em bắt sóng được như vậy ”. Sau này, khi nhìn vào Biểu đồ ngày sinh của em, thật không ngạc nhiên khi thấy em cũng có chuỗi ba số 3-5-7. Bên cạnh đó, em còn có thêm Mũi tên Quyết tâm 1-5-9, cùng với Mũi tên Kế hoạch 1-2-3 giống như vị cư sĩ nói trên. Tuy nhiên, tôi quan sát thấy rằng cho tới hiện giờ con đường em đi có vẻ vẫn còn khá nhiều chông gai cùng không ít điều bất ý. Có thể lý giải từ hai lý do. Một là em có đến hai con số 9 lặp lại , tức là cả ba yếu tố đặc thù của số 9 ( trách nhiệm , hoài bão , lý tưởng ) ở em đều bị nhấn mạnh gấp đôi, khiến em mệt mỏi vì đòi hỏi trách nhiệm quả cao nơi bản thân và cả nơi người khác, em có ước vọng và lý tưởng quá cao so với thực tế, và vì cao nên khó với tới, từ đó khiến em buồn. Lý do thứ hai có thể là em vẫn đang trong giai đoạn " chịu nhiều bài học buồn đau ” để luyện ý chí kiên cường và lĩnh hội được nhiều năng lực tâm linh mạnh mẽ mà một cuộc đời suôn sẻ không thể nào có được.
+- Biểu đồ ngày sinh có Mũi tên 3-5-7 thường rất tin người - đôi khi có phần bản năng - và cũng có thiên hướng coi sự công bằng là đương nhiên. Vì thế, trẻ nên được chăm sóc và quan tâm một cách đặc biệt, và đừng bao giờ nói dối trẻ cho qua chuyện, dù vì bất cứ lý do gì. Một khi những đứa trẻ này nghi ngờ cha mẹ hay người lớn, niềm tin của chúng sẽ bị tan vỡ, và chúng sẽ có những phản ứng đặc biệt mạnh mẽ với những sự lừa dối đó, cuộc sống của chúng cũng vì thế mà bị xáo động.
+- Những đứa trẻ này rất cần được dìu dắt để tiếp cận các vấn đề tinh thần hoặc tâm linh ở mức độ sâu hơn. Phụ huynh hoặc thầy cô cũng nên khuyến khích trẻ tìm hiểu về nhiều tôn giáo và các triết lý khác nhau, để xem chúng phù hợp với tôn giáo hay hệ thống nào, và cũng để qua đó, trẻ có cơ hội tiếp cận và tiếp nhận những giá trị tâm linh hoặc giá trị đạo đức giúp cuộc sống con người tốt đẹp hơn.
+Trẻ có khả năng nhận thức các giá trị tâm linh rất cao, nhưng thường thì sự non nớt trong giai đoạn đầu đời cũng ít nhiều cản trở khả năng đánh giá, nhìn nhận vấn đề, cũng như khả năng diễn đạt những cảm nhận sâu sắc trong nội tâm của trẻ . Điều này có thể khiến trẻ cảm thấy ấm ức và tức giận. Phụ huynh và thầy cô nên khuyến khích trẻ đọc những quyển sách được chọn lọc kỹ lưỡng, thay vì cho trẻ xem các chương trình truyền hình phổ thông, thứ vốn có nhiều nguy cơ ẩn chứa bạo lực hoặc cảm xúc tiêu cực. Điều này đặc biệt cần thiết và bổ ích trong giai đoạn trẻ đang phát triển khả năng nhận thức tâm linh của mình. Cha mẹ của những đứa trẻ thuộc nhóm này cũng nên cùng trẻ tìm hiểu những lĩnh vực mà trẻ có thể có tiềm năng nhưng chưa phát huy, chẳng hạn như trực giác hoặc khả năng ngoại cảm. Những điều này có thể sẽ giúp ích cho trẻ rất nhiều sau này, để chúng không hoang mang khi thấy bản thân mình hơi khác người.
+    `,
+    hoainghi: `
+Mũi tên trống 3-5-7 này xuất hiện khi ngày sinh của bạn không có bất kỳ con số 3, 5, 7 nào. Trong Biểu đồ ngày sinh, mũi tên trong này được tạo thành bởi đường thẳng kéo dài từ ô trống ở góc trên cùng bên trái xuống ô trống ở góc dưới cùng bên phải. Vì thiếu cả ba số 3,5 và 7 nên tính chất của cả ba con số này đều vắng mặt, hệ quả là những người này sẽ dễ hoài nghi cuộc sống, như cái tên của mũi tên miêu tả.
+- Mũi tên trống 3-5-7 có thể xuất hiện trong rất nhiều Biểu đồ ngày sinh hiện nay do không có những con số “ đảm bảo có mặt ” như số 1 và 9 ở Mũi tên Quyết tâm 1-5-9. Tất cả những người không có các số 3, 5 và 7 trong ngày tháng năm sinh của mình đều có khả năng có mũi tên trống này. Và vì thiếu hẳn ít nhất là ba số trong tổng cộng chín số tự nhiên, nên tỷ lệ các con số khác bị lặp lại trong Biểu đồ ngày sinh này là khá cao, dẫn đến tình trạng bị thừa những số mà chỉ có một số một ô là lý tưởng nhất, tức là các con số từ 3 đến 9. Cụ thể, vì thiếu 3 , 5 và 7 nên xác suất lặp lại các số 4, 6, 8, 9 khá cao. Bên cạnh đó, nhiều hơn hai số 1 và hai số 2 cũng không tốt. Hãy xem trường hợp được đề cập. Người sinh ngày 28/9/1984 có Mũi tên Hoài nghi và có đến hai số 8 , hai số 9. Trong khi đó, người sinh ngày 28/2/1964 thì có biểu đồ tốt hơn, vì tuy trong 3-5-7, nhưng các số còn lại trải đều các ô. Con số duy nhất lặp lại là cặp số 22 thì lại rất tốt. ( Nhắc lại : trong chín số tự nhiên, chỉ Có cặp 11 và 22 là tốt nhất, còn lại, các số từ 3 tới 9 thì chỉ cần một con số là đẹp nhất, nhiều hơn sẽ dư và ảnh hưởng không tốt đến các đặc điểm tính cách, cuộc sống, trải nghiệm, mất mát ... )
+- Những người có Mũi tên trống 3-5-7 thường có vẻ khá đa nghi, hay đặt câu hỏi “ Tại sao ? ” cho hầu như mọi vấn đề trong cuộc sống, đặc biệt là những vấn đề họ mới gặp lần đầu. Điều này làm cho cuộc sống của họ đôi khi mệt, thậm chí có vẻ hơi tiêu cực. Tuy nhiên, sau khi họ đã cất công tìm hiểu kỹ càng đến tận căn nguyên vấn đề, nếu điều đó thuyết phục được họ thì họ sẽ thể hiện sự chấp nhận một cách rõ ràng. Ngược lại, nếu đã không đồng tình điểm nào thì họ sẽ dứt khoát gạt luôn quan điểm đó sang một bên, với bản chất của những người thuộc nhóm này là có máu tìm hiểu, tìm tòi, nên có rất nhiều nhà nghiên cứu khoa học có mũi tên đặc thù này. Nhìn chung, những người này sẽ bắt đầu nghiền ngẫm dựa trên nền tảng các kiến thức cơ bản, thứ được xem là chuẩn mực trong bất kỳ lĩnh vực nào họ đang theo đuổi, và thường bỏ qua cơ hội đào sâu những khía cạnh triết lý sâu sắc hơn của đời sống con người, hoặc nếu có nhìn ra thì họ cũng đặt chúng vào vị trí thứ yếu .
+- Vì có quá nhiều điều làm họ cảm thấy hồ nghi về cuộc sống , họ trở nên khá nóng nảy và dễ rơi vào thế bị động. Nếu không có ý thức tự điều chỉnh bản thân, họ sẽ trở thành nạn nhân của chứng rối loạn lo âu ( hay lo lắng thái quá ), kèm theo các triệu chứng như nhức đầu và một số vấn đề tâm lý khác.
+- Trạng thái lo lắng , bồn chồn có thể dẫn đến nhiều phản ứng tiêu cực, gây ra những tai nạn bất ngờ và thường ảnh hưởng đến vùng đầu. Do đó, đối với những người Có Mũi tên trống 3-5-7, điều đặc biệt cần thiết là họ cần phát triển một cái nhìn sâu sắc hơn về các triết lý sống đời để nhận ra rằng có những điều không chỉ được cảm nhận bởi năm giác quan thông thường. Nếu vì một lý do gì đó mà những người này cảm thấy thất vọng với một tôn giáo, tín ngưỡng hay nền khoa học vốn được xem là chính thống, họ có xu hướng phản ứng với thái độ bất cần, thiếu tin tưởng với các đức tin hay triết lý trong cuộc sống .
+- Điều này lại khiến họ thêm chán nản với cuộc đời. Cách tốt nhất để những người có Mũi tên trống 3-5-7 khắc phục xu hướng này là hãy tự phát triển cho mình một mục đích sống cụ thể, nuôi dưỡng lòng thương yêu con người, thương yêu muôn loài một cách mạnh mẽ hơn, và học cách thể hiện bản thân một cách sâu sắc hơn thông qua các hình thức nghệ thuật như viết lách, vẽ, âm nhạc, vv ...
+- Trẻ con có Mũi tên trống 3-5-7 thường thể hiện tính hoài nghi qua trạng thái ủ rũ, tâm trạng lên xuống thất thường. Nhưng nếu các bậc cha mẹ hiểu được nguyên nhân gây ra tình trạng đó thì họ sẽ có thể giúp trẻ điều chỉnh để có thái độ tích cực hơn, cũng như giúp trẻ tìm được sự bình yên trong tâm hồn bằng cách tránh xa các chương trình truyền hình hỗn loạn, các trò chơi lộn xộn trên điện thoại hay máy tính bảng hoặc những người bạn quá ồn ào.
+- Khi có điều gì làm trẻ con có mũi tên trống này phật lòng, chúng có xu hướng trốn vào bên trong nội tâm mình. Sự cách biệt này là một cách để chúng tự cân bằng cảm xúc và tinh thần. Các bậc phụ huynh có thể giúp trẻ bằng phương pháp hai bước như sau: Đầu tiên, hãy khuyến khích trẻ đọc nhiều sách về tự nhiên, khoa học, địa lý và tìm hiểu lý do đằng sau những hiện tượng đang diễn ra, cũng như phát triển tính tò mò tích cực, sau đó, hãy khuyến khích trẻ chủ động theo đuổi một bộ môn nghệ thuật nào đó, như học chơi một loại nhạc cụ, học vẽ  làm đồ gốm, nặn tượng.
+Lưu ý : Trẻ con có Mũi tên trống 3-5-7 cần rất nhiều tình thương và cần được đối xử tử tế, nhưng phụ huynh không được quá nuông chiều trẻ. Hãy kiên nhẫn nhưng vẫn phải kiên quyết và cứng rắn, nếu không, trẻ sẽ lợi dụng sự cưng chiều này và sinh hư.
+- Mặt khác, cha mẹ cũng không bao giờ nên quay lưng lại với trẻ chỉ vì chúng không hành xử đúng. Hãy nhớ là trẻ luôn phản ứng lại những hành động của cha mẹ, vì vậy việc cha mẹ mặc kệ hoặc tỏ ra “ không thương nữa ” càng thổi bùng các phản ứng tiêu cực ở trẻ, và chúng sẽ thể hiện điều này theo cách duy nhất mà chúng biết: tỏ ra giận dỗi hoặc cô lập bản thân nhiều hơn. Điều này chỉ làm cho tình hình của trẻ trở nên tệ hơn mà thôi. Tình yêu thương sẽ chiến thắng tất cả, nên các bậc phụ huynh có con thuộc nhóm này hãy cố gắng thể hiện tình yêu thương đúng mức và sự nghiêm khắc vừa phải. Nghe có vẻ khó, nhưng hoàn toàn khả thi.
+    `,
+    quyettam: `
+- Mũi tên Quyết tâm được tạo thành bởi sự có mặt của ba con số 1-5-9 theo đường chéo từ góc trái lên góc phải của Biểu đồ ngày sinh . Biểu đồ ngày sinh của những năm 19xx đều Có Mũi tên Quyết tâm trong Biểu đồ ngày sinh của mình . Đặc biệt , tất cả những người được sinh ra trong những năm 1950 đều có mũi tên này.
+- Vì tất cả những người chào đời vào những năm 19xx đều có sẵn “ vốn liếng ” là số 1 và số 9 , chỉ cần có thêm số 5 là đủ để tạo thành mũi tên. Do đó , Mũi tên Quyết tâm trở thành mũi tên thường gặp nhất trong thế kỷ 20. Có lẽ vì vậy nên không có gì đáng ngạc nhiên khi thế kỷ 20 có rất nhiều người có quyết tâm sắt đá và đạt được thành tựu nổi bật. Sang chặng đầu của thế kỷ 21 này , khi những người của thế kỷ 20 đang trong lứa tuổi trưởng thành , họ vẫn tiếp tục có những đóng góp quan trọng cho xã hội .
+- Nếu quan sát kỹ hơn, bạn sẽ thấy quả thật rất nhiều người được sinh ra trong khoảng thời gian 1950 - 1959 rất thành công cho đến tận bây giờ. Những người có Mũi tên Quyết tâm trong Biểu đồ ngày sinh thường rất kiên trì thực hiện bất kỳ điều gì họ muốn làm, vượt qua mọi trở ngại, theo đuổi cho đến khi nào được thì thôi. Thật mừng cho những ai có được mũi tên này , bởi nếu thiếu quyết tâm , chúng ta sẽ dễ bị những khó khăn trên đường đời làm cho nhụt chí.
+Tuy nhiên, những người này cũng nên cẩn trọng vì đôi khi sự quyết tâm quá độ sẽ trở thành sự cố chấp khiến họ cứ đâm đầu vào một vấn đề nào đó, dù biết nó không lối thoát hoặc không cần thiết, từ đó lãng phí nhiều thời gian và năng lượng, hoặc họ sẽ kiên quyết ... ngồi chờ cho đến khi nào chướng ngại tan biến , sau đó ... lao vào giải quyết tiếp.
+- Một trong những bài học lớn nhất mà người có Mũi tên Quyết tâm nên thấu hiểu: Không phải vấn đề nào cũng cần phải giải quyết. Cái gì cũng lao vào giải quyết thì sẽ rất mệt mỏi.Thay vào đó , những người có mũi tên này nên chọn con đường trung dung, nghĩa là không nên quá cố chấp mà hãy tập phát huy tối đa trực giác, trí tuệ và lòng trắc ẩn của mình, biết lúc nào nên tiếp tục dấn bước, lúc nào nên dừng và lúc nào nên buông.Như vậy họ sẽ giảm thiểu được nhiều thời gian, tiết kiệm được nhiều năng lượng, cũng như có cơ hội học hỏi thêm nhiều điều.
+- Sự quyết đoán của những người mang Mũi tên 1-5-9 là một phẩm chất tuyệt vời, đồng thời cũng là một ưu điểm mạnh mẽ. Nhưng những người có mũi tên này cần học cách sử dụng nó một cách khôn ngoan. Nếu bên cạnh mũi tên này, họ còn có tổ hợp nhiều số 1 trên Biểu đồ ngày sinh ( từ hai số 1 trở lên, ví dụ : 11, 111, 1111 ... ) thì họ càng phải lưu ý điều này hơn nữa, vì số 1 càng nhiều thì “ cái tôi ” càng được nhấn mạnh và họ càng dễ trở nên cố chấp đến mức ngang ngạnh.
+- Trong trường hợp chỉ có số 9 được nhân đôi ( 1-5-99 ), sự quyết tâm sẽ hướng đến tham vọng hay lý tưởng của người đó, tùy thuộc vào con số chủ đạo của họ hoặc những tổ hợp số khác có mặt trong biểu đồ. Nếu các tổ hợp số chủ yếu tập trung ở Trục ngang Thể chất ( 1-4-7 ), trọng tâm sẽ là tham vọng, hoài bão, còn nếu các tổ hợp số tập trung Trục ngang Tinh thần ( 2-5-8 ) hoặc Trục ngang Trí não ( 3-6-9 ), động lực cho sự quyết tâm sẽ tập trung vào lý tưởng sống. Nhìn chung, trẻ con có Mũi tên Quyết tâm thường khá thông minh, chịu nghe lẽ phải, nhưng cũng sẵn sàng tranh luận với người lớn nếu chúng nhìn ra lỗ hổng trong các lời giải thích đó.
+Tóm lại, đối với những đứa trẻ có Mũi tên 1-5-9, các bậc phụ huynh và thầy cô nên tạo điều kiện cho trẻ có đủ không gian và cơ hội để thể hiện đặc điểm tính cách của chúng, nhưng cũng cần kiểm soát ở mức vừa phải để trẻ không được nước lấn tới, gây ra tình bướng bỉnh, lì lợm, dẫn đến các phản ứng tiêu cực trước nhiều tình huống và gây hại đến đời sống hạnh phúc của trẻ lúc trưởng thành. Người lớn cần lưu ý bồi dưỡng để thúc đẩy sự quyết tâm của trẻ theo hướng tích cực, vì đây là “ nhân tố vàng ” góp phần tạo nên thành công cho cuộc đời của trẻ sau này.
+    `,
+    trihoan: `
+- Ngược với Mũi tên Quyết tâm 1-5-9, những người có ngày sinh thiếu cả ba con số 1, 5, 9 sẽ có Mũi tên trống 1-5-9 trong Biểu đồ ngày sinh, với đặc điểm chung là ... tính thiếu quyết tâm, hay lần lựa, trì hoãn thực hiện những điều cần làm. Vì vậy mũi tên này được gọi là Mũi tên Trì hoãn. Tất cả những ai sinh ra vào những năm 19xx của thế kỷ 20 đều không vướng mũi tên trông này. Chỉ có những người chào đời từ năm 2000 trở đi mới có khả năng gặp phải Mũi tên Trì hoãn, và nhiều người trong số đó còn trống thêm rất nhiều cột khác, do trong ngày sinh quá nhiều số 0 hoặc có nhiều số lặp lại.
+- Tuy nhiên, cũng có một tin tốt lành là so với các mũi tên trống khác, Mũi tên Trì hoãn ít xuất hiện hơn rất nhiều, vì trong một tháng có nhiều ngày đều có ít nhất một số 1 ( ví dụ các ngày 1 , 11 , 21 , 31 ). Bên cạnh đó, những người có sinh nhật vào tháng 5, tháng 9 mỗi năm, và những người sinh năm 2005, 2009 , 2015 , 2019 ... cũng yên tâm không vướng mũi tên trống này. Nhìn trên Biểu đồ ngày sinh, Mũi tên trống 1-5-9 xẻ biểu đồ ra làm hai nửa rõ ràng, chia cắt những con số mang tính trực giác ( bao gồm 2 , 3 , 6 ) và những con số mang tính vật chất thực tế ( bao gồm 4 , 7 , 8 ). Vì vậy , những tên này sẽ dễ lần lựa, trì hoãn mọi việc, thậm chí ... không làm gì cả. Đặc điểm đó có thể được điều chỉnh nếu được phát hiện sớm.
+- Do đó các bậc phụ huynh và thầy cô cần lưu ý để nhận ra đặc điểm này ở trẻ để có thể uốn nắn kịp thời. Nếu cứ kéo dài thì tính trì hoãn dễ ăn sâu vào gốc rễ và gây hại cho cuộc sống của những người mang mũi tên này, ảnh hưởng rất tiêu cực đến sự phát triển hay thành công của họ, cũng như liên tục khiến bản thân họ lẫn mọi người xung quanh cảm thấy vô cùng khó chịu.
+    `,
+}
+
 const secret = 'thansohoc'
 
 const Detail = () => {
@@ -1201,6 +1657,23 @@ const Detail = () => {
     const tuoidinh2 = useMemo(() => 9 + tuoidinh1, [tuoidinh1])
     const tuoidinh3 = useMemo(() => 9 + tuoidinh2, [tuoidinh2])
     const tuoidinh4 = useMemo(() => 9 + tuoidinh3, [tuoidinh3])
+    const bieudoso = useMemo(() => {
+        return [
+            ...getArrNum(info.day as string),
+            ...getArrNum(info.month as string),
+            ...getArrNum(info.year as string),
+        ]
+    }, [info])
+    const hasArrows = arrows(bieudoso)
+    const num1 = solanlap(bieudoso, 1).length
+    const num2 = solanlap(bieudoso, 2).length
+    const num3 = solanlap(bieudoso, 3).length
+    const num4 = solanlap(bieudoso, 4).length
+    const num5 = solanlap(bieudoso, 5).length
+    const num6 = solanlap(bieudoso, 6).length
+    const num7 = solanlap(bieudoso, 7).length
+    const num8 = solanlap(bieudoso, 8).length
+    const num9 = solanlap(bieudoso, 9).length
 
     return (
         <Layout>
@@ -1339,6 +1812,422 @@ const Detail = () => {
                             {parse(NGAYSINH?.[info.songaysinh as number])}
                         </p>
                         <h2 className="text-xl text-[#FFAC13] text-center font-bold mt-5">
+                            Biểu đồ ngày sinh
+                        </h2>
+                        <div className="mt-4 relative max-w-[300px] mx-auto mb-5">
+                            <table className="mx-auto">
+                                <tbody>
+                                    <tr>
+                                        <td className="border-t-transparent border-l-transparent">
+                                            {solanlap(bieudoso, 3)}
+                                        </td>
+                                        <td className="border-t-transparent">
+                                            {solanlap(bieudoso, 6)}
+                                        </td>
+                                        <td className="border-t-transparent border-r-transparent">
+                                            {solanlap(bieudoso, 9)}
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td className="border-l-transparent">
+                                            {solanlap(bieudoso, 2)}
+                                        </td>
+                                        <td>{solanlap(bieudoso, 5)}</td>
+                                        <td className="border-r-transparent">
+                                            {solanlap(bieudoso, 8)}
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td className="border-b-transparent border-l-transparent">
+                                            {solanlap(bieudoso, 1)}
+                                        </td>
+                                        <td className="border-b-transparent">
+                                            {solanlap(bieudoso, 4)}
+                                        </td>
+                                        <td className="border-b-transparent border-r-transparent">
+                                            {solanlap(bieudoso, 7)}
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            {(hasArrows.quyettam || hasArrows.trihoan) && (
+                                <img
+                                    className="absolute left-[70px] top-[51px]"
+                                    src={arr1}
+                                    alt="arrow"
+                                />
+                            )}
+                            {(hasArrows.thucte || hasArrows.thieutrattu) && (
+                                <img
+                                    className="absolute left-[50px] bottom-[10px]"
+                                    src={arr2}
+                                    alt="arrow"
+                                />
+                            )}
+                            {(hasArrows.canbangcamxuc || hasArrows.nhaycam) && (
+                                <img
+                                    className="absolute left-[50px] bottom-[90px]"
+                                    src={arr2}
+                                    alt="arrow"
+                                />
+                            )}
+                            {(hasArrows.tritue || hasArrows.trinhonganhan) && (
+                                <img
+                                    className="absolute left-[50px] top-[60px]"
+                                    src={arr2}
+                                    alt="arrow"
+                                />
+                            )}
+                            {hasArrows.kehoach && (
+                                <img
+                                    className="absolute left-[40px] bottom-0"
+                                    src={arr3}
+                                    alt="arrow"
+                                />
+                            )}
+                            {(hasArrows.ychi || hasArrows.uathan) && (
+                                <img
+                                    className="absolute left-[120px] bottom-0"
+                                    src={arr3}
+                                    alt="arrow"
+                                />
+                            )}
+                            {(hasArrows.hoatdong || hasArrows.thudong) && (
+                                <img
+                                    className="absolute right-9 bottom-0"
+                                    src={arr3}
+                                    alt="arrow"
+                                />
+                            )}
+                            {(hasArrows.tamlinh || hasArrows.hoainghi) && (
+                                <img
+                                    className="absolute left-[70px] bottom-[52px]"
+                                    src={arr4}
+                                    alt="arrow"
+                                />
+                            )}
+                        </div>
+                        <div className="mt-10">
+                            {num1 > 0 && (
+                                <div>
+                                    <h3 className="font-bold mb-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                        Bạn sở hữu {num1} con số 1
+                                    </h3>
+                                    <p className="rp-text">
+                                        {parse(
+                                            num1 >= 5
+                                                ? SO1[5].content
+                                                : SO1[num1].content,
+                                        )}
+                                    </p>
+                                </div>
+                            )}
+                        </div>
+                        <div>
+                            {num2 > 0 && (
+                                <div>
+                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                        Bạn sở hữu {num2} con số 2
+                                    </h3>
+                                    <p className="rp-text">
+                                        {parse(
+                                            num2 >= 5
+                                                ? SO2[5].content
+                                                : SO2[num2].content,
+                                        )}
+                                    </p>
+                                </div>
+                            )}
+                        </div>
+                        <div>
+                            {num3 > 0 && (
+                                <div>
+                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                        Bạn sở hữu {num3} con số 3
+                                    </h3>
+                                    <p className="rp-text">
+                                        {parse(
+                                            num3 >= 4
+                                                ? SO3[4].content
+                                                : SO3[num3].content,
+                                        )}
+                                    </p>
+                                </div>
+                            )}
+                        </div>
+                        <div>
+                            {num4 > 0 && (
+                                <div>
+                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                        Bạn sở hữu {num4} con số 4
+                                    </h3>
+                                    <p className="rp-text">
+                                        {parse(
+                                            num4 >= 3
+                                                ? SO4[3].content
+                                                : SO4[num4].content,
+                                        )}
+                                    </p>
+                                </div>
+                            )}
+                        </div>
+                        <div>
+                            {num5 > 0 && (
+                                <div>
+                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                        Bạn sở hữu {num5} con số 5
+                                    </h3>
+                                    <p className="rp-text">
+                                        {parse(
+                                            num5 >= 4
+                                                ? SO5[4].content
+                                                : SO5[num5].content,
+                                        )}
+                                    </p>
+                                </div>
+                            )}
+                        </div>
+                        <div>
+                            {num6 > 0 && num6 < 5 && (
+                                <div>
+                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                        Bạn sở hữu {num6} con số 6
+                                    </h3>
+                                    <p className="rp-text">
+                                        {parse(SO6[num6].content)}
+                                    </p>
+                                </div>
+                            )}
+                        </div>
+                        <div>
+                            {num7 > 0 && num7 < 5 && (
+                                <div>
+                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                        Bạn sở hữu {num7} con số 7
+                                    </h3>
+                                    <p className="rp-text">
+                                        {parse(SO7[num7].content)}
+                                    </p>
+                                </div>
+                            )}
+                        </div>
+                        <div>
+                            {num8 > 0 && num8 < 5 && (
+                                <div>
+                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                        Bạn sở hữu {num8} con số 8
+                                    </h3>
+                                    <p className="rp-text">
+                                        {parse(SO8[num8].content)}
+                                    </p>
+                                </div>
+                            )}
+                        </div>
+                        <div>
+                            {num9 > 0 && (
+                                <div>
+                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                        Bạn sở hữu {num9} con số 9
+                                    </h3>
+                                    <p className="rp-text">
+                                        {parse(
+                                            num9 >= 5
+                                                ? SO9[5].content
+                                                : SO9[num9].content,
+                                        )}
+                                    </p>
+                                </div>
+                            )}
+                        </div>
+                        <div>
+                            {hasArrows.thucte && (
+                                <div>
+                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                        Bạn sở hữu mũi tên thực tế (đủ 1-4-7)
+                                    </h3>
+                                    <p className="rp-text">
+                                        {parse(MUITEN.thucte)}
+                                    </p>
+                                </div>
+                            )}
+                        </div>
+                        <div>
+                            {hasArrows.thieutrattu && (
+                                <div>
+                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                        Bạn sở hữu mũi tên thiểu trật tự (trống
+                                        1-4-7)
+                                    </h3>
+                                    <p className="rp-text">
+                                        {parse(MUITEN.thieutrattu)}
+                                    </p>
+                                </div>
+                            )}
+                        </div>
+                        <div>
+                            {hasArrows.canbangcamxuc && (
+                                <div>
+                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                        Bạn sở hữu mũi tên cân bằng cảm xúc (đủ
+                                        2-5-8)
+                                    </h3>
+                                    <p className="rp-text">
+                                        {parse(MUITEN.canbangcamxuc)}
+                                    </p>
+                                </div>
+                            )}
+                        </div>
+                        <div>
+                            {hasArrows.nhaycam && (
+                                <div>
+                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                        Bạn sở hữu mũi tên nhạy cảm (trống
+                                        2-5-8)
+                                    </h3>
+                                    <p className="rp-text">
+                                        {parse(MUITEN.nhaycam)}
+                                    </p>
+                                </div>
+                            )}
+                        </div>
+                        <div>
+                            {hasArrows.tritue && (
+                                <div>
+                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                        Bạn sở hữu mũi tên trí tuệ (đủ 3-6-9)
+                                    </h3>
+                                    <p className="rp-text">
+                                        {parse(MUITEN.tritue)}
+                                    </p>
+                                </div>
+                            )}
+                        </div>
+                        <div>
+                            {hasArrows.trinhonganhan && (
+                                <div>
+                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                        Bạn sở hữu mũi tên trí nhớ ngắn hạn
+                                        (trống 3-6-9)
+                                    </h3>
+                                    <p className="rp-text">
+                                        {parse(MUITEN.trinhonganhan)}
+                                    </p>
+                                </div>
+                            )}
+                        </div>
+                        <div>
+                            {hasArrows.hoatdong && (
+                                <div>
+                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                        Bạn sở hữu mũi tên hoạt động (đủ 7-8-9)
+                                    </h3>
+                                    <p className="rp-text">
+                                        {parse(MUITEN.hoatdong)}
+                                    </p>
+                                </div>
+                            )}
+                        </div>
+                        <div>
+                            {hasArrows.thudong && (
+                                <div>
+                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                        Bạn sở hữu mũi tên thụ động (trống
+                                        7-8-9)
+                                    </h3>
+                                    <p className="rp-text">
+                                        {parse(MUITEN.thudong)}
+                                    </p>
+                                </div>
+                            )}
+                        </div>
+                        <div>
+                            {hasArrows.ychi && (
+                                <div>
+                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                        Bạn sở hữu mũi tên ý chí (đủ 4-5-6)
+                                    </h3>
+                                    <p className="rp-text">
+                                        {parse(MUITEN.ychi)}
+                                    </p>
+                                </div>
+                            )}
+                        </div>
+                        <div>
+                            {hasArrows.uathan && (
+                                <div>
+                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                        Bạn sở hữu mũi tên uất giận (trống
+                                        4-5-6)
+                                    </h3>
+                                    <p className="rp-text">
+                                        {parse(MUITEN.uatgian)}
+                                    </p>
+                                </div>
+                            )}
+                        </div>
+                        <div>
+                            {hasArrows.kehoach && (
+                                <div>
+                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                        Bạn sở hữu mũi tên kế hoạch (đủ 1-2-3)
+                                    </h3>
+                                    <p className="rp-text">
+                                        {parse(MUITEN.kehoach)}
+                                    </p>
+                                </div>
+                            )}
+                        </div>
+                        <div>
+                            {hasArrows.quyettam && (
+                                <div>
+                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                        Bạn sở hữu mũi tên quyết tâm (đủ 1-5-9)
+                                    </h3>
+                                    <p className="rp-text">
+                                        {parse(MUITEN.quyettam)}
+                                    </p>
+                                </div>
+                            )}
+                        </div>
+                        <div>
+                            {hasArrows.trihoan && (
+                                <div>
+                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                        Bạn sở hữu mũi tên trì hoãn (trống
+                                        1-5-9)
+                                    </h3>
+                                    <p className="rp-text">
+                                        {parse(MUITEN.trihoan)}
+                                    </p>
+                                </div>
+                            )}
+                        </div>
+                        <div>
+                            {hasArrows.tamlinh && (
+                                <div>
+                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                        Bạn sở hữu mũi tên tâm linh (đủ 3-5-7)
+                                    </h3>
+                                    <p className="rp-text">
+                                        {parse(MUITEN.tamlinh)}
+                                    </p>
+                                </div>
+                            )}
+                        </div>
+                        <div>
+                            {hasArrows.hoainghi && (
+                                <div>
+                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                        Bạn sở hữu mũi tên hoài nghi (trống
+                                        3-5-7)
+                                    </h3>
+                                    <p className="rp-text">
+                                        {parse(MUITEN.hoainghi)}
+                                    </p>
+                                </div>
+                            )}
+                        </div>
+                        <h2 className="text-xl text-[#FFAC13] text-center font-bold mt-5">
                             Năm cá nhân của bạn là:{' '}
                             <span className="text-shadow-pink">
                                 {info.namcanhan}
@@ -1392,32 +2281,36 @@ const Detail = () => {
                             {Number(info.year) + tuoidinh1} - {tuoidinh1} tuổi)
                         </h1>
                         <p className="rp-text">
-                            {parse(DINH1[info.dinh?.dinh1 as number]) ||
-                                'Nội dung chưa cập nhật'}
+                            {DINH1[info.dinh?.dinh1 as number]
+                                ? parse(DINH1[info.dinh?.dinh1 as number])
+                                : 'Nội dung chưa cập nhật'}
                         </p>
                         <h1 className="font-bold mt-5 text-2xl text-[#FFAC13]">
                             Đỉnh 2 với số {info.dinh?.dinh2} (Năm{' '}
                             {Number(info.year) + tuoidinh2} - {tuoidinh2} tuổi)
                         </h1>
                         <p className="rp-text">
-                            {parse(DINH1[info.dinh?.dinh2 as number]) ||
-                                'Nội dung chưa cập nhật'}
+                            {DINH1[info.dinh?.dinh2 as number]
+                                ? parse(DINH1[info.dinh?.dinh2 as number])
+                                : 'Nội dung chưa cập nhật'}
                         </p>
                         <h1 className="font-bold mt-5 text-2xl text-[#FFAC13]">
                             Đỉnh 3 với số {info.dinh?.dinh3} (Năm{' '}
                             {Number(info.year) + tuoidinh3} - {tuoidinh3} tuổi)
                         </h1>
                         <p className="rp-text">
-                            {parse(DINH1[info.dinh?.dinh3 as number]) ||
-                                'Nội dung chưa cập nhật'}
+                            {DINH1[info.dinh?.dinh3 as number]
+                                ? parse(DINH1[info.dinh?.dinh3 as number])
+                                : 'Nội dung chưa cập nhật'}
                         </p>
                         <h1 className="font-bold mt-5 text-2xl text-[#FFAC13]">
                             Đỉnh 4 với số {info.dinh?.dinh4} (Năm{' '}
                             {Number(info.year) + tuoidinh4} - {tuoidinh4} tuổi)
                         </h1>
                         <p className="rp-text">
-                            {parse(DINH1[info.dinh?.dinh4 as number]) ||
-                                'Nội dung chưa cập nhật'}
+                            {DINH1[info.dinh?.dinh4 as number]
+                                ? parse(DINH1[info.dinh?.dinh4 as number])
+                                : 'Nội dung chưa cập nhật'}
                         </p>
                     </div>
                 )}
