@@ -1926,7 +1926,7 @@ const Detail = () => {
                         <div>
                             {num2 > 0 && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
                                         Bạn sở hữu {num2} con số 2
                                     </h3>
                                     <p className="rp-text">
@@ -1942,7 +1942,7 @@ const Detail = () => {
                         <div>
                             {num3 > 0 && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
                                         Bạn sở hữu {num3} con số 3
                                     </h3>
                                     <p className="rp-text">
@@ -1958,7 +1958,7 @@ const Detail = () => {
                         <div>
                             {num4 > 0 && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
                                         Bạn sở hữu {num4} con số 4
                                     </h3>
                                     <p className="rp-text">
@@ -1974,7 +1974,7 @@ const Detail = () => {
                         <div>
                             {num5 > 0 && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
                                         Bạn sở hữu {num5} con số 5
                                     </h3>
                                     <p className="rp-text">
@@ -1990,7 +1990,7 @@ const Detail = () => {
                         <div>
                             {num6 > 0 && num6 < 5 && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
                                         Bạn sở hữu {num6} con số 6
                                     </h3>
                                     <p className="rp-text">
@@ -2002,7 +2002,7 @@ const Detail = () => {
                         <div>
                             {num7 > 0 && num7 < 5 && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
                                         Bạn sở hữu {num7} con số 7
                                     </h3>
                                     <p className="rp-text">
@@ -2014,7 +2014,7 @@ const Detail = () => {
                         <div>
                             {num8 > 0 && num8 < 5 && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
                                         Bạn sở hữu {num8} con số 8
                                     </h3>
                                     <p className="rp-text">
@@ -2026,7 +2026,7 @@ const Detail = () => {
                         <div>
                             {num9 > 0 && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
                                         Bạn sở hữu {num9} con số 9
                                     </h3>
                                     <p className="rp-text">
@@ -2042,7 +2042,7 @@ const Detail = () => {
                         <div>
                             {hasArrows.thucte && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
                                         Bạn sở hữu mũi tên thực tế (đủ 1-4-7)
                                     </h3>
                                     <p className="rp-text">
@@ -2054,7 +2054,7 @@ const Detail = () => {
                         <div>
                             {hasArrows.thieutrattu && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
                                         Bạn sở hữu mũi tên thiểu trật tự (trống
                                         1-4-7)
                                     </h3>
@@ -2067,7 +2067,7 @@ const Detail = () => {
                         <div>
                             {hasArrows.canbangcamxuc && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
                                         Bạn sở hữu mũi tên cân bằng cảm xúc (đủ
                                         2-5-8)
                                     </h3>
@@ -2080,7 +2080,7 @@ const Detail = () => {
                         <div>
                             {hasArrows.nhaycam && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
                                         Bạn sở hữu mũi tên nhạy cảm (trống
                                         2-5-8)
                                     </h3>
@@ -2093,7 +2093,7 @@ const Detail = () => {
                         <div>
                             {hasArrows.tritue && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
                                         Bạn sở hữu mũi tên trí tuệ (đủ 3-6-9)
                                     </h3>
                                     <p className="rp-text">
@@ -2105,7 +2105,7 @@ const Detail = () => {
                         <div>
                             {hasArrows.trinhonganhan && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
                                         Bạn sở hữu mũi tên trí nhớ ngắn hạn
                                         (trống 3-6-9)
                                     </h3>
@@ -2118,7 +2118,7 @@ const Detail = () => {
                         <div>
                             {hasArrows.hoatdong && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
                                         Bạn sở hữu mũi tên hoạt động (đủ 7-8-9)
                                     </h3>
                                     <p className="rp-text">
@@ -2130,7 +2130,7 @@ const Detail = () => {
                         <div>
                             {hasArrows.thudong && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
                                         Bạn sở hữu mũi tên thụ động (trống
                                         7-8-9)
                                     </h3>
@@ -2143,7 +2143,7 @@ const Detail = () => {
                         <div>
                             {hasArrows.ychi && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
                                         Bạn sở hữu mũi tên ý chí (đủ 4-5-6)
                                     </h3>
                                     <p className="rp-text">
@@ -2155,7 +2155,7 @@ const Detail = () => {
                         <div>
                             {hasArrows.uathan && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
                                         Bạn sở hữu mũi tên uất giận (trống
                                         4-5-6)
                                     </h3>
@@ -2168,7 +2168,7 @@ const Detail = () => {
                         <div>
                             {hasArrows.kehoach && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
                                         Bạn sở hữu mũi tên kế hoạch (đủ 1-2-3)
                                     </h3>
                                     <p className="rp-text">
@@ -2180,7 +2180,7 @@ const Detail = () => {
                         <div>
                             {hasArrows.quyettam && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
                                         Bạn sở hữu mũi tên quyết tâm (đủ 1-5-9)
                                     </h3>
                                     <p className="rp-text">
@@ -2192,7 +2192,7 @@ const Detail = () => {
                         <div>
                             {hasArrows.trihoan && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
                                         Bạn sở hữu mũi tên trì hoãn (trống
                                         1-5-9)
                                     </h3>
@@ -2205,7 +2205,7 @@ const Detail = () => {
                         <div>
                             {hasArrows.tamlinh && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
                                         Bạn sở hữu mũi tên tâm linh (đủ 3-5-7)
                                     </h3>
                                     <p className="rp-text">
@@ -2217,7 +2217,7 @@ const Detail = () => {
                         <div>
                             {hasArrows.hoainghi && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
                                         Bạn sở hữu mũi tên hoài nghi (trống
                                         3-5-7)
                                     </h3>
