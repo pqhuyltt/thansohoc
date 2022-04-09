@@ -374,7 +374,7 @@ const Home = () => {
                             <a
                                 href="https://tracuuthansohoc.com/than-so-hoc-la-gi/#quan-trong-doi-voi-nguoi-moi-xem-than-so-hoc-tai-tracuuthansohoc-sao-cho-dung"
                                 target="_blank"
-                                className="text-[#e44ebf] hover:underline"
+                                className="text-primary hover:underline"
                             >
                                 tại đây
                             </a>
