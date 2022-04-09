@@ -53,7 +53,7 @@ const Love = () => {
                     <p className="mt-1">{`${info.day2}/${info.month2}/${info.year2}`}</p>
                 </div>
             </div>
-            <p className="text-base font-bold text-white text-center mt-3">
+            <p className="text-base font-bold  text-center mt-3 text-primary">
                 Tỉ lệ hợp của 2 bạn
             </p>
             <div className="w-[280px] h-[280px] m-auto flex justify-center items-center mt-10 text-white">
@@ -99,16 +99,16 @@ const Love = () => {
             </div>
             <div className="rp-box mt-10">
                 <div className="flex">
-                    <div className="flex-1 flex font-semibold flex-col items-center text-base">
+                    <div className="flex-1 flex font-semibold flex-col items-center text-base text-primary">
                         <p className="uppercase ">{name1}</p>
                         <p>(Số chủ đạo: {info.number1})</p>
                     </div>
-                    <div className="flex-1 flex flex-col font-semibold items-center text-base">
+                    <div className="flex-1 flex flex-col font-semibold items-center text-base text-primary">
                         <p className="uppercase">{name2}</p>
                         <p>(Số chủ đạo: {info.number2})</p>
                     </div>
                 </div>
-                <h3 className="text-center text-base font-bold mt-2">
+                <h3 className="text-center text-base font-bold mt-2 text-primary">
                     TÍNH CÁCH BẢN NGÃ CỦA 2 BẠN
                 </h3>
                 <p className="mt-2">
@@ -123,7 +123,7 @@ const Love = () => {
                     <button
                         onClick={handleCoppy}
                         ref={btnRef}
-                        className="h-6 ml-2 px-1 whitespace-nowrap rounded-md bg-[#007BFF] text-xs block"
+                        className="h-6 ml-2 px-1 whitespace-nowrap rounded-md primary-btn text-xs block"
                     >
                         Coppy
                     </button>
@@ -146,7 +146,7 @@ const Love = () => {
                 <p className="leading-[1.6]">
                     - Điểm yếu: {genitive[info.number2 as number].weak}
                 </p>
-                <div className="mt-10 text-[#f7d51a]">
+                <div className="mt-10 text-primary">
                     <p className="mt-2">
                         - Tỷ lệ thấp nghĩa là cách tiếp cận cuộc sống của 2
                         người có nhiều điểm khác nhau. Vì vậy, sau một thời

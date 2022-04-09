@@ -68,6 +68,7 @@ const Home = () => {
     const handleSearch = () => {
         const error = validate(input)
         if (error) return setErr(error)
+        localStorage.removeItem('verify')
         let num2 = 0
         if (input.withLove) {
             const day = Number(input.day2)
@@ -101,17 +102,19 @@ const Home = () => {
         )
 
         const khongnguyenam = xoaNguyenAm(toPlainText(input.fullname as string))
+
         const khongphuam = xoaPhuAm(
             toPlainText(input.fullname as string),
             khongnguyenam,
         )
-        const solinhhon = calc(tinhSoTuChu(khongphuam))
+        const solinhhon = calc(tinhSoTuChu(khongphuam), true, 9)
         const sobieudat = calc(tinhSoTuChu(khongnguyenam))
+
         const dinh1 = calc(dayNum + monthNum, true)
         const dinh2 = calc(dayNum + calc(yearNum), true)
-        const dinh3 = calc(dinh1 + dinh2, true)
+        const dinh3 = calc(dinh1 + dinh2)
         const dinh4 = calc(monthNum + calc(yearNum))
-        setInfo({
+        const data = {
             ...input,
             day: input.day,
             month: input.month,
@@ -123,6 +126,7 @@ const Home = () => {
             namcanhan: calc(
                 calc(new Date().getFullYear()) + dayNum + monthNum,
                 true,
+                9,
             ),
             solinhhon,
             sobieudat,
@@ -136,7 +140,10 @@ const Home = () => {
             dayNum,
             monthNum,
             yearNum: calc(yearNum),
-        })
+        }
+        setInfo(data)
+
+        localStorage.setItem('state', JSON.stringify(data))
 
         if (input.withLove) return navigate('/tinh-duyen')
         navigate('/ket-qua')
@@ -161,10 +168,10 @@ const Home = () => {
                     />
                 </div>
             </div>
-            <h3 className="text-[#FFED00] text-xl font-semibold text-center mt-6">
+            <h3 className="text-primary text-xl font-semibold text-center mt-6">
                 LUẬN GIẢI CHÍNH XÁC
             </h3>
-            <h4 className="text-[#FFED00] text-lg font-semibold text-center mt-1">
+            <h4 className="text-primary text-lg font-semibold text-center mt-1">
                 Đường đời, điểm mạnh yếu, vận mệnh, sự nghiệp, năm thành công,
                 tương hợp tình duyên, hôn nhân,...
             </h4>
@@ -337,17 +344,13 @@ const Home = () => {
                     </div>
                     <button
                         onClick={handleSearch}
-                        style={{
-                            backgroundImage:
-                                'linear-gradient(-45deg, #6a5af9, #d66efd)',
-                        }}
-                        className="rounded-lg mt-4 w-full text-white text-base font-bold select-none p-2"
+                        className="rounded-lg mt-4 w-full primary-btn text-base font-bold select-none p-2"
                     >
                         Tra cứu
                     </button>
                     <div className="mt-4 text-white text-sm">
                         <h4 className="font-semibold text-base">CHÚ THÍCH:</h4>
-                        <p>
+                        <p className="rp-text">
                             - Nếu ngày sinh trên giấy tờ (chứng minh thư, bằng
                             lái, khai sinh,...) và ngày sinh dương lịch thật của
                             bạn khác nhau thì cuộc đời bạn sẽ có xáo trộn của cả
@@ -355,7 +358,7 @@ const Home = () => {
                             thêm, tuy nhiên kết quả sẽ thiên về ngày sinh dương
                             lịch!
                         </p>
-                        <p>
+                        <p className="rp-text">
                             - Tên thường dùng là tên mọi người thường dùng để
                             gọi bạn hoặc một danh xưng mà bạn thường dùng, tên
                             này sẽ bù trừ vào biểu đồ ngày sinh của bạn. Nếu bạn
@@ -363,7 +366,7 @@ const Home = () => {
                             họ tên khai sinh của bạn để tính bù trừ trong biểu
                             đồ tổng hợp.
                         </p>
-                        <p>
+                        <p className="rp-text">
                             - Số chủ đạo tuy rất quan trọng nhưng không thể hiện
                             hết toàn bộ thông tin thần số của bạn. Để xem kết
                             quả tra cứu chính xác nhất, hãy kết hợp tất cả các

@@ -59,23 +59,23 @@ export const genitive = [
 ]
 
 const Result = () => {
-    const { info } = useContext(SearchContext)
+    const { info, setInfo } = useContext(SearchContext)
     const navigate = useNavigate()
 
     useEffect(() => {
         if (!info.number1) navigate('/')
-    }, [])
+    }, [info])
 
     return (
         <Layout>
             <div className="mt-10 flex flex-col items-center text-3xl font-bold select-none cursor-default text-white">
                 <h2>
                     Họ và tên:{' '}
-                    <span className="text-[#F7D51A]">{info.fullname}</span>
+                    <span className="text-primary">{info.fullname}</span>
                 </h2>
                 <h2 className="mt-4">
                     Ngày sinh:{' '}
-                    <span className="text-[#F7D51A]">{`${info.day}/${info.month}/${info.year}`}</span>
+                    <span className="text-primary">{`${info.day}/${info.month}/${info.year}`}</span>
                 </h2>
                 <h3 className="mt-8 uppercase text-2xl">Số chủ đạo</h3>
             </div>
@@ -105,23 +105,19 @@ const Result = () => {
             <div className="mt-10 rounded-lg bg-[rgba(0,0,0,.4)] p-4">
                 <Chart day={Number(info.day)} month={Number(info.month)} />
                 <div className="mt-5 text-sm  text-white">
-                    <p className="uppercase font-bold">
+                    <p className="uppercase font-bold text-primary">
                         Tính cách nổi trội của bạn
                     </p>
-                    <p className="leading-[1.6]">
+                    <p className="rp-text">
                         - Điểm mạnh: {genitive[info.number1 as number].strong}
                     </p>
-                    <p className="leading-[1.6]">
+                    <p className="rp-text">
                         - Điểm yếu: {genitive[info.number1 as number].weak}
                     </p>
                 </div>
                 <Link
                     to="/bao-cao"
-                    style={{
-                        backgroundImage:
-                            'linear-gradient(-45deg, #6a5af9, #d66efd)',
-                    }}
-                    className="rounded-lg mt-4 w-full flex justify-center items-center text-white text-base font-bold select-none p-2"
+                    className="rounded-lg mt-4 w-full flex justify-center items-center primary-btn text-base font-bold select-none p-2"
                 >
                     Xem chi tiết luận giải
                 </Link>

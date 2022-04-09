@@ -17,7 +17,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-image: linear-gradient(-45deg, #6a5af9, #d66efd);
+    background-image: linear-gradient(-45deg, #050505, #ccc);
     border-radius: 50px;
 }
 
@@ -50,7 +50,7 @@ body::-webkit-scrollbar-track {
 
 @layer base {
     body {
-        background-image: url('./assets/images/bg.jpg');
+        background-image: url('./assets/images/bg2.jpg');
     }
 
     *.txt-gradient {
@@ -132,10 +132,14 @@ body::-webkit-scrollbar-track {
     }
 
     .rp-text {
-        @apply whitespace-pre-wrap text-base leading-[2];
+        @apply whitespace-pre-wrap text-[17px] leading-[2.2];
     }
 
     .rp-text strong {
-        color: #ffac13;
+        @apply text-primary;
+    }
+
+    .primary-btn {
+        @apply bg-primary text-black hover:opacity-80 transition-opacity duration-300;
     }
 }

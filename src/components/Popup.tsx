@@ -48,7 +48,7 @@ const Popup: React.FC<IPopupProps> = ({ setShow }) => {
                         <button
                             onClick={handleCoppy}
                             ref={btnRef}
-                            className="h-6 ml-2 text-white px-1 whitespace-nowrap rounded-md bg-[#007BFF] text-xs inline-block"
+                            className="h-6 ml-2 px-1 whitespace-nowrap rounded-md primary-btn text-xs inline-block"
                         >
                             Coppy
                         </button>

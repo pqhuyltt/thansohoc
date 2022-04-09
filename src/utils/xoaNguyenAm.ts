@@ -1,4 +1,4 @@
 export function xoaNguyenAm(string: string) {
-    const vowels = /[aeiou]+/g
+    const vowels = /[aeiouy]+/g
     return string.replace(vowels, '')
 }

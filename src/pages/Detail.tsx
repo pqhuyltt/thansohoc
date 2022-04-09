@@ -22,6 +22,7 @@ import arr3 from '../assets/images/arr3.png'
 import arr4 from '../assets/images/arr4.png'
 import { arrows } from '../utils/arrows'
 import { solanlap } from '../utils/solanlap'
+import { getArrNumFromString } from '../utils/getArrNumFromString'
 
 export const CHI_SO_DUONG_DOI = [
     {
@@ -40,7 +41,8 @@ export const CHI_SO_DUONG_DOI = [
     },
     {
         type: 'SỐ 3 – NGƯỜI VUI VẺ, SÁNG TẠO',
-        relationship: `<strong>• MỐI QUAN HỆ NÓI CHUNG TRONG CUỘC SỐNG</strong>:
+        relationship: `
+<strong>• MỐI QUAN HỆ NÓI CHUNG TRONG CUỘC SỐNG</strong>:
         Các số đường đời khác tương thích nhất với bạn:
         - May mắn cho bạn, kỹ năng giao tiếp và khả năng dễ gần của bạn có nghĩa là bạn có thể tương thích với nhiều các con số khác. Về mặt số học, bạn hợp nhất với những người có đường đời số 10, số 5 và số 7: 
          + Khi đường đời số 10 và số 3 kết hợp với nhau, rất khó để tìm ra quá nhiều điểm tiêu cực. Bạn làm rất tốt công việc ghi nhận người khác và tất cả những thành tích của họ. Còn số 10 làm tốt nhiệm vụ thúc đẩy bạn một cách chuyên nghiệp. Nhưng không phải cuộc đời nào cũng thuận buồm xuôi gió đối với cặp đôi quyền lực này. Một người có đường đời số 10 có xu hướng chỉ trích một chút về khả năng tập trung của bạn, nhưng vì họ hòa nhập rất tốt nên nó thường không phải là một sự phá vỡ.
@@ -61,7 +63,7 @@ export const CHI_SO_DUONG_DOI = [
         - Một kết hợp tốt khác cho bạn là những người có đường đời số 7. Số 7 cực kỳ trực quan và chu đáo nên có thể phát huy khả năng sáng tạo của bạn. Mối quan hệ này hoạt động tốt vì cả hai bạn đều giải quyết cảm xúc tương tự nhau, và rất ít khả năng hai bạn rời xa nhau hoặc tranh cãi. Điều quan trọng là số 7 sẽ không khao khát cảm giác phiêu lưu và phấn khích như bạn, đó không nhất thiết là một điều xấu vì chúng có thể giúp bạn tìm thấy sự cân bằng mà bạn cần.
         Cách tiếp cận tình cảm của bạn cũng sẽ bị ảnh hưởng bởi các con số khác trong biểu đồ. Chỉ số Linh hồn, chỉ số Nhân Cách, chỉ số Thái độ và Chỉ số Sứ mệnh sẽ thay đổi cách cuộc sống tình cảm của bạn diễn ra. Hãy đọc tiếp tới các chỉ số này.`,
         content: `
-        <strong>• ĐIỂM MẠNH CỦA BẠN:</strong>
+<strong>• ĐIỂM MẠNH CỦA BẠN:</strong>
         - Bạn thích sự sáng tạo, giao thiệp, và kết nối mọi người. Điều đó làm cho bạn có được năng lực truyền đạt tuyệt vời.
         - Bạn lạc quan, vô cùng rộng lượng. Bạn là tuýp người đặc biệt hài hước. Bạn thường là “cây hài” trong các nhóm, mang tới không khí tươi vui, rộn ràng cho mọi người với bộ sưu tập các câu chuyện hài hước phong phú. 
         - Thêm vào đó, bạn thường cực kỳ tinh tế trong việc nắm bắt tâm lý người khác. 
@@ -84,7 +86,8 @@ export const CHI_SO_DUONG_DOI = [
     },
     {
         type: 'SỐ 4 – NGƯỜI LOGIC, THỰC TẾ',
-        relationship: `<strong>• MỐI QUAN HỆ NÓI CHUNG TRONG CUỘC SỐNG:</strong>
+        relationship: `
+<strong>• MỐI QUAN HỆ NÓI CHUNG TRONG CUỘC SỐNG:</strong>
         Tương thích nhất với bạn:
         - Đối với bạn, số 10 thể hiện sự quyết tâm và tập trung, nếu có chung đạo đức làm việc, số 10 sẽ cùng bạn hướng tới mục tiêu một cách mạnh mẽ.
         - Số 8 cũng là một kết hợp tốt với bạn. Kỷ luật và cực kỳ có tổ chức, cả hai số đều tin rằng thành công đến từ sự chăm chỉ. Nhưng không giống số 4 thực tế, số 8 có một tầm nhìn xa, vì vậy họ bổ sung tốt cho bạn, cho dù đó là kinh doanh hay đối tác.
@@ -128,7 +131,8 @@ export const CHI_SO_DUONG_DOI = [
     },
     {
         type: 'SỐ 5 - NGƯỜI TỰ DO, LINH HOẠT',
-        relationship: `<strong>• MỐI QUAN HỆ NÓI CHUNG TRONG CUỘC SỐNG:</strong>
+        relationship: `
+<strong>• MỐI QUAN HỆ NÓI CHUNG TRONG CUỘC SỐNG:</strong>
         Tương thích nhất với bạn:
          - Một số 5 khác là sự kết hợp tuyệt vời cho bạn. Mối quan hệ hợp tác này dựa trên niềm đam mê, cảm giác mạnh và phiêu lưu. Không bao giờ có một khoảnh khắc buồn tẻ khi hai người làm việc cùng nhau, nhưng đó cũng không hẳn là một điều tốt. Sự mạo hiểm và hành vi thiếu trách nhiệm có thể khiến cả hai gặp rắc rối, và tất nhiên, có nguy cơ bạn quá ham mê các hoạt động nguy hiểm (và bất hợp pháp), bao gồm những trò tiêu khiển, rượu hoặc cờ bạc. Mộ thách thức nữa đối với hai người là không có khả năng tập trung và xử lý công việc hàng ngày tẻ nhạt.
         - Số 10 cũng tạo nên một mối quan hệ đối tác tốt với bạn. Họ là những người chấp nhận rủi ro và thích sống hết mình. Họ coi trọng sự độc lập của mình, nhưng khi bạn ở bên họ, đó là thời gian chất lượng để bạn làm những điều thú vị. Cả hai con số đều cần một lượng tự do hợp lý, và miễn là không trở nên quá chặt chẽ, thì cả hai người luôn có những cuộc chinh chiến như trên thiên đường.
@@ -183,7 +187,8 @@ export const CHI_SO_DUONG_DOI = [
     },
     {
         type: 'SỐ 6 – HẬU PHƯƠNG',
-        relationship: `<strong>• MỐI QUAN HỆ NÓI CHUNG TRONG CUỘC SỐNG:</strong>
+        relationship: `
+<strong>• MỐI QUAN HỆ NÓI CHUNG TRONG CUỘC SỐNG:</strong>
         Tương thích nhất với bạn:
         - Số 2 (hoặc 11/2) và bạn đều có một ngôn ngữ đặc biệt, nơi cả 2 được hướng dẫn bởi trái tim của mình nhiều hơn là bởi lý trí. Hai người bổ sung tốt cho nhau, số 6 rất hướng về gia đình trong khi mục đích duy nhất của số 2 là yêu thương và quan tâm đến những người xung quanh. Vấn đề với mối quan hệ dường như hoàn hảo này là nhu cầu chấp thuận liên tục trong bạn, điều này có thể làm mất đi bản chất quan tâm của cả 2. Để nó hoạt động, cả hai bên sẽ cần quan tâm hơn đến cảm xúc của đối tác.
         - Số 4, 8, 9, 10 cũng là một lựa chọn tốt cho mối quan hệ của bạn.
@@ -227,7 +232,8 @@ export const CHI_SO_DUONG_DOI = [
     },
     {
         type: 'SỐ 7 - NGƯỜI TRẢI NGHIỆM',
-        relationship: `<strong>• MỐI QUAN HỆ NÓI CHUNG TRONG CUỘC SỐNG:</strong>
+        relationship: `
+<strong>• MỐI QUAN HỆ NÓI CHUNG TRONG CUỘC SỐNG:</strong>
         Những số đường đời tương thích nhất với bạn:
         - Người có số 10: Họ có thể thúc đẩy bạn và bạn có thể khai sáng cho số 10. Các năng lượng khác nhau của cả hai phối hợp tốt với nhau, miễn là cả hai không quá kiểm soát nhau, và để đối phương trong thế giới riêng của họ.
         - Người có số 3: Họ lạc quan có thể cung cấp liều thuốc giúp bạn vượt khỏi sự nghiêm túc quá đà, và đổi lại bạn sẽ mang lại chiều sâu cho họ. Đây là sự kết hợp hiếm hoi giữa các con số hòa hợp và thúc đẩy sự phát triển lẫn nhau.
@@ -281,7 +287,8 @@ export const CHI_SO_DUONG_DOI = [
     },
     {
         type: 'SỐ 8 - NGƯỜI ĐIỀU HÀNH',
-        relationship: `<strong>• MỐI QUAN HỆ NÓI CHUNG TRONG CUỘC SỐNG:</strong>
+        relationship: `
+<strong>• MỐI QUAN HỆ NÓI CHUNG TRONG CUỘC SỐNG:</strong>
         Những số đường đời tương thích nhất với bạn:
         - Số 2 (hoặc 11/2): Người số số 2 và bạn có thể là một trong những mối quan hệ tương thích nhất trong thần số học. Họ có thể sẽ sẵn sàng được hướng dẫn và thậm chí kiểm soát bởi bạn. 
         - Số 4 (hoặc 22/4): Số 4 có thể là sự lựa chọn rất tốt cho bạn. Trong khi bạn nhìn thấy bức tranh lớn và tổng quát thì số 4 sẽ bổ trợ cho bạn bằng việc đi vào vấn đề chi tiết và một kế hoạch bài bản. Điều này có thể hoạt động như một quan hệ đối tác trong kinh doanh hoặc trong tình yêu.
@@ -335,7 +342,8 @@ export const CHI_SO_DUONG_DOI = [
     },
     {
         type: 'SỐ 9 – NGƯỜI CHO ĐI',
-        relationship: `<strong>• MỐI QUAN HỆ NÓI CHUNG TRONG CUỘC SỐNG:</strong>
+        relationship: `
+<strong>• MỐI QUAN HỆ NÓI CHUNG TRONG CUỘC SỐNG:</strong>
         Những số đường đời tương thích nhất với bạn:
         - Số 10: Đường đời số 9 và số 10 là hai cực đối lập nhau - cả về số học và tính cách. Sự kết hợp này có thể không hiệu quả trong kinh doanh, nhưng thành ngữ 'đối lập thu hút' có thể đúng khi nói về mối quan hệ cá nhân của cả hai.
         - Số 2 (hoặc số 11/2): Trực quan và nhạy cảm (giống như bạn), số 2 có thể nhìn thấu con người của bạn đến thế giới cảm xúc bên trong mà bạn thường giữ kín với người khác.
@@ -382,7 +390,8 @@ export const CHI_SO_DUONG_DOI = [
     },
     {
         type: 'SỐ 10 - THỦ LĨNH',
-        relationship: `<strong>• MỐI QUAN HỆ NÓI CHUNG TRONG CUỘC SỐNG:</strong>
+        relationship: `
+<strong>• MỐI QUAN HỆ NÓI CHUNG TRONG CUỘC SỐNG:</strong>
         Tìm được một người tương thích với số 10 không dễ nhưng chắc chắn không phải là không thể.
         
         Những số đường đời tương thích nhất với bạn:
@@ -453,7 +462,8 @@ export const CHI_SO_DUONG_DOI = [
     },
     {
         type: 'SỐ 11 - TRỰC GIÁC CAO',
-        relationship: `<strong>• MỐI QUAN HỆ NÓI CHUNG TRONG CUỘC SỐNG:</strong>
+        relationship: `
+<strong>• MỐI QUAN HỆ NÓI CHUNG TRONG CUỘC SỐNG:</strong>
         Số đường đời tương thích nhất với bạn:
         - Số 2: Số 11 và 2 với nhau là sự kết hợp hoàn hảo vì cả hai có mối liên hệ chặt chẽ với nhau. Cả hai này có cùng một ngôn ngữ, giao tiếp ngoại giao và mong muốn một mối quan hệ hài hòa.
         - Số 6: Người bảo vệ số 6 có thể cung cấp cho bạn một mối quan hệ tốt và bạn sẵn sàng chấp nhận để họ cởi mở về tình cảm.
@@ -1132,48 +1142,52 @@ Số 10 mang đến nguồn sức mạnh đặc biệt, một năng lực độc
 
 const DINH4 = [
     ``,
-    ``,
     `
-Con số này cho thấy một giai đoạn mà trong đó những giá trị tinh thần hoặc tâm linh mạnh hơn bắt đầu hé mở.
-Lối sống và những thói quen trong cuộc sống sẽ từ mang màu sắc của trực giác hoặc trở nên giàu cảm xúc hơn. Tuy nhiên, cần lưu ý rằng giá trị tinh thần hoặc tâm linh này sẽ thể hiện dưới dạng tích cực (tức hình thức tăng cường nhận thức một cách tốt đẹp hơn) hay dưới dạng tiêu cực (kiểu phản ứng không tốt, hoặc gây hấn), tùy vào mức độ trưởng thành mà con người đã đạt được đến thời điểm này.
+    Con số này cho thấy một giai đoạn mà trong đó những giá trị tinh thần hoặc tâm linh mạnh hơn bắt đầu hé mở. Lối sống và những thói quen trong cuộc sống sẽ từ mang màu sắc của trực giác hoặc trở nên giàu cảm xúc hơn. Tuy nhiên, cần lưu ý rằng giá trị tinh thần hoặc tâm linh này sẽ thể hiện dưới dạng tích cực (tức hình thức tăng cường nhận thức một cách tốt đẹp hơn) hay dưới dạng tiêu cực (kiểu phản ứng không tốt, hoặc gây hấn), tùy vào mức độ trưởng thành mà con người đã đạt được đến thời điểm này.
+    Hiển nhiên khả năng trực giác của một người không thể phát triển nếu họ bị cột chặt vào những phản ứng cảm xúc mang tính bản năng. Đây cũng là giai đoạn chúng ta làm việc rất chăm chỉ và tiến triển khá chậm về mặt vật chất, vì chúng ta không thể có cả hai thứ cùng lúc được. Hãy nhớ rằng mọi việc đều có thời điểm thích hợp của nó, và một trong những ứng dụng quan trọng nhất của Nhân số học là tìm hiểu nhu cầu của bản thân, cũng như cách thức và thời điểm thích hợp để chúng ta xử lý những nhu cầu này. Nếu khăng khăng đi tìm thành tựu vật chất trong giai đoạn ảnh hưởng của Đỉnh cao mang số 2, bạn sẽ chỉ tạo ra sự uất giận, mâu thuẫn và sự tuột dốc năng lượng mà thôi. Hãy kiên nhẫn. Khi cuộc đời gieo cho bạn con số 2 ở một trong những đỉnh Kim tự tháp, bạn cần hiểu rằng thời gian đó nên được tập trung vào việc phát triển tinh thần. Sau đó, ở những đỉnh cao tiếp theo, bạn có thể sẽ được đền bù xứng đáng.
+    `,
+    `
+Con số này cho thấy một giai đoạn mà trong đó những giá trị tinh thần hoặc tâm linh mạnh hơn bắt đầu hé mở. Lối sống và những thói quen trong cuộc sống sẽ từ mang màu sắc của trực giác hoặc trở nên giàu cảm xúc hơn. Tuy nhiên, cần lưu ý rằng giá trị tinh thần hoặc tâm linh này sẽ thể hiện dưới dạng tích cực (tức hình thức tăng cường nhận thức một cách tốt đẹp hơn) hay dưới dạng tiêu cực (kiểu phản ứng không tốt, hoặc gây hấn), tùy vào mức độ trưởng thành mà con người đã đạt được đến thời điểm này.
 Hiển nhiên khả năng trực giác của một người không thể phát triển nếu họ bị cột chặt vào những phản ứng cảm xúc mang tính bản năng. Đây cũng là giai đoạn chúng ta làm việc rất chăm chỉ và tiến triển khá chậm về mặt vật chất, vì chúng ta không thể có cả hai thứ cùng lúc được. Hãy nhớ rằng mọi việc đều có thời điểm thích hợp của nó, và một trong những ứng dụng quan trọng nhất của Nhân số học là tìm hiểu nhu cầu của bản thân, cũng như cách thức và thời điểm thích hợp để chúng ta xử lý những nhu cầu này. Nếu khăng khăng đi tìm thành tựu vật chất trong giai đoạn ảnh hưởng của Đỉnh cao mang số 2, bạn sẽ chỉ tạo ra sự uất giận, mâu thuẫn và sự tuột dốc năng lượng mà thôi. Hãy kiên nhẫn. Khi cuộc đời gieo cho bạn con số 2 ở một trong những đỉnh Kim tự tháp, bạn cần hiểu rằng thời gian đó nên được tập trung vào việc phát triển tinh thần. Sau đó, ở những đỉnh cao tiếp theo, bạn có thể sẽ được đền bù xứng đáng.
     `,
     `
-Con số này thường cho thấy giai đoạn đỉnh cao này chủ yếu liên quan tới trạng thái cảm xúc. Nếu đi đúng quỹ đạo phát triển thì tới giai đoạn này, người ta sẽ bắt đầu có sự phát triển tâm linh và thấu hiểu cuộc sống sâu sắc hơn, từ đó mang lại sự tự do cá nhân mạnh mẽ hơn. Trong giai đoạn này, đời sống tinh thần của chúng ta gặp phải nhiều áp lực vượt mức chịu đựng, để tạo điều kiện cho chúng ta mài giũa khả năng kiểm soát cảm xúc cao hơn. Điều này giúp chúng ta giảm các phản ứng mang tính bản năng đối với những con người và tình huống xung quanh.
-Kết quả là sự tự do cá nhân của chúng ta được nâng cao, dọn đường cho một tầng nhận thức tâm linh cao hơn. Những người từng lo lắng về sự vững vàng tài chính trong những năm trước đó, giờ đây sẽ có thể bớt âu lo nhờ có cái nhìn cân bằng hơn về nhu cầu thực sự của mình và những tác động từ môi trường.
-    `,
-    `
-Con số này cho thấy đây là thời điểm bạn nên chú trọng học hỏi để mở mang trí tuệ.
-Đây là giai đoạn quan trọng để học hỏi, đánh giá và phân tích. Một số người sẽ cảm thấy thôi thúc muốn đi đó đi đây dưới sóng rung của con số này. Ở giai đoạn này của cuộc đời họ, việc đi đó đi đây không chỉ là du lịch đơn thuần, mà còn là một cách để họ học hỏi và mở mang tầm mắt, mở mang kiến thức . Trong giai đoạn này, hãy để trí não được mở mang theo chiều hướng tích cực. Nếu không, bạn sẽ có nguy cơ trở thành kẻ hay chỉ trích người khác, đòi hỏi, yêu sách, và không có gì ngạc nhiên khi hậu quả là bạn sẽ không được người khác chào đón.
-    `,
-    `
-Con số này thường cho thấy giai đoạn đỉnh cao này chủ yếu liên quan tới trạng thái cảm xúc. Nếu đi đúng quỹ đạo phát triển thì tới giai đoạn này, người ta sẽ bắt đầu có sự phát triển tâm linh và thấu hiểu cuộc sống sâu sắc hơn, từ đó mang lại sự tự do cá nhân mạnh mẽ hơn. Trong giai đoạn này, đời sống tinh thần của chúng ta gặp phải nhiều áp lực vượt mức chịu đựng, để tạo điều kiện cho chúng ta mài giũa khả năng kiểm soát cảm xúc cao hơn. Điều này giúp chúng ta giảm các phản ứng mang tính bản năng đối với những con người và tình huống xung quanh.
-Kết quả là sự tự do cá nhân của chúng ta được nâng cao, dọn đường cho một tầng nhận thức tâm linh cao hơn. Những người từng lo lắng về sự vững vàng tài chính trong những năm trước đó, giờ đây sẽ có thể bớt âu lo nhờ có cái nhìn cân bằng hơn về nhu cầu thực sự của mình và những tác động từ môi trường.
-    `,
-    `
-Con số này chỉ được nhìn thấy ở đỉnh của hai Kim tự tháp đầu tiên. Khi sang Kim tự tháp thứ ba và thứ tư, nó sẽ trở thành số 10. Số 1 là con số vô cùng thực tế, báo hiệu giai đoạn của những nỗ lực cá nhân cũng như sự biểu đạt cá nhân. Trong hầu hết các trường hợp, nó cho thấy sự tách rời khỏi những mối quan hệ mà trong đó có sự thiếu hòa hợp, cản trở quá trình phát triển cá nhân của chúng ta, chẳng hạn như một cuộc hôn nhân kém hạnh phúc, quan hệ làm ăn buôn bán không hiệu quả, hoặc những mối dây tình cảm rối rắm đã làm vướng chân chúng ta nhiều năm.
-Một số người sẽ chọn cách cố gắng hết sức để tránh các cuộc chia ly này, cố gắng giữ nguyên hiện trạng bằng mọi giá. Mặc dù vậy, họ cũng sẽ nhận ra một vài thay đổi trong bản chất mối quan hệ, bởi vì đến thời điểm này họ đã bắt đầu thể hiện cá tính của mình một cách mạnh mẽ hơn, cũng trở nên rõ ràng hơn trong quan điểm, trong cách biểu đạt ý kiến của mình. Điều đó có nghĩa là từ giai đoạn này trở đi, những mối quan hệ khiến bạn tổn thương mà bạn muốn dứt mãi không được sẽ dứt, còn những mối quan hệ không đứt gãy trong giai đoạn này sẽ chuyển sang một trạng thái mới, dễ chịu hơn.
-    `,
-    `
-Con số này mang đến sự phát triển mạnh mẽ về lực sáng tạo.
-Đây là giai đoạn mà các yếu tố cao nhất về mặt tinh thần và trí não hợp lại để hé lộ cho chúng ta thấy vai trò thiết yếu của chúng ta trong kế hoạch vô hạn của tạo hóa. Không phải ai cũng có được nhận thức này, mà chỉ những người trưởng thành hơn, có mức độ tiến hóa cao hơn mới cảm nhận rõ.
-Đối với đa số mọi người, những người coi trọng giá trị của đời sống vật chất, đây sẽ là giai đoạn gắn bó mật thiết với gia đình, hoặc nếu họ còn độc thân thì đây là lúc họ khao khát một mái ấm bình yên. Các khuynh hướng lo lắng về mái ấm gia đình hoặc vội vã kết hôn sẽ khiến người ta dễ phạm sai lầm vào lúc này, gây ra nhiều bài học tổn thương khi con người để cho cảm xúc thống trị các mối quan hệ của mình. Sự khôn ngoan và kiên nhẫn sẽ giúp chúng ta tránh được những sai lầm này.
+Con số này cho thấy một giai đoạn mà trong đó những giá trị tinh thần hoặc tâm linh mạnh hơn bắt đầu hé mở. Lối sống và những thói quen trong cuộc sống sẽ từ mang màu sắc của trực giác hoặc trở nên giàu cảm xúc hơn. Tuy nhiên, cần lưu ý rằng giá trị tinh thần hoặc tâm linh này sẽ thể hiện dưới dạng tích cực (tức hình thức tăng cường nhận thức một cách tốt đẹp hơn) hay dưới dạng tiêu cực (kiểu phản ứng không tốt, hoặc gây hấn), tùy vào mức độ trưởng thành mà con người đã đạt được đến thời điểm này.
+Hiển nhiên khả năng trực giác của một người không thể phát triển nếu họ bị cột chặt vào những phản ứng cảm xúc mang tính bản năng. Đây cũng là giai đoạn chúng ta làm việc rất chăm chỉ và tiến triển khá chậm về mặt vật chất, vì chúng ta không thể có cả hai thứ cùng lúc được. Hãy nhớ rằng mọi việc đều có thời điểm thích hợp của nó, và một trong những ứng dụng quan trọng nhất của Nhân số học là tìm hiểu nhu cầu của bản thân, cũng như cách thức và thời điểm thích hợp để chúng ta xử lý những nhu cầu này. Nếu khăng khăng đi tìm thành tựu vật chất trong giai đoạn ảnh hưởng của Đỉnh cao mang số 2, bạn sẽ chỉ tạo ra sự uất giận, mâu thuẫn và sự tuột dốc năng lượng mà thôi. Hãy kiên nhẫn. Khi cuộc đời gieo cho bạn con số 2 ở một trong những đỉnh Kim tự tháp, bạn cần hiểu rằng thời gian đó nên được tập trung vào việc phát triển tinh thần. Sau đó, ở những đỉnh cao tiếp theo, bạn có thể sẽ được đền bù xứng đáng.
     `,
     `
 Con số này cho thấy đây là thời điểm bạn nên chú trọng học hỏi để mở mang trí tuệ. Đây là giai đoạn quan trọng để học hỏi, đánh giá và phân tích. Một số người sẽ cảm thấy thôi thúc muốn đi đó đi đây dưới sóng rung của con số này. Ở giai đoạn này của cuộc đời họ, việc đi đó đi đây không chỉ là du lịch đơn thuần, mà còn là một cách để họ học hỏi và mở mang tầm mắt, mở mang kiến thức . Trong giai đoạn này, hãy để trí não được mở mang theo chiều hướng tích cực. Nếu không, bạn sẽ có nguy cơ trở thành kẻ hay chỉ trích người khác, đòi hỏi, yêu sách, và không có gì ngạc nhiên khi hậu quả là bạn sẽ không được người khác chào đón.
     `,
     `
-Con số này cho thấy đây là giai đoạn rất có sức bật, với nguồn lực chủ đạo là sức mạnh của sự "độc lập".  Tùy theo Con số chủ đạo của mỗi người mà sức mạnh độc lập này sẽ được phát triển thông qua lĩnh vực nghệ thuật hoặc thương mại. Nếu Có Con số chủ đạo là số chẵn (2, 4, 6, 8, 10, 22/4), bạn có khuynh hướng thành công về mặt tài chính khi hoạt động độc lập. Nếu Có Con số chủ đạo là số lẻ (3, 5, 7, 9, 11), bạn sẽ có khả năng thành công về mặt nghệ thuật hay nhân văn trong khi hoạt động độc lập.Tuy nhiên, hãy có ý thức sử dụng sức mạnh của sóng rung số 8 một cách tích cực, đừng để sự đấu đá cá nhân hoặc quan điểm hạn hẹp cản trở sự lan tỏa của sóng rung này. Nếu để cho các tác nhân ấy ảnh hưởng, bạn sẽ rơi vào tình trạng xa cách với môi trường xung quanh, một nỗ lực “giãy giụa” để tỏ ra độc lập.
+Con số này báo hiệu sự gia tăng sức mạnh của việc "gieo nhân nào gặt quả nấy" Điều đó có thể được thể hiện theo nhiều cách khác nhau, tùy vào mức độ trưởng thành, Con số chủ đạo và các yếu tố trong Biểu đồ ngày sinh. Đối với những người sẵn sàng làm việc siêng năng chăm chỉ, đây là giai đoạn họ gặt hái thành công nhờ ảnh hưởng của sóng rung của số 4.
+Đối với những người cần có thêm kiến thức về việc sử dụng tốt hơn các giác quan của mình để trở nên trưởng thành, và những ai sẵn sàng dấn thân vào những công việc thực tế, thì đây cũng là giai đoạn mà những nỗ lực của họ được tưởng thưởng.
+Nhưng đối với những người quá Tham Vọng, hám danh lợi và tham lam thì đây là giai đoạn họ mất nhiều hơn được. Cho dù có nỗ lực nhiều hơn thì họ cũng không có được tiến triển đáng kể, nếu động cơ của họ quá vị kỷ và tư lợi. Điều này có thể gây áp lực nặng nề lên hệ thống thần kinh cũng như tình trạng sức khỏe của họ nói chung, và nó chỉ được cải thiện khi họ nhìn ra và điều chỉnh lại động cơ của mình.
+Nên nhớ rõ ràng "gieo nhân nào gặt quả nấy" bao gồm tất cả các khía cạnh trong cuộc sống: Vật chất, Sức khỏe, Tình cảm
+Nếu bạn siêng năng chăm chỉ làm việc thì bạn sẽ nhận được thành quả tốt nhất.
+Nếu bạn bỏ bê sức khỏe không quan tâm đến mặt thể chất và tinh thần thì đây cũng là lúc mọi thứ tồi tệ, và mặt tình cảm cũng vậy.
     `,
     `
-Con số này mang đến sự phát triển mạnh mẽ về lực sáng tạo.
-Đây là giai đoạn mà các yếu tố cao nhất về mặt tinh thần và trí não hợp lại để hé lộ cho chúng ta thấy vai trò thiết yếu của chúng ta trong kế hoạch vô hạn của tạo hóa. Không phải ai cũng có được nhận thức này, mà chỉ những người trưởng thành hơn, có mức độ tiến hóa cao hơn mới cảm nhận rõ.
+Con số này thường cho thấy giai đoạn đỉnh cao này chủ yếu liên quan tới trạng thái cảm xúc. Nếu đi đúng quỹ đạo phát triển thì tới giai đoạn này, người ta sẽ bắt đầu có sự phát triển tâm linh và thấu hiểu cuộc sống sâu sắc hơn, từ đó mang lại sự tự do cá nhân mạnh mẽ hơn. Trong giai đoạn này, đời sống tinh thần của chúng ta gặp phải nhiều áp lực vượt mức chịu đựng, để tạo điều kiện cho chúng ta mài giũa khả năng kiểm soát cảm xúc cao hơn. Điều này giúp chúng ta giảm các phản ứng mang tính bản năng đối với những con người và tình huống xung quanh.
+Kết quả là sự tự do cá nhân của chúng ta được nâng cao, dọn đường cho một tầng nhận thức tâm linh cao hơn. Những người từng lo lắng về sự vững vàng tài chính trong những năm trước đó, giờ đây sẽ có thể bớt âu lo nhờ có cái nhìn cân bằng hơn về nhu cầu thực sự của mình và những tác động từ môi trường.
+    `,
+    `
+Con số này mang đến sự phát triển mạnh mẽ về lực sáng tạo. Đây là giai đoạn mà các yếu tố cao nhất về mặt tinh thần và trí não hợp lại để hé lộ cho chúng ta thấy vai trò thiết yếu của chúng ta trong kế hoạch vô hạn của tạo hóa. Không phải ai cũng có được nhận thức này, mà chỉ những người trưởng thành hơn, có mức độ tiến hóa cao hơn mới cảm nhận rõ.
 Đối với đa số mọi người, những người coi trọng giá trị của đời sống vật chất, đây sẽ là giai đoạn gắn bó mật thiết với gia đình, hoặc nếu họ còn độc thân thì đây là lúc họ khao khát một mái ấm bình yên. Các khuynh hướng lo lắng về mái ấm gia đình hoặc vội vã kết hôn sẽ khiến người ta dễ phạm sai lầm vào lúc này, gây ra nhiều bài học tổn thương khi con người để cho cảm xúc thống trị các mối quan hệ của mình. Sự khôn ngoan và kiên nhẫn sẽ giúp chúng ta tránh được những sai lầm này.
     `,
     `
-Con số này mở ra một giai đoạn với những hoạt động mang đậm tính nhân văn. Sóng rung này đem lại những cơ hội đặc biệt để phục vụ nhân loại. Đây cũng là giai đoạn cần vận dụng năng lực trí não để đạt được thành công to lớn nhất, bao gồm năng lực phân tích và đánh giá nhu cầu của người khác, lên kế hoạch cho những bước ngoặt trên con đường sự nghiệp, đánh giá lại những mối quan hệ lâu dài và môi trường xung quanh. Nhiều người sẽ đòi hỏi bạn dành thời gian và năng lượng cho họ trong giai đoạn này.
-Một số người trong số đó thực sự cần bạn và đem lại cho bạn cơ hội để thực hiện được sứ mệnh “phục vụ”; trong khi một số khác chỉ đang giả vờ để thu hút sự chú ý của bạn mà thôi. Bạn cần tỉnh táo để phân biệt ai chân thật, ai giả vờ. Những người giả vờ nên được đối xử theo kiểu “nice and ice” - tử tế mà vẫn lạnh lùng khi cần - để có thể thức tỉnh, khả năng phân tích và phân biệt thật - giả của bạn sẽ được kiểm tra và củng cố qua những trải nghiệm này. Và dưới ảnh hưởng của sóng rung giai đoạn này, một số người sẽ cần ở nhà để làm tốt phần việc phục vụ của mình, một số khác sẽ được “điều” đi nơi khác để trải qua những bài học quan trọng cho hành trình phát triển bản thân.
-Trong suốt năm thứ nhất của giai đoạn đỉnh cao mang ảnh hưởng của số 9, nhiều thay đổi quan trọng sẽ diễn ra trong cuộc sống của những người đang trải qua giai đoạn này. Nếu sự thay đổi này không liên quan tới những chuyến đi, họ sẽ có khả năng chuyển nhà, đổi công việc hoặc có những mối quan hệ mới. Không chỉ một, mà có thể nhiều thay đổi lớn sẽ cùng lúc xuất hiện, tùy thuộc vào bản chất của những trách nhiệm mà mỗi người cần thực hiện trong quá trình phát triển và trưởng thành của mình.
+Con số này chỉ được nhìn thấy ở đỉnh của hai Kim tự tháp đầu tiên. Khi sang Kim tự tháp thứ ba và thứ tư, nó sẽ trở thành số 10. Số 1 là con số vô cùng thực tế, báo hiệu giai đoạn của những nỗ lực cá nhân cũng như sự biểu đạt cá nhân. Trong hầu hết các trường hợp, nó cho thấy sự tách rời khỏi những mối quan hệ mà trong đó có sự thiếu hòa hợp, cản trở quá trình phát triển cá nhân của chúng ta, chẳng hạn như một cuộc hôn nhân kém hạnh phúc, quan hệ làm ăn buôn bán không hiệu quả, hoặc những mối dây tình cảm rối rắm đã làm vướng chân chúng ta nhiều năm.
+Một số người sẽ chọn cách cố gắng hết sức để tránh các cuộc chia ly này, cố gắng giữ nguyên hiện trạng bằng mọi giá. Mặc dù vậy, họ cũng sẽ nhận ra một vài thay đổi trong bản chất mối quan hệ, bởi vì đến thời điểm này họ đã bắt đầu thể hiện cá tính của mình một cách mạnh mẽ hơn, cũng trở nên rõ ràng hơn trong quan điểm, trong cách biểu đạt ý kiến của mình. Điều đó có nghĩa là từ giai đoạn này trở đi, những mối quan hệ khiến bạn tổn thương mà bạn muốn dứt mãi không được sẽ dứt, còn những mối quan hệ không đứt gãy trong giai đoạn này sẽ chuyển sang một trạng thái mới, dễ chịu hơn.
+    `,
+
+    `
+Con số này cho thấy đây là thời điểm bạn nên chú trọng học hỏi để mở mang trí tuệ. Đây là giai đoạn quan trọng để học hỏi, đánh giá và phân tích. Một số người sẽ cảm thấy thôi thúc muốn đi đó đi đây dưới sóng rung của con số này. Ở giai đoạn này của cuộc đời họ, việc đi đó đi đây không chỉ là du lịch đơn thuần, mà còn là một cách để họ học hỏi và mở mang tầm mắt, mở mang kiến thức . Trong giai đoạn này, hãy để trí não được mở mang theo chiều hướng tích cực. Nếu không, bạn sẽ có nguy cơ trở thành kẻ hay chỉ trích người khác, đòi hỏi, yêu sách, và không có gì ngạc nhiên khi hậu quả là bạn sẽ không được người khác chào đón.
+    `,
+    `
+Con số này cho thấy một giai đoạn mà trong đó những giá trị tinh thần hoặc tâm linh mạnh hơn bắt đầu hé mở. Lối sống và những thói quen trong cuộc sống sẽ từ mang màu sắc của trực giác hoặc trở nên giàu cảm xúc hơn. Tuy nhiên, cần lưu ý rằng giá trị tinh thần hoặc tâm linh này sẽ thể hiện dưới dạng tích cực (tức hình thức tăng cường nhận thức một cách tốt đẹp hơn) hay dưới dạng tiêu cực (kiểu phản ứng không tốt, hoặc gây hấn), tùy vào mức độ trưởng thành mà con người đã đạt được đến thời điểm này.
+Hiển nhiên khả năng trực giác của một người không thể phát triển nếu họ bị cột chặt vào những phản ứng cảm xúc mang tính bản năng. Đây cũng là giai đoạn chúng ta làm việc rất chăm chỉ và tiến triển khá chậm về mặt vật chất, vì chúng ta không thể có cả hai thứ cùng lúc được. Hãy nhớ rằng mọi việc đều có thời điểm thích hợp của nó, và một trong những ứng dụng quan trọng nhất của Nhân số học là tìm hiểu nhu cầu của bản thân, cũng như cách thức và thời điểm thích hợp để chúng ta xử lý những nhu cầu này. Nếu khăng khăng đi tìm thành tựu vật chất trong giai đoạn ảnh hưởng của Đỉnh cao mang số 2, bạn sẽ chỉ tạo ra sự uất giận, mâu thuẫn và sự tuột dốc năng lượng mà thôi. Hãy kiên nhẫn. Khi cuộc đời gieo cho bạn con số 2 ở một trong những đỉnh Kim tự tháp, bạn cần hiểu rằng thời gian đó nên được tập trung vào việc phát triển tinh thần. Sau đó, ở những đỉnh cao tiếp theo, bạn có thể sẽ được đền bù xứng đáng.
+    `,
+    `
+Con số này thường cho thấy giai đoạn đỉnh cao này chủ yếu liên quan tới trạng thái cảm xúc. Nếu đi đúng quỹ đạo phát triển thì tới giai đoạn này, người ta sẽ bắt đầu có sự phát triển tâm linh và thấu hiểu cuộc sống sâu sắc hơn, từ đó mang lại sự tự do cá nhân mạnh mẽ hơn. Trong giai đoạn này, đời sống tinh thần của chúng ta gặp phải nhiều áp lực vượt mức chịu đựng, để tạo điều kiện cho chúng ta mài giũa khả năng kiểm soát cảm xúc cao hơn. Điều này giúp chúng ta giảm các phản ứng mang tính bản năng đối với những con người và tình huống xung quanh.
+Kết quả là sự tự do cá nhân của chúng ta được nâng cao, dọn đường cho một tầng nhận thức tâm linh cao hơn. Những người từng lo lắng về sự vững vàng tài chính trong những năm trước đó, giờ đây sẽ có thể bớt âu lo nhờ có cái nhìn cân bằng hơn về nhu cầu thực sự của mình và những tác động từ môi trường.
     `,
 ]
 
@@ -1651,6 +1665,12 @@ const Detail = () => {
     )
     const [isVerify, setIsVerify] = useState<boolean>(false)
     useEffect(() => {
+        const verify = localStorage.getItem('verify')
+        if (verify) {
+            setIsVerify(true)
+        }
+    }, [])
+    useEffect(() => {
         if (!info.number1) navigate('/')
     }, [])
     const tuoidinh1 = useMemo(() => 36 - (info.number1 as number), [info])
@@ -1664,7 +1684,17 @@ const Detail = () => {
             ...getArrNum(info.year as string),
         ]
     }, [info])
+    const bieudoso2 = useMemo(
+        () => getArrNumFromString(info.fullname as string),
+        [info],
+    )
+    const bieudoso3 = useMemo(
+        () => [...bieudoso2, ...bieudoso],
+        [bieudoso2, bieudoso],
+    )
     const hasArrows = arrows(bieudoso)
+    const hasArrows2 = arrows(bieudoso2)
+    const hasArrows3 = arrows(bieudoso3)
     const num1 = solanlap(bieudoso, 1).length
     const num2 = solanlap(bieudoso, 2).length
     const num3 = solanlap(bieudoso, 3).length
@@ -1682,11 +1712,11 @@ const Detail = () => {
                 <p className="text-center">BÁO CÁO THẦN SỐ HỌC</p>
                 <h2 className="mt-3">
                     Họ và tên:{' '}
-                    <span className="text-[#F7D51A]">{info.fullname}</span>
+                    <span className="text-primary">{info.fullname}</span>
                 </h2>
                 <h2 className="mt-3">
                     Ngày sinh:{' '}
-                    <span className="text-[#F7D51A]">{`${info.day}/${info.month}/${info.year}`}</span>
+                    <span className="text-primary">{`${info.day}/${info.month}/${info.year}`}</span>
                 </h2>
             </div>
             <div className="mt-10 grid lg:grid-cols-6 gap-y-7 grid-cols-2 md:grid-cols-3">
@@ -1701,7 +1731,7 @@ const Detail = () => {
                 ))}
             </div>
             <div className="rp-box mt-10">
-                <h2 className="text-xl text-[#FFAC13] text-center font-bold ">
+                <h2 className="text-xl text-primary text-center font-bold ">
                     Con số chủ đạo của bạn là:{' '}
                     <span className="text-shadow-pink">{info.number1}</span>
                 </h2>
@@ -1710,7 +1740,7 @@ const Detail = () => {
                 </p>
                 {!isVerify && (
                     <div>
-                        <h1 className="mt-5 text-2xl font-bold text-[#F7D51A] text-center">
+                        <h1 className="mt-5 text-2xl font-bold text-primary text-center">
                             Để đọc tiếp vui lòng làm theo hướng dẫn
                         </h1>
                         <div className="flex flex-col items-center">
@@ -1729,11 +1759,15 @@ const Detail = () => {
                                         onClick={() => {
                                             if (code === secret) {
                                                 setIsVerify(true)
+                                                localStorage.setItem(
+                                                    'verify',
+                                                    'true',
+                                                )
                                             } else {
                                                 setErr('Mã không đúng!')
                                             }
                                         }}
-                                        className="h-8 min-w-[60px] flex-shrink-0 ml-2 px-1 whitespace-nowrap rounded-md bg-[#007BFF] text-xs block"
+                                        className="h-8 min-w-[60px] flex-shrink-0 ml-2 px-1 whitespace-nowrap rounded-md primary-btn text-xs block"
                                     >
                                         Xác nhận
                                     </button>
@@ -1748,11 +1782,7 @@ const Detail = () => {
                         <div className="flex">
                             <div
                                 onClick={setShow.bind(this, true)}
-                                className="mt-5 cursor-pointer py-2 px-4 rounded-lg uppercase inline-block mx-auto font-bold text-white"
-                                style={{
-                                    backgroundImage:
-                                        'linear-gradient(-45deg, #6a5af9, #d66efd)',
-                                }}
+                                className="mt-5 cursor-pointer py-2 px-4 rounded-lg uppercase inline-block mx-auto font-bold primary-btn"
                             >
                                 Lấy mã xác nhận ngay
                             </div>
@@ -1761,7 +1791,7 @@ const Detail = () => {
                 )}
                 {isVerify && (
                     <div>
-                        <h2 className="text-xl text-[#FFAC13] text-center font-bold mt-5">
+                        <h2 className="text-xl text-primary text-center font-bold mt-10">
                             Số tên riêng của bạn là:{' '}
                             <span className="text-shadow-pink">
                                 {info.sotenrieng}
@@ -1783,7 +1813,7 @@ const Detail = () => {
                             sóng rung đa dạng, từ đó mở rộng phạm vi của các đặc
                             điểm tính cách.
                         </p>
-                        <h2 className="text-xl text-[#FFAC13] text-center font-bold mt-5">
+                        <h2 className="text-xl text-primary text-center font-bold mt-10">
                             Số linh hồn của bạn là:{' '}
                             <span className="text-shadow-pink">
                                 {info.solinhhon}
@@ -1792,7 +1822,7 @@ const Detail = () => {
                         <p className="rp-text mt-4">
                             {SLH[info.solinhhon as number]}
                         </p>
-                        <h2 className="text-xl text-[#FFAC13] text-center font-bold mt-5">
+                        <h2 className="text-xl text-primary text-center font-bold mt-10">
                             Số biểu đạt của bạn là:{' '}
                             <span className="text-shadow-pink">
                                 {info.sobieudat}
@@ -1802,7 +1832,7 @@ const Detail = () => {
                             {SBD[info.sobieudat as number] ||
                                 'Nội dung chưa cập nhật'}
                         </p>
-                        <h2 className="text-xl text-[#FFAC13] text-center font-bold mt-5">
+                        <h2 className="text-xl text-primary text-center font-bold mt-10">
                             Ý nghĩa ngày sinh với số:{' '}
                             <span className="text-shadow-pink">
                                 {info.songaysinh}
@@ -1811,7 +1841,7 @@ const Detail = () => {
                         <p className="rp-text">
                             {parse(NGAYSINH?.[info.songaysinh as number])}
                         </p>
-                        <h2 className="text-xl text-[#FFAC13] text-center font-bold mt-5">
+                        <h2 className="text-xl text-primary text-center font-bold mt-10">
                             Biểu đồ ngày sinh
                         </h2>
                         <div className="mt-4 relative max-w-[300px] mx-auto mb-5">
@@ -1850,56 +1880,62 @@ const Detail = () => {
                                     </tr>
                                 </tbody>
                             </table>
-                            {(hasArrows.quyettam || hasArrows.trihoan) && (
+                            {(hasArrows.quyettam.show ||
+                                hasArrows.trihoan.show) && (
                                 <img
                                     className="absolute left-[70px] top-[51px]"
                                     src={arr1}
                                     alt="arrow"
                                 />
                             )}
-                            {(hasArrows.thucte || hasArrows.thieutrattu) && (
+                            {(hasArrows.thucte.show ||
+                                hasArrows.thieutrattu.show) && (
                                 <img
                                     className="absolute left-[50px] bottom-[10px]"
                                     src={arr2}
                                     alt="arrow"
                                 />
                             )}
-                            {(hasArrows.canbangcamxuc || hasArrows.nhaycam) && (
+                            {(hasArrows.canbangcamxuc.show ||
+                                hasArrows.nhaycam.show) && (
                                 <img
                                     className="absolute left-[50px] bottom-[90px]"
                                     src={arr2}
                                     alt="arrow"
                                 />
                             )}
-                            {(hasArrows.tritue || hasArrows.trinhonganhan) && (
+                            {(hasArrows.tritue.show ||
+                                hasArrows.trinhonganhan.show) && (
                                 <img
                                     className="absolute left-[50px] top-[60px]"
                                     src={arr2}
                                     alt="arrow"
                                 />
                             )}
-                            {hasArrows.kehoach && (
+                            {hasArrows.kehoach.show && (
                                 <img
                                     className="absolute left-[40px] bottom-0"
                                     src={arr3}
                                     alt="arrow"
                                 />
                             )}
-                            {(hasArrows.ychi || hasArrows.uathan) && (
+                            {(hasArrows.ychi.show || hasArrows.uathan.show) && (
                                 <img
                                     className="absolute left-[120px] bottom-0"
                                     src={arr3}
                                     alt="arrow"
                                 />
                             )}
-                            {(hasArrows.hoatdong || hasArrows.thudong) && (
+                            {(hasArrows.hoatdong.show ||
+                                hasArrows.thudong.show) && (
                                 <img
                                     className="absolute right-9 bottom-0"
                                     src={arr3}
                                     alt="arrow"
                                 />
                             )}
-                            {(hasArrows.tamlinh || hasArrows.hoainghi) && (
+                            {(hasArrows.tamlinh.show ||
+                                hasArrows.hoainghi.show) && (
                                 <img
                                     className="absolute left-[70px] bottom-[52px]"
                                     src={arr4}
@@ -1910,7 +1946,7 @@ const Detail = () => {
                         <div className="mt-10">
                             {num1 > 0 && (
                                 <div>
-                                    <h3 className="font-bold mb-4 leading-none inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 leading-none inline-block text-2xl text-primary">
                                         Bạn sở hữu {num1} con số 1
                                     </h3>
                                     <p className="rp-text">
@@ -1926,7 +1962,7 @@ const Detail = () => {
                         <div>
                             {num2 > 0 && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-primary">
                                         Bạn sở hữu {num2} con số 2
                                     </h3>
                                     <p className="rp-text">
@@ -1942,7 +1978,7 @@ const Detail = () => {
                         <div>
                             {num3 > 0 && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-primary">
                                         Bạn sở hữu {num3} con số 3
                                     </h3>
                                     <p className="rp-text">
@@ -1958,7 +1994,7 @@ const Detail = () => {
                         <div>
                             {num4 > 0 && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-primary">
                                         Bạn sở hữu {num4} con số 4
                                     </h3>
                                     <p className="rp-text">
@@ -1974,7 +2010,7 @@ const Detail = () => {
                         <div>
                             {num5 > 0 && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-primary">
                                         Bạn sở hữu {num5} con số 5
                                     </h3>
                                     <p className="rp-text">
@@ -1990,7 +2026,7 @@ const Detail = () => {
                         <div>
                             {num6 > 0 && num6 < 5 && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-primary">
                                         Bạn sở hữu {num6} con số 6
                                     </h3>
                                     <p className="rp-text">
@@ -2002,7 +2038,7 @@ const Detail = () => {
                         <div>
                             {num7 > 0 && num7 < 5 && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-primary">
                                         Bạn sở hữu {num7} con số 7
                                     </h3>
                                     <p className="rp-text">
@@ -2014,7 +2050,7 @@ const Detail = () => {
                         <div>
                             {num8 > 0 && num8 < 5 && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-primary">
                                         Bạn sở hữu {num8} con số 8
                                     </h3>
                                     <p className="rp-text">
@@ -2026,7 +2062,7 @@ const Detail = () => {
                         <div>
                             {num9 > 0 && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-primary">
                                         Bạn sở hữu {num9} con số 9
                                     </h3>
                                     <p className="rp-text">
@@ -2040,9 +2076,9 @@ const Detail = () => {
                             )}
                         </div>
                         <div>
-                            {hasArrows.thucte && (
+                            {hasArrows.thucte.show && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-primary">
                                         Bạn sở hữu mũi tên thực tế (đủ 1-4-7)
                                     </h3>
                                     <p className="rp-text">
@@ -2052,9 +2088,9 @@ const Detail = () => {
                             )}
                         </div>
                         <div>
-                            {hasArrows.thieutrattu && (
+                            {hasArrows.thieutrattu.show && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-primary">
                                         Bạn sở hữu mũi tên thiểu trật tự (trống
                                         1-4-7)
                                     </h3>
@@ -2065,9 +2101,9 @@ const Detail = () => {
                             )}
                         </div>
                         <div>
-                            {hasArrows.canbangcamxuc && (
+                            {hasArrows.canbangcamxuc.show && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-primary">
                                         Bạn sở hữu mũi tên cân bằng cảm xúc (đủ
                                         2-5-8)
                                     </h3>
@@ -2078,9 +2114,9 @@ const Detail = () => {
                             )}
                         </div>
                         <div>
-                            {hasArrows.nhaycam && (
+                            {hasArrows.nhaycam.show && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-primary">
                                         Bạn sở hữu mũi tên nhạy cảm (trống
                                         2-5-8)
                                     </h3>
@@ -2091,9 +2127,9 @@ const Detail = () => {
                             )}
                         </div>
                         <div>
-                            {hasArrows.tritue && (
+                            {hasArrows.tritue.show && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-primary">
                                         Bạn sở hữu mũi tên trí tuệ (đủ 3-6-9)
                                     </h3>
                                     <p className="rp-text">
@@ -2103,9 +2139,9 @@ const Detail = () => {
                             )}
                         </div>
                         <div>
-                            {hasArrows.trinhonganhan && (
+                            {hasArrows.trinhonganhan.show && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-primary">
                                         Bạn sở hữu mũi tên trí nhớ ngắn hạn
                                         (trống 3-6-9)
                                     </h3>
@@ -2116,9 +2152,9 @@ const Detail = () => {
                             )}
                         </div>
                         <div>
-                            {hasArrows.hoatdong && (
+                            {hasArrows.hoatdong.show && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-primary">
                                         Bạn sở hữu mũi tên hoạt động (đủ 7-8-9)
                                     </h3>
                                     <p className="rp-text">
@@ -2128,9 +2164,9 @@ const Detail = () => {
                             )}
                         </div>
                         <div>
-                            {hasArrows.thudong && (
+                            {hasArrows.thudong.show && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-primary">
                                         Bạn sở hữu mũi tên thụ động (trống
                                         7-8-9)
                                     </h3>
@@ -2141,9 +2177,9 @@ const Detail = () => {
                             )}
                         </div>
                         <div>
-                            {hasArrows.ychi && (
+                            {hasArrows.ychi.show && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-primary">
                                         Bạn sở hữu mũi tên ý chí (đủ 4-5-6)
                                     </h3>
                                     <p className="rp-text">
@@ -2153,9 +2189,9 @@ const Detail = () => {
                             )}
                         </div>
                         <div>
-                            {hasArrows.uathan && (
+                            {hasArrows.uathan.show && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-primary">
                                         Bạn sở hữu mũi tên uất giận (trống
                                         4-5-6)
                                     </h3>
@@ -2166,9 +2202,9 @@ const Detail = () => {
                             )}
                         </div>
                         <div>
-                            {hasArrows.kehoach && (
+                            {hasArrows.kehoach.show && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-primary">
                                         Bạn sở hữu mũi tên kế hoạch (đủ 1-2-3)
                                     </h3>
                                     <p className="rp-text">
@@ -2178,9 +2214,9 @@ const Detail = () => {
                             )}
                         </div>
                         <div>
-                            {hasArrows.quyettam && (
+                            {hasArrows.quyettam.show && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-primary">
                                         Bạn sở hữu mũi tên quyết tâm (đủ 1-5-9)
                                     </h3>
                                     <p className="rp-text">
@@ -2190,9 +2226,9 @@ const Detail = () => {
                             )}
                         </div>
                         <div>
-                            {hasArrows.trihoan && (
+                            {hasArrows.trihoan.show && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-primary">
                                         Bạn sở hữu mũi tên trì hoãn (trống
                                         1-5-9)
                                     </h3>
@@ -2203,9 +2239,9 @@ const Detail = () => {
                             )}
                         </div>
                         <div>
-                            {hasArrows.tamlinh && (
+                            {hasArrows.tamlinh.show && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-primary">
                                         Bạn sở hữu mũi tên tâm linh (đủ 3-5-7)
                                     </h3>
                                     <p className="rp-text">
@@ -2215,9 +2251,9 @@ const Detail = () => {
                             )}
                         </div>
                         <div>
-                            {hasArrows.hoainghi && (
+                            {hasArrows.hoainghi.show && (
                                 <div>
-                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-[#FFAC13]">
+                                    <h3 className="font-bold mb-4 mt-4 leading-[1.6] inline-block text-2xl text-primary">
                                         Bạn sở hữu mũi tên hoài nghi (trống
                                         3-5-7)
                                     </h3>
@@ -2227,7 +2263,7 @@ const Detail = () => {
                                 </div>
                             )}
                         </div>
-                        <h2 className="text-xl text-[#FFAC13] text-center font-bold mt-5">
+                        <h2 className="text-xl text-primary text-center font-bold mt-10">
                             Năm cá nhân của bạn là:{' '}
                             <span className="text-shadow-pink">
                                 {info.namcanhan}
@@ -2238,7 +2274,7 @@ const Detail = () => {
                                 day={Number(info.day)}
                                 month={Number(info.month)}
                             />
-                            <h3 className="mt-4 text-[#FFAC13] font-bold text-base text-center">
+                            <h3 className="mt-4 text-primary font-bold text-base text-center">
                                 {NAM[info.namcanhan as number]?.heading ||
                                     'Nội dung chưa cập nhật'}
                             </h3>
@@ -2247,11 +2283,11 @@ const Detail = () => {
                                     'Nội dung chưa cập nhật'}
                             </p>
                         </div>
-                        <h2 className="text-xl text-[#FFAC13] text-center font-bold mt-5 uppercase">
+                        <h2 className="text-xl text-primary text-center font-bold mt-10 uppercase">
                             Bốn đỉnh của cuộc đời
                         </h2>
                         <div className="mt-7 flex justify-center">
-                            <div className="w-[300px] relative text-base text-[#FFAC13] font-bold">
+                            <div className="w-[300px] relative text-base text-primary font-bold">
                                 <img className="w-full" src={dinh} alt="dinh" />
                                 <span className="bottom-[-6px] left-12 absolute">
                                     {info.monthNum}
@@ -2276,7 +2312,7 @@ const Detail = () => {
                                 </span>
                             </div>
                         </div>
-                        <h1 className="font-bold mt-8 inline-block text-2xl text-[#FFAC13]">
+                        <h1 className="font-bold mt-8 inline-block text-2xl text-primary">
                             Đỉnh 1 với số {info.dinh?.dinh1} (Năm{' '}
                             {Number(info.year) + tuoidinh1} - {tuoidinh1} tuổi)
                         </h1>
@@ -2285,33 +2321,393 @@ const Detail = () => {
                                 ? parse(DINH1[info.dinh?.dinh1 as number])
                                 : 'Nội dung chưa cập nhật'}
                         </p>
-                        <h1 className="font-bold mt-5 text-2xl text-[#FFAC13]">
+                        <h1 className="font-bold mt-5 text-2xl text-primary">
                             Đỉnh 2 với số {info.dinh?.dinh2} (Năm{' '}
                             {Number(info.year) + tuoidinh2} - {tuoidinh2} tuổi)
                         </h1>
                         <p className="rp-text">
-                            {DINH1[info.dinh?.dinh2 as number]
-                                ? parse(DINH1[info.dinh?.dinh2 as number])
+                            {DINH2[info.dinh?.dinh2 as number]
+                                ? parse(DINH2[info.dinh?.dinh2 as number])
                                 : 'Nội dung chưa cập nhật'}
                         </p>
-                        <h1 className="font-bold mt-5 text-2xl text-[#FFAC13]">
+                        <h1 className="font-bold mt-5 text-2xl text-primary">
                             Đỉnh 3 với số {info.dinh?.dinh3} (Năm{' '}
                             {Number(info.year) + tuoidinh3} - {tuoidinh3} tuổi)
                         </h1>
                         <p className="rp-text">
-                            {DINH1[info.dinh?.dinh3 as number]
-                                ? parse(DINH1[info.dinh?.dinh3 as number])
+                            {DINH3[info.dinh?.dinh3 as number]
+                                ? parse(DINH3[info.dinh?.dinh3 as number])
                                 : 'Nội dung chưa cập nhật'}
                         </p>
-                        <h1 className="font-bold mt-5 text-2xl text-[#FFAC13]">
+                        <h1 className="font-bold mt-5 text-2xl text-primary">
                             Đỉnh 4 với số {info.dinh?.dinh4} (Năm{' '}
                             {Number(info.year) + tuoidinh4} - {tuoidinh4} tuổi)
                         </h1>
                         <p className="rp-text">
-                            {DINH1[info.dinh?.dinh4 as number]
-                                ? parse(DINH1[info.dinh?.dinh4 as number])
+                            {DINH4[info.dinh?.dinh4 as number]
+                                ? parse(DINH4[info.dinh?.dinh4 as number])
                                 : 'Nội dung chưa cập nhật'}
                         </p>
+
+                        <div className="mt-5">
+                            <div className="flex items-center md:flex-row flex-col flex-wrap">
+                                <div className="md:w-1/2 w-full">
+                                    <h2 className="text-xl text-primary text-center font-bold mt-10">
+                                        Biểu đồ ngày sinh
+                                    </h2>
+                                    <div className="mt-4 relative max-w-[300px] mx-auto mb-5">
+                                        <table className="mx-auto">
+                                            <tbody>
+                                                <tr>
+                                                    <td className="border-t-transparent border-l-transparent">
+                                                        {solanlap(bieudoso, 3)}
+                                                    </td>
+                                                    <td className="border-t-transparent">
+                                                        {solanlap(bieudoso, 6)}
+                                                    </td>
+                                                    <td className="border-t-transparent border-r-transparent">
+                                                        {solanlap(bieudoso, 9)}
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td className="border-l-transparent">
+                                                        {solanlap(bieudoso, 2)}
+                                                    </td>
+                                                    <td>
+                                                        {solanlap(bieudoso, 5)}
+                                                    </td>
+                                                    <td className="border-r-transparent">
+                                                        {solanlap(bieudoso, 8)}
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td className="border-b-transparent border-l-transparent">
+                                                        {solanlap(bieudoso, 1)}
+                                                    </td>
+                                                    <td className="border-b-transparent">
+                                                        {solanlap(bieudoso, 4)}
+                                                    </td>
+                                                    <td className="border-b-transparent border-r-transparent">
+                                                        {solanlap(bieudoso, 7)}
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        {(hasArrows.quyettam.show ||
+                                            hasArrows.trihoan.show) && (
+                                            <img
+                                                className="absolute left-[70px] top-[51px]"
+                                                src={arr1}
+                                                alt="arrow"
+                                            />
+                                        )}
+                                        {(hasArrows.thucte.show ||
+                                            hasArrows.thieutrattu.show) && (
+                                            <img
+                                                className="absolute left-[50px] bottom-[10px]"
+                                                src={arr2}
+                                                alt="arrow"
+                                            />
+                                        )}
+                                        {(hasArrows.canbangcamxuc.show ||
+                                            hasArrows.nhaycam.show) && (
+                                            <img
+                                                className="absolute left-[50px] bottom-[90px]"
+                                                src={arr2}
+                                                alt="arrow"
+                                            />
+                                        )}
+                                        {(hasArrows.tritue.show ||
+                                            hasArrows.trinhonganhan.show) && (
+                                            <img
+                                                className="absolute left-[50px] top-[60px]"
+                                                src={arr2}
+                                                alt="arrow"
+                                            />
+                                        )}
+                                        {hasArrows.kehoach.show && (
+                                            <img
+                                                className="absolute left-[40px] bottom-0"
+                                                src={arr3}
+                                                alt="arrow"
+                                            />
+                                        )}
+                                        {(hasArrows.ychi.show ||
+                                            hasArrows.uathan.show) && (
+                                            <img
+                                                className="absolute left-[120px] bottom-0"
+                                                src={arr3}
+                                                alt="arrow"
+                                            />
+                                        )}
+                                        {(hasArrows.hoatdong.show ||
+                                            hasArrows.thudong.show) && (
+                                            <img
+                                                className="absolute right-9 bottom-0"
+                                                src={arr3}
+                                                alt="arrow"
+                                            />
+                                        )}
+                                        {(hasArrows.tamlinh.show ||
+                                            hasArrows.hoainghi.show) && (
+                                            <img
+                                                className="absolute left-[70px] bottom-[52px]"
+                                                src={arr4}
+                                                alt="arrow"
+                                            />
+                                        )}
+                                    </div>
+                                </div>
+                                <div className="md:w-1/2 w-full">
+                                    <h2 className="text-xl text-primary text-center font-bold mt-10">
+                                        Biểu đồ tên
+                                    </h2>
+                                    <div className="mt-4 relative max-w-[300px] mx-auto mb-5">
+                                        <table className="mx-auto">
+                                            <tbody>
+                                                <tr>
+                                                    <td className="border-t-transparent border-l-transparent">
+                                                        {solanlap(bieudoso2, 3)}
+                                                    </td>
+                                                    <td className="border-t-transparent">
+                                                        {solanlap(bieudoso2, 6)}
+                                                    </td>
+                                                    <td className="border-t-transparent border-r-transparent">
+                                                        {solanlap(bieudoso2, 9)}
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td className="border-l-transparent">
+                                                        {solanlap(bieudoso2, 2)}
+                                                    </td>
+                                                    <td>
+                                                        {solanlap(bieudoso2, 5)}
+                                                    </td>
+                                                    <td className="border-r-transparent">
+                                                        {solanlap(bieudoso2, 8)}
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td className="border-b-transparent border-l-transparent">
+                                                        {solanlap(bieudoso2, 1)}
+                                                    </td>
+                                                    <td className="border-b-transparent">
+                                                        {solanlap(bieudoso2, 4)}
+                                                    </td>
+                                                    <td className="border-b-transparent border-r-transparent">
+                                                        {solanlap(bieudoso2, 7)}
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        {(hasArrows2.quyettam.show ||
+                                            hasArrows2.trihoan.show) && (
+                                            <img
+                                                className="absolute left-[70px] top-[51px]"
+                                                src={arr1}
+                                                alt="arrow"
+                                            />
+                                        )}
+                                        {(hasArrows2.thucte.show ||
+                                            hasArrows2.thieutrattu.show) && (
+                                            <img
+                                                className="absolute left-[50px] bottom-[10px]"
+                                                src={arr2}
+                                                alt="arrow"
+                                            />
+                                        )}
+                                        {(hasArrows2.canbangcamxuc.show ||
+                                            hasArrows2.nhaycam.show) && (
+                                            <img
+                                                className="absolute left-[50px] bottom-[90px]"
+                                                src={arr2}
+                                                alt="arrow"
+                                            />
+                                        )}
+                                        {(hasArrows2.tritue.show ||
+                                            hasArrows2.trinhonganhan.show) && (
+                                            <img
+                                                className="absolute left-[50px] top-[60px]"
+                                                src={arr2}
+                                                alt="arrow"
+                                            />
+                                        )}
+                                        {hasArrows2.kehoach.show && (
+                                            <img
+                                                className="absolute left-[40px] bottom-0"
+                                                src={arr3}
+                                                alt="arrow"
+                                            />
+                                        )}
+                                        {(hasArrows2.ychi.show ||
+                                            hasArrows2.uathan.show) && (
+                                            <img
+                                                className="absolute left-[120px] bottom-0"
+                                                src={arr3}
+                                                alt="arrow"
+                                            />
+                                        )}
+                                        {(hasArrows2.hoatdong.show ||
+                                            hasArrows2.thudong.show) && (
+                                            <img
+                                                className="absolute right-9 bottom-0"
+                                                src={arr3}
+                                                alt="arrow"
+                                            />
+                                        )}
+                                        {(hasArrows2.tamlinh.show ||
+                                            hasArrows2.hoainghi.show) && (
+                                            <img
+                                                className="absolute left-[70px] bottom-[52px]"
+                                                src={arr4}
+                                                alt="arrow"
+                                            />
+                                        )}
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="mt-5 flex flex-col items-center justify-center">
+                                <h2 className="text-xl text-primary text-center font-bold mt-10">
+                                    Biểu đồ kết hợp ngày sinh và họ tên
+                                </h2>
+                                <div className="mt-4 relative w-full max-w-[300px] mx-auto mb-5">
+                                    <table className="mx-auto">
+                                        <tbody>
+                                            <tr>
+                                                <td className="border-t-transparent border-l-transparent">
+                                                    {solanlap(bieudoso3, 3)}
+                                                </td>
+                                                <td className="border-t-transparent">
+                                                    {solanlap(bieudoso3, 6)}
+                                                </td>
+                                                <td className="border-t-transparent border-r-transparent">
+                                                    {solanlap(bieudoso3, 9)}
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td className="border-l-transparent">
+                                                    {solanlap(bieudoso3, 2)}
+                                                </td>
+                                                <td>
+                                                    {solanlap(bieudoso3, 5)}
+                                                </td>
+                                                <td className="border-r-transparent">
+                                                    {solanlap(bieudoso3, 8)}
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td className="border-b-transparent border-l-transparent">
+                                                    {solanlap(bieudoso3, 1)}
+                                                </td>
+                                                <td className="border-b-transparent">
+                                                    {solanlap(bieudoso3, 4)}
+                                                </td>
+                                                <td className="border-b-transparent border-r-transparent">
+                                                    {solanlap(bieudoso3, 7)}
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    {(hasArrows3.quyettam.show ||
+                                        hasArrows3.trihoan.show) && (
+                                        <img
+                                            className="absolute left-[70px] top-[51px]"
+                                            src={arr1}
+                                            alt="arrow"
+                                        />
+                                    )}
+                                    {(hasArrows3.thucte.show ||
+                                        hasArrows3.thieutrattu.show) && (
+                                        <img
+                                            className="absolute left-[50px] bottom-[10px]"
+                                            src={arr2}
+                                            alt="arrow"
+                                        />
+                                    )}
+                                    {(hasArrows3.canbangcamxuc.show ||
+                                        hasArrows3.nhaycam.show) && (
+                                        <img
+                                            className="absolute left-[50px] bottom-[90px]"
+                                            src={arr2}
+                                            alt="arrow"
+                                        />
+                                    )}
+                                    {(hasArrows3.tritue.show ||
+                                        hasArrows3.trinhonganhan.show) && (
+                                        <img
+                                            className="absolute left-[50px] top-[60px]"
+                                            src={arr2}
+                                            alt="arrow"
+                                        />
+                                    )}
+                                    {hasArrows3.kehoach.show && (
+                                        <img
+                                            className="absolute left-[40px] bottom-0"
+                                            src={arr3}
+                                            alt="arrow"
+                                        />
+                                    )}
+                                    {(hasArrows3.ychi.show ||
+                                        hasArrows3.uathan.show) && (
+                                        <img
+                                            className="absolute left-[120px] bottom-0"
+                                            src={arr3}
+                                            alt="arrow"
+                                        />
+                                    )}
+                                    {(hasArrows3.hoatdong.show ||
+                                        hasArrows3.thudong.show) && (
+                                        <img
+                                            className="absolute right-9 bottom-0"
+                                            src={arr3}
+                                            alt="arrow"
+                                        />
+                                    )}
+                                    {(hasArrows3.tamlinh.show ||
+                                        hasArrows3.hoainghi.show) && (
+                                        <img
+                                            className="absolute left-[70px] bottom-[52px]"
+                                            src={arr4}
+                                            alt="arrow"
+                                        />
+                                    )}
+                                </div>
+                            </div>
+                            <h1 className="font-bold mt-5 text-2xl text-primary">
+                                Kết quả sau khi kết hợp 2 biểu đồ
+                            </h1>
+                            <p className="rp-text mt-4">
+                                Sau khi kết hợp biểu đồ ngày sinh và tên riêng
+                                của mình vào, các bạn đã vô tình điền thêm nhiều
+                                con số để lấp đầy các chỗ bị thiếu của mình, bạn
+                                đã được điền thêm các mũi tên:{' '}
+                                {Object.keys(hasArrows3).map((key) => {
+                                    if ((hasArrows3 as any)[key].show) {
+                                        return (
+                                            <strong>
+                                                {(hasArrows3 as any)[key].name},{' '}
+                                            </strong>
+                                        )
+                                    }
+                                    return null
+                                })}{' '}
+                                vào biểu đồ của mình.
+                            </p>
+                            <p className="rp-text">
+                                Tuy nhiên đối với chỗ nào quá nhiều số được điền
+                                vào bạn nên tìm hiểu kỹ ý nghĩa các mũi tên đó
+                                và tập cân bằng, chỗ nào dư nên nhổ bớt và thiếu
+                                nên điền vào bằng nhiều cách khác nhau. Bạn có
+                                thể tham khảo các bài viết chỉ cách điền hoặc
+                                nhổ bớt các con số{' '}
+                                <a
+                                    className="text-primary hover:underline"
+                                    href="https://nhansohocvn.com/news/"
+                                >
+                                    tại đây.
+                                </a>
+                            </p>
+                        </div>
                     </div>
                 )}
             </div>
@@ -2332,9 +2728,9 @@ const Detail = () => {
             </div> */}
             {isVerify && (
                 <div className="rp-box mt-5">
-                    <h3 className="rp-heading">
+                    <h3 className="rp-heading text-primary">
                         CHỈ SỐ ĐƯỜNG ĐỜI (SỐ CHỦ ĐẠO) CỦA BẠN LÀ:{' '}
-                        <span className="text-[#F7D51A]">
+                        <span className="text-primary">
                             {chiSoDuongDoi?.type}
                         </span>
                     </h3>

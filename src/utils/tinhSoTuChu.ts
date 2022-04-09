@@ -6,10 +6,10 @@ const so = [
     ['b', 'k', 't'],
     ['c', 'l', 'u'],
     ['d', 'm', 'v'],
-    ['e', 'n', 'x'],
-    ['f', 'o', 'y'],
-    ['g', 'p', 'z'],
-    ['h', 'q'],
+    ['e', 'n', 'w'],
+    ['f', 'o', 'x'],
+    ['g', 'p', 'y'],
+    ['h', 'q', 'z'],
     ['i', 'r'],
 ]
 
@@ -20,6 +20,7 @@ export const tinhSoTuChu = (string: string) => {
             if (item.includes(string[i])) num += index
         })
     }
+    console.log(num)
 
     return calc(num)
 }

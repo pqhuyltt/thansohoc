@@ -1,13 +1,15 @@
-import { useState } from 'react'
+import { useContext, useEffect, useState } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
-import { SearchContextProvider } from './contexts/SearchContext'
+import { SearchContext, SearchContextProvider } from './contexts/SearchContext'
 import Detail from './pages/Detail'
 import Home from './pages/Home'
 import Love from './pages/Love'
 import Result from './pages/Result'
 
 function App() {
+    const { setInfo } = useContext(SearchContext)
+
     return (
         <SearchContextProvider>
             <BrowserRouter>

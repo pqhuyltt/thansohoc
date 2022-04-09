@@ -1,4 +1,4 @@
-import { createContext, ReactNode, useState } from 'react'
+import { createContext, ReactNode, useEffect, useState } from 'react'
 import { ISearchInput } from '../utils/interfaces'
 
 // interface ISearch {
@@ -22,14 +22,9 @@ export const SearchContextProvider = ({
 }: {
     children: ReactNode
 }) => {
-    const [info, setInfo] = useState<ISearchInput>({
-        day: '',
-        month: '',
-        year: '',
-        fullname: '',
-        number1: 0,
-        number2: 0,
-    })
+    const [info, setInfo] = useState<ISearchInput>(
+        JSON.parse(localStorage.getItem('state') ?? '') ?? {},
+    )
 
     return (
         <SearchContext.Provider value={{ info, setInfo }}>
