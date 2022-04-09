@@ -43,475 +43,475 @@ export const CHI_SO_DUONG_DOI = [
         type: 'SỐ 3 – NGƯỜI VUI VẺ, SÁNG TẠO',
         relationship: `
 <strong>• MỐI QUAN HỆ NÓI CHUNG TRONG CUỘC SỐNG</strong>:
-        Các số đường đời khác tương thích nhất với bạn:
-        - May mắn cho bạn, kỹ năng giao tiếp và khả năng dễ gần của bạn có nghĩa là bạn có thể tương thích với nhiều các con số khác. Về mặt số học, bạn hợp nhất với những người có đường đời số 10, số 5 và số 7: 
-         + Khi đường đời số 10 và số 3 kết hợp với nhau, rất khó để tìm ra quá nhiều điểm tiêu cực. Bạn làm rất tốt công việc ghi nhận người khác và tất cả những thành tích của họ. Còn số 10 làm tốt nhiệm vụ thúc đẩy bạn một cách chuyên nghiệp. Nhưng không phải cuộc đời nào cũng thuận buồm xuôi gió đối với cặp đôi quyền lực này. Một người có đường đời số 10 có xu hướng chỉ trích một chút về khả năng tập trung của bạn, nhưng vì họ hòa nhập rất tốt nên nó thường không phải là một sự phá vỡ.
-         + Mặc dù đó không phải là một mối quan hệ được đảm bảo an toàn, nhưng khi bạn và người số 5 bên nhau sẽ có rất nhiều sự phấn khích. Trong mối quan hệ hợp tác này, mỗi người thúc đẩy người kia thành công cả về mặt tình cảm và công việc. Nhưng rất có thể nó sẽ không kéo dài quá lâu bởi bản chất của cả 2. Mặc dù vậy thời gian cùng nhau của 2 người chắc chắn sẽ rất đáng nhớ.
-         + Một người số 7 ban đầu sẽ bị thu hút bởi trí tuệ của bạn, nhưng trừ khi hai người có chung sở thích hoặc mục tiêu thì đó mới là điểm tốt. Số 7 có thể rất thần bí, điều này sẽ khiến bạn quan tâm tới mức gắn bó, nhưng khi họ trở nên sống nội tâm, rất có thể bạn sẽ không biết phải xử lý như thế nào.
-        - Người có số 3 khác cũng tạo nên một mối quan hệ tuyệt vời với bạn, nhưng cần phải nói rằng sẽ có rất nhiều sự hợp tan của mối quan hệ này. Mặc dù nó tồn tại trong thời gian ngắn, nhưng hai người số 3 cùng nhau sẽ thỏa sức sáng tạo cho nhau.
-        
-        Các số đường đời khác ít tương thích nhất với bạn:
-        - Đối với bạn, mối quan hệ với người có số 4 hoặc 22/4 có thể coi là một vùng cấm. Về mặt số học, bản chất cứng đầu của số 4 và sự dễ gần của bạn với hầu hết mọi thứ sẽ khiến cả 2 phát điên. Tại một thời điểm nào đó trong cuộc đời, hai người có thể có một mối quan hệ chuyên nghiệp, nhưng bạn nên nhớ, đó phải là là một sự thúc đẩy cực lớn hoặc một mục tiêu chung vì đại cục.
-        - Những người có đường 8 hoặc sẽ thu hút sự chú ý của bạn, vì ngoại hình và phong thái uy quyền của họ. Tuy nhiên, những lời chỉ trích liên tục từ họ sẽ khiến bạn rơi vào mất ổn định.
-        - Bạn cũng có thể nghĩ rằng bạn và số 6 sẽ tương thích với nhau, vì 6 là con số hài hòa nhất. Đó có thể là do bạn thiếu tập trung, thiếu kỷ luật hoặc không có khả năng cam kết, nhưng bất kể lý do gì, đây là một mối quan hệ sẽ dễ kết thúc ngay từ đầu.
-        
-        Hãy nhớ rằng khả năng tương thích trong các mối quan hệ của bạn còn sâu sắc hơn những gì thể hiện ở con số đường đời. Để biết cách tạo ra sự hài hòa, bạn sẽ cần xem xét các con số khác trong thần số học của mình. Chỉ số Linh hồn, Sứ mệnh, Nhân cách và Thái độ của bạn cũng sẽ ảnh hưởng đến mức độ tương thích của bạn trong các mối quan hệ. Đọc thêm các luận giải về các chỉ số này để tạo ra một bức tranh tổng quát cho bạn.
+Các số đường đời khác tương thích nhất với bạn:
+- May mắn cho bạn, kỹ năng giao tiếp và khả năng dễ gần của bạn có nghĩa là bạn có thể tương thích với nhiều các con số khác. Về mặt số học, bạn hợp nhất với những người có đường đời số 10, số 5 và số 7: 
+    + Khi đường đời số 10 và số 3 kết hợp với nhau, rất khó để tìm ra quá nhiều điểm tiêu cực. Bạn làm rất tốt công việc ghi nhận người khác và tất cả những thành tích của họ. Còn số 10 làm tốt nhiệm vụ thúc đẩy bạn một cách chuyên nghiệp. Nhưng không phải cuộc đời nào cũng thuận buồm xuôi gió đối với cặp đôi quyền lực này. Một người có đường đời số 10 có xu hướng chỉ trích một chút về khả năng tập trung của bạn, nhưng vì họ hòa nhập rất tốt nên nó thường không phải là một sự phá vỡ.
+    + Mặc dù đó không phải là một mối quan hệ được đảm bảo an toàn, nhưng khi bạn và người số 5 bên nhau sẽ có rất nhiều sự phấn khích. Trong mối quan hệ hợp tác này, mỗi người thúc đẩy người kia thành công cả về mặt tình cảm và công việc. Nhưng rất có thể nó sẽ không kéo dài quá lâu bởi bản chất của cả 2. Mặc dù vậy thời gian cùng nhau của 2 người chắc chắn sẽ rất đáng nhớ.
+    + Một người số 7 ban đầu sẽ bị thu hút bởi trí tuệ của bạn, nhưng trừ khi hai người có chung sở thích hoặc mục tiêu thì đó mới là điểm tốt. Số 7 có thể rất thần bí, điều này sẽ khiến bạn quan tâm tới mức gắn bó, nhưng khi họ trở nên sống nội tâm, rất có thể bạn sẽ không biết phải xử lý như thế nào.
+- Người có số 3 khác cũng tạo nên một mối quan hệ tuyệt vời với bạn, nhưng cần phải nói rằng sẽ có rất nhiều sự hợp tan của mối quan hệ này. Mặc dù nó tồn tại trong thời gian ngắn, nhưng hai người số 3 cùng nhau sẽ thỏa sức sáng tạo cho nhau.
+
+Các số đường đời khác ít tương thích nhất với bạn:
+- Đối với bạn, mối quan hệ với người có số 4 hoặc 22/4 có thể coi là một vùng cấm. Về mặt số học, bản chất cứng đầu của số 4 và sự dễ gần của bạn với hầu hết mọi thứ sẽ khiến cả 2 phát điên. Tại một thời điểm nào đó trong cuộc đời, hai người có thể có một mối quan hệ chuyên nghiệp, nhưng bạn nên nhớ, đó phải là là một sự thúc đẩy cực lớn hoặc một mục tiêu chung vì đại cục.
+- Những người có đường 8 hoặc sẽ thu hút sự chú ý của bạn, vì ngoại hình và phong thái uy quyền của họ. Tuy nhiên, những lời chỉ trích liên tục từ họ sẽ khiến bạn rơi vào mất ổn định.
+- Bạn cũng có thể nghĩ rằng bạn và số 6 sẽ tương thích với nhau, vì 6 là con số hài hòa nhất. Đó có thể là do bạn thiếu tập trung, thiếu kỷ luật hoặc không có khả năng cam kết, nhưng bất kể lý do gì, đây là một mối quan hệ sẽ dễ kết thúc ngay từ đầu.
+
+Hãy nhớ rằng khả năng tương thích trong các mối quan hệ của bạn còn sâu sắc hơn những gì thể hiện ở con số đường đời. Để biết cách tạo ra sự hài hòa, bạn sẽ cần xem xét các con số khác trong thần số học của mình. Chỉ số Linh hồn, Sứ mệnh, Nhân cách và Thái độ của bạn cũng sẽ ảnh hưởng đến mức độ tương thích của bạn trong các mối quan hệ. Đọc thêm các luận giải về các chỉ số này để tạo ra một bức tranh tổng quát cho bạn.
         
 <strong>• TÌNH DUYÊN:</strong>
-        - Trong tình yêu, bạn cần tìm một người có cùng quan điểm với mình. Họ không cần phải sáng tạo, nhưng chắc chắn sẽ hữu ích nếu họ đánh giá cao nghệ thuật. Mặc dù bạn tự nhiên bị thu hút bởi một số người có cùng tinh thần tự phát như bạn, nhưng việc thiếu trách nhiệm có thể trở thành một vấn đề lớn trong mối quan hệ của 2 người.
-        - Về mặt tình duyên, bạn thích hợp với những người có đường đời số 5. Điều này là do họ cũng thích phiêu lưu như bạn và có cùng quan điểm tích cực. Những ý tưởng của 2 người luôn tự phát, và bạn có thể yên tâm rằng sẽ không bao giờ có một khoảnh khắc buồn tẻ khi hai bạn ở bên nhau. Tuy nhiên, điều tiêu cực duy nhất giữa bạn và số 5 là bạn có thể thấy mình gặp rắc rối khi cả hai đều bỏ qua sự cẩn trọng cần thiết trong các tình huống của cuộc sống.
-        - Một kết hợp tốt khác cho bạn là những người có đường đời số 7. Số 7 cực kỳ trực quan và chu đáo nên có thể phát huy khả năng sáng tạo của bạn. Mối quan hệ này hoạt động tốt vì cả hai bạn đều giải quyết cảm xúc tương tự nhau, và rất ít khả năng hai bạn rời xa nhau hoặc tranh cãi. Điều quan trọng là số 7 sẽ không khao khát cảm giác phiêu lưu và phấn khích như bạn, đó không nhất thiết là một điều xấu vì chúng có thể giúp bạn tìm thấy sự cân bằng mà bạn cần.
-        Cách tiếp cận tình cảm của bạn cũng sẽ bị ảnh hưởng bởi các con số khác trong biểu đồ. Chỉ số Linh hồn, chỉ số Nhân Cách, chỉ số Thái độ và Chỉ số Sứ mệnh sẽ thay đổi cách cuộc sống tình cảm của bạn diễn ra. Hãy đọc tiếp tới các chỉ số này.`,
+- Trong tình yêu, bạn cần tìm một người có cùng quan điểm với mình. Họ không cần phải sáng tạo, nhưng chắc chắn sẽ hữu ích nếu họ đánh giá cao nghệ thuật. Mặc dù bạn tự nhiên bị thu hút bởi một số người có cùng tinh thần tự phát như bạn, nhưng việc thiếu trách nhiệm có thể trở thành một vấn đề lớn trong mối quan hệ của 2 người.
+- Về mặt tình duyên, bạn thích hợp với những người có đường đời số 5. Điều này là do họ cũng thích phiêu lưu như bạn và có cùng quan điểm tích cực. Những ý tưởng của 2 người luôn tự phát, và bạn có thể yên tâm rằng sẽ không bao giờ có một khoảnh khắc buồn tẻ khi hai bạn ở bên nhau. Tuy nhiên, điều tiêu cực duy nhất giữa bạn và số 5 là bạn có thể thấy mình gặp rắc rối khi cả hai đều bỏ qua sự cẩn trọng cần thiết trong các tình huống của cuộc sống.
+- Một kết hợp tốt khác cho bạn là những người có đường đời số 7. Số 7 cực kỳ trực quan và chu đáo nên có thể phát huy khả năng sáng tạo của bạn. Mối quan hệ này hoạt động tốt vì cả hai bạn đều giải quyết cảm xúc tương tự nhau, và rất ít khả năng hai bạn rời xa nhau hoặc tranh cãi. Điều quan trọng là số 7 sẽ không khao khát cảm giác phiêu lưu và phấn khích như bạn, đó không nhất thiết là một điều xấu vì chúng có thể giúp bạn tìm thấy sự cân bằng mà bạn cần.
+Cách tiếp cận tình cảm của bạn cũng sẽ bị ảnh hưởng bởi các con số khác trong biểu đồ. Chỉ số Linh hồn, chỉ số Nhân Cách, chỉ số Thái độ và Chỉ số Sứ mệnh sẽ thay đổi cách cuộc sống tình cảm của bạn diễn ra. Hãy đọc tiếp tới các chỉ số này.`,
         content: `
 <strong>• ĐIỂM MẠNH CỦA BẠN:</strong>
-        - Bạn thích sự sáng tạo, giao thiệp, và kết nối mọi người. Điều đó làm cho bạn có được năng lực truyền đạt tuyệt vời.
-        - Bạn lạc quan, vô cùng rộng lượng. Bạn là tuýp người đặc biệt hài hước. Bạn thường là “cây hài” trong các nhóm, mang tới không khí tươi vui, rộn ràng cho mọi người với bộ sưu tập các câu chuyện hài hước phong phú. 
-        - Thêm vào đó, bạn thường cực kỳ tinh tế trong việc nắm bắt tâm lý người khác. 
-        - Bạn yêu thích môi trường mà ở đó con người được tạo điều kiện để trao đổi, phối hợp, tương tác với nhau. Khi gặp được môi trường như vậy, bạn sẽ phát huy được những thế mạnh và làm việc hiệu quả hơn, ngẫu hứng hơn. 
-        - Trong các mối quan hệ cá nhân, bạn thuộc tuýp người lãng mạn, rất chung thủy và khó lòng quên được những hình bóng cũ. Thậm chí khi mọi chuyện đã kết thúc, bạn vẫn không thể từ bỏ.
+- Bạn thích sự sáng tạo, giao thiệp, và kết nối mọi người. Điều đó làm cho bạn có được năng lực truyền đạt tuyệt vời.
+- Bạn lạc quan, vô cùng rộng lượng. Bạn là tuýp người đặc biệt hài hước. Bạn thường là “cây hài” trong các nhóm, mang tới không khí tươi vui, rộn ràng cho mọi người với bộ sưu tập các câu chuyện hài hước phong phú. 
+- Thêm vào đó, bạn thường cực kỳ tinh tế trong việc nắm bắt tâm lý người khác. 
+- Bạn yêu thích môi trường mà ở đó con người được tạo điều kiện để trao đổi, phối hợp, tương tác với nhau. Khi gặp được môi trường như vậy, bạn sẽ phát huy được những thế mạnh và làm việc hiệu quả hơn, ngẫu hứng hơn. 
+- Trong các mối quan hệ cá nhân, bạn thuộc tuýp người lãng mạn, rất chung thủy và khó lòng quên được những hình bóng cũ. Thậm chí khi mọi chuyện đã kết thúc, bạn vẫn không thể từ bỏ.
         
 <strong>• ĐIỂM YẾU CỦA BẠN:</strong>
-        - Bởi do thích thú việc sống hết mình, bạn dường như chỉ sống cho hôm nay và không nghĩ đến ngày mai. Bạn có khoảng thời gian khó khăn để trở thành một người biết nhận trách nhiệm một cách nghiêm túc. Việc quản lý tiền bạc dường như không tốt cho lắm bởi một phần bạn cảm thấy rất tích cực về cuộc sống và nghĩ rằng mọi thứ rồi cũng sẽ tốt đẹp. Thỉnh thoảng, điều này có thể khiến bạn sống hời hợt, trì hoãn và thiếu định hướng trong cuộc sống.
-        - Khi cao hứng, bạn thường có thể bị cảm xúc cuốn đi quá xa. Hãy cẩn thận khi nhận thấy mình ở trạng thái đó, bởi vì khi đó những điều bạn nói ra có thể không hoàn toàn đúng sự thật. Chủ yếu là do bạn muốn làm cho điều gì đó nổi bật lên, hấp dẫn hơn. 
-        - Bạn cũng có thể dễ dàng bị rơi vào trạng thái mất hứng, chán nản và thay đổi. 
-        - Đôi khi bạn có thể bị sự tùy hứng làm ảnh hưởng đến hiệu quả công việc. Vì vậy hãy tạo cho mình thói quen lên kế hoạch, mục tiêu chặt chẽ và thường xuyên kiểm tra lại để không đi chệch hướng. 
-        - Bạn sẽ không phù hợp với những môi trường làm việc nhàm chán, đơn điệu hoặc gò bó. Bạn thích những môi trường làm việc có sự tương tác, giao tiếp, có cảm hứng và sự vui vẻ. Bạn cũng có thể trở nên khó tính, sốt ruột nếu làm việc với ai đó chậm chạp, ù lì. Những điều này có thể khiến bạn dễ chán công việc, dẫn tới tình trạng thay đổi công việc khá nhiều.
+- Bởi do thích thú việc sống hết mình, bạn dường như chỉ sống cho hôm nay và không nghĩ đến ngày mai. Bạn có khoảng thời gian khó khăn để trở thành một người biết nhận trách nhiệm một cách nghiêm túc. Việc quản lý tiền bạc dường như không tốt cho lắm bởi một phần bạn cảm thấy rất tích cực về cuộc sống và nghĩ rằng mọi thứ rồi cũng sẽ tốt đẹp. Thỉnh thoảng, điều này có thể khiến bạn sống hời hợt, trì hoãn và thiếu định hướng trong cuộc sống.
+- Khi cao hứng, bạn thường có thể bị cảm xúc cuốn đi quá xa. Hãy cẩn thận khi nhận thấy mình ở trạng thái đó, bởi vì khi đó những điều bạn nói ra có thể không hoàn toàn đúng sự thật. Chủ yếu là do bạn muốn làm cho điều gì đó nổi bật lên, hấp dẫn hơn. 
+- Bạn cũng có thể dễ dàng bị rơi vào trạng thái mất hứng, chán nản và thay đổi. 
+- Đôi khi bạn có thể bị sự tùy hứng làm ảnh hưởng đến hiệu quả công việc. Vì vậy hãy tạo cho mình thói quen lên kế hoạch, mục tiêu chặt chẽ và thường xuyên kiểm tra lại để không đi chệch hướng. 
+- Bạn sẽ không phù hợp với những môi trường làm việc nhàm chán, đơn điệu hoặc gò bó. Bạn thích những môi trường làm việc có sự tương tác, giao tiếp, có cảm hứng và sự vui vẻ. Bạn cũng có thể trở nên khó tính, sốt ruột nếu làm việc với ai đó chậm chạp, ù lì. Những điều này có thể khiến bạn dễ chán công việc, dẫn tới tình trạng thay đổi công việc khá nhiều.
         
 <strong>• NHỮNG NGƯỜI NỔI TIẾNG CÓ SỐ 3:</strong>
-        - Jackma – Chủ tịch tập đoàn Alibaba
-        - Đặng Lê Nguyên Vũ – Chủ tịch tập đoàn Trung Nguyên
-        - Một vài người khác như: Christina Aguilera, David Bowie, Hillary Clinton, Jimmy Buffett, Jodie Foster, John Travolta, Pierce Brosnan, Shania Twain, Snoop Dogg
-        
-        Bên cạnh số đường đời, sẽ còn hơn 20 chỉ số quan trọng khác phân tích chi tiết về bạn, đặc biệt bạn xem kĩ các chỉ số ở biểu đồ kim tự tháp để xem các năm đỉnh cao trong cuộc đời và biểu đồ sức mạnh để xem các giá trị năng lực mà bạn có cùng với các chỉ số khác kèm lời khuyên tương ứng để kích hoạt được các điểm mạnh của bạn giúp bạn phát triển, gặp nhiều thuận lợi trong cuộc sống.`,
+- Jackma – Chủ tịch tập đoàn Alibaba
+- Đặng Lê Nguyên Vũ – Chủ tịch tập đoàn Trung Nguyên
+- Một vài người khác như: Christina Aguilera, David Bowie, Hillary Clinton, Jimmy Buffett, Jodie Foster, John Travolta, Pierce Brosnan, Shania Twain, Snoop Dogg
+
+Bên cạnh số đường đời, sẽ còn hơn 20 chỉ số quan trọng khác phân tích chi tiết về bạn, đặc biệt bạn xem kĩ các chỉ số ở biểu đồ kim tự tháp để xem các năm đỉnh cao trong cuộc đời và biểu đồ sức mạnh để xem các giá trị năng lực mà bạn có cùng với các chỉ số khác kèm lời khuyên tương ứng để kích hoạt được các điểm mạnh của bạn giúp bạn phát triển, gặp nhiều thuận lợi trong cuộc sống.`,
     },
     {
         type: 'SỐ 4 – NGƯỜI LOGIC, THỰC TẾ',
         relationship: `
 <strong>• MỐI QUAN HỆ NÓI CHUNG TRONG CUỘC SỐNG:</strong>
-        Tương thích nhất với bạn:
-        - Đối với bạn, số 10 thể hiện sự quyết tâm và tập trung, nếu có chung đạo đức làm việc, số 10 sẽ cùng bạn hướng tới mục tiêu một cách mạnh mẽ.
-        - Số 8 cũng là một kết hợp tốt với bạn. Kỷ luật và cực kỳ có tổ chức, cả hai số đều tin rằng thành công đến từ sự chăm chỉ. Nhưng không giống số 4 thực tế, số 8 có một tầm nhìn xa, vì vậy họ bổ sung tốt cho bạn, cho dù đó là kinh doanh hay đối tác.
-        - Số 7 cũng là một sự kết hợp tuyệt vời với bạn, mối quan hệ mà hai người hình thành rất năng động và kiên định. Số 4 được thu hút bởi bản chất và tri thức thực sự của số 7, còn số 7 ngưỡng mộ sự vững vàng của bạn.
-        
-        Ít tương thích nhất với bạn:
-        - Phần lớn trong thần số học, số 4 và số 10 tương hợp với nhau, nhưng đôi khi những tính cách này có thể xung đột với nhau. Những người có đường đời số 10 thường thích hoàn thành công việc sớm hơn, trong khi số 4 thích lên kế hoạch mọi thứ đến từng chi tiết cuối cùng. Những đặc điểm tính cách đối lập này có thể gây ra vấn đề trong mối quan hệ.
-        - Mối quan hệ hợp tác tồi tệ nhất có thể xảy ra với bạn là với số 5. Số 5 có nhu cầu được tự do, còn bạn cần được cảm thấy an toàn và ổn định. Theo mọi nghĩa thì hai người hoàn toàn đối lập nhau.
-        
-        Hãy nhớ rằng khả năng tương thích trong các mối quan hệ của bạn còn sâu sắc hơn những gì thể hiện ở con số đường đời. Để biết cách tạo ra sự hài hòa, bạn sẽ cần xem xét các con số khác trong thần số học của mình. Chỉ số Linh hồn, Sứ mệnh, Nhân cách và Thái độ của bạn cũng sẽ ảnh hưởng đến mức độ tương thích của bạn trong các mối quan hệ. Đọc thêm các luận giải về các chỉ số này để tạo ra một bức tranh tổng quát cho bạn.
+Tương thích nhất với bạn:
+- Đối với bạn, số 10 thể hiện sự quyết tâm và tập trung, nếu có chung đạo đức làm việc, số 10 sẽ cùng bạn hướng tới mục tiêu một cách mạnh mẽ.
+- Số 8 cũng là một kết hợp tốt với bạn. Kỷ luật và cực kỳ có tổ chức, cả hai số đều tin rằng thành công đến từ sự chăm chỉ. Nhưng không giống số 4 thực tế, số 8 có một tầm nhìn xa, vì vậy họ bổ sung tốt cho bạn, cho dù đó là kinh doanh hay đối tác.
+- Số 7 cũng là một sự kết hợp tuyệt vời với bạn, mối quan hệ mà hai người hình thành rất năng động và kiên định. Số 4 được thu hút bởi bản chất và tri thức thực sự của số 7, còn số 7 ngưỡng mộ sự vững vàng của bạn.
+
+Ít tương thích nhất với bạn:
+- Phần lớn trong thần số học, số 4 và số 10 tương hợp với nhau, nhưng đôi khi những tính cách này có thể xung đột với nhau. Những người có đường đời số 10 thường thích hoàn thành công việc sớm hơn, trong khi số 4 thích lên kế hoạch mọi thứ đến từng chi tiết cuối cùng. Những đặc điểm tính cách đối lập này có thể gây ra vấn đề trong mối quan hệ.
+- Mối quan hệ hợp tác tồi tệ nhất có thể xảy ra với bạn là với số 5. Số 5 có nhu cầu được tự do, còn bạn cần được cảm thấy an toàn và ổn định. Theo mọi nghĩa thì hai người hoàn toàn đối lập nhau.
+
+Hãy nhớ rằng khả năng tương thích trong các mối quan hệ của bạn còn sâu sắc hơn những gì thể hiện ở con số đường đời. Để biết cách tạo ra sự hài hòa, bạn sẽ cần xem xét các con số khác trong thần số học của mình. Chỉ số Linh hồn, Sứ mệnh, Nhân cách và Thái độ của bạn cũng sẽ ảnh hưởng đến mức độ tương thích của bạn trong các mối quan hệ. Đọc thêm các luận giải về các chỉ số này để tạo ra một bức tranh tổng quát cho bạn.
         
 <strong>• TÌNH DUYÊN:</strong>
-        - Khi nói đến tình yêu, bạn tiếp cận nó theo cách tương tự như cách bạn tiếp cận mọi thứ khác - một cách thực tế và hợp lý. Nhu cầu an toàn của bạn có nghĩa là bạn không thích những cuộc tình chóng vánh mà muốn những mối quan hệ ổn định, tồn tại lâu dài.
-        - Bạn không ý tưởng về những người bạn tâm giao và cũng ít khi tìm kiếm một người bạn đời. Thay vào đó, bạn tin rằng các mối quan hệ thành công cần sự chăm chỉ kiên trì, và tất nhiên, bạn rất vui khi làm được điều đó.
-        - Bạn rất kém trong việc thể hiện sự lãng mạn, và có thể đếm số lần 'tán tỉnh ngớ ngẩn' mà bạn đã từng có. Nhưng không thể phủ nhận sự trung thành của bạn, hoặc quyết tâm để đảm bảo mối quan hệ có hiệu quả.
-        - Những mối tình tồi tệ nhất của bạn là với người có đường đời số 3 và số 5 hoặc con người đôi khi có lý tưởng trên mây là số 9. Ban đầu, những mối quan hệ này sẽ mang lại một yếu tố thú vị cho cuộc sống có phần bình lặng của bạn, nhưng sẽ không tồn tại được lâu trước khi bạn chán ngấy với những cách làm lung tung, thiếu quyết tâm và không có khả năng tập trung của họ.
-        Cách tiếp cận tình cảm của bạn cũng sẽ bị ảnh hưởng bởi các con số khác trong biểu đồ. Chỉ số Linh hồn, chỉ số Nhân Cách, chỉ số Thái độ và Chỉ số Sứ mệnh sẽ thay đổi cách cuộc sống tình cảm của bạn diễn ra. Hãy đọc tiếp tới các chỉ số này.`,
+- Khi nói đến tình yêu, bạn tiếp cận nó theo cách tương tự như cách bạn tiếp cận mọi thứ khác - một cách thực tế và hợp lý. Nhu cầu an toàn của bạn có nghĩa là bạn không thích những cuộc tình chóng vánh mà muốn những mối quan hệ ổn định, tồn tại lâu dài.
+- Bạn không ý tưởng về những người bạn tâm giao và cũng ít khi tìm kiếm một người bạn đời. Thay vào đó, bạn tin rằng các mối quan hệ thành công cần sự chăm chỉ kiên trì, và tất nhiên, bạn rất vui khi làm được điều đó.
+- Bạn rất kém trong việc thể hiện sự lãng mạn, và có thể đếm số lần 'tán tỉnh ngớ ngẩn' mà bạn đã từng có. Nhưng không thể phủ nhận sự trung thành của bạn, hoặc quyết tâm để đảm bảo mối quan hệ có hiệu quả.
+- Những mối tình tồi tệ nhất của bạn là với người có đường đời số 3 và số 5 hoặc con người đôi khi có lý tưởng trên mây là số 9. Ban đầu, những mối quan hệ này sẽ mang lại một yếu tố thú vị cho cuộc sống có phần bình lặng của bạn, nhưng sẽ không tồn tại được lâu trước khi bạn chán ngấy với những cách làm lung tung, thiếu quyết tâm và không có khả năng tập trung của họ.
+Cách tiếp cận tình cảm của bạn cũng sẽ bị ảnh hưởng bởi các con số khác trong biểu đồ. Chỉ số Linh hồn, chỉ số Nhân Cách, chỉ số Thái độ và Chỉ số Sứ mệnh sẽ thay đổi cách cuộc sống tình cảm của bạn diễn ra. Hãy đọc tiếp tới các chỉ số này.`,
         content: `<strong>• ĐIỂM MẠNH CỦA BẠN</strong>:
-        - Với chỉ số ngày sinh 4 trong thần số học, bạn là người thích mọi thứ thật rõ ràng, minh bạch và có khả năng tra cứu thông tin, tìm hiểu cặn kẽ vấn đề, nếu bạn quan tâm. Bạn thường phân tích mọi thứ theo nhiều khía cạnh, đến tận gốc rễ, chân lý, ngọn ngành mới thôi. 
-        - Bạn cũng là người giỏi quản trị. Bạn có nguyên tắc và tuân thủ rất tốt. Cùng với năng lực tổ chức, bạn thường sắp xếp công việc, nhân sự và lên kế hoạch chi tiết, rõ ràng và có tính khả thi cao. Thường thì mọi người sẽ tin tưởng khả năng quản trị và tổ chức của bạn. 
-        - Bạn là người logic, thực tế, rõ ràng. Với bạn, mọi thông tin cần phải được mô tả cụ thể, rành mạch, không màu mè, lòng vòng. Và bạn sẽ không thích nếu ai đó nói chuyện với bạn theo kiểu hoa mỹ. Tốt nhất là họ nên đi thẳng vào nội dung chính, bởi vì bạn muốn nghe thông tin.
-        - Bạn sẽ dễ tin tưởng một ai đó hơn nếu họ trình bày một cách có logic, có dẫn chứng. 
-        - Bạn thuộc kiểu người muốn thấy kết quả và thường chỉ tin khi thấy được kết quả. 
-        - Bạn có một ý thức mạnh mẽ về đúng và sai, rất trung thực, và đánh giá cao sự trung thực ở những người khác. Những giấc mơ của bạn đều dựa trên thực tế và bạn không bao giờ nghi ngờ về chuyện cần phải làm việc chăm chỉ để biến chúng trở thành sự thật.
-        - Cho dù làm gì thì người bạn cũng thường thích cách tiếp cận kiểu “chính thống” hơn kiểu trải nghiệm, thích nguyên tắc hơn là mạo hiểm.
+- Với chỉ số ngày sinh 4 trong thần số học, bạn là người thích mọi thứ thật rõ ràng, minh bạch và có khả năng tra cứu thông tin, tìm hiểu cặn kẽ vấn đề, nếu bạn quan tâm. Bạn thường phân tích mọi thứ theo nhiều khía cạnh, đến tận gốc rễ, chân lý, ngọn ngành mới thôi. 
+- Bạn cũng là người giỏi quản trị. Bạn có nguyên tắc và tuân thủ rất tốt. Cùng với năng lực tổ chức, bạn thường sắp xếp công việc, nhân sự và lên kế hoạch chi tiết, rõ ràng và có tính khả thi cao. Thường thì mọi người sẽ tin tưởng khả năng quản trị và tổ chức của bạn. 
+- Bạn là người logic, thực tế, rõ ràng. Với bạn, mọi thông tin cần phải được mô tả cụ thể, rành mạch, không màu mè, lòng vòng. Và bạn sẽ không thích nếu ai đó nói chuyện với bạn theo kiểu hoa mỹ. Tốt nhất là họ nên đi thẳng vào nội dung chính, bởi vì bạn muốn nghe thông tin.
+- Bạn sẽ dễ tin tưởng một ai đó hơn nếu họ trình bày một cách có logic, có dẫn chứng. 
+- Bạn thuộc kiểu người muốn thấy kết quả và thường chỉ tin khi thấy được kết quả. 
+- Bạn có một ý thức mạnh mẽ về đúng và sai, rất trung thực, và đánh giá cao sự trung thực ở những người khác. Những giấc mơ của bạn đều dựa trên thực tế và bạn không bao giờ nghi ngờ về chuyện cần phải làm việc chăm chỉ để biến chúng trở thành sự thật.
+- Cho dù làm gì thì người bạn cũng thường thích cách tiếp cận kiểu “chính thống” hơn kiểu trải nghiệm, thích nguyên tắc hơn là mạo hiểm.
 <strong>• ĐIỂM YẾU CỦA BẠN:</strong>
-        - Mang trong mình chỉ số đường đời 4 trong thần số học, bạn cũng có thể có một số điểm yếu của con số này như sự nghiêm khắc, khó tính, bảo thủ. Khi đó, bạn thường chỉ chấp nhận những gì hợp với logic trong đầu mình. Bạn cho rằng, những gì mình nghĩ, mình đã trải qua là đúng đắn. Mặt khác, sự thẳng thắn, chia sẻ kiến thức, sự góp ý hay tính kỷ luật cao của bạn đôi khi có thể tạo ra mâu thuẫn, xung đột. 
-        - Bởi vì tính logic, thực chứng và muốn hiểu sự việc một cách rõ ràng nên bạn thường đặt câu hỏi và hỏi đến khi nào hiểu rõ mới thôi. Điều này giúp bạn làm việc gì cũng chắc chắn, nhưng nhiều khi cũng gây khó chịu cho người khác. 
-        - Bạn có thể ổn định đến mức bạn thể hiện như một kẻ bướng bỉnh, cứng nhắc hoặc quá nghiêm túc. 
-        - Bạn cũng có xu hướng bỏ qua sự khéo léo và để cho cảm xúc thật của bạn được tất cả những người xung quanh biết đến, điều này đôi khi có thể đẩy người khác ra xa. 
-        - Mặc dù là những người thực tế và lên kế hoạch tốt, bạn cực kỳ thận trọng, và không đi chệch nhiều khỏi kế hoạch tổng thể. Do đó đôi khi cũng có thể bỏ lỡ cơ hội phát sinh bởi vì bạn không hành động đủ nhanh.
-        - Bạn cũng là người suy nghĩ nhiều, phân tích nhiều nên lắm lúc bị căng thẳng đầu óc.
-        - Sự phân tích quá kỹ lưỡng cũng khiến bạn khó ra quyết định và có thể bị lỡ mất cơ hội.
+- Mang trong mình chỉ số đường đời 4 trong thần số học, bạn cũng có thể có một số điểm yếu của con số này như sự nghiêm khắc, khó tính, bảo thủ. Khi đó, bạn thường chỉ chấp nhận những gì hợp với logic trong đầu mình. Bạn cho rằng, những gì mình nghĩ, mình đã trải qua là đúng đắn. Mặt khác, sự thẳng thắn, chia sẻ kiến thức, sự góp ý hay tính kỷ luật cao của bạn đôi khi có thể tạo ra mâu thuẫn, xung đột. 
+- Bởi vì tính logic, thực chứng và muốn hiểu sự việc một cách rõ ràng nên bạn thường đặt câu hỏi và hỏi đến khi nào hiểu rõ mới thôi. Điều này giúp bạn làm việc gì cũng chắc chắn, nhưng nhiều khi cũng gây khó chịu cho người khác. 
+- Bạn có thể ổn định đến mức bạn thể hiện như một kẻ bướng bỉnh, cứng nhắc hoặc quá nghiêm túc. 
+- Bạn cũng có xu hướng bỏ qua sự khéo léo và để cho cảm xúc thật của bạn được tất cả những người xung quanh biết đến, điều này đôi khi có thể đẩy người khác ra xa. 
+- Mặc dù là những người thực tế và lên kế hoạch tốt, bạn cực kỳ thận trọng, và không đi chệch nhiều khỏi kế hoạch tổng thể. Do đó đôi khi cũng có thể bỏ lỡ cơ hội phát sinh bởi vì bạn không hành động đủ nhanh.
+- Bạn cũng là người suy nghĩ nhiều, phân tích nhiều nên lắm lúc bị căng thẳng đầu óc.
+- Sự phân tích quá kỹ lưỡng cũng khiến bạn khó ra quyết định và có thể bị lỡ mất cơ hội.
         
 <strong>• NHỮNG NGƯỜI NỔI TIẾNG CÓ SỐ 4:</strong>
-        - Bill Gates – Chủ tịch tập đoàn Microsoft
-        - Trump – cựu Tổng thống Mỹ
-        - Một vài người khác như: Oprah Winfrey, Nicki Minaj, Drake, Jimmy Fallon, Brad Pitt, Usher, Bill Gates, Elton John, Keanu Reeves
-        Bên cạnh số đường đời, sẽ còn hơn 20 chỉ số quan trọng khác phân tích chi tiết về bạn, đặc biệt bạn xem kĩ các chỉ số ở biểu đồ kim tự tháp để xem các năm đỉnh cao trong cuộc đời và biểu đồ sức mạnh để xem các giá trị năng lực mà bạn có cùng với các chỉ số khác kèm lời khuyên tương ứng để kích hoạt được các điểm mạnh của bạn giúp bạn phát triển, gặp nhiều thuận lợi trong cuộc sống.
+- Bill Gates – Chủ tịch tập đoàn Microsoft
+- Trump – cựu Tổng thống Mỹ
+- Một vài người khác như: Oprah Winfrey, Nicki Minaj, Drake, Jimmy Fallon, Brad Pitt, Usher, Bill Gates, Elton John, Keanu Reeves
+Bên cạnh số đường đời, sẽ còn hơn 20 chỉ số quan trọng khác phân tích chi tiết về bạn, đặc biệt bạn xem kĩ các chỉ số ở biểu đồ kim tự tháp để xem các năm đỉnh cao trong cuộc đời và biểu đồ sức mạnh để xem các giá trị năng lực mà bạn có cùng với các chỉ số khác kèm lời khuyên tương ứng để kích hoạt được các điểm mạnh của bạn giúp bạn phát triển, gặp nhiều thuận lợi trong cuộc sống.
         `,
     },
     {
         type: 'SỐ 5 - NGƯỜI TỰ DO, LINH HOẠT',
         relationship: `
 <strong>• MỐI QUAN HỆ NÓI CHUNG TRONG CUỘC SỐNG:</strong>
-        Tương thích nhất với bạn:
-         - Một số 5 khác là sự kết hợp tuyệt vời cho bạn. Mối quan hệ hợp tác này dựa trên niềm đam mê, cảm giác mạnh và phiêu lưu. Không bao giờ có một khoảnh khắc buồn tẻ khi hai người làm việc cùng nhau, nhưng đó cũng không hẳn là một điều tốt. Sự mạo hiểm và hành vi thiếu trách nhiệm có thể khiến cả hai gặp rắc rối, và tất nhiên, có nguy cơ bạn quá ham mê các hoạt động nguy hiểm (và bất hợp pháp), bao gồm những trò tiêu khiển, rượu hoặc cờ bạc. Mộ thách thức nữa đối với hai người là không có khả năng tập trung và xử lý công việc hàng ngày tẻ nhạt.
-        - Số 10 cũng tạo nên một mối quan hệ đối tác tốt với bạn. Họ là những người chấp nhận rủi ro và thích sống hết mình. Họ coi trọng sự độc lập của mình, nhưng khi bạn ở bên họ, đó là thời gian chất lượng để bạn làm những điều thú vị. Cả hai con số đều cần một lượng tự do hợp lý, và miễn là không trở nên quá chặt chẽ, thì cả hai người luôn có những cuộc chinh chiến như trên thiên đường.
-        - Đường đời số 3 cũng là một sự kết hợp tuyệt vời với bạn. Hai người chia sẻ những sở thích giống nhau và sẽ luôn có vô số điều để nói đến. Hai người có chung niềm đam mê du lịch, sáng tạo và say mê. Tuy nhiên, như trường hợp của hai người cùng số 5, việc chi tiêu thiếu sáng suốt và không quan tâm đến những an toàn cơ bản của cuộc sống có thể trở thành một vấn đề.
-        - Số 7 nội tâm cũng rất phù hợp với bạn. Cả hai đều tận hưởng không gian riêng của mình và không làm phiền nhau về tình cảm hay thể chất. Mặc dù số 7 có phần nghiêm túc sẽ phải chịu một lối sống hơi thiếu kỷ luật của bạn, nhưng cả hai cân bằng lẫn nhau và bổ sung cho nhau một cách hoàn hảo.
-        
-        Ít tương thích nhất với bạn:
-        - Con số ít tương thích nhất với bạn là đường đời 4 (hoặc 22/4). Và rất dễ hiểu bởi vì người có đường đời số 4 là người thực tế và thích kiểm soát còn bạn thì không. Số 4 ghét thay đổi và cần sự ổn định còn bạn thì không. Để mối quan hệ này có hiệu quả, cần phải có nhiều thỏa hiệp và chịu đựng của hai người.
-        - Mối quan hệ với số 8 - tập trung và định hướng mục tiêu, cũng không phải là một sự kết hợp tốt.
-        - Mối quan hệ với số 9 có thể có thành công, nhưng nó sẽ dựa trên tiền bạc mà số 9 mang đến cho bạn nhiều hơn. Điều này là do cả hai số đều có lịch trình cực kỳ bận rộn và luôn di chuyển. Và trong khi số 9 cũng phát triển mạnh nhờ sự thay đổi, họ không có quá nhiều ý thích với một người như số 5.
-        
-        Hãy nhớ rằng khả năng tương thích trong các mối quan hệ của bạn còn sâu sắc hơn những gì thể hiện ở con số đường đời. Để biết cách tạo ra sự hài hòa, bạn sẽ cần xem xét các con số khác trong thần số học của mình. Chỉ số Linh hồn, Sứ mệnh, Nhân cách và Thái độ của bạn cũng sẽ ảnh hưởng đến mức độ tương thích của bạn trong các mối quan hệ. Đọc thêm các luận giải về các chỉ số này để tạo ra một bức tranh tổng quát cho bạn.
+Tương thích nhất với bạn:
+    - Một số 5 khác là sự kết hợp tuyệt vời cho bạn. Mối quan hệ hợp tác này dựa trên niềm đam mê, cảm giác mạnh và phiêu lưu. Không bao giờ có một khoảnh khắc buồn tẻ khi hai người làm việc cùng nhau, nhưng đó cũng không hẳn là một điều tốt. Sự mạo hiểm và hành vi thiếu trách nhiệm có thể khiến cả hai gặp rắc rối, và tất nhiên, có nguy cơ bạn quá ham mê các hoạt động nguy hiểm (và bất hợp pháp), bao gồm những trò tiêu khiển, rượu hoặc cờ bạc. Mộ thách thức nữa đối với hai người là không có khả năng tập trung và xử lý công việc hàng ngày tẻ nhạt.
+- Số 10 cũng tạo nên một mối quan hệ đối tác tốt với bạn. Họ là những người chấp nhận rủi ro và thích sống hết mình. Họ coi trọng sự độc lập của mình, nhưng khi bạn ở bên họ, đó là thời gian chất lượng để bạn làm những điều thú vị. Cả hai con số đều cần một lượng tự do hợp lý, và miễn là không trở nên quá chặt chẽ, thì cả hai người luôn có những cuộc chinh chiến như trên thiên đường.
+- Đường đời số 3 cũng là một sự kết hợp tuyệt vời với bạn. Hai người chia sẻ những sở thích giống nhau và sẽ luôn có vô số điều để nói đến. Hai người có chung niềm đam mê du lịch, sáng tạo và say mê. Tuy nhiên, như trường hợp của hai người cùng số 5, việc chi tiêu thiếu sáng suốt và không quan tâm đến những an toàn cơ bản của cuộc sống có thể trở thành một vấn đề.
+- Số 7 nội tâm cũng rất phù hợp với bạn. Cả hai đều tận hưởng không gian riêng của mình và không làm phiền nhau về tình cảm hay thể chất. Mặc dù số 7 có phần nghiêm túc sẽ phải chịu một lối sống hơi thiếu kỷ luật của bạn, nhưng cả hai cân bằng lẫn nhau và bổ sung cho nhau một cách hoàn hảo.
+
+Ít tương thích nhất với bạn:
+- Con số ít tương thích nhất với bạn là đường đời 4 (hoặc 22/4). Và rất dễ hiểu bởi vì người có đường đời số 4 là người thực tế và thích kiểm soát còn bạn thì không. Số 4 ghét thay đổi và cần sự ổn định còn bạn thì không. Để mối quan hệ này có hiệu quả, cần phải có nhiều thỏa hiệp và chịu đựng của hai người.
+- Mối quan hệ với số 8 - tập trung và định hướng mục tiêu, cũng không phải là một sự kết hợp tốt.
+- Mối quan hệ với số 9 có thể có thành công, nhưng nó sẽ dựa trên tiền bạc mà số 9 mang đến cho bạn nhiều hơn. Điều này là do cả hai số đều có lịch trình cực kỳ bận rộn và luôn di chuyển. Và trong khi số 9 cũng phát triển mạnh nhờ sự thay đổi, họ không có quá nhiều ý thích với một người như số 5.
+
+Hãy nhớ rằng khả năng tương thích trong các mối quan hệ của bạn còn sâu sắc hơn những gì thể hiện ở con số đường đời. Để biết cách tạo ra sự hài hòa, bạn sẽ cần xem xét các con số khác trong thần số học của mình. Chỉ số Linh hồn, Sứ mệnh, Nhân cách và Thái độ của bạn cũng sẽ ảnh hưởng đến mức độ tương thích của bạn trong các mối quan hệ. Đọc thêm các luận giải về các chỉ số này để tạo ra một bức tranh tổng quát cho bạn.
         
         
 <strong>• TÌNH DUYÊN:</strong>
-        - Ngất ngây với sự quyến rũ và lối sống đáng ghen tị, bạn được những người khác giới yêu thích, nhưng nhìn chung, bạn này có xu hướng tránh xa những mối quan hệ mà có sự trói buộc.
-        - Nhưng bạn sẵn sàng để đối phương chia sẻ tình yêu tự do và phiêu lưu, cũng như cách tiếp cận tự phát của bạn đối với mọi thứ. Đối với bạn, một số 5 khác là đối tác hoàn hảo của bạn, hoặc cũng như số 3 là một lựa chọn tuyệt vời.
-        - Những tiềm năng khác trên biểu đồ thần số hợp với bạn là số 10 và số 7. Họ có cùng một lượng năng lượng nhưng bổ sung cho bạn theo những cách khác nhau. Ví dụ, một người có đường đời số 10 là người có tham vọng với lòng quyết tâm cao độ và sẽ giúp bạn tập trung và làm việc hướng tới mục tiêu của mình. Còn số 7 với cách tiếp cận triết học về cuộc sống, có thể giúp bạn đạt được sự thỏa mãn trong chính mình, thay vì cố gắng tìm kiếm nó từ mọi người, mọi địa điểm và mọi thứ.
-        - Các số 4, 8 và 9 có giá trị và cần sự ổn định, nhưng đó chỉ là lựa chọn cuối cùng của bạn. Sẽ không mất nhiều thời gian trước khi số 4, 8 và 9 để bạn nản lòng vì bạn không thể cam kết với một vị trí, một công việc. Và đối với bạn, ở bên họ sẽ đơn điệu như cục sơn khô. Nếu bạn chọn theo đuổi một mối quan hệ lãng mạn với một người coi trọng sự an toàn, bạn sẽ cần phải có một mức độ thỏa hiệp hợp lý. Điều này có thể được, nhưng có lẽ chỉ sau tuổi 30 của bạn.
-        Cách tiếp cận tình cảm của bạn cũng sẽ bị ảnh hưởng bởi các con số khác trong biểu đồ. Chỉ số Linh hồn, chỉ số Nhân Cách, chỉ số Thái độ và Chỉ số Sứ mệnh sẽ thay đổi cách cuộc sống tình cảm của bạn diễn ra. Hãy đọc tiếp tới các chỉ số này.`,
+- Ngất ngây với sự quyến rũ và lối sống đáng ghen tị, bạn được những người khác giới yêu thích, nhưng nhìn chung, bạn này có xu hướng tránh xa những mối quan hệ mà có sự trói buộc.
+- Nhưng bạn sẵn sàng để đối phương chia sẻ tình yêu tự do và phiêu lưu, cũng như cách tiếp cận tự phát của bạn đối với mọi thứ. Đối với bạn, một số 5 khác là đối tác hoàn hảo của bạn, hoặc cũng như số 3 là một lựa chọn tuyệt vời.
+- Những tiềm năng khác trên biểu đồ thần số hợp với bạn là số 10 và số 7. Họ có cùng một lượng năng lượng nhưng bổ sung cho bạn theo những cách khác nhau. Ví dụ, một người có đường đời số 10 là người có tham vọng với lòng quyết tâm cao độ và sẽ giúp bạn tập trung và làm việc hướng tới mục tiêu của mình. Còn số 7 với cách tiếp cận triết học về cuộc sống, có thể giúp bạn đạt được sự thỏa mãn trong chính mình, thay vì cố gắng tìm kiếm nó từ mọi người, mọi địa điểm và mọi thứ.
+- Các số 4, 8 và 9 có giá trị và cần sự ổn định, nhưng đó chỉ là lựa chọn cuối cùng của bạn. Sẽ không mất nhiều thời gian trước khi số 4, 8 và 9 để bạn nản lòng vì bạn không thể cam kết với một vị trí, một công việc. Và đối với bạn, ở bên họ sẽ đơn điệu như cục sơn khô. Nếu bạn chọn theo đuổi một mối quan hệ lãng mạn với một người coi trọng sự an toàn, bạn sẽ cần phải có một mức độ thỏa hiệp hợp lý. Điều này có thể được, nhưng có lẽ chỉ sau tuổi 30 của bạn.
+Cách tiếp cận tình cảm của bạn cũng sẽ bị ảnh hưởng bởi các con số khác trong biểu đồ. Chỉ số Linh hồn, chỉ số Nhân Cách, chỉ số Thái độ và Chỉ số Sứ mệnh sẽ thay đổi cách cuộc sống tình cảm của bạn diễn ra. Hãy đọc tiếp tới các chỉ số này.`,
         content: `Bạn là người sáng tạo , tràn đầy năng lượng và hành vi rất tự phát.
-        Đối với một số người, hành vi của bạn thường có thể được mô tả là buông thả bản thân, nhưng thực sự đó là đặc điểm của bạn. Chấp nhận rủi ro là trò chơi của bạn, bạn luôn sẵn sàng đối mặt với thử thách và phát triển mạnh mẽ trong những tình huống có thể đoán trước được.
-        
-        Bạn là một người giao tiếp xuất sắc và có sở trường thúc đẩy những người xung quanh bạn. Món quà này của bạn có thể được sử dụng vì những điều tốt đẹp hơn, để tập hợp mọi người lại với nhau và thúc đẩy sự thay đổi. Nhưng khi nó bị lạm dụng, kết quả có thể rất thảm khốc.
-        
-        Với tư cách là người có số đường đời 5, bạn không muốn làm việc theo quy trình, bạn cũng có thể bốc đồng, nóng nảy và thiếu kiên nhẫn, nhưng một trong những thách thức lớn nhất của bạn là nhu cầu được thỏa mãn ngay lập tức, điều này có thể dẫn đến nghiện một thú vui tiêu khiển hoặc lạm dụng chất kích thích.
+Đối với một số người, hành vi của bạn thường có thể được mô tả là buông thả bản thân, nhưng thực sự đó là đặc điểm của bạn. Chấp nhận rủi ro là trò chơi của bạn, bạn luôn sẵn sàng đối mặt với thử thách và phát triển mạnh mẽ trong những tình huống có thể đoán trước được.
+
+Bạn là một người giao tiếp xuất sắc và có sở trường thúc đẩy những người xung quanh bạn. Món quà này của bạn có thể được sử dụng vì những điều tốt đẹp hơn, để tập hợp mọi người lại với nhau và thúc đẩy sự thay đổi. Nhưng khi nó bị lạm dụng, kết quả có thể rất thảm khốc.
+
+Với tư cách là người có số đường đời 5, bạn không muốn làm việc theo quy trình, bạn cũng có thể bốc đồng, nóng nảy và thiếu kiên nhẫn, nhưng một trong những thách thức lớn nhất của bạn là nhu cầu được thỏa mãn ngay lập tức, điều này có thể dẫn đến nghiện một thú vui tiêu khiển hoặc lạm dụng chất kích thích.
         
 <strong>• ĐIỂM MẠNH CỦA BẠN:</strong>
-        - Bạn là người năng động, sôi nổi, cá tính, thông minh, sắc sảo. 
-        - Bạn khá ham vui và thường thuộc nhóm đầu tiên có mặt trong các cuộc vui, cuộc chơi, cuộc đi. Bạn thích khám phá mọi nơi, trải nghiệm mọi thứ. 
-        - Những gì mới mẻ, kỳ thú hay bí hiểm đều có tính kích thích mạnh mẽ với bạn. Đó có thể là các địa điểm, tác phẩm văn học, âm nhạc, v.v.. Vì thế, trong mọi việc bạn làm, dường như bạn có xu hướng tạo ra những cách làm mới, thêm những yếu tố mới, làm cho công việc được thú vị hơn. Vì thế, bạn có thể có những sáng tạo rất độc đáo, nhưng đôi khi cũng khá buồn cười. 
-        - Bạn thích vui vẻ, thích bạn bè. Bạn rất sợ sự nhàm chán, đơn điệu và ràng buộc. 
-        - Trong các mối quan hệ, bạn phóng khoáng, tự do và thoải mái. Bạn có thể rất nhanh làm quen với môi trường mới và những người bạn mới. Ai tiếp xúc với bạn cũng sẽ bị bạn thu hút, đặc biệt là những người khác giới. 
-        - Cái nhìn của bạn về cuộc sống là cái nhìn đầy màu sắc, phiêu lưu và khám phá. Bạn thích thưởng thức tất cả những gì tươi đẹp của cuộc sống. 
+- Bạn là người năng động, sôi nổi, cá tính, thông minh, sắc sảo. 
+- Bạn khá ham vui và thường thuộc nhóm đầu tiên có mặt trong các cuộc vui, cuộc chơi, cuộc đi. Bạn thích khám phá mọi nơi, trải nghiệm mọi thứ. 
+- Những gì mới mẻ, kỳ thú hay bí hiểm đều có tính kích thích mạnh mẽ với bạn. Đó có thể là các địa điểm, tác phẩm văn học, âm nhạc, v.v.. Vì thế, trong mọi việc bạn làm, dường như bạn có xu hướng tạo ra những cách làm mới, thêm những yếu tố mới, làm cho công việc được thú vị hơn. Vì thế, bạn có thể có những sáng tạo rất độc đáo, nhưng đôi khi cũng khá buồn cười. 
+- Bạn thích vui vẻ, thích bạn bè. Bạn rất sợ sự nhàm chán, đơn điệu và ràng buộc. 
+- Trong các mối quan hệ, bạn phóng khoáng, tự do và thoải mái. Bạn có thể rất nhanh làm quen với môi trường mới và những người bạn mới. Ai tiếp xúc với bạn cũng sẽ bị bạn thu hút, đặc biệt là những người khác giới. 
+- Cái nhìn của bạn về cuộc sống là cái nhìn đầy màu sắc, phiêu lưu và khám phá. Bạn thích thưởng thức tất cả những gì tươi đẹp của cuộc sống. 
         
 <strong>• ĐIỂM YẾU CỦA BẠN:</strong>
-        - Bạn cũng thuộc tuýp người dễ đam mê, do đó hãy thận trọng với những thú vui tiêu cực. Đôi khi bạn cũng đanh đá, gắt gỏng, nóng nảy, bồn chồn, bất an. 
-        - Bạn có thể hòa nhập được với bất kỳ môi trường nào và với bất kỳ ai. Nhưng điều này nhiều khi sẽ đem lại cho bạn rủi ro. Vì vậy, hãy thật thận trọng.
-        - Nếu bạn không sống một cách phiêu lưu, cuộc đời của bạn có thể sẽ trở nên rất bi kịch.
-        - Bạn có một khoảng thời gian khó khăn trong việc ổn định cuộc sống, sợ bị mắc kẹt hoặc chết ngạt trong một mối quan hệ.
-        - Mặc dù bạn cực kỳ giàu tình thương thế nhưng sự tập trung vào việc phiêu lưu và tính tò mò có thể đánh lạc hướng và khiến bạn không nhận thức được cảm xúc của những người xung quanh. Hơn nữa, vì bạn luôn tìm kiếm chuyến phiêu lưu tiếp theo, cuộc sống của bạn có thể thiếu định hướng, và điều này có thể khiến bạn không hài lòng và mất kiên nhẫn.
-        - Bất kỳ nghề nghiệp nào yêu cầu việc di chuyển cũng đều rất phù hợp với những người thuộc đường đời số 5. Vì nó sẽ giúp bạn tránh xa lịch trình đều đặn của rất nhiều công việc khác. Nếu không thì bạn có thể cảm thấy bồn chồn vì bị mắc kẹt trong một môi trường làm việc nhàm chán và lặp đi lặp lại. 
-        - Một người với nhiều phần của số 5 trong biểu đồ sẽ muốn được tự mình làm chủ. Bạn sẽ không thích thú với một công việc theo giờ hành chính mà bạn phải báo cáo cho người khác mỗi ngày.
+- Bạn cũng thuộc tuýp người dễ đam mê, do đó hãy thận trọng với những thú vui tiêu cực. Đôi khi bạn cũng đanh đá, gắt gỏng, nóng nảy, bồn chồn, bất an. 
+- Bạn có thể hòa nhập được với bất kỳ môi trường nào và với bất kỳ ai. Nhưng điều này nhiều khi sẽ đem lại cho bạn rủi ro. Vì vậy, hãy thật thận trọng.
+- Nếu bạn không sống một cách phiêu lưu, cuộc đời của bạn có thể sẽ trở nên rất bi kịch.
+- Bạn có một khoảng thời gian khó khăn trong việc ổn định cuộc sống, sợ bị mắc kẹt hoặc chết ngạt trong một mối quan hệ.
+- Mặc dù bạn cực kỳ giàu tình thương thế nhưng sự tập trung vào việc phiêu lưu và tính tò mò có thể đánh lạc hướng và khiến bạn không nhận thức được cảm xúc của những người xung quanh. Hơn nữa, vì bạn luôn tìm kiếm chuyến phiêu lưu tiếp theo, cuộc sống của bạn có thể thiếu định hướng, và điều này có thể khiến bạn không hài lòng và mất kiên nhẫn.
+- Bất kỳ nghề nghiệp nào yêu cầu việc di chuyển cũng đều rất phù hợp với những người thuộc đường đời số 5. Vì nó sẽ giúp bạn tránh xa lịch trình đều đặn của rất nhiều công việc khác. Nếu không thì bạn có thể cảm thấy bồn chồn vì bị mắc kẹt trong một môi trường làm việc nhàm chán và lặp đi lặp lại. 
+- Một người với nhiều phần của số 5 trong biểu đồ sẽ muốn được tự mình làm chủ. Bạn sẽ không thích thú với một công việc theo giờ hành chính mà bạn phải báo cáo cho người khác mỗi ngày.
         
 <strong>• NHỮNG NGƯỜI NỔI TIẾNG CÓ SỐ 5:</strong>
-        - Mark Zuckerberb – Chủ tịch tập đoàn Facebook
-        - Trấn Thành – MC, diễn viên
-        - Quang Masan – Chủ tịch tập đoàn Masan
-        - Một vài người khác như: Abraham Lincoln, Mick Jagger, Ryan Gosling, Malcolm X, Isaac Newton, Beyoncé, Angelina Jolie
-        
-        Bên cạnh số đường đời, sẽ còn hơn 20 chỉ số quan trọng khác phân tích chi tiết về bạn, đặc biệt bạn xem kĩ các chỉ số ở biểu đồ kim tự tháp để xem các năm đỉnh cao trong cuộc đời và biểu đồ sức mạnh để xem các giá trị năng lực mà bạn có cùng với các chỉ số khác kèm lời khuyên tương ứng để kích hoạt được các điểm mạnh của bạn giúp bạn phát triển, gặp nhiều thuận lợi trong cuộc sống.`,
+- Mark Zuckerberb – Chủ tịch tập đoàn Facebook
+- Trấn Thành – MC, diễn viên
+- Quang Masan – Chủ tịch tập đoàn Masan
+- Một vài người khác như: Abraham Lincoln, Mick Jagger, Ryan Gosling, Malcolm X, Isaac Newton, Beyoncé, Angelina Jolie
+
+Bên cạnh số đường đời, sẽ còn hơn 20 chỉ số quan trọng khác phân tích chi tiết về bạn, đặc biệt bạn xem kĩ các chỉ số ở biểu đồ kim tự tháp để xem các năm đỉnh cao trong cuộc đời và biểu đồ sức mạnh để xem các giá trị năng lực mà bạn có cùng với các chỉ số khác kèm lời khuyên tương ứng để kích hoạt được các điểm mạnh của bạn giúp bạn phát triển, gặp nhiều thuận lợi trong cuộc sống.`,
     },
     {
         type: 'SỐ 6 – HẬU PHƯƠNG',
         relationship: `
 <strong>• MỐI QUAN HỆ NÓI CHUNG TRONG CUỘC SỐNG:</strong>
-        Tương thích nhất với bạn:
-        - Số 2 (hoặc 11/2) và bạn đều có một ngôn ngữ đặc biệt, nơi cả 2 được hướng dẫn bởi trái tim của mình nhiều hơn là bởi lý trí. Hai người bổ sung tốt cho nhau, số 6 rất hướng về gia đình trong khi mục đích duy nhất của số 2 là yêu thương và quan tâm đến những người xung quanh. Vấn đề với mối quan hệ dường như hoàn hảo này là nhu cầu chấp thuận liên tục trong bạn, điều này có thể làm mất đi bản chất quan tâm của cả 2. Để nó hoạt động, cả hai bên sẽ cần quan tâm hơn đến cảm xúc của đối tác.
-        - Số 4, 8, 9, 10 cũng là một lựa chọn tốt cho mối quan hệ của bạn.
-        
-        Ít tương thích nhất với bạn:
-        - Trong tất cả các con số trên biểu đồ số, số 6 kém tương thích nhất với với các số 3, 5 và 7. Đây cũng là ba là con số ít có khả năng hình thành bất kỳ loại mối quan hệ nào nhất:
-         + Số 5 và bạn có thể là một cặp đôi, nhưng sẽ cần rất nhiều sự thỏa hiệp từ cả hai bạn. Và đối với một số người, khi một mối quan hệ cảm thấy như nó là một công việc khó khăn, nó có lẽ không đáng giá.
-         + Còn sự kết hợp giữa bạn và số 7 lại chứa đầy những vấn đề xung quanh mọi ngóc ngách. Trong khi bạn muốn một mối quan hệ nghiêm túc, thì số 7 lại không đạt được những gì bạn muốn. Ngoài ra, đường đời số 6 quá kiểm soát đối với số 7 - những người sống cô độc và hướng nội. Với một sự thúc đẩy mạnh mẽ, mối quan hệ này có thể thành công, nhưng thành thật mà nói, nó sẽ chỉ là sự thỏa hiệp quá nhiều từ cả hai người.
-        
-        Hãy nhớ rằng khả năng tương thích trong các mối quan hệ của bạn còn sâu sắc hơn những gì thể hiện ở con số đường đời. Để biết cách tạo ra sự hài hòa, bạn sẽ cần xem xét các con số khác trong thần số học của mình. Chỉ số Linh hồn, Sứ mệnh, Nhân cách và Thái độ của bạn cũng sẽ ảnh hưởng đến mức độ tương thích của bạn trong các mối quan hệ. Đọc thêm các luận giải về các chỉ số này để tạo ra một bức tranh tổng quát cho bạn.
+Tương thích nhất với bạn:
+- Số 2 (hoặc 11/2) và bạn đều có một ngôn ngữ đặc biệt, nơi cả 2 được hướng dẫn bởi trái tim của mình nhiều hơn là bởi lý trí. Hai người bổ sung tốt cho nhau, số 6 rất hướng về gia đình trong khi mục đích duy nhất của số 2 là yêu thương và quan tâm đến những người xung quanh. Vấn đề với mối quan hệ dường như hoàn hảo này là nhu cầu chấp thuận liên tục trong bạn, điều này có thể làm mất đi bản chất quan tâm của cả 2. Để nó hoạt động, cả hai bên sẽ cần quan tâm hơn đến cảm xúc của đối tác.
+- Số 4, 8, 9, 10 cũng là một lựa chọn tốt cho mối quan hệ của bạn.
+
+Ít tương thích nhất với bạn:
+- Trong tất cả các con số trên biểu đồ số, số 6 kém tương thích nhất với với các số 3, 5 và 7. Đây cũng là ba là con số ít có khả năng hình thành bất kỳ loại mối quan hệ nào nhất:
+    + Số 5 và bạn có thể là một cặp đôi, nhưng sẽ cần rất nhiều sự thỏa hiệp từ cả hai bạn. Và đối với một số người, khi một mối quan hệ cảm thấy như nó là một công việc khó khăn, nó có lẽ không đáng giá.
+    + Còn sự kết hợp giữa bạn và số 7 lại chứa đầy những vấn đề xung quanh mọi ngóc ngách. Trong khi bạn muốn một mối quan hệ nghiêm túc, thì số 7 lại không đạt được những gì bạn muốn. Ngoài ra, đường đời số 6 quá kiểm soát đối với số 7 - những người sống cô độc và hướng nội. Với một sự thúc đẩy mạnh mẽ, mối quan hệ này có thể thành công, nhưng thành thật mà nói, nó sẽ chỉ là sự thỏa hiệp quá nhiều từ cả hai người.
+
+Hãy nhớ rằng khả năng tương thích trong các mối quan hệ của bạn còn sâu sắc hơn những gì thể hiện ở con số đường đời. Để biết cách tạo ra sự hài hòa, bạn sẽ cần xem xét các con số khác trong thần số học của mình. Chỉ số Linh hồn, Sứ mệnh, Nhân cách và Thái độ của bạn cũng sẽ ảnh hưởng đến mức độ tương thích của bạn trong các mối quan hệ. Đọc thêm các luận giải về các chỉ số này để tạo ra một bức tranh tổng quát cho bạn.
         
 <strong>• TÌNH DUYÊN:</strong>
-        - Bởi vì bạn có thể mang lại những điều tốt nhất cho những người khác, không có quá nhiều con số mà không tương thích với bạn. Là một người nuôi dưỡng và chăm sóc, bạn mang lại cho gia đình cùng đối tác của mình cảm giác an toàn thực sự. Và bạn có trực giác biết họ muốn gì và cần gì mà không cần họ phải yêu cầu.
-        - Tuy nhiên, một lời cảnh báo, bởi vì bạn thích được quan tâm, bạn có thể thấy mình đang thu hút những người cần được giải cứu liên tục. Một mối quan hệ như vậy sẽ mang lại cho bạn mục đích nhưng nó không thể duy trì được, đặc biệt nếu người đó không thể giúp được, hoặc họ không muốn được giúp, bạn có thể cảm thấy kiệt sức và bực bội.
-        - Bạn có thể hòa hợp tốt với hầu hết các con số, nhưng có một số sẽ dễ duy trì hơn. Các số 1, 2 và 9 là những số rất phù hợp với bạn. Khi nói đến chuyện tình cảm, số 1 và số 9 là đối tượng hoàn hảo của bạn. Cả hai đều có quyết tâm và động lực để thành công, và bạn rất vui khi giúp họ đạt được mục tiêu. Họ yêu mến bạn và kết quả là bạn có thể cảm thấy cần tích cực và thỏa mãn. Đường đời của những người số 2 là những người giàu lòng trắc ẩn và quan tâm, vì thế cả hai đều có thể nói chuyện thấu tình đạt lý nên rất ít khả năng xảy ra bất đồng hoặc tranh cãi giữa hai bạn. Giống như bạn, số 2 là người giàu tình cảm và thực sự lãng mạn trong trái tim. Trong khi bạn khiến họ cảm thấy được yêu thương với vô số tình cảm, họ sẽ đáo lại bạn bằng những bữa tối dưới ánh nến, hoa và những nơi nghỉ ngơi tuyệt vời.
-        - Một điều bạn cần lưu ý trong một mối quan hệ lãng mạn là nhu cầu thường xuyên của bạn giống như một người phụ huynh. Mặc dù một số người bạn đời sẽ đánh giá cao sự quan tâm này, nhưng nó có thể trở thành một vấn đề khi việc quan tâm của bạn bắt đầu trở nên nhàm chán và đôi khi giống như kiểm soát.
-        Cách tiếp cận tình cảm của bạn cũng sẽ bị ảnh hưởng bởi các con số khác trong biểu đồ. Chỉ số Linh hồn, chỉ số Nhân Cách, chỉ số Thái độ và Chỉ số Sứ mệnh sẽ thay đổi cách cuộc sống tình cảm của bạn diễn ra. Hãy đọc tiếp tới các chỉ số này.`,
+- Bởi vì bạn có thể mang lại những điều tốt nhất cho những người khác, không có quá nhiều con số mà không tương thích với bạn. Là một người nuôi dưỡng và chăm sóc, bạn mang lại cho gia đình cùng đối tác của mình cảm giác an toàn thực sự. Và bạn có trực giác biết họ muốn gì và cần gì mà không cần họ phải yêu cầu.
+- Tuy nhiên, một lời cảnh báo, bởi vì bạn thích được quan tâm, bạn có thể thấy mình đang thu hút những người cần được giải cứu liên tục. Một mối quan hệ như vậy sẽ mang lại cho bạn mục đích nhưng nó không thể duy trì được, đặc biệt nếu người đó không thể giúp được, hoặc họ không muốn được giúp, bạn có thể cảm thấy kiệt sức và bực bội.
+- Bạn có thể hòa hợp tốt với hầu hết các con số, nhưng có một số sẽ dễ duy trì hơn. Các số 1, 2 và 9 là những số rất phù hợp với bạn. Khi nói đến chuyện tình cảm, số 1 và số 9 là đối tượng hoàn hảo của bạn. Cả hai đều có quyết tâm và động lực để thành công, và bạn rất vui khi giúp họ đạt được mục tiêu. Họ yêu mến bạn và kết quả là bạn có thể cảm thấy cần tích cực và thỏa mãn. Đường đời của những người số 2 là những người giàu lòng trắc ẩn và quan tâm, vì thế cả hai đều có thể nói chuyện thấu tình đạt lý nên rất ít khả năng xảy ra bất đồng hoặc tranh cãi giữa hai bạn. Giống như bạn, số 2 là người giàu tình cảm và thực sự lãng mạn trong trái tim. Trong khi bạn khiến họ cảm thấy được yêu thương với vô số tình cảm, họ sẽ đáo lại bạn bằng những bữa tối dưới ánh nến, hoa và những nơi nghỉ ngơi tuyệt vời.
+- Một điều bạn cần lưu ý trong một mối quan hệ lãng mạn là nhu cầu thường xuyên của bạn giống như một người phụ huynh. Mặc dù một số người bạn đời sẽ đánh giá cao sự quan tâm này, nhưng nó có thể trở thành một vấn đề khi việc quan tâm của bạn bắt đầu trở nên nhàm chán và đôi khi giống như kiểm soát.
+Cách tiếp cận tình cảm của bạn cũng sẽ bị ảnh hưởng bởi các con số khác trong biểu đồ. Chỉ số Linh hồn, chỉ số Nhân Cách, chỉ số Thái độ và Chỉ số Sứ mệnh sẽ thay đổi cách cuộc sống tình cảm của bạn diễn ra. Hãy đọc tiếp tới các chỉ số này.`,
         content: `<strong>• ĐIỂM MẠNH CỦA BẠN:</strong>
-        - Bạn thường dễ rung động trước cái đẹp, dù đó là vẻ đẹp của phong cảnh, đồ vật hay vẻ đẹp của con người. Bạn dễ xúc động trước những hoàn cảnh đáng thương, éo le; bạn cũng dễ xúc động trước những sự yêu thương, chăm sóc, khen ngợi dành cho bạn. 
-        - Bạn sẵn lòng giúp đỡ người khác một cách chân thành. Thường thì chỉ cần mọi người mở lời xin sự giúp đỡ là bạn sẽ đồng ý, nhất là những người gần gũi hoặc thân thiết với bạn. Hãy cẩn thận với điều đó, vì bạn có thể quên mất những việc cần làm của bản thân và trở nên bao đồng, bao bọc, thậm chí làm hư những người gần gũi với bạn. 
-        - Bạn là những phụ huynh bẩm sinh, người luôn quan tâm đến người khác dưới cái nhìn của bậc làm cha làm mẹ. Dù có giận người ta đến đâu, chỉ cần họ thể hiện sự biết lỗi hoặc hòa giải, bạn sẵn lòng bỏ qua. Bạn còn có thể rất áy náy nếu thấy có lỗi với ai đó. Bạn yêu quý thú cưng, trẻ nhỏ, người trẻ tuổi và những thứ mang tính “trẻ”. 
-        - Bạn là người có khiếu thẩm mỹ hoặc nghệ thuật. Bạn có thể vẽ đẹp, viết tốt, sáng tác hay; bạn có thể có đôi tai biết thưởng thức và khứu giác rất tinh nhạy. Bạn thích làm cho mọi người và mọi vật đẹp lên.  
-        - Bạn cũng là người không thích làm việc dưới trướng người khác, nhất là khi năng lực của bạn đã phát triển đến tầm nhất định. Bạn không thích bị người khác sai khiến, chỉ trích. Bạn rất coi trọng “thể diện”. Bạn cũng thường là người thẳng thắn và  có chính kiến. 
-        - Là những người yêu thương con người, bạn rất ghét sự bất công, với mọi hình thức.
+- Bạn thường dễ rung động trước cái đẹp, dù đó là vẻ đẹp của phong cảnh, đồ vật hay vẻ đẹp của con người. Bạn dễ xúc động trước những hoàn cảnh đáng thương, éo le; bạn cũng dễ xúc động trước những sự yêu thương, chăm sóc, khen ngợi dành cho bạn. 
+- Bạn sẵn lòng giúp đỡ người khác một cách chân thành. Thường thì chỉ cần mọi người mở lời xin sự giúp đỡ là bạn sẽ đồng ý, nhất là những người gần gũi hoặc thân thiết với bạn. Hãy cẩn thận với điều đó, vì bạn có thể quên mất những việc cần làm của bản thân và trở nên bao đồng, bao bọc, thậm chí làm hư những người gần gũi với bạn. 
+- Bạn là những phụ huynh bẩm sinh, người luôn quan tâm đến người khác dưới cái nhìn của bậc làm cha làm mẹ. Dù có giận người ta đến đâu, chỉ cần họ thể hiện sự biết lỗi hoặc hòa giải, bạn sẵn lòng bỏ qua. Bạn còn có thể rất áy náy nếu thấy có lỗi với ai đó. Bạn yêu quý thú cưng, trẻ nhỏ, người trẻ tuổi và những thứ mang tính “trẻ”. 
+- Bạn là người có khiếu thẩm mỹ hoặc nghệ thuật. Bạn có thể vẽ đẹp, viết tốt, sáng tác hay; bạn có thể có đôi tai biết thưởng thức và khứu giác rất tinh nhạy. Bạn thích làm cho mọi người và mọi vật đẹp lên.  
+- Bạn cũng là người không thích làm việc dưới trướng người khác, nhất là khi năng lực của bạn đã phát triển đến tầm nhất định. Bạn không thích bị người khác sai khiến, chỉ trích. Bạn rất coi trọng “thể diện”. Bạn cũng thường là người thẳng thắn và  có chính kiến. 
+- Là những người yêu thương con người, bạn rất ghét sự bất công, với mọi hình thức.
         
 <strong>• ĐIỂM YẾU CỦA BẠN:</strong>
-        - Bạn là những người đầy lòng yêu thương, không ích kỷ, và dễ bao dung, nhưng phải hết sức để ý để không bị lợi dụng lòng tốt của mình.
-        - Là người tình cảm và giàu lòng yêu thương, nhưng nếu ai đó phản bội, hoặc bạn thấy mình trở thành gánh nặng với người khác, bạn sẽ rất lạnh lùng và rút lui. Đôi khi bạn cũng hay sốt ruột, và có thể nói ra những điều không đúng thời điểm.
-        - Đôi khi bạn có thể lâm vào thói buôn chuyện nếu rảnh rỗi; bạn cũng cần cẩn thận với việc bàn luận, phán xét về người khác.
-        - Bạn thường giỏi giao tiếp với trẻ em và động vật thông qua năng lượng dịu dàng và chở che. Nhưng không phải cái gì cũng cần được chăm nom, vì vậy đôi khi năng lượng bảo vệ của bạn có thể trở nên độc đoán và thích kiểm soát. Để tránh gánh cả thế giới trên vai, bạn phải học cách xây dựng niềm tin và sự cảm thông.
-        - Nói một cách đơn giản, bạn hãy nhớ rằng: Ai cũng phải tự bước đi trên con đường đời của mình.
+- Bạn là những người đầy lòng yêu thương, không ích kỷ, và dễ bao dung, nhưng phải hết sức để ý để không bị lợi dụng lòng tốt của mình.
+- Là người tình cảm và giàu lòng yêu thương, nhưng nếu ai đó phản bội, hoặc bạn thấy mình trở thành gánh nặng với người khác, bạn sẽ rất lạnh lùng và rút lui. Đôi khi bạn cũng hay sốt ruột, và có thể nói ra những điều không đúng thời điểm.
+- Đôi khi bạn có thể lâm vào thói buôn chuyện nếu rảnh rỗi; bạn cũng cần cẩn thận với việc bàn luận, phán xét về người khác.
+- Bạn thường giỏi giao tiếp với trẻ em và động vật thông qua năng lượng dịu dàng và chở che. Nhưng không phải cái gì cũng cần được chăm nom, vì vậy đôi khi năng lượng bảo vệ của bạn có thể trở nên độc đoán và thích kiểm soát. Để tránh gánh cả thế giới trên vai, bạn phải học cách xây dựng niềm tin và sự cảm thông.
+- Nói một cách đơn giản, bạn hãy nhớ rằng: Ai cũng phải tự bước đi trên con đường đời của mình.
         
 <strong>• NHỮNG NGƯỜI NỔI TIẾNG CÓ SỐ 6:</strong>
-        - Chủ tịch Hồ Chí Minh
-        - Vũ Đức Đam – Phó Thủ tướng Chính phủ Việt Nam
-        - Jeff Beros – Chủ tịch tập đoàn Amazon
-        - Warren Buffet – Nhà đầu tư tài ba
-        - Một vài người khác như: Albert Einstein, John Lennon, Michael Jackson, Bruce Willis, Robert De Niro, Stevie Wonder, Richard Nixon, Ben Affleck
-        
-        Bên cạnh số đường đời, sẽ còn hơn 20 chỉ số quan trọng khác phân tích chi tiết về bạn, đặc biệt bạn xem kĩ các chỉ số ở biểu đồ kim tự tháp để xem các năm đỉnh cao trong cuộc đời và biểu đồ sức mạnh để xem các giá trị năng lực mà bạn có cùng với các chỉ số khác kèm lời khuyên tương ứng để kích hoạt được các điểm mạnh của bạn giúp bạn phát triển, gặp nhiều thuận lợi trong cuộc sống.`,
+- Chủ tịch Hồ Chí Minh
+- Vũ Đức Đam – Phó Thủ tướng Chính phủ Việt Nam
+- Jeff Beros – Chủ tịch tập đoàn Amazon
+- Warren Buffet – Nhà đầu tư tài ba
+- Một vài người khác như: Albert Einstein, John Lennon, Michael Jackson, Bruce Willis, Robert De Niro, Stevie Wonder, Richard Nixon, Ben Affleck
+
+Bên cạnh số đường đời, sẽ còn hơn 20 chỉ số quan trọng khác phân tích chi tiết về bạn, đặc biệt bạn xem kĩ các chỉ số ở biểu đồ kim tự tháp để xem các năm đỉnh cao trong cuộc đời và biểu đồ sức mạnh để xem các giá trị năng lực mà bạn có cùng với các chỉ số khác kèm lời khuyên tương ứng để kích hoạt được các điểm mạnh của bạn giúp bạn phát triển, gặp nhiều thuận lợi trong cuộc sống.`,
     },
     {
         type: 'SỐ 7 - NGƯỜI TRẢI NGHIỆM',
         relationship: `
 <strong>• MỐI QUAN HỆ NÓI CHUNG TRONG CUỘC SỐNG:</strong>
-        Những số đường đời tương thích nhất với bạn:
-        - Người có số 10: Họ có thể thúc đẩy bạn và bạn có thể khai sáng cho số 10. Các năng lượng khác nhau của cả hai phối hợp tốt với nhau, miễn là cả hai không quá kiểm soát nhau, và để đối phương trong thế giới riêng của họ.
-        - Người có số 3: Họ lạc quan có thể cung cấp liều thuốc giúp bạn vượt khỏi sự nghiêm túc quá đà, và đổi lại bạn sẽ mang lại chiều sâu cho họ. Đây là sự kết hợp hiếm hoi giữa các con số hòa hợp và thúc đẩy sự phát triển lẫn nhau.
-        - Người có số 4 (hoặc 22/4): Ảnh hưởng từ sự thực tế của họ là rất tốt với bạn. Sự kết hợp đáng ngạc nhiên này có thể chỉ hoạt động khi họ có ấn tượng đối với khả năng hiểu biết của bạn. 
-        - Người có số 5: Họ tò mò và thích phiêu lưu nhưng khá tương thích với bạn vì cả hai đều là những người tìm kiếm. Cả hai giống như tồn tại trên các mặt khác nhau của cùng một đồng xu và có tính kích thích cao đối với nhau. 
-        - Người có số 7: Sự kết hợp của hai số 7 có thể là một sự kết hợp được thực hiện trong thiên đường trí tuệ và siêu hình. Đáng buồn thay, nếu cả hai đều không thể mở lòng về tình cảm, thì điều này không có vẻ gì là tốt.
-        
-        Những số đường đời ít tương thích hơn với bạn:
-        - Người có số 2 (hoặc 11/2): Họ nhạy cảm vì còn bạn có xu hướng hướng nội, điều này có thể sẽ làm cho họ cảm thấy xa cách.
-        - Người có số 6: Họ hài hòa và thường có thể thúc đẩy một mối quan hệ lâu dài với bất kỳ con đường đời nào khác, nhưng đối với bạn thì có thể là ngoại lệ. Sự quan tâm của họ có thể không phải lúc nào cũng được đón nhận bởi bạn là người hướng nội và thích một mình.
-        - Người có số 8: Động cơ vật chất của họ đối lập sâu sắc với sự tìm kiếm tâm linh, triết học và khoa học của bạn.
-        - Người có số 9: Họ cũng có bản chất hướng nội, vì vậy hai người hướng nội có thể khiến mối quan hệ ngày càng trở nên xa cách.
-        
-        Hãy nhớ rằng khả năng tương thích trong các mối quan hệ của bạn còn sâu sắc hơn những gì thể hiện ở con số đường đời. Để biết cách tạo ra sự hài hòa, bạn sẽ cần xem xét các con số khác trong thần số học của mình. Chỉ số Linh hồn, Sứ mệnh, Nhân cách và Thái độ của bạn cũng sẽ ảnh hưởng đến mức độ tương thích của bạn trong các mối quan hệ. Đọc thêm các luận giải về các chỉ số này để tạo ra một bức tranh tổng quát cho bạn.
+Những số đường đời tương thích nhất với bạn:
+- Người có số 10: Họ có thể thúc đẩy bạn và bạn có thể khai sáng cho số 10. Các năng lượng khác nhau của cả hai phối hợp tốt với nhau, miễn là cả hai không quá kiểm soát nhau, và để đối phương trong thế giới riêng của họ.
+- Người có số 3: Họ lạc quan có thể cung cấp liều thuốc giúp bạn vượt khỏi sự nghiêm túc quá đà, và đổi lại bạn sẽ mang lại chiều sâu cho họ. Đây là sự kết hợp hiếm hoi giữa các con số hòa hợp và thúc đẩy sự phát triển lẫn nhau.
+- Người có số 4 (hoặc 22/4): Ảnh hưởng từ sự thực tế của họ là rất tốt với bạn. Sự kết hợp đáng ngạc nhiên này có thể chỉ hoạt động khi họ có ấn tượng đối với khả năng hiểu biết của bạn. 
+- Người có số 5: Họ tò mò và thích phiêu lưu nhưng khá tương thích với bạn vì cả hai đều là những người tìm kiếm. Cả hai giống như tồn tại trên các mặt khác nhau của cùng một đồng xu và có tính kích thích cao đối với nhau. 
+- Người có số 7: Sự kết hợp của hai số 7 có thể là một sự kết hợp được thực hiện trong thiên đường trí tuệ và siêu hình. Đáng buồn thay, nếu cả hai đều không thể mở lòng về tình cảm, thì điều này không có vẻ gì là tốt.
+
+Những số đường đời ít tương thích hơn với bạn:
+- Người có số 2 (hoặc 11/2): Họ nhạy cảm vì còn bạn có xu hướng hướng nội, điều này có thể sẽ làm cho họ cảm thấy xa cách.
+- Người có số 6: Họ hài hòa và thường có thể thúc đẩy một mối quan hệ lâu dài với bất kỳ con đường đời nào khác, nhưng đối với bạn thì có thể là ngoại lệ. Sự quan tâm của họ có thể không phải lúc nào cũng được đón nhận bởi bạn là người hướng nội và thích một mình.
+- Người có số 8: Động cơ vật chất của họ đối lập sâu sắc với sự tìm kiếm tâm linh, triết học và khoa học của bạn.
+- Người có số 9: Họ cũng có bản chất hướng nội, vì vậy hai người hướng nội có thể khiến mối quan hệ ngày càng trở nên xa cách.
+
+Hãy nhớ rằng khả năng tương thích trong các mối quan hệ của bạn còn sâu sắc hơn những gì thể hiện ở con số đường đời. Để biết cách tạo ra sự hài hòa, bạn sẽ cần xem xét các con số khác trong thần số học của mình. Chỉ số Linh hồn, Sứ mệnh, Nhân cách và Thái độ của bạn cũng sẽ ảnh hưởng đến mức độ tương thích của bạn trong các mối quan hệ. Đọc thêm các luận giải về các chỉ số này để tạo ra một bức tranh tổng quát cho bạn.
         
 <strong>• TÌNH DUYÊN:</strong>
-        - Về mặt số học, bạn ít có khả năng thiết lập một cuộc hôn nhân thành công. Điều này liên quan nhiều đến các tiêu chuẩn cao của bạn hơn là thiếu các sự lựa chọn. Điều này không nhất thiết phải là một điều xấu. So với những con số khác trên đường đời, số 7 không cần mối quan hệ lâu dài ổn định để tận hưởng cuộc sống của mình. Bạn có thể ít cảm thấy thiếu thốn, vì vậy bạn sẽ không phụ thuộc vào đối phương của bạn. 
-        - Nhưng nếu bạn tìm thấy một người thực sự hiểu và trân trọng mình, bạn có thể cảm thấy rằng mình đã tìm thấy một viên ngọc quý hiếm và muốn nắm giữ lấy.
-        - Nếu bạn tìm đúng người, bạn sẽ rất trung thành. Điều này có thể xảy ra vào thời điểm hơi muộn của bạn, vì vậy bạn cũng có xu hướng kết hôn muộn.
-        - Bạn cần một người khá trưởng thành, người sẽ thách thức bạn về mặt trí tuệ và cho bạn tự do chiêm nghiệm.
-        - Sự thân mật về tình cảm không phải là điểm mạnh của bạn, vì vậy bạn có thể mất nhiều thời gian hơn để mở lòng mình đối với những người khác. Nhưng một khi mối quan hệ đã được thiết lập, nó có thể là một phần không thể thiếu trong cuộc sống của bạn. Tuy nhiên, bạn có thể thấy việc mở lòng đối với người khác sẽ dễ dàng hơn nếu bạn có số tương thích trong các chỉ số khác, chẳng hạn như số 2 hoặc số 6 ở chỉ số Linh Hồn, Sứ mệnh hoặc Thái độ. Cách tiếp cận tình cảm của bạn cũng sẽ bị ảnh hưởng bởi các con số khác trong biểu đồ. Chỉ số Linh hồn, chỉ số Nhân Cách, chỉ số Thái độ và Chỉ số Sứ mệnh sẽ thay đổi cách cuộc sống tình cảm của bạn diễn ra. Hãy đọc tiếp tới các chỉ số này.`,
+- Về mặt số học, bạn ít có khả năng thiết lập một cuộc hôn nhân thành công. Điều này liên quan nhiều đến các tiêu chuẩn cao của bạn hơn là thiếu các sự lựa chọn. Điều này không nhất thiết phải là một điều xấu. So với những con số khác trên đường đời, số 7 không cần mối quan hệ lâu dài ổn định để tận hưởng cuộc sống của mình. Bạn có thể ít cảm thấy thiếu thốn, vì vậy bạn sẽ không phụ thuộc vào đối phương của bạn. 
+- Nhưng nếu bạn tìm thấy một người thực sự hiểu và trân trọng mình, bạn có thể cảm thấy rằng mình đã tìm thấy một viên ngọc quý hiếm và muốn nắm giữ lấy.
+- Nếu bạn tìm đúng người, bạn sẽ rất trung thành. Điều này có thể xảy ra vào thời điểm hơi muộn của bạn, vì vậy bạn cũng có xu hướng kết hôn muộn.
+- Bạn cần một người khá trưởng thành, người sẽ thách thức bạn về mặt trí tuệ và cho bạn tự do chiêm nghiệm.
+- Sự thân mật về tình cảm không phải là điểm mạnh của bạn, vì vậy bạn có thể mất nhiều thời gian hơn để mở lòng mình đối với những người khác. Nhưng một khi mối quan hệ đã được thiết lập, nó có thể là một phần không thể thiếu trong cuộc sống của bạn. Tuy nhiên, bạn có thể thấy việc mở lòng đối với người khác sẽ dễ dàng hơn nếu bạn có số tương thích trong các chỉ số khác, chẳng hạn như số 2 hoặc số 6 ở chỉ số Linh Hồn, Sứ mệnh hoặc Thái độ. Cách tiếp cận tình cảm của bạn cũng sẽ bị ảnh hưởng bởi các con số khác trong biểu đồ. Chỉ số Linh hồn, chỉ số Nhân Cách, chỉ số Thái độ và Chỉ số Sứ mệnh sẽ thay đổi cách cuộc sống tình cảm của bạn diễn ra. Hãy đọc tiếp tới các chỉ số này.`,
         content: `Với chỉ số ngày sinh 7, bạn sẽ để lại ấn tượng là người thông thái, hiểu biết và đôi khi khó hiểu, kỳ dị. Bạn có tư tưởng, triết lý và thường nhìn cuộc sống qua lăng kính đó, vì vậy dễ có xu hướng dạy dỗ, giúp đỡ người khác thông qua triết lý.
 
 <strong>• ĐIỂM MẠNH CỦA BẠN:</strong>
-        - Đặc điểm nổi bật của bạn là khả năng học hỏi vô hạn thông qua những điều đích thân tự trải nghiệm, qua đó lĩnh hội được những giá trị tốt đẹp và sau đó có thể đem ra chỉ dạy hoặc chia sẻ kinh nghiệm lại cho nhiều người khác. Những trải nghiệm thực tế này còn mang đến cho bạn những triết lý sống sâu sắc, ghi khắc dài lâu.
-        - Đặc trưng của bạn là luôn tìm kiếm bản chất của vấn đề, sự vật, hiện tượng. Trong đầu của bạn thường trực câu hỏi: Tại sao? Tại sao con người lại được sinh ra? Nguồn gốc con người bắt đầu từ đâu? Sau cái chết là gì? Tại sao có ngày và đêm? Tại sao lại có các mùa? Tại sao con người lại giận dữ, đau buồn? 
-        - Để có thể trả lời những câu hỏi đó, bạn thường tìm đến huyền học, triết học, khoa học vũ trụ, khoa học trái đất, những lĩnh vực nghiên cứu quy luật phổ quát, tâm lý, tư tưởng, v.v.. 
-        - Khi bạn có được câu trả lời thì cũng là lúc bạn hoàn thiện cho mình tư tưởng và triết lý riêng. Và từ đó, bạn sẽ luôn nhìn cuộc đời qua lăng kính triết lý ấy, giải thích mọi điều qua đó. Tư tưởng và triết lý của bản thân sẽ là điểm tựa cho trí tuệ và tinh thần, và đó chính là đức tin của bạn.
-        - Bạn thường sẽ sẵn sàng bỏ hàng giờ đồng hồ để chia sẻ kiến thức cho những ai cầu thị. Sự chia sẻ kiến thức của bạn có tính thuyết phục rất cao, vì chứa đựng không chỉ hiểu biết mà còn cả sự logic, chân lý. Nhưng bạn sẽ không muốn tốn dù chỉ một phút nếu thấy người khác không muốn nghe, không cầu thị hoặc có ý áp đặt lên bạn. 
-        - Sâu trong thâm tâm, bạn có nhu cầu trao kiến thức của mình cho người khác một cách có giá trị, có ý nghĩa. 
-        - Ngoài ra, bạn có một nhu cầu nữa là được hơn người về kiến thức và trí tuệ. Tùy vào mỗi người mang số 7, những nhu cầu tâm lý này có thể bộc lộ rõ ràng hoặc vi tế. 
-        - Bạn không chỉ có sự hiểu biết và thông thái mà còn có được năng lực trực giác rất tốt. Trực giác ở mỗi người có thể biểu hiện khác nhau. Đó có thể là sự linh cảm. Bạn có thể cảm giác được điều gì đó sắp xảy ra. Đó có thể là sự thấu cảm, thấu hiểu sâu sắc với người khác. Đó có thể là sự thấu thị, nhìn được những điều mà người khác không thấy. Hoặc cũng có thể là một dạng kết nối tâm linh nào đó. 
-        - Mặt khác, bạn cũng có năng lực đúc kết rất tốt. Bạn có thể đúc kết ra các bài học, chiêm nghiệm được các quy luật chỉ từ những sự việc đơn giản như nhìn lá rơi, ngắm sao, nhìn nước chảy, v.v.. Từ điểm này mà bạn ngày càng trở nên thông thái.
-        - Nhìn chung bạn thuộc nhóm những người năng động nhất trong cuộc sống. Mặc dù có thể không ý thức được điều này, nhưng bạn thường có khát khao được tự đem bản thân mình ra trải nghiệm.
+- Đặc điểm nổi bật của bạn là khả năng học hỏi vô hạn thông qua những điều đích thân tự trải nghiệm, qua đó lĩnh hội được những giá trị tốt đẹp và sau đó có thể đem ra chỉ dạy hoặc chia sẻ kinh nghiệm lại cho nhiều người khác. Những trải nghiệm thực tế này còn mang đến cho bạn những triết lý sống sâu sắc, ghi khắc dài lâu.
+- Đặc trưng của bạn là luôn tìm kiếm bản chất của vấn đề, sự vật, hiện tượng. Trong đầu của bạn thường trực câu hỏi: Tại sao? Tại sao con người lại được sinh ra? Nguồn gốc con người bắt đầu từ đâu? Sau cái chết là gì? Tại sao có ngày và đêm? Tại sao lại có các mùa? Tại sao con người lại giận dữ, đau buồn? 
+- Để có thể trả lời những câu hỏi đó, bạn thường tìm đến huyền học, triết học, khoa học vũ trụ, khoa học trái đất, những lĩnh vực nghiên cứu quy luật phổ quát, tâm lý, tư tưởng, v.v.. 
+- Khi bạn có được câu trả lời thì cũng là lúc bạn hoàn thiện cho mình tư tưởng và triết lý riêng. Và từ đó, bạn sẽ luôn nhìn cuộc đời qua lăng kính triết lý ấy, giải thích mọi điều qua đó. Tư tưởng và triết lý của bản thân sẽ là điểm tựa cho trí tuệ và tinh thần, và đó chính là đức tin của bạn.
+- Bạn thường sẽ sẵn sàng bỏ hàng giờ đồng hồ để chia sẻ kiến thức cho những ai cầu thị. Sự chia sẻ kiến thức của bạn có tính thuyết phục rất cao, vì chứa đựng không chỉ hiểu biết mà còn cả sự logic, chân lý. Nhưng bạn sẽ không muốn tốn dù chỉ một phút nếu thấy người khác không muốn nghe, không cầu thị hoặc có ý áp đặt lên bạn. 
+- Sâu trong thâm tâm, bạn có nhu cầu trao kiến thức của mình cho người khác một cách có giá trị, có ý nghĩa. 
+- Ngoài ra, bạn có một nhu cầu nữa là được hơn người về kiến thức và trí tuệ. Tùy vào mỗi người mang số 7, những nhu cầu tâm lý này có thể bộc lộ rõ ràng hoặc vi tế. 
+- Bạn không chỉ có sự hiểu biết và thông thái mà còn có được năng lực trực giác rất tốt. Trực giác ở mỗi người có thể biểu hiện khác nhau. Đó có thể là sự linh cảm. Bạn có thể cảm giác được điều gì đó sắp xảy ra. Đó có thể là sự thấu cảm, thấu hiểu sâu sắc với người khác. Đó có thể là sự thấu thị, nhìn được những điều mà người khác không thấy. Hoặc cũng có thể là một dạng kết nối tâm linh nào đó. 
+- Mặt khác, bạn cũng có năng lực đúc kết rất tốt. Bạn có thể đúc kết ra các bài học, chiêm nghiệm được các quy luật chỉ từ những sự việc đơn giản như nhìn lá rơi, ngắm sao, nhìn nước chảy, v.v.. Từ điểm này mà bạn ngày càng trở nên thông thái.
+- Nhìn chung bạn thuộc nhóm những người năng động nhất trong cuộc sống. Mặc dù có thể không ý thức được điều này, nhưng bạn thường có khát khao được tự đem bản thân mình ra trải nghiệm.
         
 <strong>• ĐIỂM YẾU CỦA BẠN:</strong>
-        - Là con người của “bản chất”, của sự thông thái và trí tuệ, bạn sẽ chỉ ngưỡng mộ những ai hơn mình về trí tuệ. Bạn thường chỉ thích quan điểm của bản thân mà thôi, và cũng rất ghét ai áp đặt quan điểm lên bạn. Nói cách khác, bạn sẽ cảm thấy khó sống theo quy củ mà người khác đưa ra, trong khi bạn lại thường hay thích áp quy củ của bạn lên cho người khác.
-        - Thường thì mọi người sẽ thấy bạn khá khó hiểu. Bạn hay chia sẻ như không hết những gì trong lòng cho người khác nghe. Hoặc là bạn nghĩ họ sẽ không thể hiểu được, hoặc là bạn không muốn người khác hiểu hết về mình. 
-        - Có nhiều lúc bạn thờ ơ, lãnh đạm. Những lúc ấy, đầu bạn hoặc là đang chìm trong suy tưởng về một điều gì đó, hoặc là trống rỗng, chẳng có gì. Nhưng người khác nhìn vào thì bạn có vẻ “rất suy ngẫm”. 
-        - Bạn khá thất thường. Khi làm việc thì cực kỳ nghiêm túc, thậm chí là cầu toàn. Khi không có hứng thì bạn không muốn làm gì, cứ ì ra và khó chịu khi ai đó thúc giục. Khi bạn trầm ngâm thì vẻ mặt rất lạnh lùng, khó gần. Nhưng khi bạn vui vẻ thì chẳng khác gì một đứa trẻ. Dù sao, bạn chắc chắn là một người thật thà, thẳng thắn và tốt bụng. 
-        - Một điểm đáng lưu ý là bạn dễ bị căng thẳng hoặc ức chế thần kinh. Đặc biệt là khi phải nghe những âm thanh “dội vào đầu”, hoặc khi nghe ai đó chì chiết, phán xét. Sự căng thằng này chỉ có tính trạng thái, nghĩa là có thể hết sau một lúc. Nhưng nếu những sự việc tương tự cứ tiếp diễn, bạn có thể bị stress và mất kiểm soát.
-        - Chính vì thích tự trải nghiệm, bạn sẽ thường hay chịu trả giá ở ít nhất là một trong ba khía cạnh của cuộc sống: sức khỏe, tình yêu, tiền tài.
-        - Đường đời của không ít người Số 7 thoạt nhìn có vẻ khá buồn, đặc biệt là khi bạn chưa nhận ra những mất mát trở ngại trên đường đời mà bạn đang phải trải qua rốt cục là những bài học đời mà bạn phải học cho trôi, mà nếu không chịu nhìn ra những kinh nghiệm trước là những bài học, cuộc đời sẽ tái đi tái lại những vấn đề tương tự như vậy, với mức độ tổn thất mất mát ngày càng trầm trọng hơn… cho đến khi nào bạn chịu nhìn ra, và chịu học kinh nghiệm từ bài này, thì thử thách đó mới dừng lại.
+- Là con người của “bản chất”, của sự thông thái và trí tuệ, bạn sẽ chỉ ngưỡng mộ những ai hơn mình về trí tuệ. Bạn thường chỉ thích quan điểm của bản thân mà thôi, và cũng rất ghét ai áp đặt quan điểm lên bạn. Nói cách khác, bạn sẽ cảm thấy khó sống theo quy củ mà người khác đưa ra, trong khi bạn lại thường hay thích áp quy củ của bạn lên cho người khác.
+- Thường thì mọi người sẽ thấy bạn khá khó hiểu. Bạn hay chia sẻ như không hết những gì trong lòng cho người khác nghe. Hoặc là bạn nghĩ họ sẽ không thể hiểu được, hoặc là bạn không muốn người khác hiểu hết về mình. 
+- Có nhiều lúc bạn thờ ơ, lãnh đạm. Những lúc ấy, đầu bạn hoặc là đang chìm trong suy tưởng về một điều gì đó, hoặc là trống rỗng, chẳng có gì. Nhưng người khác nhìn vào thì bạn có vẻ “rất suy ngẫm”. 
+- Bạn khá thất thường. Khi làm việc thì cực kỳ nghiêm túc, thậm chí là cầu toàn. Khi không có hứng thì bạn không muốn làm gì, cứ ì ra và khó chịu khi ai đó thúc giục. Khi bạn trầm ngâm thì vẻ mặt rất lạnh lùng, khó gần. Nhưng khi bạn vui vẻ thì chẳng khác gì một đứa trẻ. Dù sao, bạn chắc chắn là một người thật thà, thẳng thắn và tốt bụng. 
+- Một điểm đáng lưu ý là bạn dễ bị căng thẳng hoặc ức chế thần kinh. Đặc biệt là khi phải nghe những âm thanh “dội vào đầu”, hoặc khi nghe ai đó chì chiết, phán xét. Sự căng thằng này chỉ có tính trạng thái, nghĩa là có thể hết sau một lúc. Nhưng nếu những sự việc tương tự cứ tiếp diễn, bạn có thể bị stress và mất kiểm soát.
+- Chính vì thích tự trải nghiệm, bạn sẽ thường hay chịu trả giá ở ít nhất là một trong ba khía cạnh của cuộc sống: sức khỏe, tình yêu, tiền tài.
+- Đường đời của không ít người Số 7 thoạt nhìn có vẻ khá buồn, đặc biệt là khi bạn chưa nhận ra những mất mát trở ngại trên đường đời mà bạn đang phải trải qua rốt cục là những bài học đời mà bạn phải học cho trôi, mà nếu không chịu nhìn ra những kinh nghiệm trước là những bài học, cuộc đời sẽ tái đi tái lại những vấn đề tương tự như vậy, với mức độ tổn thất mất mát ngày càng trầm trọng hơn… cho đến khi nào bạn chịu nhìn ra, và chịu học kinh nghiệm từ bài này, thì thử thách đó mới dừng lại.
         
 <strong>• NHỮNG NGƯỜI NỔI TIẾNG CÓ SỐ 7:</strong>
-        - Putin – Tổng thống Nga
-        - Elon Musk – Giám đốc điều hành tập đoàn Tesla
-        - Một vài người khác: Andy Warhol, Nữ hoàng Elizabeth, Công nương Diana, George Bush Sr, Julia Roberts, Johnny Depp, Marilyn Monroe, Leonardo DiCaprio
-        
-        Bên cạnh số đường đời, sẽ còn hơn 20 chỉ số quan trọng khác phân tích chi tiết về bạn, đặc biệt bạn xem kĩ các chỉ số ở biểu đồ kim tự tháp để xem các năm đỉnh cao trong cuộc đời và biểu đồ sức mạnh để xem các giá trị năng lực mà bạn có cùng với các chỉ số khác kèm lời khuyên tương ứng để kích hoạt được các điểm mạnh của bạn giúp bạn phát triển, gặp nhiều thuận lợi trong cuộc sống.`,
+- Putin – Tổng thống Nga
+- Elon Musk – Giám đốc điều hành tập đoàn Tesla
+- Một vài người khác: Andy Warhol, Nữ hoàng Elizabeth, Công nương Diana, George Bush Sr, Julia Roberts, Johnny Depp, Marilyn Monroe, Leonardo DiCaprio
+
+Bên cạnh số đường đời, sẽ còn hơn 20 chỉ số quan trọng khác phân tích chi tiết về bạn, đặc biệt bạn xem kĩ các chỉ số ở biểu đồ kim tự tháp để xem các năm đỉnh cao trong cuộc đời và biểu đồ sức mạnh để xem các giá trị năng lực mà bạn có cùng với các chỉ số khác kèm lời khuyên tương ứng để kích hoạt được các điểm mạnh của bạn giúp bạn phát triển, gặp nhiều thuận lợi trong cuộc sống.`,
     },
     {
         type: 'SỐ 8 - NGƯỜI ĐIỀU HÀNH',
         relationship: `
 <strong>• MỐI QUAN HỆ NÓI CHUNG TRONG CUỘC SỐNG:</strong>
-        Những số đường đời tương thích nhất với bạn:
-        - Số 2 (hoặc 11/2): Người số số 2 và bạn có thể là một trong những mối quan hệ tương thích nhất trong thần số học. Họ có thể sẽ sẵn sàng được hướng dẫn và thậm chí kiểm soát bởi bạn. 
-        - Số 4 (hoặc 22/4): Số 4 có thể là sự lựa chọn rất tốt cho bạn. Trong khi bạn nhìn thấy bức tranh lớn và tổng quát thì số 4 sẽ bổ trợ cho bạn bằng việc đi vào vấn đề chi tiết và một kế hoạch bài bản. Điều này có thể hoạt động như một quan hệ đối tác trong kinh doanh hoặc trong tình yêu.
-        - Số 6: Số 6 yêu thương và hy sinh là sự kết hợp hài hòa với số 8 đầy uy quyền, và đây có thể là một sự kết hợp lâu dài.
-        - Số 8 khác: Giống như với số 4, sự kết hợp hai số 8 là nền tảng vững chắc cho một mối quan hệ lâu dài vì họ hiểu nhau. Miễn là bạn và đối phương có thể tập trung vào tình yêu cũng như công việc, đây có thể là một mối quan hệ hợp tác thịnh vượng.
-        - Số 10: Đây có thể sẽ là một mối quan hệ tạo ra quyền lực nhất trong kinh doanh. Tuy nhiên trong tình cảm, hai người phải cố gắng nhiều vì cả hai đều có thể lấn át nhu cầu kiểm soát và sự độc đoán của nhau.
-        
-        Những số đường đời ít tương thích với bạn:
-        - Số 3: Số 3 vui vẻ và có xu hướng vô tổ chức luôn nằm ở đầu đối diện của với bạn, vì vậy phải cần rất nhiều nỗ lực để tạo nên mối quan hệ tốt.
-        - Số 5: Bạn là người định hướng mục tiêu, trong khi số 5 yêu tự do dễ bị bồn chồn và thay đổi. Mặc dù họ có ​​thể trở thành người bạn đồng hành trung thành, nhưng họ ít có khả năng thu hút bạn.
-        - Số 7: Nhìn bề ngoài, họ nghiêng về tinh thần và tri thức sẽ trái ngược với chủ nghĩa vật chất (tập trung vào vật chất) của bạn. Nhưng cả hai thực sự khá bổ sung cho nhau, miễn là cả hai có thể mở ra cảm xúc của mình với đối phương.
-        - Số 9: Những người số 9 có tham vọng và sự quyết tâm giống bạn. Nhưng họ được thúc đẩy bởi ý thức xã hội, trong khi bạn tập trung vào chủ nghĩa vật chất nên có thể sinh ra mâu thuẫn.
-        
-        Hãy nhớ rằng khả năng tương thích trong các mối quan hệ của bạn còn sâu sắc hơn những gì thể hiện ở con số đường đời. Để biết cách tạo ra sự hài hòa, bạn sẽ cần xem xét các con số khác trong thần số học của mình. Chỉ số Linh hồn, Sứ mệnh, Nhân cách và Thái độ của bạn cũng sẽ ảnh hưởng đến mức độ tương thích của bạn trong các mối quan hệ. Đọc thêm các luận giải về các chỉ số này để tạo ra một bức tranh tổng quát cho bạn.
+Những số đường đời tương thích nhất với bạn:
+- Số 2 (hoặc 11/2): Người số số 2 và bạn có thể là một trong những mối quan hệ tương thích nhất trong thần số học. Họ có thể sẽ sẵn sàng được hướng dẫn và thậm chí kiểm soát bởi bạn. 
+- Số 4 (hoặc 22/4): Số 4 có thể là sự lựa chọn rất tốt cho bạn. Trong khi bạn nhìn thấy bức tranh lớn và tổng quát thì số 4 sẽ bổ trợ cho bạn bằng việc đi vào vấn đề chi tiết và một kế hoạch bài bản. Điều này có thể hoạt động như một quan hệ đối tác trong kinh doanh hoặc trong tình yêu.
+- Số 6: Số 6 yêu thương và hy sinh là sự kết hợp hài hòa với số 8 đầy uy quyền, và đây có thể là một sự kết hợp lâu dài.
+- Số 8 khác: Giống như với số 4, sự kết hợp hai số 8 là nền tảng vững chắc cho một mối quan hệ lâu dài vì họ hiểu nhau. Miễn là bạn và đối phương có thể tập trung vào tình yêu cũng như công việc, đây có thể là một mối quan hệ hợp tác thịnh vượng.
+- Số 10: Đây có thể sẽ là một mối quan hệ tạo ra quyền lực nhất trong kinh doanh. Tuy nhiên trong tình cảm, hai người phải cố gắng nhiều vì cả hai đều có thể lấn át nhu cầu kiểm soát và sự độc đoán của nhau.
+
+Những số đường đời ít tương thích với bạn:
+- Số 3: Số 3 vui vẻ và có xu hướng vô tổ chức luôn nằm ở đầu đối diện của với bạn, vì vậy phải cần rất nhiều nỗ lực để tạo nên mối quan hệ tốt.
+- Số 5: Bạn là người định hướng mục tiêu, trong khi số 5 yêu tự do dễ bị bồn chồn và thay đổi. Mặc dù họ có ​​thể trở thành người bạn đồng hành trung thành, nhưng họ ít có khả năng thu hút bạn.
+- Số 7: Nhìn bề ngoài, họ nghiêng về tinh thần và tri thức sẽ trái ngược với chủ nghĩa vật chất (tập trung vào vật chất) của bạn. Nhưng cả hai thực sự khá bổ sung cho nhau, miễn là cả hai có thể mở ra cảm xúc của mình với đối phương.
+- Số 9: Những người số 9 có tham vọng và sự quyết tâm giống bạn. Nhưng họ được thúc đẩy bởi ý thức xã hội, trong khi bạn tập trung vào chủ nghĩa vật chất nên có thể sinh ra mâu thuẫn.
+
+Hãy nhớ rằng khả năng tương thích trong các mối quan hệ của bạn còn sâu sắc hơn những gì thể hiện ở con số đường đời. Để biết cách tạo ra sự hài hòa, bạn sẽ cần xem xét các con số khác trong thần số học của mình. Chỉ số Linh hồn, Sứ mệnh, Nhân cách và Thái độ của bạn cũng sẽ ảnh hưởng đến mức độ tương thích của bạn trong các mối quan hệ. Đọc thêm các luận giải về các chỉ số này để tạo ra một bức tranh tổng quát cho bạn.
         
 <strong>• TÌNH DUYÊN:</strong>
-        - Kinh doanh và tình yêu là những lĩnh vực rất khác nhau, tính cách của bạn có thể khiến bạn gặp một số khó khăn trong chuyện tình cảm. Bạn biết cách 'chơi trò chơi' trong việc nỗ lực để vươn lên ở lĩnh vực kinh doanh, nhưng bạn có thể phải học các quy tắc khi nói đến hẹn hò và các mối quan hệ. 
-        - Bạn thường tạo ra sự an toàn về tài chính và có được cơ hội trải nghiệm những điều tốt đẹp hơn trong cuộc sống. Điều này có thể sẽ hấp dẫn đối với người bạn đời của bạn. 
-        - Người có thẩm quyền thực sự là những người hạnh phúc nhưng bạn thực sự không giỏi về tình yêu và tình cảm. Sự trung thực và thẳng thắn của bạn là một công cụ hữu ích trong kinh doanh, nhưng nó có thể cần được giảm bớt một chút trong tình yêu và hôn nhân. Bạn giữ sự trung thực của mình, nhưng hãy cố gắng truyền tải thông điệp của sự thật một cách tế nhị. Đôi khi bạn có thể phải lùi lại một bước và nhớ rằng bạn đang giao tiếp trong một mối quan hệ lãng mạn chứ không cần phải là mối quan hệ kinh doanh.
-        - Bạn gần như chắc chắn sẽ mặc quần tây một cách lịch sự trong những lần đầu hẹn họ! Nếu đối phương cũng muốn kiểm soát, bạn sẽ phải rất vật lộn với việc nhận lệnh và để người khác sai bảo. Bạn muốn có một người sẵn sàng phục tùng, tôn trọng sự độc lập của bạn hoặc ít nhất là một người luôn vui vẻ để bạn được làm chủ và quyết định.
-        - Tính cạnh tranh tự nhiên, bạn có thể cần phải học rằng các mối quan hệ dựa trên sự công bằng. Đối phương của bạn cũng có nguyện vọng và ý tưởng cần được tôn trọng.
-        - Sự khuyến khích hoặc hỗ trợ từ đối phương có thể làm bạn cảm thấy xa lạ, hoặc thậm chí khiến bạn cảm thấy dễ bị tổn thương.
-        - Mặc dù cam kết của bạn đối với mục tiêu của bạn vô cùng đáng ngưỡng mộ, nhưng điều này đôi khi có thể phải trả giá bằng mối quan hệ của chính bạn. Bạn có thể không suy nghĩ kỹ về việc hủy bỏ một buổi hẹn hò vào buổi tối để làm việc muộn và hoàn thành công việc cho kịp thời hạn. Nếu bạn áp dụng kỹ năng giải quyết vấn đề của mình để khắc phục điều này, bạn có thể làm cho một mối quan hệ được cải thiện.
-        
-        Cách tiếp cận tình cảm của bạn cũng sẽ bị ảnh hưởng bởi các con số khác trong biểu đồ. Chỉ số Linh hồn, chỉ số Nhân Cách, chỉ số Thái độ và Chỉ số Sứ mệnh sẽ thay đổi cách cuộc sống tình cảm của bạn diễn ra. Hãy đọc tiếp tới các chỉ số này.`,
+- Kinh doanh và tình yêu là những lĩnh vực rất khác nhau, tính cách của bạn có thể khiến bạn gặp một số khó khăn trong chuyện tình cảm. Bạn biết cách 'chơi trò chơi' trong việc nỗ lực để vươn lên ở lĩnh vực kinh doanh, nhưng bạn có thể phải học các quy tắc khi nói đến hẹn hò và các mối quan hệ. 
+- Bạn thường tạo ra sự an toàn về tài chính và có được cơ hội trải nghiệm những điều tốt đẹp hơn trong cuộc sống. Điều này có thể sẽ hấp dẫn đối với người bạn đời của bạn. 
+- Người có thẩm quyền thực sự là những người hạnh phúc nhưng bạn thực sự không giỏi về tình yêu và tình cảm. Sự trung thực và thẳng thắn của bạn là một công cụ hữu ích trong kinh doanh, nhưng nó có thể cần được giảm bớt một chút trong tình yêu và hôn nhân. Bạn giữ sự trung thực của mình, nhưng hãy cố gắng truyền tải thông điệp của sự thật một cách tế nhị. Đôi khi bạn có thể phải lùi lại một bước và nhớ rằng bạn đang giao tiếp trong một mối quan hệ lãng mạn chứ không cần phải là mối quan hệ kinh doanh.
+- Bạn gần như chắc chắn sẽ mặc quần tây một cách lịch sự trong những lần đầu hẹn họ! Nếu đối phương cũng muốn kiểm soát, bạn sẽ phải rất vật lộn với việc nhận lệnh và để người khác sai bảo. Bạn muốn có một người sẵn sàng phục tùng, tôn trọng sự độc lập của bạn hoặc ít nhất là một người luôn vui vẻ để bạn được làm chủ và quyết định.
+- Tính cạnh tranh tự nhiên, bạn có thể cần phải học rằng các mối quan hệ dựa trên sự công bằng. Đối phương của bạn cũng có nguyện vọng và ý tưởng cần được tôn trọng.
+- Sự khuyến khích hoặc hỗ trợ từ đối phương có thể làm bạn cảm thấy xa lạ, hoặc thậm chí khiến bạn cảm thấy dễ bị tổn thương.
+- Mặc dù cam kết của bạn đối với mục tiêu của bạn vô cùng đáng ngưỡng mộ, nhưng điều này đôi khi có thể phải trả giá bằng mối quan hệ của chính bạn. Bạn có thể không suy nghĩ kỹ về việc hủy bỏ một buổi hẹn hò vào buổi tối để làm việc muộn và hoàn thành công việc cho kịp thời hạn. Nếu bạn áp dụng kỹ năng giải quyết vấn đề của mình để khắc phục điều này, bạn có thể làm cho một mối quan hệ được cải thiện.
+
+Cách tiếp cận tình cảm của bạn cũng sẽ bị ảnh hưởng bởi các con số khác trong biểu đồ. Chỉ số Linh hồn, chỉ số Nhân Cách, chỉ số Thái độ và Chỉ số Sứ mệnh sẽ thay đổi cách cuộc sống tình cảm của bạn diễn ra. Hãy đọc tiếp tới các chỉ số này.`,
         content: `Năng lượng của số 8 có tính dương và rất mạnh, đây là con số biểu tượng của tiền bạc, quyền lực, vật chất, thế sự. Do đó, một khi đã làm gì, bạn sẽ thường làm lớn. 
 
 <strong>• ĐIỂM MẠNH CỦA BẠN:</strong>
-        - Bạn thường thể hiện năng lực điều hành và bao quát tốt. Bạn sẽ quan tâm tới kết quả nhiều hơn là chi tiết. 
-        - Bạn có cái nhìn thực tiễn trong cuộc sống, nghiêm túc, kỷ luật trong công việc. 
-        - Bạn quan tâm nhiều tới tiền bạc, quyền lực và vật chất. Với bạn, nhất định phải có sự đảm bảo về tài chính, và khi có được thu nhập tài chính tốt, bạn mới thấy an toàn.
-        - Về mặt gia đình, bạn là người coi trọng sự chung thủy.
-        - Đường đời 8 có thể thành công lớn, nhưng không bằng phẳng. Bạn cần sự kiên trì, và chú ý về sức khỏe. Bạn cũng nên tránh việc tiêu tiền hoang phí. 
-        - Bạn được sinh ra với khả năng lãnh đạo bẩm sinh. Bạn là người rất tham vọng và luôn hướng tới mục tiêu của mình. Bạn có thể rất vững chắc về kỹ năng tổ chức và có tầm nhìn rộng lớn, điều này sẽ giúp bạn thành công trong kinh doanh, vì vậy bạn có thể trở thành một nhà quản lý doanh nghiệp và lãnh đạo giỏi.
-        - Bạn phát triển bằng cách làm việc chăm chỉ, và dễ trở thành một người nghiện công việc hơn bất kì con số nào khác.
-        - Bạn thường rất giỏi quản lý tiền bạc và có một tinh thần làm việc có thể giúp bạn trở nên giàu có.
+- Bạn thường thể hiện năng lực điều hành và bao quát tốt. Bạn sẽ quan tâm tới kết quả nhiều hơn là chi tiết. 
+- Bạn có cái nhìn thực tiễn trong cuộc sống, nghiêm túc, kỷ luật trong công việc. 
+- Bạn quan tâm nhiều tới tiền bạc, quyền lực và vật chất. Với bạn, nhất định phải có sự đảm bảo về tài chính, và khi có được thu nhập tài chính tốt, bạn mới thấy an toàn.
+- Về mặt gia đình, bạn là người coi trọng sự chung thủy.
+- Đường đời 8 có thể thành công lớn, nhưng không bằng phẳng. Bạn cần sự kiên trì, và chú ý về sức khỏe. Bạn cũng nên tránh việc tiêu tiền hoang phí. 
+- Bạn được sinh ra với khả năng lãnh đạo bẩm sinh. Bạn là người rất tham vọng và luôn hướng tới mục tiêu của mình. Bạn có thể rất vững chắc về kỹ năng tổ chức và có tầm nhìn rộng lớn, điều này sẽ giúp bạn thành công trong kinh doanh, vì vậy bạn có thể trở thành một nhà quản lý doanh nghiệp và lãnh đạo giỏi.
+- Bạn phát triển bằng cách làm việc chăm chỉ, và dễ trở thành một người nghiện công việc hơn bất kì con số nào khác.
+- Bạn thường rất giỏi quản lý tiền bạc và có một tinh thần làm việc có thể giúp bạn trở nên giàu có.
         
 <strong>• ĐIỂM YẾU CỦA BẠN:</strong>
-        - Lý do để bạn thất bại có thể là sự hay đấu tranh, cãi vã, thiếu thấu hiểu và quan tâm tới nhu cầu và cảm xúc của người khác nên thường vô tình làm tổn thương người khác.
-        - Bạn có một nỗi sợ nào đó đối với sự túng thiếu, nghèo đói. Điều đó có thể tạo cho bạn áp lực về việc kiếm tiền. 
-        - Bạn có thể ít quan tâm tới gia đình, bởi vì bạn dành nhiều thời gian cho công việc hơn. Điều này có thể tạo ra sự mất cân bằng và làm phát sinh những vấn đề trục trặc. 
-        - Là người thẳng thắn, trực tính, bạn có thể hay tranh cãi, lạm quyền và ít để ý đến cảm xúc của người khác. Nhưng mặt khác, bạn cũng là người dễ bị tổn thương.
-        - Thêm nữa, bạn dễ rơi vào tình trạng không thực sự quan tâm nhiều đến sức khỏe của mình.
-        - Việc theo đuổi lợi ích vật chất này có thể chứa đựng một số cạm bẫy, bao gồm cả khuynh hướng trở nên vô đạo đức, coi thường hoặc vi phạm pháp luật trong khi nỗ lực kiếm tiền, hoặc bỏ bê gia đình và những người thân yêu trong khi làm việc để được trả tiền.
-        
-        <strong>• NHỮNG NGƯỜI NỔI TIẾNG CÓ SỐ 8:</strong>
-        - Sơn Tùng MTP – Chủ tịch tập đoàn MTP Entertainment
-        - Một vài người khác: Naomi Campbell, Elizabeth Taylor, Sandra Bullock, Pablo Picasso, Michelangelo, Nelson Mandela
-        
-        Bên cạnh số đường đời, sẽ còn hơn 20 chỉ số quan trọng khác phân tích chi tiết về bạn, đặc biệt bạn xem kĩ các chỉ số ở biểu đồ kim tự tháp để xem các năm đỉnh cao trong cuộc đời và biểu đồ sức mạnh để xem các giá trị năng lực mà bạn có cùng với các chỉ số khác kèm lời khuyên tương ứng để kích hoạt được các điểm mạnh của bạn giúp bạn phát triển, gặp nhiều thuận lợi trong cuộc sống.`,
+- Lý do để bạn thất bại có thể là sự hay đấu tranh, cãi vã, thiếu thấu hiểu và quan tâm tới nhu cầu và cảm xúc của người khác nên thường vô tình làm tổn thương người khác.
+- Bạn có một nỗi sợ nào đó đối với sự túng thiếu, nghèo đói. Điều đó có thể tạo cho bạn áp lực về việc kiếm tiền. 
+- Bạn có thể ít quan tâm tới gia đình, bởi vì bạn dành nhiều thời gian cho công việc hơn. Điều này có thể tạo ra sự mất cân bằng và làm phát sinh những vấn đề trục trặc. 
+- Là người thẳng thắn, trực tính, bạn có thể hay tranh cãi, lạm quyền và ít để ý đến cảm xúc của người khác. Nhưng mặt khác, bạn cũng là người dễ bị tổn thương.
+- Thêm nữa, bạn dễ rơi vào tình trạng không thực sự quan tâm nhiều đến sức khỏe của mình.
+- Việc theo đuổi lợi ích vật chất này có thể chứa đựng một số cạm bẫy, bao gồm cả khuynh hướng trở nên vô đạo đức, coi thường hoặc vi phạm pháp luật trong khi nỗ lực kiếm tiền, hoặc bỏ bê gia đình và những người thân yêu trong khi làm việc để được trả tiền.
+
+<strong>• NHỮNG NGƯỜI NỔI TIẾNG CÓ SỐ 8:</strong>
+- Sơn Tùng MTP – Chủ tịch tập đoàn MTP Entertainment
+- Một vài người khác: Naomi Campbell, Elizabeth Taylor, Sandra Bullock, Pablo Picasso, Michelangelo, Nelson Mandela
+
+Bên cạnh số đường đời, sẽ còn hơn 20 chỉ số quan trọng khác phân tích chi tiết về bạn, đặc biệt bạn xem kĩ các chỉ số ở biểu đồ kim tự tháp để xem các năm đỉnh cao trong cuộc đời và biểu đồ sức mạnh để xem các giá trị năng lực mà bạn có cùng với các chỉ số khác kèm lời khuyên tương ứng để kích hoạt được các điểm mạnh của bạn giúp bạn phát triển, gặp nhiều thuận lợi trong cuộc sống.`,
     },
     {
         type: 'SỐ 9 – NGƯỜI CHO ĐI',
         relationship: `
 <strong>• MỐI QUAN HỆ NÓI CHUNG TRONG CUỘC SỐNG:</strong>
-        Những số đường đời tương thích nhất với bạn:
-        - Số 10: Đường đời số 9 và số 10 là hai cực đối lập nhau - cả về số học và tính cách. Sự kết hợp này có thể không hiệu quả trong kinh doanh, nhưng thành ngữ 'đối lập thu hút' có thể đúng khi nói về mối quan hệ cá nhân của cả hai.
-        - Số 2 (hoặc số 11/2): Trực quan và nhạy cảm (giống như bạn), số 2 có thể nhìn thấu con người của bạn đến thế giới cảm xúc bên trong mà bạn thường giữ kín với người khác.
-        - Số 3: Sáng tạo, giàu trí tưởng tượng và nghệ thuật, số 9 có rất nhiều điểm chung với số 3. Tính hài hước của họ có thể mang lại sự cân bằng cho bạn.
-        - Số 6: Là một người đam mê tất cả mọi thứ vì cộng đồng và nhân đạo, cả hai có nhiều điểm chung không thể tách rời. Bạn cũng sẽ được hưởng lợi từ sự bảo vệ và yêu thương của những người có đường đời là số 6.
-        
-        Những số đường đời ít tương thích với bạn:
-        - Số 4 (hoặc số 22/4): Số 4 coi trọng thói quen và sự ổn định của một mối quan hệ vững chắc hơn bất kỳ chỉ số đường đời nào. Như vậy, chủ nghĩa thực dụng của số 4 trái ngược với chủ nghĩa lý tưởng của bạn.
-        - Số 5: Số 5 thường có thể được lựa chọn khi nói đến các đối tác, nhưng kết hợp với số 9 không chắc là một cặp tốt. Sự khó đoán của số 5 không hoàn toàn phù hợp với triển vọng và sự trách nhiệm của bạn.
-        - Số 7: Trong khi khả năng phân tích của số 7 có phần hướng nội với nhu cầu không gian và yên tĩnh, họ mong muốn có được sự kết nối sâu sắc hơn. Nhưng cách mà bạn thường hay cư xử có lẽ quá khác biệt để họ đạt được sự hài lòng.
-        - Số 8: Đường đời số 9 luôn giữ khoảng cách và cần tự do để theo đuổi lợi ích nhân đạo của mình. Điều này có nghĩa là kết hợp với sự kiểm soát của số 8 có thể không phải là một kết hợp tốt.
-        - Số 9: Số 9 là người giàu cảm xúc và gắn liền với nhiều trách nhiệm. Vì vậy những người số 9 đã phải vật lộn với chuyện tình cảm, nên việc hai người có mối quan hệ với nhau có thể khiến mọi thứ trở nên khó khăn.
-        
-        Hãy nhớ rằng khả năng tương thích trong các mối quan hệ của bạn còn sâu sắc hơn những gì thể hiện ở con số đường đời. Để biết cách tạo ra sự hài hòa, bạn sẽ cần xem xét các con số khác trong thần số học của mình. Chỉ số Linh hồn, Sứ mệnh, Nhân cách và Thái độ của bạn cũng sẽ ảnh hưởng đến mức độ tương thích của bạn trong các mối quan hệ. Đọc thêm các luận giải về các chỉ số này để tạo ra một bức tranh tổng quát cho bạn.
+Những số đường đời tương thích nhất với bạn:
+- Số 10: Đường đời số 9 và số 10 là hai cực đối lập nhau - cả về số học và tính cách. Sự kết hợp này có thể không hiệu quả trong kinh doanh, nhưng thành ngữ 'đối lập thu hút' có thể đúng khi nói về mối quan hệ cá nhân của cả hai.
+- Số 2 (hoặc số 11/2): Trực quan và nhạy cảm (giống như bạn), số 2 có thể nhìn thấu con người của bạn đến thế giới cảm xúc bên trong mà bạn thường giữ kín với người khác.
+- Số 3: Sáng tạo, giàu trí tưởng tượng và nghệ thuật, số 9 có rất nhiều điểm chung với số 3. Tính hài hước của họ có thể mang lại sự cân bằng cho bạn.
+- Số 6: Là một người đam mê tất cả mọi thứ vì cộng đồng và nhân đạo, cả hai có nhiều điểm chung không thể tách rời. Bạn cũng sẽ được hưởng lợi từ sự bảo vệ và yêu thương của những người có đường đời là số 6.
+
+Những số đường đời ít tương thích với bạn:
+- Số 4 (hoặc số 22/4): Số 4 coi trọng thói quen và sự ổn định của một mối quan hệ vững chắc hơn bất kỳ chỉ số đường đời nào. Như vậy, chủ nghĩa thực dụng của số 4 trái ngược với chủ nghĩa lý tưởng của bạn.
+- Số 5: Số 5 thường có thể được lựa chọn khi nói đến các đối tác, nhưng kết hợp với số 9 không chắc là một cặp tốt. Sự khó đoán của số 5 không hoàn toàn phù hợp với triển vọng và sự trách nhiệm của bạn.
+- Số 7: Trong khi khả năng phân tích của số 7 có phần hướng nội với nhu cầu không gian và yên tĩnh, họ mong muốn có được sự kết nối sâu sắc hơn. Nhưng cách mà bạn thường hay cư xử có lẽ quá khác biệt để họ đạt được sự hài lòng.
+- Số 8: Đường đời số 9 luôn giữ khoảng cách và cần tự do để theo đuổi lợi ích nhân đạo của mình. Điều này có nghĩa là kết hợp với sự kiểm soát của số 8 có thể không phải là một kết hợp tốt.
+- Số 9: Số 9 là người giàu cảm xúc và gắn liền với nhiều trách nhiệm. Vì vậy những người số 9 đã phải vật lộn với chuyện tình cảm, nên việc hai người có mối quan hệ với nhau có thể khiến mọi thứ trở nên khó khăn.
+
+Hãy nhớ rằng khả năng tương thích trong các mối quan hệ của bạn còn sâu sắc hơn những gì thể hiện ở con số đường đời. Để biết cách tạo ra sự hài hòa, bạn sẽ cần xem xét các con số khác trong thần số học của mình. Chỉ số Linh hồn, Sứ mệnh, Nhân cách và Thái độ của bạn cũng sẽ ảnh hưởng đến mức độ tương thích của bạn trong các mối quan hệ. Đọc thêm các luận giải về các chỉ số này để tạo ra một bức tranh tổng quát cho bạn.
         
 <strong>• TÌNH DUYÊN:</strong>
-        - Tình yêu lớn nhất của bạn là ước mơ của mình. Theo đuổi sự nhân đạo có thể quan trọng đối với bạn hơn mối quan hệ cá nhân với người khác. Điều này có thể khiến chuyện tình cảm trở nên rắc rối hơn đối bạn. Nhưng nếu người bạn đời thực sự hiểu bạn, điều đó có thể tạo nên một mối quan hệ thực sự viên mãn.
-        - Trong khi bạn dễ dàng thu hút người khác, bạn đôi khi có thể tỏ ra xa cách khi nói đến các mối quan hệ thân thiết. Rốt cuộc, những cảm xúc tự nhiên nảy sinh trong các mối quan hệ thân thiết lại rất phù hợp với bạn. Điều đó nói rằng, nếu được chọn đúng bạn đời, bạn rất lãng mạn, và thậm chí là ngây thơ trong tình yêu. Một mặt, bạn sẽ thường đòi hỏi nhiều tự do để theo đuổi những sở thích bên ngoài mối quan hệ và rất khó thay đổi điều đó. Mặt khác, bạn có thể có xu hướng 'giải cứu' bạn đời của mình và trong quá trình này, bạn phải hy sinh bản thân.
-        - Bạn có thể cần học cách sắp xếp các mối quan hệ và trách nhiệm của bạn mà không đánh mất bản thân.
-        Cách tiếp cận tình cảm của bạn cũng sẽ bị ảnh hưởng bởi các con số khác trong biểu đồ. Chỉ số Linh hồn, chỉ số Nhân Cách, chỉ số Thái độ và Chỉ số Sứ mệnh sẽ thay đổi cách cuộc sống tình cảm của bạn diễn ra. Hãy đọc tiếp tới các chỉ số này.`,
+- Tình yêu lớn nhất của bạn là ước mơ của mình. Theo đuổi sự nhân đạo có thể quan trọng đối với bạn hơn mối quan hệ cá nhân với người khác. Điều này có thể khiến chuyện tình cảm trở nên rắc rối hơn đối bạn. Nhưng nếu người bạn đời thực sự hiểu bạn, điều đó có thể tạo nên một mối quan hệ thực sự viên mãn.
+- Trong khi bạn dễ dàng thu hút người khác, bạn đôi khi có thể tỏ ra xa cách khi nói đến các mối quan hệ thân thiết. Rốt cuộc, những cảm xúc tự nhiên nảy sinh trong các mối quan hệ thân thiết lại rất phù hợp với bạn. Điều đó nói rằng, nếu được chọn đúng bạn đời, bạn rất lãng mạn, và thậm chí là ngây thơ trong tình yêu. Một mặt, bạn sẽ thường đòi hỏi nhiều tự do để theo đuổi những sở thích bên ngoài mối quan hệ và rất khó thay đổi điều đó. Mặt khác, bạn có thể có xu hướng 'giải cứu' bạn đời của mình và trong quá trình này, bạn phải hy sinh bản thân.
+- Bạn có thể cần học cách sắp xếp các mối quan hệ và trách nhiệm của bạn mà không đánh mất bản thân.
+Cách tiếp cận tình cảm của bạn cũng sẽ bị ảnh hưởng bởi các con số khác trong biểu đồ. Chỉ số Linh hồn, chỉ số Nhân Cách, chỉ số Thái độ và Chỉ số Sứ mệnh sẽ thay đổi cách cuộc sống tình cảm của bạn diễn ra. Hãy đọc tiếp tới các chỉ số này.`,
         content: `<strong>• ĐIỂM MẠNH CỦA BẠN:</strong>
-        - Bạn là một nhà lãnh đạo bẩm sinh. Điểm đặc biệt nhất ở bạn là tạo dựng được lòng tin từ người khác một cách tự nhiên. Khi tiếp xúc với bạn, nhất là nếu bạn có tư duy tích cực, bạn sẽ cực kỳ tỏa sáng. Điều đó có thể làm cho mọi người chú ý đến bạn, tin tưởng bạn hoặc thậm chí là đi theo bạn. 
-        - Bạn cũng là người có tinh thần nhân đạo cao độ. Bạn thường nghĩ cho người khác, cho công chúng và cho cộng đồng lớn. Bạn nghĩ cho nhân loại. Bạn có thể thấu hiểu được nỗi đau, khó khăn của những người nghèo  khó, khuyết tật, neo đơn, những người yếu thế. Bạn thường có xu hướng giúp đỡ mọi người, cộng đồng. 
-        - Bạn cũng là người có nghị lực và ý chí mạnh mẽ. Bạn rất dũng cảm. Miễn là có ích lợi cho mọi người thì bạn không e sợ bất cứ việc gì. Thậm chí, bạn có thể hy sinh lợi ích của bản thân để làm những việc như vậy. 
-        - Trong công việc, bạn chăm chỉ và yêu cầu cao với bản thân. Bạn như một tấm gương cho người khác noi theo vậy. 
-        - Bạn có khí chất cao hơn người khác. Bạn thu hút được nhiều người. Và nhiều khi, trong cuộc sống, bạn gặp phải sự ghen ghét, đố kị, gặp phải những người mà họ thường ngầm không ưa bạn. Có người có thể cho rằng bạn là người kiêu ngạo hoặc trịch thượng. Nhưng bạn có thể không để tâm. Bạn không muốn đối đầu với bất cứ ai. 
-        - Khi gặp vấn đề, bạn thường có xu hướng tự giải quyết. Bạn không thích người khác can thiệp hoặc xử lý giúp bạn. 
-        - Bạn đầy hoài bão và ước vọng, tuy nhiên thường có khuynh hướng đi vào tổng thể chứ ít khi nào tập trung vào chi tiết.
-        - Bạn rất thân thiện và mọi người thích bạn. Sự hào phóng của bạn là không có giới hạn, và bạn cho đi tiền bạc, thời gian và năng lượng một cách không tính toán. Mục tiêu cuối cùng của bạn là hướng tới một thế giới tốt đẹp hơn.
+- Bạn là một nhà lãnh đạo bẩm sinh. Điểm đặc biệt nhất ở bạn là tạo dựng được lòng tin từ người khác một cách tự nhiên. Khi tiếp xúc với bạn, nhất là nếu bạn có tư duy tích cực, bạn sẽ cực kỳ tỏa sáng. Điều đó có thể làm cho mọi người chú ý đến bạn, tin tưởng bạn hoặc thậm chí là đi theo bạn. 
+- Bạn cũng là người có tinh thần nhân đạo cao độ. Bạn thường nghĩ cho người khác, cho công chúng và cho cộng đồng lớn. Bạn nghĩ cho nhân loại. Bạn có thể thấu hiểu được nỗi đau, khó khăn của những người nghèo  khó, khuyết tật, neo đơn, những người yếu thế. Bạn thường có xu hướng giúp đỡ mọi người, cộng đồng. 
+- Bạn cũng là người có nghị lực và ý chí mạnh mẽ. Bạn rất dũng cảm. Miễn là có ích lợi cho mọi người thì bạn không e sợ bất cứ việc gì. Thậm chí, bạn có thể hy sinh lợi ích của bản thân để làm những việc như vậy. 
+- Trong công việc, bạn chăm chỉ và yêu cầu cao với bản thân. Bạn như một tấm gương cho người khác noi theo vậy. 
+- Bạn có khí chất cao hơn người khác. Bạn thu hút được nhiều người. Và nhiều khi, trong cuộc sống, bạn gặp phải sự ghen ghét, đố kị, gặp phải những người mà họ thường ngầm không ưa bạn. Có người có thể cho rằng bạn là người kiêu ngạo hoặc trịch thượng. Nhưng bạn có thể không để tâm. Bạn không muốn đối đầu với bất cứ ai. 
+- Khi gặp vấn đề, bạn thường có xu hướng tự giải quyết. Bạn không thích người khác can thiệp hoặc xử lý giúp bạn. 
+- Bạn đầy hoài bão và ước vọng, tuy nhiên thường có khuynh hướng đi vào tổng thể chứ ít khi nào tập trung vào chi tiết.
+- Bạn rất thân thiện và mọi người thích bạn. Sự hào phóng của bạn là không có giới hạn, và bạn cho đi tiền bạc, thời gian và năng lượng một cách không tính toán. Mục tiêu cuối cùng của bạn là hướng tới một thế giới tốt đẹp hơn.
         
 <strong>• ĐIỂM YẾU CỦA BẠN:</strong>
-        - Bạn có thể dễ bị những vấn đề tiêu cực trong quá khứ đeo bám và ảnh hưởng. Nếu có những vấn đề như vậy, bạn hãy bước qua bằng cách tập trung vào hiện tại, làm cho tốt. Bạn cũng nên tập những môn vận động, tập thiền, yoga để thư giãn tinh thần và nâng cao trí tuệ. Bước qua quá khứ và có tinh thần tích cực sẽ giúp bạn tạo ra sự thay đổi lớn đối với thế giới xung quanh. 
-        - Vì bạn khá hào phóng nên bạn có thể thấy rằng tài chính của bạn không ở trong tình trạng tốt nhất. Bạn dễ mang tiền tặng cho những người cần đến, hơn là ý thức tiết kiệm để dành lại cho chính mình, và điều này cũng dễ làm cho người thân (đặc biệt là bạn đời) của bạn nổi giận. 
-        - Nếu bạn không theo đuổi con đường của bạn mà thay vào đó là theo đuổi lợi ích vật chất, bạn có thể cảm thấy cực kì không hài lòng với chính mình.
-        - Thật thà là một đức tính tự nhiên của bạn, đến mức bạn dễ tưởng rằng ai cũng sẽ thật thà như mình. Điều này thường dẫn đến cảm giác thất vọng trầm trọng ở một số người Số 9, thậm chí có một số trường hợp trở nên hoài nghi về tình người, nghi ngờ không biết mình thật thà như vậy có bị… ngu quá không.
+- Bạn có thể dễ bị những vấn đề tiêu cực trong quá khứ đeo bám và ảnh hưởng. Nếu có những vấn đề như vậy, bạn hãy bước qua bằng cách tập trung vào hiện tại, làm cho tốt. Bạn cũng nên tập những môn vận động, tập thiền, yoga để thư giãn tinh thần và nâng cao trí tuệ. Bước qua quá khứ và có tinh thần tích cực sẽ giúp bạn tạo ra sự thay đổi lớn đối với thế giới xung quanh. 
+- Vì bạn khá hào phóng nên bạn có thể thấy rằng tài chính của bạn không ở trong tình trạng tốt nhất. Bạn dễ mang tiền tặng cho những người cần đến, hơn là ý thức tiết kiệm để dành lại cho chính mình, và điều này cũng dễ làm cho người thân (đặc biệt là bạn đời) của bạn nổi giận. 
+- Nếu bạn không theo đuổi con đường của bạn mà thay vào đó là theo đuổi lợi ích vật chất, bạn có thể cảm thấy cực kì không hài lòng với chính mình.
+- Thật thà là một đức tính tự nhiên của bạn, đến mức bạn dễ tưởng rằng ai cũng sẽ thật thà như mình. Điều này thường dẫn đến cảm giác thất vọng trầm trọng ở một số người Số 9, thậm chí có một số trường hợp trở nên hoài nghi về tình người, nghi ngờ không biết mình thật thà như vậy có bị… ngu quá không.
         
 <strong>• NHỮNG NGƯỜI NỔI TIẾNG CÓ SỐ 9:</strong>
-        - Đại Tướng Võ Nguyên Giáp
-        - Phan Thị Bích Hằng – Nhà ngoại cảm
-        - Mỹ Tâm – Ca sĩ
-        - Một vài người khác: Mẹ Teresa, Mahatma Gandhi, Jim Carrey, Morgan Freeman, Kurt Cobain, Elvis Presley
-        
-        Bên cạnh số đường đời, sẽ còn hơn 20 chỉ số quan trọng khác phân tích chi tiết về bạn, đặc biệt bạn xem kĩ các chỉ số ở biểu đồ kim tự tháp để xem các năm đỉnh cao trong cuộc đời và biểu đồ sức mạnh để xem các giá trị năng lực mà bạn có cùng với các chỉ số khác kèm lời khuyên tương ứng để kích hoạt được các điểm mạnh của bạn giúp bạn phát triển, gặp nhiều thuận lợi trong cuộc sống.`,
+- Đại Tướng Võ Nguyên Giáp
+- Phan Thị Bích Hằng – Nhà ngoại cảm
+- Mỹ Tâm – Ca sĩ
+- Một vài người khác: Mẹ Teresa, Mahatma Gandhi, Jim Carrey, Morgan Freeman, Kurt Cobain, Elvis Presley
+
+Bên cạnh số đường đời, sẽ còn hơn 20 chỉ số quan trọng khác phân tích chi tiết về bạn, đặc biệt bạn xem kĩ các chỉ số ở biểu đồ kim tự tháp để xem các năm đỉnh cao trong cuộc đời và biểu đồ sức mạnh để xem các giá trị năng lực mà bạn có cùng với các chỉ số khác kèm lời khuyên tương ứng để kích hoạt được các điểm mạnh của bạn giúp bạn phát triển, gặp nhiều thuận lợi trong cuộc sống.`,
     },
     {
         type: 'SỐ 10 - THỦ LĨNH',
         relationship: `
 <strong>• MỐI QUAN HỆ NÓI CHUNG TRONG CUỘC SỐNG:</strong>
-        Tìm được một người tương thích với số 10 không dễ nhưng chắc chắn không phải là không thể.
-        
-        Những số đường đời tương thích nhất với bạn:
-        - Số 10 khác: Như bạn có thể tưởng tượng, đường đời số 10 hợp tác với số 10 khác tạo nên một cặp đôi khá tốt. Họ có chung động lực và hiểu rõ quyết tâm thành công của nhau. Sự kết hợp này là một sự kết hợp mạnh mẽ, nhưng các vấn đề có thể nảy sinh nếu không có sự cho và nhận.
-        - Số 2 hoặc số 11/2: Về sự tương hợp, đường đời số 10 và đường đời số 2 rất phù hợp. Bộ đôi này hoạt động tốt khi số 10 là người của sự nghiệp, còn số 2 là người của gia đình.
-        - Số 3: Số 3 là một tâm hồn sáng tạo, đó là điều thu hút 2 người lại với nhau. Bạn có thể tận dụng sự sáng tạo của số 3 và biến tầm nhìn thành hiện thực. Là một cặp, hai số này bổ sung cho nhau rất tốt.
-        - Số 5: Đối với cả hai con số, cảm giác tự do và độc lập là điều cần thiết. Cả 2 làm tốt như một cặp đôi nhưng lại không cần người kia hoàn thành việc của người còn lại.
-        - Số 7: Về mặt số học, số 7 rất tò mò và rất thông minh. Trong một mối quan hệ, bạn sẽ giúp số 7 nhận ra tiềm năng của mình và đạt được thành công.
-        - Số 9: Trong tình yêu, số 9 có thể vượt qua và chịu được vẻ ngoài cứng rắn của số 10. Điều này cho phép bạn bỏ qua sự phòng thủ và trở nên lãng mạn hơn.
-        - Số 8: Đối với các đối tác kinh doanh, bạn và số 8 là bộ đôi hoàn hảo, nhưng thường chỉ trong lĩnh vực kinh doanh. Tính cách giống nhau của cả hai quá mãnh liệt, vì thế sẽ khó khăn nếu duy trì một mối quan hệ tình cảm.
-        
-        Những số đường đời ít tương thích nhất với bạn:
-        - Số 4 hoặc số 22/4: Bạn và số 4 có cá tính mạnh mẽ và có cách làm việc riêng. Về lý thuyết, đó là một sự đối nghịch. Bạn muốn hoàn thành công việc càng sớm càng tốt, trong khi số 4 thích lập kế hoạch và dành thời gian của mình để làm mọi việc một cách chắc chắn.
-        - Số 6: Số 6 có một bản chất nuôi dưỡng rất tốt, thường là một đặc tính tích cực. Nhưng đối với bạn, điều này có thể khiến bạn cảm thấy phụ thuộc và không an toàn.
-        
-        Hãy nhớ rằng khả năng tương thích trong các mối quan hệ của bạn còn sâu sắc hơn những gì thể hiện ở con số đường đời. Để biết cách tạo ra sự hài hòa, bạn sẽ cần xem xét các con số khác trong thần số học của mình. Chỉ số Linh hồn, Sứ mệnh, Nhân cách và Thái độ của bạn cũng sẽ ảnh hưởng đến mức độ tương thích của bạn trong các mối quan hệ. Đọc thêm các luận giải về các chỉ số này để tạo ra một bức tranh tổng quát cho bạn.
+Tìm được một người tương thích với số 10 không dễ nhưng chắc chắn không phải là không thể.
+
+Những số đường đời tương thích nhất với bạn:
+- Số 10 khác: Như bạn có thể tưởng tượng, đường đời số 10 hợp tác với số 10 khác tạo nên một cặp đôi khá tốt. Họ có chung động lực và hiểu rõ quyết tâm thành công của nhau. Sự kết hợp này là một sự kết hợp mạnh mẽ, nhưng các vấn đề có thể nảy sinh nếu không có sự cho và nhận.
+- Số 2 hoặc số 11/2: Về sự tương hợp, đường đời số 10 và đường đời số 2 rất phù hợp. Bộ đôi này hoạt động tốt khi số 10 là người của sự nghiệp, còn số 2 là người của gia đình.
+- Số 3: Số 3 là một tâm hồn sáng tạo, đó là điều thu hút 2 người lại với nhau. Bạn có thể tận dụng sự sáng tạo của số 3 và biến tầm nhìn thành hiện thực. Là một cặp, hai số này bổ sung cho nhau rất tốt.
+- Số 5: Đối với cả hai con số, cảm giác tự do và độc lập là điều cần thiết. Cả 2 làm tốt như một cặp đôi nhưng lại không cần người kia hoàn thành việc của người còn lại.
+- Số 7: Về mặt số học, số 7 rất tò mò và rất thông minh. Trong một mối quan hệ, bạn sẽ giúp số 7 nhận ra tiềm năng của mình và đạt được thành công.
+- Số 9: Trong tình yêu, số 9 có thể vượt qua và chịu được vẻ ngoài cứng rắn của số 10. Điều này cho phép bạn bỏ qua sự phòng thủ và trở nên lãng mạn hơn.
+- Số 8: Đối với các đối tác kinh doanh, bạn và số 8 là bộ đôi hoàn hảo, nhưng thường chỉ trong lĩnh vực kinh doanh. Tính cách giống nhau của cả hai quá mãnh liệt, vì thế sẽ khó khăn nếu duy trì một mối quan hệ tình cảm.
+
+Những số đường đời ít tương thích nhất với bạn:
+- Số 4 hoặc số 22/4: Bạn và số 4 có cá tính mạnh mẽ và có cách làm việc riêng. Về lý thuyết, đó là một sự đối nghịch. Bạn muốn hoàn thành công việc càng sớm càng tốt, trong khi số 4 thích lập kế hoạch và dành thời gian của mình để làm mọi việc một cách chắc chắn.
+- Số 6: Số 6 có một bản chất nuôi dưỡng rất tốt, thường là một đặc tính tích cực. Nhưng đối với bạn, điều này có thể khiến bạn cảm thấy phụ thuộc và không an toàn.
+
+Hãy nhớ rằng khả năng tương thích trong các mối quan hệ của bạn còn sâu sắc hơn những gì thể hiện ở con số đường đời. Để biết cách tạo ra sự hài hòa, bạn sẽ cần xem xét các con số khác trong thần số học của mình. Chỉ số Linh hồn, Sứ mệnh, Nhân cách và Thái độ của bạn cũng sẽ ảnh hưởng đến mức độ tương thích của bạn trong các mối quan hệ. Đọc thêm các luận giải về các chỉ số này để tạo ra một bức tranh tổng quát cho bạn.
         
 <strong>• TÌNH DUYÊN:</strong>
-        - Bạn thường có những đặc điểm lãng mạn rất riêng biệt, điều đó có nghĩa là bạn sẽ bỏ bất cứ điều gì bạn đang làm để giúp bạn đời của mình, giống như một hiệp sĩ thời hiện đại trong bộ áo giáp sáng chói. Nó không hẳn là tràn đầy cảm xúc, mà nó mang tính kiểm soát, phục tùng, thích chiếm ưu thế hơn. 
-        - Quyết tâm và sức mạnh ý chí là hai tài sản lớn nhất của bạn khi nói đến các mối quan hệ. Khi bạn đã xác định được đối phương của mình, bạn sẽ làm mọi thứ trong khả năng của mình để làm cho mối quan hệ thành công.
-        - Bạn thường là kiểu khó lòng mà phù hợp với một đối tượng nhất định, phần lớn là vì tính cách này trái ngược với tính chất lãng mạn trong tình cảm.
-        - Đôi khi bạn là người không thiên về cảm xúc, và mang tính cá nhân nhiều hơn. Nếu tìm được một người chịu nhường nhịn thì đó sẽ là người cực kỳ phù hợp với bạn. Ngoài ra người nào thích được kiểm soát, phục tùng người khác thì cũng sẽ dễ thu hút với bạn.
-        Cách tiếp cận tình cảm của bạn cũng sẽ bị ảnh hưởng bởi các con số khác trong biểu đồ của bạn. Chỉ số Linh hồn, chỉ số Nhân Cách và Chỉ số Sứ mệnh của bạn sẽ thay đổi cách cuộc sống tình cảm của bạn diễn ra. Hãy đọc tiếp tới các chỉ số này.`,
+- Bạn thường có những đặc điểm lãng mạn rất riêng biệt, điều đó có nghĩa là bạn sẽ bỏ bất cứ điều gì bạn đang làm để giúp bạn đời của mình, giống như một hiệp sĩ thời hiện đại trong bộ áo giáp sáng chói. Nó không hẳn là tràn đầy cảm xúc, mà nó mang tính kiểm soát, phục tùng, thích chiếm ưu thế hơn. 
+- Quyết tâm và sức mạnh ý chí là hai tài sản lớn nhất của bạn khi nói đến các mối quan hệ. Khi bạn đã xác định được đối phương của mình, bạn sẽ làm mọi thứ trong khả năng của mình để làm cho mối quan hệ thành công.
+- Bạn thường là kiểu khó lòng mà phù hợp với một đối tượng nhất định, phần lớn là vì tính cách này trái ngược với tính chất lãng mạn trong tình cảm.
+- Đôi khi bạn là người không thiên về cảm xúc, và mang tính cá nhân nhiều hơn. Nếu tìm được một người chịu nhường nhịn thì đó sẽ là người cực kỳ phù hợp với bạn. Ngoài ra người nào thích được kiểm soát, phục tùng người khác thì cũng sẽ dễ thu hút với bạn.
+Cách tiếp cận tình cảm của bạn cũng sẽ bị ảnh hưởng bởi các con số khác trong biểu đồ của bạn. Chỉ số Linh hồn, chỉ số Nhân Cách và Chỉ số Sứ mệnh của bạn sẽ thay đổi cách cuộc sống tình cảm của bạn diễn ra. Hãy đọc tiếp tới các chỉ số này.`,
         content: `Những người có đường đời số 10 là những người đi trước, lãnh đạo và tiên phong, mạnh dạn đi đến những nơi mà những con số khác không dám.
-        Bạn quyết tâm và đầy tham vọng, không cho phép điều gì cản đường bạn. Được mô tả với tính cách mạnh mẽ, bạn là người cầu toàn, tham công tiếc việc, dám chấp nhận rủi ro và cực kỳ yêu thích cạnh tranh.
-        Bạn cũng là người có tư duy sáng tạo và đam mê công nghệ tuyệt đối. Khả năng tư duy tự nhiên của bạn cho phép bạn đưa ra các ý tưởng và giải pháp một cách nhanh chóng và dễ dàng kể cả trước sự dè bỉu của những người xung quanh.
-        Bạn giống như một doanh nhân và làm việc tốt hơn khi tự xây dựng công việc kinh doanh của riêng bạn hoặc trong một vai trò tự do hoặc làm việc theo hợp đồng. 
-        Bạn thích điều hành mọi thứ theo nhịp trống của riêng mình, chọn đi theo con đường ít người đi hơn.
-        Thật không may, một vài những đặc điểm, nếu không được luyện tập, sẽ trở thành những thuộc tính tiêu cực nhất của bạn như: tự cao tự đại, kiêu ngạo, hung hăng và coi mình là trung tâm.
+Bạn quyết tâm và đầy tham vọng, không cho phép điều gì cản đường bạn. Được mô tả với tính cách mạnh mẽ, bạn là người cầu toàn, tham công tiếc việc, dám chấp nhận rủi ro và cực kỳ yêu thích cạnh tranh.
+Bạn cũng là người có tư duy sáng tạo và đam mê công nghệ tuyệt đối. Khả năng tư duy tự nhiên của bạn cho phép bạn đưa ra các ý tưởng và giải pháp một cách nhanh chóng và dễ dàng kể cả trước sự dè bỉu của những người xung quanh.
+Bạn giống như một doanh nhân và làm việc tốt hơn khi tự xây dựng công việc kinh doanh của riêng bạn hoặc trong một vai trò tự do hoặc làm việc theo hợp đồng. 
+Bạn thích điều hành mọi thứ theo nhịp trống của riêng mình, chọn đi theo con đường ít người đi hơn.
+Thật không may, một vài những đặc điểm, nếu không được luyện tập, sẽ trở thành những thuộc tính tiêu cực nhất của bạn như: tự cao tự đại, kiêu ngạo, hung hăng và coi mình là trung tâm.
         
 <strong>• ĐIỂM MẠNH CỦA BẠN:</strong>
-        - Mang năng lượng đường đời 10, bạn có tố chất lãnh đạo, quyết đoán và tiên phong.
-        - Bạn có thể trở thành người thủ lĩnh, dẫn đầu đội nhóm, công ty hoặc tổ chức với tinh thần hành động, sáng tạo và sẵn sàng cải cách.
-        - Bạn sẽ không ngừng tìm kiếm những giải pháp, hướng đi mới để đưa tổ chức, đội nhóm của bạn vươn lên dẫn đầu và về đích. Nếu là nhà sản xuất, bạn sẽ có xu hướng cải tiến sản phẩm sao cho có những tính năng mới, mang tính đột phá mà trên thị trường chưa bao giờ xuất hiện. Mong muốn cải cách, đột phá luôn nằm trong tâm trí bạn.
-        - Bạn có một lòng can đảm trời cho đưa bạn vào những cuộc dấn thân đầy tính tiên phong mà có thể nhiều người khác hầu như không bao giờ nghĩ dám thực hiện.
-        - Bạn luôn tập trung vào sự nghiệp và những thành tích cá nhân, nó gần như gắn liền với cuộc sống của bạn, và xem nó là trên hết tất cả các lĩnh vực khác.
-        - Bạn là người kiên định. Bạn kiên định từ trong quan điểm cho tới mục tiêu. Nếu điều gì đã xác định là đúng, bạn sẽ bảo vệ đến cùng. Nếu đã chọn một mục tiêu nào đó, bạn sẽ như mũi tên, bay thằng tới đích. 
-        - Với bạn, mục tiêu là quan trọng nhất, là tối thượng. Trong hành trình chinh phục mục tiêu, bạn luôn có tư duy tích cực và phát triển. 
-        - Bạn sẽ tìm kiểm các giải pháp để đạt được mục tiêu, và không ngừng cho đến khi hoàn thành. 
-        - Bạn ghét bàn lùi, ghét những người hay chậm chạp, lo lắng, ghét những người có phong cách tạo thêm vấn đề. 
-        - Quan điểm của bạn là: hãy tập trung vào giải pháp chứ không tập trung vào vấn đề.
-        - Bạn là người năng động, tự lập. Bạn không thích nhờ sự trợ giúp, bởi bạn luôn muốn tự mình thực hiện công việc. Khi bạn đã quyết định thì rất khó có thể làm bạn thay đổi.
-        - Bạn là người quảng đại, thích làm việc lớn, không chấp những việc nhỏ. Trong công việc, nếu vì công việc mà ai đó mắc phải lỗi lầm, bạn sẵn sàng bỏ qua. Nhưng bạn sẽ không chấp nhận những việc gây chậm tiến độ, không hướng tới mục tiêu hoặc cản trở người khác. 
-        - Bạn sẵn sàng giúp đỡ, đầu tư cho những ý tưởng, giải pháp mang tính xây dựng và hướng tới đích. Bạn hào phóng cho những điều như thế.
-        - Là người thích được chiến thắng, và với tinh thần cạnh tranh mạnh mẽ, bạn thích các cuộc ganh đua và thi tài. Việc giành chiến thắng sẽ đem lại cho bạn sự thỏa mãn. 
-        - Với cá tính và cái tôi lớn, bạn thích trở thành người giỏi nhất, người chiến thắng. Bạn cũng sẽ thường kể về thành tích của mình, hoặc thể hiện ra bằng cách nào đó. Điều này giúp bạn tận hưởng cảm giác chiến thắng.
-        - Trong công việc, bạn là người độc lập, tự chủ và không thích người khác can thiệp. 
-        - Bạn có tính trách nhiệm cao, năng động, biết khai thác các nguồn lực để làm việc. Do đó, trong công việc, nếu đã nhận nhiệm vụ, bạn thường hoàn thành tốt. Hoặc khi đã hứa điều gi, bạn cũng hiếm khi sai lời. 
-        - Nếu có khó khăn, bạn cũng muốn mình là người tự giải quyết. Nếu phải để người khác xử lý hộ vấn đề, bạn sẽ cảm thấy đó như một sự yếu đuối, thất bại. Bạn không thích như vậy. Mặt khác, bạn là người yêu cầu cao trong công việc, nghiêm khắc với bản thân.
+- Mang năng lượng đường đời 10, bạn có tố chất lãnh đạo, quyết đoán và tiên phong.
+- Bạn có thể trở thành người thủ lĩnh, dẫn đầu đội nhóm, công ty hoặc tổ chức với tinh thần hành động, sáng tạo và sẵn sàng cải cách.
+- Bạn sẽ không ngừng tìm kiếm những giải pháp, hướng đi mới để đưa tổ chức, đội nhóm của bạn vươn lên dẫn đầu và về đích. Nếu là nhà sản xuất, bạn sẽ có xu hướng cải tiến sản phẩm sao cho có những tính năng mới, mang tính đột phá mà trên thị trường chưa bao giờ xuất hiện. Mong muốn cải cách, đột phá luôn nằm trong tâm trí bạn.
+- Bạn có một lòng can đảm trời cho đưa bạn vào những cuộc dấn thân đầy tính tiên phong mà có thể nhiều người khác hầu như không bao giờ nghĩ dám thực hiện.
+- Bạn luôn tập trung vào sự nghiệp và những thành tích cá nhân, nó gần như gắn liền với cuộc sống của bạn, và xem nó là trên hết tất cả các lĩnh vực khác.
+- Bạn là người kiên định. Bạn kiên định từ trong quan điểm cho tới mục tiêu. Nếu điều gì đã xác định là đúng, bạn sẽ bảo vệ đến cùng. Nếu đã chọn một mục tiêu nào đó, bạn sẽ như mũi tên, bay thằng tới đích. 
+- Với bạn, mục tiêu là quan trọng nhất, là tối thượng. Trong hành trình chinh phục mục tiêu, bạn luôn có tư duy tích cực và phát triển. 
+- Bạn sẽ tìm kiểm các giải pháp để đạt được mục tiêu, và không ngừng cho đến khi hoàn thành. 
+- Bạn ghét bàn lùi, ghét những người hay chậm chạp, lo lắng, ghét những người có phong cách tạo thêm vấn đề. 
+- Quan điểm của bạn là: hãy tập trung vào giải pháp chứ không tập trung vào vấn đề.
+- Bạn là người năng động, tự lập. Bạn không thích nhờ sự trợ giúp, bởi bạn luôn muốn tự mình thực hiện công việc. Khi bạn đã quyết định thì rất khó có thể làm bạn thay đổi.
+- Bạn là người quảng đại, thích làm việc lớn, không chấp những việc nhỏ. Trong công việc, nếu vì công việc mà ai đó mắc phải lỗi lầm, bạn sẵn sàng bỏ qua. Nhưng bạn sẽ không chấp nhận những việc gây chậm tiến độ, không hướng tới mục tiêu hoặc cản trở người khác. 
+- Bạn sẵn sàng giúp đỡ, đầu tư cho những ý tưởng, giải pháp mang tính xây dựng và hướng tới đích. Bạn hào phóng cho những điều như thế.
+- Là người thích được chiến thắng, và với tinh thần cạnh tranh mạnh mẽ, bạn thích các cuộc ganh đua và thi tài. Việc giành chiến thắng sẽ đem lại cho bạn sự thỏa mãn. 
+- Với cá tính và cái tôi lớn, bạn thích trở thành người giỏi nhất, người chiến thắng. Bạn cũng sẽ thường kể về thành tích của mình, hoặc thể hiện ra bằng cách nào đó. Điều này giúp bạn tận hưởng cảm giác chiến thắng.
+- Trong công việc, bạn là người độc lập, tự chủ và không thích người khác can thiệp. 
+- Bạn có tính trách nhiệm cao, năng động, biết khai thác các nguồn lực để làm việc. Do đó, trong công việc, nếu đã nhận nhiệm vụ, bạn thường hoàn thành tốt. Hoặc khi đã hứa điều gi, bạn cũng hiếm khi sai lời. 
+- Nếu có khó khăn, bạn cũng muốn mình là người tự giải quyết. Nếu phải để người khác xử lý hộ vấn đề, bạn sẽ cảm thấy đó như một sự yếu đuối, thất bại. Bạn không thích như vậy. Mặt khác, bạn là người yêu cầu cao trong công việc, nghiêm khắc với bản thân.
         
 <strong>• ĐIỂM YẾU CỦA BẠN:</strong>
-        - Người khác cảm thấy khó làm việc với bạn, nhưng nếu làm việc được, họ sẽ nhanh chóng trưởng thành nhờ bạn. 
-        - Thường điều gì bạn yêu cầu người khác làm, bạn sẽ luôn là người làm trước nên đôi khi ôm đồm nhiều việc. 
-        - Nếu trong công việc mà không đạt được mục tiêu, bạn thường đổ lỗi cho bản thân. Ngay cả khi kết quả công việc được mọi người đánh giá là tốt, bạn vẫn có thể cảm thấy chưa thỏa mãn, vì chưa được như mục tiêu ban đầu đề ra.
-        - Với năng lượng đặc biệt, có những khi bạn trở nên độc đoán, ích kỷ và lấn át người khác. 
-        - Bạn cũng có thể trở nên cáu kỉnh, giận dữ hoặc nổi loạn nếu bị ai đó công kích chỉ trích, chê bai. 
-        - Bạn có thể tha thứ cho ai đó làm việc mà mắc lỗi, nhưng sẽ không tha thứ cho người phản bội. Khi đó, bạn có thể trở nên rất khắc nghiệt.
+- Người khác cảm thấy khó làm việc với bạn, nhưng nếu làm việc được, họ sẽ nhanh chóng trưởng thành nhờ bạn. 
+- Thường điều gì bạn yêu cầu người khác làm, bạn sẽ luôn là người làm trước nên đôi khi ôm đồm nhiều việc. 
+- Nếu trong công việc mà không đạt được mục tiêu, bạn thường đổ lỗi cho bản thân. Ngay cả khi kết quả công việc được mọi người đánh giá là tốt, bạn vẫn có thể cảm thấy chưa thỏa mãn, vì chưa được như mục tiêu ban đầu đề ra.
+- Với năng lượng đặc biệt, có những khi bạn trở nên độc đoán, ích kỷ và lấn át người khác. 
+- Bạn cũng có thể trở nên cáu kỉnh, giận dữ hoặc nổi loạn nếu bị ai đó công kích chỉ trích, chê bai. 
+- Bạn có thể tha thứ cho ai đó làm việc mà mắc lỗi, nhưng sẽ không tha thứ cho người phản bội. Khi đó, bạn có thể trở nên rất khắc nghiệt.
         
 <strong>• NHỮNG NGƯỜI NỔI TIẾNG CÓ SỐ 10:</strong>
-        - Phạm Nhật Vượng – Chủ tịch tập đoàn Vin Group
-        - Nguyễn Xuân Phúc – Chủ tịch nước Việt Nam
-        - Messi – Cầu thủ bóng đá nổi tiếng
-        - Steve Jobs – Cố Chủ tịch tập đoàn Apple
-        - Louis Nguyễn - Sáng lập tracuuthansohoc.com
-        - Một vài người khác như: Miley Cyrus, Lady Gaga, Scarlett Johansson, Shakira Steve Jobs, Tom Cruise, Nikola Tesla, Martin Luther King, Jr., Vua hề Chaplin, Hoàng tử Harry
-        
-        Bên cạnh số đường đời, sẽ còn hơn 20 chỉ số quan trọng khác phân tích chi tiết về bạn, đặc biệt bạn xem kĩ các chỉ số ở biểu đồ kim tự tháp để xem các năm đỉnh cao trong cuộc đời và biểu đồ sức mạnh để xem các giá trị năng lực mà bạn có cùng với các chỉ số khác kèm lời khuyên tương ứng để kích hoạt được các điểm mạnh của bạn giúp bạn phát triển, gặp nhiều thuận lợi trong cuộc sống.`,
+- Phạm Nhật Vượng – Chủ tịch tập đoàn Vin Group
+- Nguyễn Xuân Phúc – Chủ tịch nước Việt Nam
+- Messi – Cầu thủ bóng đá nổi tiếng
+- Steve Jobs – Cố Chủ tịch tập đoàn Apple
+- Louis Nguyễn - Sáng lập tracuuthansohoc.com
+- Một vài người khác như: Miley Cyrus, Lady Gaga, Scarlett Johansson, Shakira Steve Jobs, Tom Cruise, Nikola Tesla, Martin Luther King, Jr., Vua hề Chaplin, Hoàng tử Harry
+
+Bên cạnh số đường đời, sẽ còn hơn 20 chỉ số quan trọng khác phân tích chi tiết về bạn, đặc biệt bạn xem kĩ các chỉ số ở biểu đồ kim tự tháp để xem các năm đỉnh cao trong cuộc đời và biểu đồ sức mạnh để xem các giá trị năng lực mà bạn có cùng với các chỉ số khác kèm lời khuyên tương ứng để kích hoạt được các điểm mạnh của bạn giúp bạn phát triển, gặp nhiều thuận lợi trong cuộc sống.`,
     },
     {
         type: 'SỐ 11 - TRỰC GIÁC CAO',
         relationship: `
 <strong>• MỐI QUAN HỆ NÓI CHUNG TRONG CUỘC SỐNG:</strong>
-        Số đường đời tương thích nhất với bạn:
-        - Số 2: Số 11 và 2 với nhau là sự kết hợp hoàn hảo vì cả hai có mối liên hệ chặt chẽ với nhau. Cả hai này có cùng một ngôn ngữ, giao tiếp ngoại giao và mong muốn một mối quan hệ hài hòa.
-        - Số 6: Người bảo vệ số 6 có thể cung cấp cho bạn một mối quan hệ tốt và bạn sẵn sàng chấp nhận để họ cởi mở về tình cảm.
-        - Số 8: Sự kết hợp này là một ví dụ về thu hút sự đối lập. Trực giác cao của bạn sẽ bổ sung cho số 8 một cách mạnh mẽ để ra quyết định.
-        
-        Số đường đời ít tương thích với bạn:
-        - Số 10: Trực giác cùng sự quan tâm của bạn sẽ gây những tác động tiêu cực đến số 10.
-        - Số 3: Số 3 đôi khi kém kỷ luật có thể khiến bạn thường xuyên phải nhắc nhở sự chểnh mảng của họ. Tuy nhiên, sự lạc quan của số 3 có thể mang lại chút nhẹ nhõm cho bạn.
-        - Số 4 (hoặc 22/4): Số 4 mang tính ổn định nên ban đầu có vẻ phù hợp với bạn, nhưng việc thiếu biểu hiện cảm xúc của số 4 sẽ không kết nối với bạn theo đúng cách.
-        - Số 5: Những người số 5 mạo hiểm chắc chắn sẽ không ngại có những mối quan hệ với những người số 11 như bạn, nhưng bản tính thiếu trách nhiệm của họ có thể vô tình làm tổn thương nếu bạn là người nhạy cảm cao.
-        - Số 7: Trí tuệ tri thức của số 7 thường không hoạt động tốt với trí tuệ cảm xúc của bạn (khía cạnh số 2 của bạn), nhưng sự rung động tinh thần mạnh mẽ của bạn (khía cạnh số 11 của bạn) có thể thu hút số 7 để cùng tìm kiếm sự thật.
-        - Số 9: Ghép nối bạn với số 9 có thể hiệu quả vì cả hai đều tìm kiếm sự thỏa mãn từ lòng vị tha, nhưng bản chất xa cách của số 9 có thể quá lạnh lùng đối với bạn.
-        
-        Hãy nhớ rằng khả năng tương thích trong các mối quan hệ của bạn còn sâu sắc hơn những gì thể hiện ở con số đường đời. Để biết cách tạo ra sự hài hòa, bạn sẽ cần xem xét các con số khác trong thần số học của mình. Chỉ số Linh hồn, Sứ mệnh, Nhân cách và Thái độ của bạn cũng sẽ ảnh hưởng đến mức độ tương thích của bạn trong các mối quan hệ. Đọc thêm các luận giải về các chỉ số này để tạo ra một bức tranh tổng quát cho bạn.
+Số đường đời tương thích nhất với bạn:
+- Số 2: Số 11 và 2 với nhau là sự kết hợp hoàn hảo vì cả hai có mối liên hệ chặt chẽ với nhau. Cả hai này có cùng một ngôn ngữ, giao tiếp ngoại giao và mong muốn một mối quan hệ hài hòa.
+- Số 6: Người bảo vệ số 6 có thể cung cấp cho bạn một mối quan hệ tốt và bạn sẵn sàng chấp nhận để họ cởi mở về tình cảm.
+- Số 8: Sự kết hợp này là một ví dụ về thu hút sự đối lập. Trực giác cao của bạn sẽ bổ sung cho số 8 một cách mạnh mẽ để ra quyết định.
+
+Số đường đời ít tương thích với bạn:
+- Số 10: Trực giác cùng sự quan tâm của bạn sẽ gây những tác động tiêu cực đến số 10.
+- Số 3: Số 3 đôi khi kém kỷ luật có thể khiến bạn thường xuyên phải nhắc nhở sự chểnh mảng của họ. Tuy nhiên, sự lạc quan của số 3 có thể mang lại chút nhẹ nhõm cho bạn.
+- Số 4 (hoặc 22/4): Số 4 mang tính ổn định nên ban đầu có vẻ phù hợp với bạn, nhưng việc thiếu biểu hiện cảm xúc của số 4 sẽ không kết nối với bạn theo đúng cách.
+- Số 5: Những người số 5 mạo hiểm chắc chắn sẽ không ngại có những mối quan hệ với những người số 11 như bạn, nhưng bản tính thiếu trách nhiệm của họ có thể vô tình làm tổn thương nếu bạn là người nhạy cảm cao.
+- Số 7: Trí tuệ tri thức của số 7 thường không hoạt động tốt với trí tuệ cảm xúc của bạn (khía cạnh số 2 của bạn), nhưng sự rung động tinh thần mạnh mẽ của bạn (khía cạnh số 11 của bạn) có thể thu hút số 7 để cùng tìm kiếm sự thật.
+- Số 9: Ghép nối bạn với số 9 có thể hiệu quả vì cả hai đều tìm kiếm sự thỏa mãn từ lòng vị tha, nhưng bản chất xa cách của số 9 có thể quá lạnh lùng đối với bạn.
+
+Hãy nhớ rằng khả năng tương thích trong các mối quan hệ của bạn còn sâu sắc hơn những gì thể hiện ở con số đường đời. Để biết cách tạo ra sự hài hòa, bạn sẽ cần xem xét các con số khác trong thần số học của mình. Chỉ số Linh hồn, Sứ mệnh, Nhân cách và Thái độ của bạn cũng sẽ ảnh hưởng đến mức độ tương thích của bạn trong các mối quan hệ. Đọc thêm các luận giải về các chỉ số này để tạo ra một bức tranh tổng quát cho bạn.
         
 <strong>• TÌNH DUYÊN:</strong>
-        - Số 11 là một phiên bản tăng cường của số 2, có nghĩa là bạn đồng cảm và nhạy cảm với những người trong cuộc sống của bạn giống như những người có đường đời số 2. Bạn là những người giao tiếp, lắng nghe tốt và luôn phấn đấu để có được sự hòa hợp trong mọi môi trường. Điều bất lợi là năng lực tâm linh làm bạn có thể bận tâm đến các cõi khác và quên đi mối quan hệ với những người ở đây trên trái đất.
-        - Bạn là một người hòa bình và sẵn sàng thỏa hiệp trong một mối quan hệ, và bạn coi trọng sự đồng hành. Điều này khiến bạn trở thành một người bạn đồng hành tuyệt vời với bạn đời.
-        - Vì đường đời số 11 nhạy cảm tâm linh và trực giác cao nhất trong tất cả các số đường đời, nên việc đáp ứng nhu cầu của bạn đời là điều đương nhiên. Bạn cũng vô cùng chung thủy. Sự cam kết và lòng trung thành rất quan trọng đối với bạn, và các mối quan hệ của bạn thể hiện nhiều yếu tố tinh thần.
-        - Bạn là người giàu cảm xúc và đôi khi dễ bị lo lắng và trầm cảm. Bạn có thể được hưởng lợi từ một người bạn đời tính tình ổn định có thể khơi dậy ngọn lửa tình cảm bằng một chút đồng cảm. 
-        - Bạn là người yêu thương và tốt bụng, nhưng cũng cần không gian riêng và có tính cách độc lập mạnh mẽ, vì vậy những người bạn đời "nhạt" quá sẽ khiến bạn kiệt sức. Nhưng khi bạn đời làm tổn thương bạn (cố ý hoặc vô tình), bạn có thể phản ứng bằng một sức mạnh cảm xúc sâu sắc.
-        
-        Cách tiếp cận tình cảm của bạn cũng sẽ bị ảnh hưởng bởi các con số khác trong biểu đồ. Chỉ số Linh hồn, chỉ số Nhân Cách, chỉ số Thái độ và Chỉ số Sứ mệnh sẽ thay đổi cách cuộc sống tình cảm của bạn diễn ra. Hãy đọc tiếp tới các chỉ số này.`,
+- Số 11 là một phiên bản tăng cường của số 2, có nghĩa là bạn đồng cảm và nhạy cảm với những người trong cuộc sống của bạn giống như những người có đường đời số 2. Bạn là những người giao tiếp, lắng nghe tốt và luôn phấn đấu để có được sự hòa hợp trong mọi môi trường. Điều bất lợi là năng lực tâm linh làm bạn có thể bận tâm đến các cõi khác và quên đi mối quan hệ với những người ở đây trên trái đất.
+- Bạn là một người hòa bình và sẵn sàng thỏa hiệp trong một mối quan hệ, và bạn coi trọng sự đồng hành. Điều này khiến bạn trở thành một người bạn đồng hành tuyệt vời với bạn đời.
+- Vì đường đời số 11 nhạy cảm tâm linh và trực giác cao nhất trong tất cả các số đường đời, nên việc đáp ứng nhu cầu của bạn đời là điều đương nhiên. Bạn cũng vô cùng chung thủy. Sự cam kết và lòng trung thành rất quan trọng đối với bạn, và các mối quan hệ của bạn thể hiện nhiều yếu tố tinh thần.
+- Bạn là người giàu cảm xúc và đôi khi dễ bị lo lắng và trầm cảm. Bạn có thể được hưởng lợi từ một người bạn đời tính tình ổn định có thể khơi dậy ngọn lửa tình cảm bằng một chút đồng cảm. 
+- Bạn là người yêu thương và tốt bụng, nhưng cũng cần không gian riêng và có tính cách độc lập mạnh mẽ, vì vậy những người bạn đời "nhạt" quá sẽ khiến bạn kiệt sức. Nhưng khi bạn đời làm tổn thương bạn (cố ý hoặc vô tình), bạn có thể phản ứng bằng một sức mạnh cảm xúc sâu sắc.
+
+Cách tiếp cận tình cảm của bạn cũng sẽ bị ảnh hưởng bởi các con số khác trong biểu đồ. Chỉ số Linh hồn, chỉ số Nhân Cách, chỉ số Thái độ và Chỉ số Sứ mệnh sẽ thay đổi cách cuộc sống tình cảm của bạn diễn ra. Hãy đọc tiếp tới các chỉ số này.`,
         content: `<strong>• ĐIỂM MẠNH CỦA BẠN:</strong>
-        - Bạn là người có trực giác rất mạnh. Trên thực tế, bạn có trực giác nhạy bén nhất trong tất cả các số. Bạn rất nhạy cảm và có một khả năng thấu hiểu người khác tuyệt vời, và có thể cảm nhận rất nhiều về những gì đang xảy ra đằng sau hậu trường. Ví dụ, bạn sẽ nhận biết về mối quan hệ và sức khỏe của mọi người dù không được nói cho biết bất cứ điều gì. Bạn ở đây để sử dụng món quà trực giác và sự nhạy cảm để giúp đỡ người khác.
-        - Con số đường đời số 11 có những phẩm chất của số 2 được khuếch đại. 
-        - Bạn là con người của tình yêu, sự khoan dung, đồng cảm, lắng nghe, hòa bình, kết nối. 
-        - Bạn sẵn lòng tha thứ cho người khác nếu họ biết lỗi. Bạn không những thấu hiểu mà còn đồng cảm được với niềm vui hoặc nỗi buồn của người khác khi họ tâm sự với bạn, làm cho họ được vơi đi. 
-        - Bạn có thể dành hàng giờ chỉ để ngồi nghe họ tâm sự. Bạn còn có thể kết nối bạn bè của bạn với những người khác để giúp mọi người. Bạn là chuyên gia kết nối. 
-        - Bạn là người sinh ra để yêu và được yêu; coi trọng tình cảm, gia đình, tình bạn. Bạn khát khao tình yêu. Bạn muốn được mọi người đối xử bằng tình yêu thương, sự dịu dàng trong lời nói và hành động. 
-        - Bạn cũng luôn trao đi tình yêu thương, tình cảm tới mọi người và luôn mong cho mọi người được bình an, hòa thuận và hạnh phúc. 
-        - Bạn thực sự là người bạn chân thành, tâm lý và vô cùng an toàn. Đối với bạn, tình yêu, gia đình và bạn bè là những điều không thể thiếu trong cuộc sống. 
-        - Là người hòa giải, bạn có nhiều giải pháp và luôn hành động để hóa giải xung đột, đối đầu. Bạn thường là người có những hành động, việc làm để hòa giải những người đang có vấn đề xung đột với nhau. Bạn không bao giờ đành lòng nhìn thấy bạn bè mình có sự mâu thuẫn, cãi vã. Bạn không thích, thậm chí là sợ bất kỳ hình thức đổ vỡ nào.
-        - Bạn có năng lực tâm linh, trực giác tốt. Cảm nhận của bạn về một điều gì đó thường là chính xác. Bạn có thể có những giấc mơ biến thành sự thật, có tham vọng lớn; bạn có thể cảm nhận được năng lượng, v.v.. 
-        - Nếu bạn có con số này bạn là người có nhận thức về tâm linh, có tầm nhìn xa, đầy cảm hứng, lôi cuốn, sáng tạo, một người mơ mộng, lý tưởng, và suy nghĩ sâu sắc. Và bạn dựa vào đức tin chứ không phải logic để đối phó với cuộc sống và tất cả những gì nó đem lại.
+- Bạn là người có trực giác rất mạnh. Trên thực tế, bạn có trực giác nhạy bén nhất trong tất cả các số. Bạn rất nhạy cảm và có một khả năng thấu hiểu người khác tuyệt vời, và có thể cảm nhận rất nhiều về những gì đang xảy ra đằng sau hậu trường. Ví dụ, bạn sẽ nhận biết về mối quan hệ và sức khỏe của mọi người dù không được nói cho biết bất cứ điều gì. Bạn ở đây để sử dụng món quà trực giác và sự nhạy cảm để giúp đỡ người khác.
+- Con số đường đời số 11 có những phẩm chất của số 2 được khuếch đại. 
+- Bạn là con người của tình yêu, sự khoan dung, đồng cảm, lắng nghe, hòa bình, kết nối. 
+- Bạn sẵn lòng tha thứ cho người khác nếu họ biết lỗi. Bạn không những thấu hiểu mà còn đồng cảm được với niềm vui hoặc nỗi buồn của người khác khi họ tâm sự với bạn, làm cho họ được vơi đi. 
+- Bạn có thể dành hàng giờ chỉ để ngồi nghe họ tâm sự. Bạn còn có thể kết nối bạn bè của bạn với những người khác để giúp mọi người. Bạn là chuyên gia kết nối. 
+- Bạn là người sinh ra để yêu và được yêu; coi trọng tình cảm, gia đình, tình bạn. Bạn khát khao tình yêu. Bạn muốn được mọi người đối xử bằng tình yêu thương, sự dịu dàng trong lời nói và hành động. 
+- Bạn cũng luôn trao đi tình yêu thương, tình cảm tới mọi người và luôn mong cho mọi người được bình an, hòa thuận và hạnh phúc. 
+- Bạn thực sự là người bạn chân thành, tâm lý và vô cùng an toàn. Đối với bạn, tình yêu, gia đình và bạn bè là những điều không thể thiếu trong cuộc sống. 
+- Là người hòa giải, bạn có nhiều giải pháp và luôn hành động để hóa giải xung đột, đối đầu. Bạn thường là người có những hành động, việc làm để hòa giải những người đang có vấn đề xung đột với nhau. Bạn không bao giờ đành lòng nhìn thấy bạn bè mình có sự mâu thuẫn, cãi vã. Bạn không thích, thậm chí là sợ bất kỳ hình thức đổ vỡ nào.
+- Bạn có năng lực tâm linh, trực giác tốt. Cảm nhận của bạn về một điều gì đó thường là chính xác. Bạn có thể có những giấc mơ biến thành sự thật, có tham vọng lớn; bạn có thể cảm nhận được năng lượng, v.v.. 
+- Nếu bạn có con số này bạn là người có nhận thức về tâm linh, có tầm nhìn xa, đầy cảm hứng, lôi cuốn, sáng tạo, một người mơ mộng, lý tưởng, và suy nghĩ sâu sắc. Và bạn dựa vào đức tin chứ không phải logic để đối phó với cuộc sống và tất cả những gì nó đem lại.
         
 <strong>• ĐIỂM YẾU CỦA BẠN:</strong>
-        - Thách thức đối với bạn là không để bản thân bị áp đảo bởi chính những món quà của bạn. Nỗi sợ hãi và ám ảnh sẽ là nhược điểm của con số này. Đôi khi bạn cũng có thể trông như thiếu quyết đoán, không thực tế, thần kinh và thất thường.
-        - Quá yêu thương sẽ làm cho bạn dễ bị kiệt sức, bởi bạn thường xuyên phải giải quyết, tư vấn, níu kéo để tránh sự đổ vỡ nào đó. Bạn sợ bị từ chối, bởi với bạn, đó là biểu hiện của sự rạn nứt. 
-        - Quá cảm xúc nên bạn có thể sẽ không kiểm soát được tâm trạng, nhất là khi bị khủng hoảng.
-        - Bạn làm việc và đối xử tốt với người khác. Bạn có khả năng kết hôn sớm, cam kết và trung thành cho cả cuộc đời. Tuy vậy, thật không may là bạn thường bị quyến rũ bởi những hấp lực mang nặng tính đời trần (hỉ nộ ái ố, yêu yêu hận hận…) để rồi xa lìa mục đích cao cả của mình.
-        - Bạn cũng dễ suy sụp và mất phương hướng nếu không tự hiểu được chính mình. Bạn có nhiều tham vọng hướng tới những điều lớn lao và khả năng để đạt được chúng, nhưng nếu không thể tự tin thì những mong muốn đó sẽ thất bại.
-        - Có những sự khác biệt cực kỳ to lớn giữa cách sống của những người Số 11 nào biết sống tích cực và vận dụng được sức mạnh tâm linh vượt trội của mình vào giúp ích cuộc sống, và những người Số 11 đầy tiêu cực với đời sống có vẻ đầy khó khăn và nhạt nhòa.
+- Thách thức đối với bạn là không để bản thân bị áp đảo bởi chính những món quà của bạn. Nỗi sợ hãi và ám ảnh sẽ là nhược điểm của con số này. Đôi khi bạn cũng có thể trông như thiếu quyết đoán, không thực tế, thần kinh và thất thường.
+- Quá yêu thương sẽ làm cho bạn dễ bị kiệt sức, bởi bạn thường xuyên phải giải quyết, tư vấn, níu kéo để tránh sự đổ vỡ nào đó. Bạn sợ bị từ chối, bởi với bạn, đó là biểu hiện của sự rạn nứt. 
+- Quá cảm xúc nên bạn có thể sẽ không kiểm soát được tâm trạng, nhất là khi bị khủng hoảng.
+- Bạn làm việc và đối xử tốt với người khác. Bạn có khả năng kết hôn sớm, cam kết và trung thành cho cả cuộc đời. Tuy vậy, thật không may là bạn thường bị quyến rũ bởi những hấp lực mang nặng tính đời trần (hỉ nộ ái ố, yêu yêu hận hận…) để rồi xa lìa mục đích cao cả của mình.
+- Bạn cũng dễ suy sụp và mất phương hướng nếu không tự hiểu được chính mình. Bạn có nhiều tham vọng hướng tới những điều lớn lao và khả năng để đạt được chúng, nhưng nếu không thể tự tin thì những mong muốn đó sẽ thất bại.
+- Có những sự khác biệt cực kỳ to lớn giữa cách sống của những người Số 11 nào biết sống tích cực và vận dụng được sức mạnh tâm linh vượt trội của mình vào giúp ích cuộc sống, và những người Số 11 đầy tiêu cực với đời sống có vẻ đầy khó khăn và nhạt nhòa.
         
 <strong>• NHỮNG NGƯỜI NỔI TIẾNG CÓ SỐ 11/2:</strong>
-        - Wolfgang Amadeus Mozart, Harry Houdini, Michelle Obama, David Beckham
-        
-        Bên cạnh số đường đời, sẽ còn hơn 20 chỉ số quan trọng khác phân tích chi tiết về bạn, đặc biệt bạn xem kĩ các chỉ số ở biểu đồ kim tự tháp để xem các năm đỉnh cao trong cuộc đời và biểu đồ sức mạnh để xem các giá trị năng lực mà bạn có cùng với các chỉ số khác kèm lời khuyên tương ứng để kích hoạt được các điểm mạnh của bạn giúp bạn phát triển, gặp nhiều thuận lợi trong cuộc sống.`,
+- Wolfgang Amadeus Mozart, Harry Houdini, Michelle Obama, David Beckham
+
+Bên cạnh số đường đời, sẽ còn hơn 20 chỉ số quan trọng khác phân tích chi tiết về bạn, đặc biệt bạn xem kĩ các chỉ số ở biểu đồ kim tự tháp để xem các năm đỉnh cao trong cuộc đời và biểu đồ sức mạnh để xem các giá trị năng lực mà bạn có cùng với các chỉ số khác kèm lời khuyên tương ứng để kích hoạt được các điểm mạnh của bạn giúp bạn phát triển, gặp nhiều thuận lợi trong cuộc sống.`,
     },
 ]
 
