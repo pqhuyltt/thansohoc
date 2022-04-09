@@ -1,4 +1,5 @@
 import { createContext, ReactNode, useEffect, useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { ISearchInput } from '../utils/interfaces'
 
 // interface ISearch {
@@ -23,7 +24,7 @@ export const SearchContextProvider = ({
     children: ReactNode
 }) => {
     const [info, setInfo] = useState<ISearchInput>(
-        JSON.parse(localStorage.getItem('state') ?? '') ?? {},
+        JSON.parse(localStorage.getItem('state') ?? `{}`) ?? {},
     )
 
     return (

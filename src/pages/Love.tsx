@@ -132,19 +132,19 @@ const Love = () => {
                     Tính cách nổi trội của {name1}
                 </h3>
                 <p className="leading-[1.6]">
-                    - Điểm mạnh: {genitive[info.number1 as number].strong}
+                    - Điểm mạnh: {genitive[info.number1 as number]?.strong}
                 </p>
                 <p className="leading-[1.6]">
-                    - Điểm yếu: {genitive[info.number1 as number].weak}
+                    - Điểm yếu: {genitive[info.number1 as number]?.weak}
                 </p>
                 <h3 className="font-bold mt-5 text-[#FD6A78]">
                     Tính cách nổi trội của {name2}
                 </h3>
                 <p className="leading-[1.6]">
-                    - Điểm mạnh: {genitive[info.number2 as number].strong}
+                    - Điểm mạnh: {genitive[info.number2 as number]?.strong}
                 </p>
                 <p className="leading-[1.6]">
-                    - Điểm yếu: {genitive[info.number2 as number].weak}
+                    - Điểm yếu: {genitive[info.number2 as number]?.weak}
                 </p>
                 <div className="mt-10 text-primary">
                     <p className="mt-2">

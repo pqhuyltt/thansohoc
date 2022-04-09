@@ -1679,13 +1679,13 @@ const Detail = () => {
     const tuoidinh4 = useMemo(() => 9 + tuoidinh3, [tuoidinh3])
     const bieudoso = useMemo(() => {
         return [
-            ...getArrNum(info.day as string),
-            ...getArrNum(info.month as string),
-            ...getArrNum(info.year as string),
+            ...getArrNum(`${info.day}` as string),
+            ...getArrNum(`${info.month}` as string),
+            ...getArrNum(`${info.year}` as string),
         ]
     }, [info])
     const bieudoso2 = useMemo(
-        () => getArrNumFromString(info.fullname as string),
+        () => getArrNumFromString(`${info.fullname}` as string),
         [info],
     )
     const bieudoso3 = useMemo(
@@ -1736,7 +1736,7 @@ const Detail = () => {
                     <span className="text-shadow-pink">{info.number1}</span>
                 </h2>
                 <p className="rp-text">
-                    {parse(TEXT[info.number1 as number].content)}
+                    {parse(TEXT[info.number1 as number]?.content ?? '')}
                 </p>
                 {!isVerify && (
                     <div>

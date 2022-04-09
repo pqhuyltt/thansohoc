@@ -109,10 +109,10 @@ const Result = () => {
                         Tính cách nổi trội của bạn
                     </p>
                     <p className="rp-text">
-                        - Điểm mạnh: {genitive[info.number1 as number].strong}
+                        - Điểm mạnh: {genitive[info.number1 as number]?.strong}
                     </p>
                     <p className="rp-text">
-                        - Điểm yếu: {genitive[info.number1 as number].weak}
+                        - Điểm yếu: {genitive[info.number1 as number]?.weak}
                     </p>
                 </div>
                 <Link
