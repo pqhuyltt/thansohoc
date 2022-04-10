@@ -102,7 +102,7 @@ const Result = () => {
                 </div>
             </div>
 
-            <div className="mt-10 rounded-lg bg-[rgba(0,0,0,.4)] p-4">
+            <div className="mt-10 box">
                 <Chart day={Number(info.day)} month={Number(info.month)} />
                 <div className="mt-5 text-sm  text-white">
                     <p className="uppercase font-bold text-primary">

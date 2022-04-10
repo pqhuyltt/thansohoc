@@ -1,6 +1,6 @@
 import { calc } from './calc'
 
-const so = [
+export const so = [
     [],
     ['a', 'j', 's'],
     ['b', 'k', 't'],
@@ -20,7 +20,6 @@ export const tinhSoTuChu = (string: string) => {
             if (item.includes(string[i])) num += index
         })
     }
-    console.log(num)
 
     return calc(num)
 }

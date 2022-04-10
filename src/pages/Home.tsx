@@ -182,7 +182,7 @@ const Home = () => {
                         {err}
                     </p>
                 )}
-                <div className="rounded-lg bg-[rgba(0,0,0,.4)] p-4">
+                <div className="box">
                     <p className="form-label">
                         Nhập họ tên khai sinh (nên nhập không dấu)
                     </p>
@@ -370,15 +370,7 @@ const Home = () => {
                             - Số chủ đạo tuy rất quan trọng nhưng không thể hiện
                             hết toàn bộ thông tin thần số của bạn. Để xem kết
                             quả tra cứu chính xác nhất, hãy kết hợp tất cả các
-                            chỉ số mà chúng tôi tính toán cho bạn! Tìm hiểu thêm{' '}
-                            <a
-                                href="https://tracuuthansohoc.com/than-so-hoc-la-gi/#quan-trong-doi-voi-nguoi-moi-xem-than-so-hoc-tai-tracuuthansohoc-sao-cho-dung"
-                                target="_blank"
-                                className="text-primary hover:underline"
-                            >
-                                tại đây
-                            </a>
-                            .
+                            chỉ số mà chúng tôi tính toán cho bạn!
                         </p>
                     </div>
                 </div>

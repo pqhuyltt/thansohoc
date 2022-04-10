@@ -41,6 +41,34 @@ body::-webkit-scrollbar-track {
     transform: rotate(90deg) skew(-25deg) translateY(16.6666666667px);
 }
 
+.tb-gm {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.tb-gm td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border: 1px solid #e5e5e5;
+    border-collapse: collapse;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+}
+
+th {
+    font-size: 20px;
+    background-color: #f9a25c;
+    color: #fff;
+    text-align: center;
+    vertical-align: bottom;
+    border: 1px solid #e5e5e5;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
 .chart {
     max-width: 500px !important;
     height: 200px !important;
@@ -141,5 +169,9 @@ body::-webkit-scrollbar-track {
 
     .primary-btn {
         @apply bg-primary text-black hover:opacity-80 transition-opacity duration-300;
+    }
+
+    .box {
+        @apply border border-white bg-black mb-5 p-5;
     }
 }

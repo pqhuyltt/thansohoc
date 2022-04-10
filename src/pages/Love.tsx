@@ -97,7 +97,7 @@ const Love = () => {
                     <FaRegHeart className="text-[190px] text-[#FD6A78] animate-scale-heart " />
                 </div>
             </div>
-            <div className="rp-box mt-10">
+            <div className="rp-box box mt-10">
                 <div className="flex">
                     <div className="flex-1 flex font-semibold flex-col items-center text-base text-primary">
                         <p className="uppercase ">{name1}</p>
