@@ -69,7 +69,7 @@ const Result = () => {
     return (
         <Layout>
             <div className="mt-10 flex flex-col items-center text-3xl font-bold select-none cursor-default text-white">
-                <h2>
+                <h2 className="text-center">
                     Họ và tên:{' '}
                     <span className="text-primary">{info.fullname}</span>
                 </h2>
