@@ -841,14 +841,12 @@ const NAM = [
 Sức mạnh của năm này thúc đẩy chúng ta dám trở nên khác biệt và phát triển lòng tự tin. Đây cũng là một năm đặc biệt phù hợp để chúng ta phá bỏ những thói quen cũ.
 Bên cạnh đó, việc hình thành lối sống mới chắc chắn đòi hỏi chúng ta có sự kiên trì cao độ. Năm này sẽ đặc biệt tác động đến những người có Con số chủ đạo 10. 
 Mọi việc diễn ra quá thuận lợi với họ đến mức họ có thể dễ dàng rơi vào tình trạng chủ quan hoặc thiếu cảnh giác, đặc biệt là trong vấn đề tài chính. Những người này cần lưu ý tránh ngủ quên trên chiến thắng mà sinh lòng kiêu ngạo.
-Với ý thức tự chủ hợp lý, những người mang Con số chủ đạo 10 sẽ thấy Năm thứ nhất là một năm có sự phát triển vượt bậc về đời sống vật chất và nhận được sự ủng hộ từ những người xung quanh.
-        `,
+Với ý thức tự chủ hợp lý, những người mang Con số chủ đạo 10 sẽ thấy Năm thứ nhất là một năm có sự phát triển vượt bậc về đời sống vật chất và nhận được sự ủng hộ từ những người xung quanh.`,
     },
     {
         heading:
             'NĂM THỨ HAI (PYN 2) - NĂM CỦA SỰ PHÁT TRIỂN TÂM LINH - TINH THẦN VÀ CHIA SẺ',
-        content: `
-Mặc dù không có sức mạnh của một năm thay đổi định điểm, đây vẫn là một năm có bản chất mạnh mẽ đủ để khiến một tâm hồn rối rắm trở về được với sự bình yên tĩnh tại. Sự phát triển tâm linh là yếu tố rõ nét nhất của năm này, khi người ta cảm thụ cuộc sống ở mức độ tinh tế hơn. 
+        content: `Mặc dù không có sức mạnh của một năm thay đổi định điểm, đây vẫn là một năm có bản chất mạnh mẽ đủ để khiến một tâm hồn rối rắm trở về được với sự bình yên tĩnh tại. Sự phát triển tâm linh là yếu tố rõ nét nhất của năm này, khi người ta cảm thụ cuộc sống ở mức độ tinh tế hơn. 
 Đây không phải là một năm của thay đổi to lớn, mà là một năm phát triển khả năng kiểm soát cảm xúc, nâng cao nhận thức về tâm linh và củng cố trực giác. 
 Trọng tâm phát triển dưới sóng rung của năm này là nhu cầu chủ động phát triển sức mạnh của việc thiền định.
 Điều này có nghĩa là cơ thể sẽ tự điều chỉnh ở mức độ tế bào để đạt được sức mạnh nội tại mà tất cả chúng ta đều muốn sử dụng để làm nguồn năng lượng dự trữ vô hạn và là sức thu hút mạnh mẽ của mỗi người. 
@@ -857,144 +855,111 @@ Sau hai năm phát triển trước đó, một số người có khuynh hướn
 Đây cũng chính là lúc luật âm - dương (trong âm có dương, trong dương có âm) vận hành: phần tiêu cực chớp lấy cơ hội để làm dấy lên những cảm xúc thụ động như nỗi sợ, sự lo lắng, thói tranh cãi và sự bất an.
 Những điều này có thể thể hiện theo những cách thức bất ngờ, khiến một người đáng mến trở nên khá khó ưa hoặc hống hách đến mức không chịu nổi. 
 Hãy nhận thức rằng đây là một năm của sự hợp tác, cùng làm việc với nhau tại nhiều môi trường khác nhau (tại nhà, tại nơi làm việc, trong các trận đấu thể thao, ... ).
-Để đạt được điều này, chúng ta cần sống yêu thương và biết chấp nhận nhiều hơn, từ đó đẩy mạnh khía cạnh phát triển của Năm thứ hai. Năm thứ hai này càng đặc biệt có ảnh hưởng mạnh đối với những người có Con số chủ đạo là 2 và 11. Không có gì ngạc nhiên nếu nhận thức tâm linh của họ tăng lên đáng kể, đến mức gần như phòng chiếu nhận thức của họ vào một chiều không gian - thời gian khác. Họ nên tạo điều kiện cho sự phát triển này diễn ra thuận lợi bằng cách dành thời gian để thiền định và tìm hiểu các vấn đề tâm linh. Khi làm vậy, họ không chỉ gia tăng sức mạnh của bản thân, mà còn giúp ích cho vai trò của họ trong việc dẫn dắt người khác. 
-        `,
+Để đạt được điều này, chúng ta cần sống yêu thương và biết chấp nhận nhiều hơn, từ đó đẩy mạnh khía cạnh phát triển của Năm thứ hai. Năm thứ hai này càng đặc biệt có ảnh hưởng mạnh đối với những người có Con số chủ đạo là 2 và 11. Không có gì ngạc nhiên nếu nhận thức tâm linh của họ tăng lên đáng kể, đến mức gần như phòng chiếu nhận thức của họ vào một chiều không gian - thời gian khác. Họ nên tạo điều kiện cho sự phát triển này diễn ra thuận lợi bằng cách dành thời gian để thiền định và tìm hiểu các vấn đề tâm linh. Khi làm vậy, họ không chỉ gia tăng sức mạnh của bản thân, mà còn giúp ích cho vai trò của họ trong việc dẫn dắt người khác. `,
     },
     {
         heading: 'NĂM THỨ BA (PYN 3) - NĂM CỦA SỰ MỞ MANG TÂM TRÍ',
-        content: `
-Giữa năm đỉnh điểm của sự thay đổi (Năm thứ chín của chu kỳ cũ) và năm cực thoái đầu tiên (Năm thứ tư) là Năm thứ ba - năm tập trung một cách đáng ngạc nhiên vào sức mạnh trí não, góp phần mang lại sự phát triển trọn vẹn cho giai đoạn này trong chu kỳ 9 năm của con người. Dưới tác động của sóng rung này, khả năng tư duy và quan sát của chúng ta được mài giũa để trở nên nhạy bén. 
+        content: `Giữa năm đỉnh điểm của sự thay đổi (Năm thứ chín của chu kỳ cũ) và năm cực thoái đầu tiên (Năm thứ tư) là Năm thứ ba - năm tập trung một cách đáng ngạc nhiên vào sức mạnh trí não, góp phần mang lại sự phát triển trọn vẹn cho giai đoạn này trong chu kỳ 9 năm của con người. Dưới tác động của sóng rung này, khả năng tư duy và quan sát của chúng ta được mài giũa để trở nên nhạy bén. 
 Đây cũng là năm của sự khao khát kiến thức và sự thể hiện.
 Một số người sẽ chọn theo đuổi một môn học thuật nào đó. Những người khác có thể khám phá cuộc sống và những triết lý sống, một số người khác nữa thì đi tìm sự khai sáng trong tiến trình phát triển cá nhân của mình. Có hai cách phổ biến để lĩnh hội sự mở mang trí tuệ trong Năm thứ ba này: hoặc thông qua một khóa học, hoặc thông qua việc du ngoạn đó đây . Cho dù bạn chọn hình thức nào, điều quan trọng là hãy nhận thức được rằng đây là năm mà sự phát triển trí nhớ trở thành thiết yếu, vì sóng rung của số 3 là cánh cổng dẫn vào tâm trí thông qua trí nhớ. Chúng ta cần nhận thức được rằng trí nhớ là nền tảng của lòng tự tôn và sự tự tin, đồng thời là chiếc cầu nối giữa Ý thức và vô thức. 
 Quá trình không ngừng mở rộng khả năng và sự nhạy bén của trí nhớ sẽ tạo ra sự khác biệt rõ y ràng giữa những người đang lão hóa và những người “ trẻ mãi không già ".
-Ở khía cạnh nhẹ nhàng hơn của Năm thứ ba, chúng ta nên nhận ra nhu cầu cân bằng cuộc sống bằng cách dành thời gian cho niềm vui, những buổi tụ tập bạn bè và những câu chuyện dí dỏm. Những người Có Con số chủ đạo 3 sẽ đặc biệt “ ăn rơ ” với sóng rung của Năm thứ ba này, nhưng họ cần học cách kiểm soát lý trí cao độ của mình để đảm bảo nó không lấn át cảm xúc. Quá trình nâng cao mức độ nhạy bén của tư duy mà những người này sẽ trải nghiệm trong Năm thứ ba cần được hướng vào những nhận thức mang tính xây dựng, để có thể mang lại sự thỏa mãn cho bản thân họ và sự bình yên cho những người xung quanh họ - nhưng những người này sẽ trở nên mệt mỏi với tính lý trí thái quá và trở thành nạn nhân của thói chỉ trích của họ.
-        `,
+Ở khía cạnh nhẹ nhàng hơn của Năm thứ ba, chúng ta nên nhận ra nhu cầu cân bằng cuộc sống bằng cách dành thời gian cho niềm vui, những buổi tụ tập bạn bè và những câu chuyện dí dỏm. Những người Có Con số chủ đạo 3 sẽ đặc biệt “ ăn rơ ” với sóng rung của Năm thứ ba này, nhưng họ cần học cách kiểm soát lý trí cao độ của mình để đảm bảo nó không lấn át cảm xúc. Quá trình nâng cao mức độ nhạy bén của tư duy mà những người này sẽ trải nghiệm trong Năm thứ ba cần được hướng vào những nhận thức mang tính xây dựng, để có thể mang lại sự thỏa mãn cho bản thân họ và sự bình yên cho những người xung quanh họ - nhưng những người này sẽ trở nên mệt mỏi với tính lý trí thái quá và trở thành nạn nhân của thói chỉ trích của họ.`,
     },
     {
         heading: 'NĂM THỨ TƯ (PYN 4) - NĂM CỦA SỰ CỦNG CỐ NỘI LỰC',
-        content: `
-Các yếu tố về thể chất và vật chất sẽ chiếm thế thượng phong trong năm “ chạm đáy ” này. Sự nghỉ ngơi và ổn định là điều kiện thiết yếu để tái tạo năng lượng và củng cố nội lực sau 5 năm phát triển trước đó. Đây là một năm “ vuông vức ” khi mọi thứ đều được đem ra cân đong đo đếm và những khía cạnh không được mong muốn sẽ bị loại bỏ, như dây leo được cắt tỉa trong mùa đông để có chỗ đâm chồi nảy lộc vào mùa xuân kế tiếp. Đây là một năm lý tưởng để hòa hợp Thể Cơ bản (bao gồm cơ thể và cảm xúc) , Thể Ý thức (bao gồm tư duy và ý tưởng) với Thể Siêu thức (phần linh hồn vĩnh cửu).
+        content: `Các yếu tố về thể chất và vật chất sẽ chiếm thế thượng phong trong năm “ chạm đáy ” này. Sự nghỉ ngơi và ổn định là điều kiện thiết yếu để tái tạo năng lượng và củng cố nội lực sau 5 năm phát triển trước đó. Đây là một năm “ vuông vức ” khi mọi thứ đều được đem ra cân đong đo đếm và những khía cạnh không được mong muốn sẽ bị loại bỏ, như dây leo được cắt tỉa trong mùa đông để có chỗ đâm chồi nảy lộc vào mùa xuân kế tiếp. Đây là một năm lý tưởng để hòa hợp Thể Cơ bản (bao gồm cơ thể và cảm xúc) , Thể Ý thức (bao gồm tư duy và ý tưởng) với Thể Siêu thức (phần linh hồn vĩnh cửu).
 Những người không lắng nghe nhu cầu nghỉ ngơi và điều chỉnh sẽ thấy bản thân rơi vào trạng thái không hài hòa - ví dụ như cảm thấy mọi thứ đều bế tắc, không có sự hòa hợp trong nội tâm - từ đó dẫn đến sự uất giận, rối rắm và sợ hãi. Trong năm này, những nỗ lực thay đổi nào lớn trong Công việc hoặc lối sống đều hiếm khi thành công, mà thường gây ra những tổn thất về tài chính, sức khỏe, hoặc cả hai. Đối với những người vốn đã nhạy cảm và dễ bị căng thẳng thần kinh, trong Năm thứ tư họ cần đặc biệt cần trọng để tránh bất hòa với những người xung quanh. Một kỳ nghỉ thư giãn sẽ có ích nhất cho những người này. Người có con số chủ đạo 4 thường chịu tác động mạnh nhất trong Năm thứ tư, do đó họ sẽ tỏ ra khó chịu trước ảnh hưởng của sóng rung này. Họ thường không thể nhận ra đây là một năm củng cố nội lực, mà thay vào đó thường ra sức thúc đẩy những tiến triển mà họ đã có được trong bốn năm trước. Hậu quả là hệ thần kinh của họ rơi vào tình trạng cực kỳ căng thẳng.
-Những người này cần nghỉ ngơi và giảm thiểu những tác động làm nhiều cảm xúc, chẳng hạn như tránh xem ti - vi quá nhiều, tránh xem các bộ phim trinh thám kịch tính, tránh tranh cãi tại nơi làm việc và tại nhà, đồng thời kết hợp với một chế độ dinh dưỡng phù hợp.
-        `,
+Những người này cần nghỉ ngơi và giảm thiểu những tác động làm nhiều cảm xúc, chẳng hạn như tránh xem ti - vi quá nhiều, tránh xem các bộ phim trinh thám kịch tính, tránh tranh cãi tại nơi làm việc và tại nhà, đồng thời kết hợp với một chế độ dinh dưỡng phù hợp.`,
     },
     {
         heading: 'NĂM THỨ NĂM (PYN 5) - NĂM CỦA TỰ DO',
-        content: `
-Đây là một năm mà các yếu tố cảm xúc, tinh thần và tâm linh thể hiện rất rõ.
+        content: `Đây là một năm mà các yếu tố cảm xúc, tinh thần và tâm linh thể hiện rất rõ.
 Sóng rung của năm này sẽ kết nối cực trùng của năm trước đó với đỉnh sáng tạo của năm sau, kích hoạt năng lượng của sự tự do, thứ được tạo thành bởi nhận thức tâm linh và khả năng biểu đạt cá nhân được nâng tầm. Điều này dẫn đến sự phát triển năng lực của chúng ta, để thoát khỏi sự ràng buộc về vật chất và sự gò bó của xã hội, thay vào đó là sự tập trung vào biểu đạt nghệ thuật, một cách chuyên nghiệp hoặc như một sở thích. Một số người sẽ bắt đầu xây dựng nền tảng cho con đường sự nghiệp mới dưới tác động của sóng rung này.
-Một số người khác thì khám phá sự tự do trong việc chuyển nhà, dọn về quê và thoát khỏi sự bó buộc của đời sống đô thị. Những người có Con số chủ đạo 5 thường trở nên ám ảnh với khát khao tự do trong Năm thứ năm này. Tuy nhiên, họ cần nhận ra rằng họ không phải lúc nào cũng cần sự tự do về mặt thể chất - dù đôi khi hoàn cảnh khiến họ rất dễ tin như vậy, từ đó sử dụng lý trí để bao biện và che giấu sự trống rỗng trong phương diện thấu hiểu bản thân. Điều mà họ cần nhất là sự tự do biểu đạt, thứ có thể đạt được qua nhiều hình thức nghệ thuật khác nhau, như âm nhạc, hội họa, thủ công mỹ nghệ... hoặc bất kỳ hình thức nào tương tự để nuôi dưỡng sự cân bằng trong tâm hồn, từ đó giúp họ đạt được sự an tĩnh, bình yên.
-        `,
+Một số người khác thì khám phá sự tự do trong việc chuyển nhà, dọn về quê và thoát khỏi sự bó buộc của đời sống đô thị. Những người có Con số chủ đạo 5 thường trở nên ám ảnh với khát khao tự do trong Năm thứ năm này. Tuy nhiên, họ cần nhận ra rằng họ không phải lúc nào cũng cần sự tự do về mặt thể chất - dù đôi khi hoàn cảnh khiến họ rất dễ tin như vậy, từ đó sử dụng lý trí để bao biện và che giấu sự trống rỗng trong phương diện thấu hiểu bản thân. Điều mà họ cần nhất là sự tự do biểu đạt, thứ có thể đạt được qua nhiều hình thức nghệ thuật khác nhau, như âm nhạc, hội họa, thủ công mỹ nghệ... hoặc bất kỳ hình thức nào tương tự để nuôi dưỡng sự cân bằng trong tâm hồn, từ đó giúp họ đạt được sự an tĩnh, bình yên.`,
     },
     {
         heading: 'NĂM THỨ SÁU (PYN 6) NĂM CỦA SỰ SÁNG TẠO',
-        content: `
-Đây có thể được gọi là một năm đỉnh cao “ mini ” , tập trung vào những năng lượng được tích lũy thông qua các hoạt động sáng tạo. 
+        content: `Đây có thể được gọi là một năm đỉnh cao “ mini ” , tập trung vào những năng lượng được tích lũy thông qua các hoạt động sáng tạo. 
 Những dự án sáng tạo mới được thực hiện trong năm này sẽ có nhiều khả năng thành công nhất, đặc biệt là nếu chúng hướng đến mục đích nâng cao chất lượng cuộc sống con người. 
 Đây là một năm mà sự hình thành của bất kỳ một doanh nghiệp nào Có đầu tư nghiêm túc đều sẽ có lợi. Đây cũng là một năm của gia đình và các mối quan hệ cá nhân.
 Các hoạt động sáng tạo có liên quan đến gia đình sẽ được thúc đẩy bởi sóng rung của Năm thứ sáu. 
 Trong các mối quan hệ, nhiều người sẽ cảm thấy an tâm, hoặc sẽ giải tỏa những hiểu lầm và vướng mắc.
 Nếu người ta cứ ngoan cố bám víu các năng lượng tiêu cực thì Năm thứ sáu sẽ là năm khó khăn nhất, gây ra sự lo lắng tột độ, các cuộc tranh cãi và sự oán giận. Rất rõ ràng, bài học của năm này là đối mặt với bản chất của sự việc như nó vốn có. Bên cạnh đó, hãy hiểu rằng để có một cuộc sống dễ chịu thì sự chân thành phẩm giá và thái độ tích cực là rất quan trọng. Nếu chúng ta làm được như vậy thì đây sẽ là một năm đáng thỏa mãn, tràn đầy hạnh phúc, những thành quả sáng tạo và thành công tài chính.
-Người có Con số chủ đạo 6 sẽ chịu nhiều thử thách trong Năm thứ sáu, vì dưới sự tác động của sóng rung số 6, tính sáng tạo và chính trực của họ sẽ được nhấn mạnh và kết hợp với nhau, tạo ra một giai đoạn tràn đầy sức mạnh nhưng cũng có tính thanh lọc. Những người quyết tâm theo đuổi tính tích cực của số 6 sẽ thấy tính sáng tạo của mình được kích hoạt mạnh mẽ, và chắc chắn họ sẽ chạm đến hạnh phúc ở một tầm cao mới. Tuy nhiên, nhiều người có Con số chủ đạo 6 vẫn chưa nhìn thấy ánh sáng, vẫn lựa chọn vùi mình trong hố sâu tiêu cực, để cho sự lo lắng và bất an thường xuyên xâm chiếm cuộc sống của họ. Họ đang bệnh và sẽ chỉ càng bệnh nặng hơn, vì cơ thể họ ngày càng bị rút hết năng lượng và thái độ sống của họ càng khiến họ Cô độc hơn. Cách chữa trị duy nhất là họ phải đón nhận thái độ tích cực và sáng tạo trong cuộc sống. 
-        `,
+Người có Con số chủ đạo 6 sẽ chịu nhiều thử thách trong Năm thứ sáu, vì dưới sự tác động của sóng rung số 6, tính sáng tạo và chính trực của họ sẽ được nhấn mạnh và kết hợp với nhau, tạo ra một giai đoạn tràn đầy sức mạnh nhưng cũng có tính thanh lọc. Những người quyết tâm theo đuổi tính tích cực của số 6 sẽ thấy tính sáng tạo của mình được kích hoạt mạnh mẽ, và chắc chắn họ sẽ chạm đến hạnh phúc ở một tầm cao mới. Tuy nhiên, nhiều người có Con số chủ đạo 6 vẫn chưa nhìn thấy ánh sáng, vẫn lựa chọn vùi mình trong hố sâu tiêu cực, để cho sự lo lắng và bất an thường xuyên xâm chiếm cuộc sống của họ. Họ đang bệnh và sẽ chỉ càng bệnh nặng hơn, vì cơ thể họ ngày càng bị rút hết năng lượng và thái độ sống của họ càng khiến họ Cô độc hơn. Cách chữa trị duy nhất là họ phải đón nhận thái độ tích cực và sáng tạo trong cuộc sống. `,
     },
     {
         heading: 'NĂM THỨ BẢY (PYN 7) - NĂM CỦA SỰ TẬP TRUNG VƯỢT CHƯỚNG NGẠI',
-        content: `
-Tương tự như Năm thứ tư, đây là một năm trũng để tập trung củng cố nội lực và không nên có những bước thay đổi nào quá lớn. 
+        content: `Tương tự như Năm thứ tư, đây là một năm trũng để tập trung củng cố nội lực và không nên có những bước thay đổi nào quá lớn. 
 Tuy nhiên, Năm thứ bảy vô cùng có ý nghĩa, vì đây là giai đoạn mà chúng ta học cách tập trung cao độ vào việc xem xét sự phát triển của những năm trước để hiểu cuộc đời của mình hơn. 
 Theo cách đó, đây là năm thiết yếu để học hỏi từ các trải nghiệm cá nhân.
 Đối với nhiều người, điều này đồng nghĩa với sự mất mát vì một thất bại nào đó, để qua đó họ nhận ra và áp dụng Sự hướng dẫn đến từ những nguồn năng lượng cao hơn, được truyền tải qua sự dẫn dắt của các bậc cha mẹ, các bậc thấy... và từ sự thông thái vốn có của họ. Khi chỉ biết phản ứng một cách thiếu suy nghĩ trong cuộc sống, chúng ta tự khiến bản thân phải đón nhận những phương pháp chỉnh đốn nghiêm khắc - thứ mà chúng ta hay gọi là “ báo ứng nhãn tiền ” , để từ đó điều chỉnh lại lối sống của mình. Và sự chỉnh đốn này thường sẽ gây ra tổn thất về tiền bạc, sức khỏe hoặc tình cảm. 
 Những tổn thương này đều có lý do của chúng chứ không phải xuất hiện ngẫu nhiên, vì chúng được tạo ra để đánh thức và đưa chúng ta quay về Con đường tiến hóa của mình.
 Những người khôn ngoan sẽ tránh mọi sự thay đổi lớn về tài chính hoặc công việc trong Năm thứ bảy, vì đây là giai đoạn của sự ổn định chứ không phải mở rộng, của quá trình cắt bỏ những cành cây khô để lấy chỗ cho sự phát triển mới trong những năm kế tiếp. Đây cũng là một năm rất phù hợp để chia sẻ hoặc hướng dẫn người khác, vì nhiều cơ hội sẽ xuất hiện để chúng ta có dịp dẫn dắt người khác hướng đến mức độ hiểu biết cao hơn. Người có Con số chủ đạo 7 thường chịu những thử thách hay tổn thất khắc nghiệt nhất dưới tác động của sóng rung Năm thứ bảy, nhưng những trải nghiệm của họ còn có vẻ tồi tệ hơn nữa dưới con mắt của người ngoài.
 Họ không lạ gì việc gặp phải những mất mát, hy sinh, vì đó là cách họ học được những bài học cuộc sống. Và mọi chuyện sẽ tiếp tục như vậy cho đến khi họ có được sự khôn ngoan và một mức độ nhận thức cá nhân nào đó. 
-Một khi đạt được kết quả này, họ có thể trở thành những người thầy, những triết gia thực tế và những người hỗ trợ nhân loại, từ đó hoàn thành mục tiêu mà Con số chủ đạo của họ đề ra. 
-        `,
+Một khi đạt được kết quả này, họ có thể trở thành những người thầy, những triết gia thực tế và những người hỗ trợ nhân loại, từ đó hoàn thành mục tiêu mà Con số chủ đạo của họ đề ra. `,
     },
     {
         heading: 'NĂM THỨ TÁM (PYN 8) - NĂM CỦA SỰ ĐỘC LẬP VÀ TRÍ TUỆ',
-        content: `
-Đây là một năm của những thay đổi nhanh chóng, khi chúng ta trỗi dậy sau một năm âm thầm củng cố nội lực và chuẩn bị bước lên con dốc để đến với đỉnh cao kế tiếp, cũng như đến với sự khởi đầu một chu kỳ phát triển mới và thịnh vượng hơn. 
+        content: `Đây là một năm của những thay đổi nhanh chóng, khi chúng ta trỗi dậy sau một năm âm thầm củng cố nội lực và chuẩn bị bước lên con dốc để đến với đỉnh cao kế tiếp, cũng như đến với sự khởi đầu một chu kỳ phát triển mới và thịnh vượng hơn. 
 Rất nhiều cơ hội được tạo ra dưới tác động của sóng rung này, khi chúng ta khẳng định sự độc lập của mình với sự khôn ngoan ngày càng được nâng cao.
 Đối với một số người, đó sẽ là sự cải thiện đáng kể trong các vấn đề tài chính. Đa số mọi người sẽ có sự trưởng thành và độc lập về mặt tinh thần, khi mà họ nhận ra mình đã tiến bộ đến mức nào trong việc thấu hiểu và kiểm soát cảm xúc, cũng như biết rằng giờ đây họ đã tập trung nhiều hơn vào việc “ sống ” (chủ động hành động) thay vì chỉ “ tồn tại ” (thụ động phản ứng).
-Những người có Con số chủ đạo 8 đã có được sự độc lập và sự khôn ngoan ở một mức độ thích hợp nào đó, đủ để cuộc sống của họ trở nên tích cực. Nếu không, họ Sẽ xây lên bức tường cách ly xung quanh mình, hiểu lầm Sự tách biệt thành độc lập và gặp khó khăn trong việc giao tiếp với những người thân thiết xung quanh mình, những người mà họ vẫn thường đón nhận như lẽ đương nhiên chứ không hề trân trọng. 
-        `,
+Những người có Con số chủ đạo 8 đã có được sự độc lập và sự khôn ngoan ở một mức độ thích hợp nào đó, đủ để cuộc sống của họ trở nên tích cực. Nếu không, họ Sẽ xây lên bức tường cách ly xung quanh mình, hiểu lầm Sự tách biệt thành độc lập và gặp khó khăn trong việc giao tiếp với những người thân thiết xung quanh mình, những người mà họ vẫn thường đón nhận như lẽ đương nhiên chứ không hề trân trọng. `,
     },
     {
         heading: 'NĂM THỨ CHÍN ( PYN 9 ) - NĂM ĐỈNH ĐIỂM THAY ĐỔI',
-        content: `
-Vì nó là thời điểm khép lại chu kỳ cũ và mở ra chu kỳ mới, trước đỉnh cao của chu kỳ 9 năm của mỗi cá nhân chính là một năm khởi động mọi sự thay đổi. Tuy nhiên, nhiều sự thay đổi diễn ra âm thầm đến mức chúng ta sẽ không nhận ra mãi cho đến cuối năm hoặc trong năm kế tiếp .
+        content: `Vì nó là thời điểm khép lại chu kỳ cũ và mở ra chu kỳ mới, trước đỉnh cao của chu kỳ 9 năm của mỗi cá nhân chính là một năm khởi động mọi sự thay đổi. Tuy nhiên, nhiều sự thay đổi diễn ra âm thầm đến mức chúng ta sẽ không nhận ra mãi cho đến cuối năm hoặc trong năm kế tiếp .
 Những thay đổi này rất đa dạng và khác nhau trong suốt cuộc đời của mỗi người, và chúng trở nên đặc biệt rõ nét trong quảng thời gian 27 năm phát triển và trưởng thành theo mô hình Kim tự tháp (tức Bốn đỉnh cao của đời người).
 Các khía cạnh chủ yếu của Năm thứ chín bao gồm việc di chuyển đó đây, đổi nhà, đổi công việc xây dựng mối quan hệ bạn bè mới, thường đi kèm với sự kết thúc một vài mối quan hệ hay tình bạn cũ, không còn phù hợp với hành trình mới.
 Đây cũng là năm tuyệt vời để tất toán những món nợ cũ, cũng như xoa dịu những mối quan hệ đang bất hòa. 
 Ở năm này, người ta thường cảm nhận mạnh mẽ về trách nhiệm con người, cũng như sự bao dung và thấu hiểu . Năm thứ chín thường đặc biệt quan trọng đối với những người có Con số chủ đạo là số 9 , vì họ sẽ cảm nhận được năng lượng mạnh mẽ của nó trong mỗi hành động. Đây dự kiến sẽ là năm của sự thành công đáng kể đối với những người này.
 Năm thứ chín là đỉnh cao trong chu kỳ phát triển 9 năm, do đó, trách nhiệm và lý tưởng của người có Con số chủ đạo 9 sẽ càng được nâng cao trong bất kỳ lĩnh vực nhân văn nào mà họ tham gia. 
 Tuy nhiên, nếu họ vốn đã nhiều tham vọng, năm thứ chín sẽ càng củng cố lòng tham của họ đối với những thành công mang tính tư lợi, khiến họ kích động đến mức trở nên bất cẩn, và điều này có thể dẫn họ đến với những bài học cực kỳ đau thương.
-Bên cạnh đó, sự cuồng nhiệt quá độ, tính kiêu ngạo và tính nghiêm túc quá mức là ba thứ có thể tước mất cơ hội tận hưởng một năm đầy thú vị của những thay đổi ngoạn mục trong cuộc đời họ. 
-        `,
+Bên cạnh đó, sự cuồng nhiệt quá độ, tính kiêu ngạo và tính nghiêm túc quá mức là ba thứ có thể tước mất cơ hội tận hưởng một năm đầy thú vị của những thay đổi ngoạn mục trong cuộc đời họ. `,
     },
 ]
 
 const NGAYSINH = [
     ``,
-    `
-Dành cho những người chào đời vào ngày 1 của tháng. Theo tác phẩm The Complete Book of Numerology, những người sinh vào ngày đầu tiên của tháng sẽ có các khuynh hướng sau đây:
+    `Dành cho những người chào đời vào ngày 1 của tháng. Theo tác phẩm The Complete Book of Numerology, những người sinh vào ngày đầu tiên của tháng sẽ có các khuynh hướng sau đây:
     <strong>- Luôn cố gắng hết sức khi được làm việc một mình.</strong>
     <strong>- Cần rất nhiều tự do để có thể phát triển một cách trọn vẹn nhất, cũng như để biểu đạt hết bản chất độc đáo của họ.</strong>
-Con số chủ đạo sẽ là kim chỉ nam cho thấy bản chất này hướng vào điều gì. Mặt khác, đôi khi họ có khả năng bị cuốn ra khỏi con đường của con số chủ đạo vì mong muốn được làm mọi thứ theo ý mình. Do thích tự nỗ lực và có xu hướng tập trung vào cá nhân, những người này có vẻ tách rời tập thể trong một số thời điểm nào đó. Điều này càng trở nên dễ nhận ra ở những đứa trẻ được sinh ra vào ngày đầu tiên của tháng. Nhưng các bậc cha mẹ không cần quá lo lắng vì điều này không có ảnh hưởng xấu, bọn trẻ chỉ đơn giản là tận hưởng sự riêng tư của chúng mà thôi.
-    `,
-    `
-Dành cho những người chào đời vào ngày 2 và ngày 20 của tháng. Những người sinh vào ngày 2 hay 20 của tháng (không tính ngày 11, vì 11 tự nó đã có sổ riêng) sẽ có thêm những xu hướng và đặc điểm sau:
+Con số chủ đạo sẽ là kim chỉ nam cho thấy bản chất này hướng vào điều gì. Mặt khác, đôi khi họ có khả năng bị cuốn ra khỏi con đường của con số chủ đạo vì mong muốn được làm mọi thứ theo ý mình. Do thích tự nỗ lực và có xu hướng tập trung vào cá nhân, những người này có vẻ tách rời tập thể trong một số thời điểm nào đó. Điều này càng trở nên dễ nhận ra ở những đứa trẻ được sinh ra vào ngày đầu tiên của tháng. Nhưng các bậc cha mẹ không cần quá lo lắng vì điều này không có ảnh hưởng xấu, bọn trẻ chỉ đơn giản là tận hưởng sự riêng tư của chúng mà thôi.`,
+    `Dành cho những người chào đời vào ngày 2 và ngày 20 của tháng. Những người sinh vào ngày 2 hay 20 của tháng (không tính ngày 11, vì 11 tự nó đã có sổ riêng) sẽ có thêm những xu hướng và đặc điểm sau:
     <strong>- Được tăng cường độ nhạy của trực giác, nhờ vậy sẽ có được lợi thế lớn trong việc đưa ra các quyết định.</strong>
     <strong>- Rất thích được làm việc, hợp tác với những người vững vàng, vui vẻ, có sự bình yên trong tâm hồn.</strong>
     <strong>- Rất thích những hình thức giải trí nhẹ nhàng, đặc biệt là những thể loại hài hước, thích làm khán giả hơn là người biểu diễn.</strong>
     <strong>- Là người đáng tin cậy, hữu dụng nhiệt tình giúp đỡ người khác.</strong>
-Nhìn chung, họ là những người sống nhẹ nhàng, chuộng những gì tự nhiên, không “ tâm kế ” thâm sâu.
-    `,
-    `
-Những người chào đời vào ngày 3, 12, 21 hoặc 30 của tháng sẽ có Con số ngày sinh là 3 và thường có thêm các khuynh hướng sau đây:
+Nhìn chung, họ là những người sống nhẹ nhàng, chuộng những gì tự nhiên, không “ tâm kế ” thâm sâu.`,
+    `Những người chào đời vào ngày 3, 12, 21 hoặc 30 của tháng sẽ có Con số ngày sinh là 3 và thường có thêm các khuynh hướng sau đây:
     <strong>- Những người Có Con số ngày sinh 3 thường thích chủ động đem lại sự giải trí vui vẻ cho người khác, dù là trong gia đình, ở chỗ làm hay trên sân khấu. Đa số đều thích làm việc theo dự án, theo chế độ làm việc bán thời gian, vì họ thường có thêm nhiều thú vui hay chí hướng lớn cần theo đuổi (chí hướng lớn hay thú vui đó là gì thì còn tùy vào Con số chủ đạo).</strong>
     <strong>- Rất yêu thích sự hài hước, đặc biệt là hài châm biếm.</strong>
     <strong>- Là những người hướng ngoại rất rõ ràng, thông minh, năng động, lúc nào cũng có sẵn câu trả lời cho các vấn để có thể được hỏi.</strong>
-Tuy nhiên, những người này cần lưu ý rằng bản thân có thể có xu hướng chỉ trích những người có vẻ ù lì hơn mình, thay vì cố gắng hiểu rằng mỗi cá nhân có những xu hướng khác nhau. Họ cần nhớ rõ điểm này để kiềm chế thỏi hay chê bai, thứ dễ gây ra tranh cãi hoặc làm tổn thương cả hai bên. Thay vào đó, hãy tận dụng óc hài hước nhẹ nhàng để “ chỉ điểm ” cho người khác biết những gì cần điều chỉnh, nếu bạn thật sự nghi người ta cần sự giúp đỡ này.
-    `,
-    `
-Những người có ngày sinh là ngày 4, 13 hoặc 31 của tháng sẽ có Con số ngày sinh là 4 và có các khuynh hướng sau đây:
+Tuy nhiên, những người này cần lưu ý rằng bản thân có thể có xu hướng chỉ trích những người có vẻ ù lì hơn mình, thay vì cố gắng hiểu rằng mỗi cá nhân có những xu hướng khác nhau. Họ cần nhớ rõ điểm này để kiềm chế thỏi hay chê bai, thứ dễ gây ra tranh cãi hoặc làm tổn thương cả hai bên. Thay vào đó, hãy tận dụng óc hài hước nhẹ nhàng để “ chỉ điểm ” cho người khác biết những gì cần điều chỉnh, nếu bạn thật sự nghi người ta cần sự giúp đỡ này.`,
+    `Những người có ngày sinh là ngày 4, 13 hoặc 31 của tháng sẽ có Con số ngày sinh là 4 và có các khuynh hướng sau đây:
     <strong>- Có tính thực tế và năng lực để diễn đạt bản thân qua sự khéo léo của tay chân, như hoạt động nhảy múa chẳng hạn.</strong>
     <strong>- Nếu họ có Con số chủ đạo là số lẻ, thì Con số ngày sinh 4 sẽ giúp họ tạo ra sự cân bằng khi họ chịu tiếp nhận thêm những khía cạnh nghệ thuật hay mang tính triết lý vào cuộc sống.</strong>
-    <strong>- Nếu có Con số chủ đạo là số chẵn, họ nên lưu ý để tránh bị thu hút quá mức bởi vật chất, và hãy biết rằng chỉ cần phát huy được tính kiên nhẫn khi thực hiện, tổ chức bất cứ việc gì, họ sẽ đạt được kết quả tốt nhất, bởi vì sự kiên nhẫn gần như đã trở thành một phần bản chất của những người có con số ngày sinh là số 4 (vốn dĩ những việc họ thích và hay làm đều rất cần sự kiên nhẫn, chỉ cần họ ý thức được điều đó thì sự kiên nhẫn cũng dần dần trở thành bản năng trong cuộc sống hằng ngày của họ).</strong>
-    `,
-    `
-Người được sinh vào ngày 5 , 14 hoặc 23 của tháng sẽ có Con số ngày sinh là 5 và có thêm các khuynh hướng sau đây:
+    <strong>- Nếu có Con số chủ đạo là số chẵn, họ nên lưu ý để tránh bị thu hút quá mức bởi vật chất, và hãy biết rằng chỉ cần phát huy được tính kiên nhẫn khi thực hiện, tổ chức bất cứ việc gì, họ sẽ đạt được kết quả tốt nhất, bởi vì sự kiên nhẫn gần như đã trở thành một phần bản chất của những người có con số ngày sinh là số 4 (vốn dĩ những việc họ thích và hay làm đều rất cần sự kiên nhẫn, chỉ cần họ ý thức được điều đó thì sự kiên nhẫn cũng dần dần trở thành bản năng trong cuộc sống hằng ngày của họ).</strong>`,
+    `Người được sinh vào ngày 5 , 14 hoặc 23 của tháng sẽ có Con số ngày sinh là 5 và có thêm các khuynh hướng sau đây:
     <strong>- Là những người giỏi quan tâm, chăm sóc người khác, giàu tình cảm, giàu lòng trắc ẩn và rất cần được tự do biểu đạt những cảm xúc này ra ngoài.</strong>
     <strong>- Là những người nhạy cảm, nhưng cần sở hữu được sự cân bằng để có thể đạt được thành công và hạnh phúc, miễn là họ đừng sợ bị hiểu lầm. Chính nỗi sợ bị hiểu lầm này có thể dẫn đến sự nhút nhát, ngại ngần, làm cản trở khả năng tự biểu đạt của họ, gây ra xu hướng tự thu mình vào trong để đè nén những xúc cảm tự nhiên.</strong>
-Vì vậy, những người này cần tham gia vào càng nhiều hoạt động hay các bài tập ngoài trời càng tốt và cần chọn những người bạn có tính tình vui vẻ, hoạt bát mà chơi (để thêm cho mình năng lượng tích cực), để có thể tự do cười đùa và tận hưởng những niềm vui của cuộc sống.
-    `,
-    `
-Người được sinh ra vào ngày 6 , 15 hoặc 24 của tháng sẽ mang Con số ngày sinh 6 và thường có các khuynh hướng sau đây :
+Vì vậy, những người này cần tham gia vào càng nhiều hoạt động hay các bài tập ngoài trời càng tốt và cần chọn những người bạn có tính tình vui vẻ, hoạt bát mà chơi (để thêm cho mình năng lượng tích cực), để có thể tự do cười đùa và tận hưởng những niềm vui của cuộc sống.`,
+    `Người được sinh ra vào ngày 6 , 15 hoặc 24 của tháng sẽ mang Con số ngày sinh 6 và thường có các khuynh hướng sau đây :
     <strong>- Tuy Con số 6 mang ý nghĩa của sự sáng tạo, nhưng người có Con số ngày sinh là 6 lại thường bị giới hạn trong khuôn khổ gia đình. Điều này đặc biệt đúng với phải nữ, mặc dù nam giới có Con số ngày sinh 6 cũng thích nhà hơn đi ra ngoài, thích làm những việc nho nhỏ có liên đến óc sáng tạo hơn là đi la cà bên ngoài cùng bạn bè. </strong>
     <strong>- Mặt tích cực của Con số ngày sinh 6 là tình yêu thương và chuộng cái đẹp. Người sinh vào những ngày này thường có khả năng làm bừng sáng cả căn nhà hoặc nơi làm việc của họ.</strong>
     <strong>- Tuy nhiên, nếu sống thiếu tích cực, những người này thường dễ lo lắng, có khuynh hướng chuyện bé xé ra to, miễn là họ đừng sợ bị hiểu lầm. Chính nỗi sợ bị hiểu lầm này có thể dẫn đến sự nhút nhát, ngại ngần, làm cản trở khả năng tự biểu đạt của họ, gây ra xu hướng tự thu mình vào trong để đè nén những xúc cảm tự nhiên. Vì vậy, những người này cần tham gia vào càng nhiều hoạt động hay các bài tập ngoài trời càng tốt và cần chọn những người bạn có tính tình vui vẻ, hoạt bát mà chơi (để thêm cho mình năng lượng tích cực) , để có thể tự do cười đùa và tận hưởng những niềm vui của cuộc sống.</strong>
-Đối với những người không tự thoát khỏi những tư tưởng hay lối sống tiêu cực, Thầy David đề xuất một phương án: hãy thử “ tìm quên ” những năng lượng tiêu cực này bằng cách tự tìm cho mình những thú vui, sở thích sáng tạo phù hợp, vì hoạt động này sẽ làm con số 6 phát triển mạnh. Một số hoạt động mà những người này có thể cân nhắc: vẽ, làm đồ gốm, thêu thùa, may vá, đan móc, học chơi nhạc cụ...
-    `,
-    `
-Người chào đời vào ngày 7 , 16 hoặc 25 của tháng sẽ có Con số ngày sinh là 7 và thường sẽ có các khuynh hướng sau đây:
+Đối với những người không tự thoát khỏi những tư tưởng hay lối sống tiêu cực, Thầy David đề xuất một phương án: hãy thử “ tìm quên ” những năng lượng tiêu cực này bằng cách tự tìm cho mình những thú vui, sở thích sáng tạo phù hợp, vì hoạt động này sẽ làm con số 6 phát triển mạnh. Một số hoạt động mà những người này có thể cân nhắc: vẽ, làm đồ gốm, thêu thùa, may vá, đan móc, học chơi nhạc cụ...`,
+    `Người chào đời vào ngày 7 , 16 hoặc 25 của tháng sẽ có Con số ngày sinh là 7 và thường sẽ có các khuynh hướng sau đây:
     <strong>- Thấu hiểu sâu sắc những bài học cuộc sống thông qua việc tự trải nghiệm, mà trong đó, phần lớn là những bài học về tổn thất, hy sinh. Các tổn thất chủ yếu ảnh hưởng tới túi tiền hơn là sức khỏe hay tình yêu, mặc dù nếu sau bài học tổn thất tiền bạc này mà người có Con số ngày sinh là 7 vẫn không tự rút ra bài học thì sẽ dẫn tới tổn thất ở hai lĩnh vực còn lại .</strong>
-    <strong>- Khi trưởng thành hơn về mặt trí tuệ, những người này sẽ cảm thấy thôi thúc muốn chia sẻ những trải nghiệm cuộc sống của mình thông qua việc hướng dẫn người khác theo những cách thiết thực nhất. Nếu làm được điều này, bề dày kinh nghiệm của người có Con số ngày sinh 7 sẽ làm giàu thêm cho chính tâm hồn của họ.</strong>
-    `,
-    `
-Người có ngày sinh rơi vào ngày 8 , 17 hoặc 26 của tháng sẽ có Con số ngày sinh là 8 và có các khuynh hướng sau đây:
+    <strong>- Khi trưởng thành hơn về mặt trí tuệ, những người này sẽ cảm thấy thôi thúc muốn chia sẻ những trải nghiệm cuộc sống của mình thông qua việc hướng dẫn người khác theo những cách thiết thực nhất. Nếu làm được điều này, bề dày kinh nghiệm của người có Con số ngày sinh 7 sẽ làm giàu thêm cho chính tâm hồn của họ.</strong>`,
+    `Người có ngày sinh rơi vào ngày 8 , 17 hoặc 26 của tháng sẽ có Con số ngày sinh là 8 và có các khuynh hướng sau đây:
     <strong>- Không thích làm việc theo nhóm, cũng không thích thuộc về nhóm nào. Con người thường làm việc theo nhóm để họ có thể được tổ chức, phân công, định hướng. Nhưng điều này đi ngược với sự phát triển cá nhân, vốn là mục đích chính của những người có con số ngày sinh là 8.</strong>
     <strong>- Khi trưởng thành và phát triển ý thức cá nhân, họ sẽ nhận ra một nhu cầu ngày càng tăng, đó là nhu cầu được diễn đạt độc lập cảm xúc, cảm giác và cả trực giác của mình. Sự độc lập cần thiết này là nền tảng cho mọi biểu đạt khác của họ.</strong>
-Tuy nhiên, theo Thầy David, những người này hay nhầm sự độc lập này với độc lập về tài chính và một mực hướng tới mục tiêu này. Thay vào đó, họ cần hiểu rằng độc lập tài chính chỉ là một trong những biểu hiện cho sự độc lập của bản thân, vốn bao gồm nhiều giá trị lớn hơn nữa. Nếu họ không hiểu đúng điều này, không có sự thấu hiểu cuộc sống một cách vững vàng thì những thành công tài chính của họ thường rất ngắn ngủi.
-    `,
-    `
-Những người chào đời vào ngày 9 , 18 hoặc 27 của tháng sẽ có Con số ngày sinh là 9 và có các khuynh hướng sau đây:
+Tuy nhiên, theo Thầy David, những người này hay nhầm sự độc lập này với độc lập về tài chính và một mực hướng tới mục tiêu này. Thay vào đó, họ cần hiểu rằng độc lập tài chính chỉ là một trong những biểu hiện cho sự độc lập của bản thân, vốn bao gồm nhiều giá trị lớn hơn nữa. Nếu họ không hiểu đúng điều này, không có sự thấu hiểu cuộc sống một cách vững vàng thì những thành công tài chính của họ thường rất ngắn ngủi.`,
+    `Những người chào đời vào ngày 9 , 18 hoặc 27 của tháng sẽ có Con số ngày sinh là 9 và có các khuynh hướng sau đây:
     <strong>- Là những người đầy trách nhiệm với bản thân và với người khác, được thúc đẩy bởi lý tưởng và ước mơ. Đôi khi họ trở nên nghiêm túc thái quá, nên cần tìm bạn bè là người vui vẻ, thoải mái, tích cực để được hưởng ” tinh thần vui vẻ này.</strong>
     <strong>- Những người này cũng cần học cách tận hưởng niềm vui, tập cười nhiều hơn để có được sự cân bằng thiết yếu cho tinh thần.</strong>
     <strong>- Một số người sẽ bị tham vọng quá mức, đặc biệt nếu Con số chủ đạo của họ cũng là 9. Nếu tham vọng này không được định hướng tốt, nó sẽ dẫn đến sự thất vọng và kéo theo nhiều bất ổn trong đời sống.</strong>
-Người có Con số ngày sinh là số 9 nên cẩn thận tránh những cuộc cãi vã nghiêm trọng, bởi tính nghiêm túc quá mức dễ khiến họ trở nên quá quyết liệt và mất khả năng thấu hiểu lý lẽ. Họ nên học diễn đạt các quan điểm khác nhau một cách bình đẳng thay vì áp chế người khác. Những người có Con số ngày sinh 9 còn có thêm chiều sâu của những linh hồn già tức là những người có thể đã trải qua nhiều kiếp sống để học hỏi, tiến bộ.
-    `,
+Người có Con số ngày sinh là số 9 nên cẩn thận tránh những cuộc cãi vã nghiêm trọng, bởi tính nghiêm túc quá mức dễ khiến họ trở nên quá quyết liệt và mất khả năng thấu hiểu lý lẽ. Họ nên học diễn đạt các quan điểm khác nhau một cách bình đẳng thay vì áp chế người khác. Những người có Con số ngày sinh 9 còn có thêm chiều sâu của những linh hồn già tức là những người có thể đã trải qua nhiều kiếp sống để học hỏi, tiến bộ.`,
 ]
 
 const DINH1 = [
@@ -1632,7 +1597,7 @@ const Detail = () => {
                                     {info.songaysinh}
                                 </span>
                             </h3>
-                            <p className="rp-text">
+                            <p className="rp-text mt-4">
                                 {parse(NGAYSINH?.[info.songaysinh as number])}
                             </p>
                         </div>
@@ -2158,7 +2123,7 @@ const Detail = () => {
                                     {NAM[info.namcanhan as number]?.heading ||
                                         'Nội dung chưa cập nhật'}
                                 </h3>
-                                <p className="rp-text">
+                                <p className="rp-text mt-4">
                                     {NAM[info.namcanhan as number]?.content ||
                                         'Nội dung chưa cập nhật'}
                                 </p>
