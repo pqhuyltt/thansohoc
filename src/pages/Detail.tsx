@@ -1542,14 +1542,16 @@ const Detail = () => {
 
                     {!isVerify && (
                         <div>
-                            <h1 className="text-2xl font-bold text-primary text-center">
-                                Để đọc tiếp vui lòng làm theo hướng dẫn
+                            <h1 className="text-xl leading-[1.8] font-bold text-primary text-center">
+                                Còn nữa, vui lòng nhấn vào nút "lấy mã xác nhận
+                                ngay" và làm theo hướng dẫn để đọc toàn bộ nội
+                                dung còn lại.
                             </h1>
                             <div className="flex flex-col items-center">
-                                <div>
-                                    <div className="flex max-w-[280px] w-full items-center mt-4">
+                                <div className="w-full flex justify-center">
+                                    <div className="flex flex-col sm:flex-row max-w-[450px] w-full items-center mt-4">
                                         <input
-                                            className="flex-1 h-8 rounded-md bg-white text-[#333] text-[15px] border-none outline-none px-2"
+                                            className="sm:flex-1 w-full sm:w-auto mb-5 sm:mb-0 h-10 rounded-md bg-white text-[#333] text-[15px] border-none outline-none px-2"
                                             type="password"
                                             placeholder="Nhập mã..."
                                             value={code}
@@ -1569,7 +1571,7 @@ const Detail = () => {
                                                     setErr('Mã không đúng!')
                                                 }
                                             }}
-                                            className="h-8 min-w-[60px] flex-shrink-0 ml-2 px-1 whitespace-nowrap rounded-md primary-btn text-xs block"
+                                            className="h-10 min-w-[60px] w-full sm:w-auto flex-shrink-0 sm:ml-2 px-4 whitespace-nowrap rounded-md primary-btn sm:text-sm text-base font-bold sm:font-medium block"
                                         >
                                             Xác nhận
                                         </button>
@@ -1584,7 +1586,7 @@ const Detail = () => {
                             <div className="flex">
                                 <div
                                     onClick={setShow.bind(this, true)}
-                                    className="mt-5 cursor-pointer py-2 px-4 rounded-lg uppercase inline-block mx-auto font-bold primary-btn"
+                                    className="mt-5 sm:w-auto w-full max-w-[450px] text-center cursor-pointer py-2 px-4 rounded-md uppercase inline-block mx-auto font-bold primary-btn"
                                 >
                                     Lấy mã xác nhận ngay
                                 </div>

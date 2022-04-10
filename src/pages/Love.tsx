@@ -114,16 +114,16 @@ const Love = () => {
                 <p className="mt-2">
                     Bạn có thể chia sẻ kết quả này bằng link sau:{' '}
                 </p>
-                <div className="flex max-w-[240px] items-center mt-2">
+                <div className="flex max-w-[300px] items-center mt-2">
                     <input
-                        className="flex-1 h-6 rounded-md bg-white text-[#333] text-[15px] border-none outline-none px-2"
+                        className="flex-1 h-8 flex-shrink-0 rounded-md bg-white text-[#333] text-[15px] border-none outline-none px-2"
                         type="text"
                         value={window.location.href}
                     />
                     <button
                         onClick={handleCoppy}
                         ref={btnRef}
-                        className="h-6 ml-2 px-1 whitespace-nowrap rounded-md primary-btn text-xs block"
+                        className="h-8 ml-2 px-3 whitespace-nowrap rounded-md primary-btn text-xs block"
                     >
                         Coppy
                     </button>
