@@ -25,6 +25,7 @@ import { solanlap } from '../utils/solanlap'
 import { getArrNumFromString } from '../utils/getArrNumFromString'
 import { so } from '../utils/tinhSoTuChu'
 import { laySoTuChu } from '../utils/laySoTuChu'
+import { toPlainText } from '../utils/toPlainText'
 
 export const CHI_SO_DUONG_DOI = [
     {
@@ -2033,7 +2034,7 @@ const Detail = () => {
                             </div>
                         </div>
                         <div className="box">
-                            <h2 className="text-[1.75em] text-primary text-center font-bold uppercase">
+                            <h2 className="text-[1.75em] text-primary text-center font-bold">
                                 Bốn đỉnh của cuộc đời
                             </h2>
                             <div className="mt-10 flex justify-center">
@@ -2193,7 +2194,9 @@ const Detail = () => {
                                                 </span>
                                                 <span className="mt-4">
                                                     {laySoTuChu(
-                                                        item.toLowerCase(),
+                                                        toPlainText(
+                                                            item.toLowerCase(),
+                                                        ),
                                                     )}
                                                 </span>
                                             </div>
