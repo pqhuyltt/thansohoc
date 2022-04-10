@@ -1473,7 +1473,10 @@ const Detail = () => {
         ]
     }, [info])
     const bieudoso2 = useMemo(
-        () => getArrNumFromString(`${info.fullname}` as string),
+        () =>
+            getArrNumFromString(
+                `${toPlainText(info.fullname as string)}` as string,
+            ),
         [info],
     )
     const bieudoso3 = useMemo(
