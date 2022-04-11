@@ -16,7 +16,7 @@ const Popup: React.FC<IPopupProps> = ({ setShow }) => {
         navigator.clipboard.writeText(`đăng ký binance`)
         btnRef.current && (btnRef.current.textContent = 'Coppied')
         timeoutRef.current = setTimeout(() => {
-            btnRef.current && (btnRef.current.textContent = 'Coppy')
+            btnRef.current && (btnRef.current.textContent = 'Coppy Ngay')
         }, 2000)
     }
 
@@ -31,12 +31,12 @@ const Popup: React.FC<IPopupProps> = ({ setShow }) => {
             >
                 <div
                     onClick={setShow.bind(this, false)}
-                    className="bg-[#CC3539] text-white py-1 px-2 rounded-md absolute top-0 right-0 flex items-center cursor-pointer"
+                    className="bg-[#CC3539] text-white  py-1 px-2 rounded-md absolute top-0 right-0 flex items-center cursor-pointer"
                 >
                     <span className="mr-2">Tắt để nhập mã</span>
                     <IoMdClose className="text-[#F4FF00] text-xl" />
                 </div>
-                <div className="h-full overflow-auto text-[#333] px-4">
+                <div className="h-full overflow-auto pb-10 text-[#333] px-4">
                     <h2 className="text-xl font-bold text-center mt-[40px] mb-6">
                         Các bạn vui lòng làm theo hướng dẫn
                     </h2>
@@ -48,9 +48,9 @@ const Popup: React.FC<IPopupProps> = ({ setShow }) => {
                         <button
                             onClick={handleCoppy}
                             ref={btnRef}
-                            className="h-6 ml-2 px-1 whitespace-nowrap rounded-md primary-btn text-xs inline-block"
+                            className="h-7 ml-2 px-3 whitespace-nowrap rounded-md primary-btn text-sm inline-block"
                         >
-                            Coppy
+                            Coppy Ngay
                         </button>
                     </div>
                     <div className="mt-6">

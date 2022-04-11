@@ -1576,12 +1576,12 @@ const Detail = () => {
                                             Xác nhận
                                         </button>
                                     </div>
-                                    {err && (
-                                        <p className="text-sm mt-2 text-red-400">
-                                            {err}
-                                        </p>
-                                    )}
                                 </div>
+                                {err && (
+                                    <p className="text-sm mt-2 text-red-400">
+                                        {err}
+                                    </p>
+                                )}
                             </div>
                             <div className="flex">
                                 <div
